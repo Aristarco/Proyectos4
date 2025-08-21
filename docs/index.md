@@ -18,7 +18,7 @@ Debe contener al menos las secciones:
 
 |||
 |---|---|
-|[![](../images/week01/IDE1.png){ width=300 } <br>Project&nbsp;management](./week01.md)|[![](../images/week02/Voronoi_Sandy.png){ width=300 } <br>Digital bodies](./week02.md)|
+|[![](../images/week01/IDE1.png){ width=300 } <br>Semana 1](./semana1.md)|[![](../images/week02/Voronoi_Sandy.png){ width=300 } <br>Digital bodies](./week02.md)|
 |[![](../images/week03/Recicling.jpg){ width=300 } <br>Circular Fashion](./week03.md)|[![](../images/week04/Designer.jpeg){ width=300 } <br>BioChromes](./week04.md)|
 |[![](../images/week05/Etextileworkshop.jpeg){ width=300 } <br>E-textiles](./week05.md)|[![](../images/Week06/Parametric_design.png){ width=300 } <br>Computational Couture ](./week06.md)|
 |[![](../images/week07/Biomaterial.jpeg){ width=300 } <br>BioFabricating Materials ](./week07.md)|[![](../images/week08/Soft_Robot.jpg){ width=300 } <br>Soft robotics](./week08.md)|
