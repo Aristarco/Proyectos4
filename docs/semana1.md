@@ -21,29 +21,46 @@ Convocatoria
 Todos los documentos de la convocatoria los puedes ver en la [web de la Secretaría de Ciencia](https://secihti.mx/tecnologias-e-innovacion/convocatorias-desarrollo-tecnologico-vinculacion-e-innovacion/)
 
 
-Línea estratégica de proyectos en categoría A
+### Convocatoria categoría A
 
 [Descargar Convocatoria Categoría A (PDF)](./recursos/archivos/MT_Categoria_A.pdf)
 
 <iframe src="../recursos/archivos/MT_Categoria_A.pdf" width="800" height="440"></iframe>
 
-<!-- Embed (requiere navegador compatible) -->
-<object data="./recursos/archivos/MT_Categoria_A.pdf" type="application/pdf" width="100%" height="600">
-  <p>No se pudo mostrar el PDF. <a href="./recursos/archivos/MT_Categoria_A.pdf">Descargar</a></p>
-</object>
 
 
 
 
-[Descargar especificación (PDF)](../docs/recursos/archivos/Calendario.pdf)
+### Líneas estratégica de proyectos en categoría A
 
-<!-- Embed (requiere navegador compatible) -->
-<object data="/docs/recursos/archivos/MT_Categoría_A.pdf" type="application/pdf" width="100%" height="600">
-  <p>No se pudo mostrar el PDF. <a href="../recursos/archivos/MT_Categoría_A.pdf">Descargar</a></p>
-</object>
+[Descargar Líneas estratégicas de la Categoría A (PDF)](./recursos/archivos/Anexo2_DTI_conv2025.pdf)
 
+<iframe src="../recursos/archivos/Anexo2_DTI_conv2025.pdf" width="800" height="440"></iframe>
 
 
+
+## Propuesta de Proyectos
+
+### Nuevas tecnologías en el IDIT
+
+[**Antena Lora**](https://www.vencoel.com/que-es-lora-como-funciona-y-caracteristicas-principales/)
+
+[**Antena RTK**](https://www.helixnorth.com/blog/sistema-georreferenciado-de-datos-rtk-y-ppk-cul-es-mejor)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bCoIXgqlmTI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[Proyecto Centipede en Francia](https://www.centipede-rtk.org/)
+
+!!! tip "Sugerencia:"
+    - Bastón para ciegos autoguiado RTK
+    - Tractor eléctrico autoguiado RTK 
+    - Eliminador de hierba inteligente RTK
+    - Geofencing para ganado RTK
+    - Rep Rap Micron
+    - Detección temprana de movimiento de tierras
+    - Control Avícola Inteligente
+    - Proyecto Coatí
+    - Soluciones relacionadas con el agua en valle del paraíso
 
 
 
