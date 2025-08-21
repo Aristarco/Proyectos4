@@ -17,6 +17,32 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 
 
 
+Convocatoria
+Todos los documentos de la convocatoria los puedes ver en la [web de la Secretaría de Ciencia](https://secihti.mx/tecnologias-e-innovacion/convocatorias-desarrollo-tecnologico-vinculacion-e-innovacion/)
+
+
+Línea estratégica de proyectos en categoría A
+
+[Descargar Convocatoria Categoría A (PDF)](./recursos/archivos/MT_Categoria_A.pdf)
+
+<iframe src="../recursos/archivos/MT_Categoria_A.pdf" width="800" height="440"></iframe>
+
+<!-- Embed (requiere navegador compatible) -->
+<object data="./recursos/archivos/MT_Categoria_A.pdf" type="application/pdf" width="100%" height="600">
+  <p>No se pudo mostrar el PDF. <a href="./recursos/archivos/MT_Categoria_A.pdf">Descargar</a></p>
+</object>
+
+
+
+
+[Descargar especificación (PDF)](../docs/recursos/archivos/Calendario.pdf)
+
+<!-- Embed (requiere navegador compatible) -->
+<object data="/docs/recursos/archivos/MT_Categoría_A.pdf" type="application/pdf" width="100%" height="600">
+  <p>No se pudo mostrar el PDF. <a href="../recursos/archivos/MT_Categoría_A.pdf">Descargar</a></p>
+</object>
+
+
 
 
 
