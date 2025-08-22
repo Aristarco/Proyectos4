@@ -53,14 +53,14 @@ Todos los documentos de la convocatoria los puedes ver en la [web de la Secretar
 
 !!! tip "Sugerencia:"
     - Bastón para ciegos autoguiado RTK
-    - Tractor eléctrico autoguiado RTK 
-    - Eliminador de hierba inteligente RTK
-    - Geofencing para ganado RTK
-    - Rep Rap Micron
-    - Detección temprana de movimiento de tierras
+    - [Tractor eléctrico autoguiado RTK](https://www.instagram.com/renewables247/) o bien otros productos
+    - [Eliminador de hierba inteligente RTK](https://bumerania.com/soluciones-roboticas/robot-agricola-inteligente/)
+    - [Geofencing para ganado RTK](https://www.halterhq.com/) [Otro enlace](https://www.instagram.com/halterhq/)
+    - [Rep Rap Micron](https://www-hackster-io.cdn.ampproject.org/c/s/www.hackster.io/news/can-reprap-revolutionize-3d-printing-again-with-the-new-micron-design-18c4775e4d1a.amp), [All3DP](https://all3dp.com/es/4/nueva-impresora-3d-diy-de-precision-a-micronivel-de-un-pionero-de-reprap-pone-la-tecnologia-al-alcance-de-su-escritorio/) [Git](https://github.com/VikOlliver/RepRapMicron), [Vik](https://3dprintingindustry.com/news/interview-vik-olliver-first-reprap-volunteer-didnt-just-build-3d-printer-133892/)
+    - Detección temprana de [movimiento de tierras](https://www.instagram.com/reel/DM-1UYGIEre/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), [Deslaves CDMX](https://www.reforma.com/ubican-462-puntos-con-riesgo-de-deslave-o-inundacion-en-cdmx/ar2875886), [Atlas de riesgo](https://www.atlas.cdmx.gob.mx/analisisn3/), [Congreso pide atención](https://www.congresocdmx.gob.mx/comsoc-pide-congreso-acciones-atender-deslaves-cuajimalpa-5557-1.html)
     - Control Avícola Inteligente
-    - Proyecto Coatí
-    - Soluciones relacionadas con el agua en valle del paraíso
+    - Proyecto Coatí Detección de descargas ilegales
+    - Cuac Solución de calidad del agua
 
 
 
