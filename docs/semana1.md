@@ -74,8 +74,12 @@ Puedes descargar la propuesta en formato Word [aquí](./recursos/archivos/Propue
 
 
 
+## Innovación
 
+<!---[Descargar el Syllabus (PDF)](./recursos/archivos/250619%20Innovacion%20de%20la%20idea%20al%20producto.pdf)
 
+--->
+<iframe src="../recursos/archivos/250619%20Innovacion%20de%20la%20idea%20al%20producto.pdf" width="800" height="440"></iframe>
 
 
 
