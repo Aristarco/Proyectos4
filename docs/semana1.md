@@ -37,7 +37,9 @@ Todos los documentos de la convocatoria los puedes ver en la [web de la Secretar
 
 <iframe src="../recursos/archivos/Anexo2_DTI_conv2025.pdf" width="800" height="440"></iframe>
 
+## Propuesta en extenso para rellenar
 
+Puedes descargar la propuesta en formato Word [aquí](./recursos/archivos/Propuesta_en_extenso_del_proyecto_Categoria_A.docx)
 
 ## Propuesta de Proyectos
 
@@ -71,7 +73,7 @@ Todos los documentos de la convocatoria los puedes ver en la [web de la Secretar
 
 
 !!! note "Tarea"
-    - Entregar el syllabus firmado para la semana 
+    - Entregar el syllabus firmado para la semana y colocar el syllabus firmado en la página de semana 1
     - Escribir la dirección de sus páginas en [Esta Lista](https://docs.google.com/spreadsheets/d/1ShhCsvGMLnsq6e9PkDVVJUFhwR6yDj1gcMyfT5Xj9y4/edit?usp=sharing) 
-    - En equipo de 2 elegir el proyecto en el que van a trabajar durante el semestre
-    - Preparar una presentación explicando el TRL o nivel de madurez tecnológica (Technology Readiness Level) y qué requisitos debe cumplir su proyecto para alcanzar TRL4 si es un proyecto nuevo o TRL6 si es un proyecto que ya está en construcción
+    - En equipo de 2 elegir el proyecto en el que van a trabajar durante el semestre y hacer un boceto inicial del proyecto en la página proyecto 
+    - Preparar una presentación explicando el TRL o nivel de madurez tecnológica (Technology Readiness Level) y qué requisitos debe cumplir su proyecto para alcanzar TRL4 si es un proyecto nuevo o TRL6 si es un proyecto que ya está en construcción. Tener en cuenta el formato de la SECIHTI
