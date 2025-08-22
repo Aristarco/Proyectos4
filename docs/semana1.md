@@ -62,7 +62,7 @@ Puedes descargar la propuesta en formato Word [aquí](./recursos/archivos/Propue
     - Detección temprana de [movimiento de tierras](https://www.instagram.com/reel/DM-1UYGIEre/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), [Deslaves CDMX](https://www.reforma.com/ubican-462-puntos-con-riesgo-de-deslave-o-inundacion-en-cdmx/ar2875886), [Atlas de riesgo](https://www.atlas.cdmx.gob.mx/analisisn3/), [Congreso pide atención](https://www.congresocdmx.gob.mx/comsoc-pide-congreso-acciones-atender-deslaves-cuajimalpa-5557-1.html)
     - Control Avícola Inteligente
     - Proyecto Coatí Detección de descargas ilegales
-    - Cuac Solución de calidad del agua
+    - Citizen quack Solución de calidad del agua
 
 
 
