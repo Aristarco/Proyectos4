@@ -2,11 +2,19 @@
 
 Revisión de Syllabus, revisión de proyectos potenciales e introducción a la innovación. De la idea al producto
 
-Syllabus
+
+
+## Syllabus
+
+Hay que descargar el Syllabus, entregar físicamente firmado y subirlo a sus páginas
+
+[Descargar el Syllabus (PDF)](./recursos/archivos/2025%20Syllabus_Proyecto%20de%20Ingeniería%20IV%20.pdf)
+
+<iframe src="../recursos/archivos/2025%20Syllabus_Proyecto%20de%20Ingeniería%20IV%20.pdf" width="800" height="440"></iframe>
 
 
 
-TRL Nivel de madurez tecnológica (Technology Readiness Level) 
+## TRL Nivel de madurez tecnológica (Technology Readiness Level) 
 
 Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NYIhXmFSM3qvFPglLjnC4HzYIEPZL69n/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
 
@@ -54,7 +62,7 @@ Puedes descargar la propuesta en formato Word [aquí](./recursos/archivos/Propue
 [Proyecto Centipede en Francia](https://www.centipede-rtk.org/)
 
 !!! tip "Sugerencia:"
-    - Bastón para ciegos autoguiado RTK
+    - [¿Bastón para ciegos autoguiado? / ¿Comandos de  voz por teléfono? RTK](https://www.linkedin.com/posts/explore-m%C3%A9dia_cette-technologie-redonne-de-lautonomie-activity-7333432446425710593-vzFB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIEv6UBxHmoMGuYKeqpGdOKqwDPU1dzmVg)
     - [Tractor eléctrico autoguiado RTK](https://www.instagram.com/renewables247/) o bien otros productos
     - [Eliminador de hierba inteligente RTK](https://bumerania.com/soluciones-roboticas/robot-agricola-inteligente/)
     - [Geofencing para ganado RTK](https://www.halterhq.com/) [Otro enlace](https://www.instagram.com/halterhq/)
