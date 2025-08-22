@@ -29,12 +29,12 @@ Debe contener al menos las secciones:
 
 No es necesario que esté toda construida desde el día 1, pueden ir poblándola mientras avanza el curso. Lo que si es necesario es que piensen en la estructura.
 
-!!! "Tip"
+!!! tip "Tip"
     Aprovecha para construir tu página y documentarla de la manera más profesional posible. Ya te falta poco para salir y tu página puede servir para construir tu portafolio de trabajos
 
 
 
-[Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
+<!-- Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
 
 ---
 
@@ -45,4 +45,5 @@ No es necesario que esté toda construida desde el día 1, pueden ir poblándola
    site_name: Documentación del Curso
    theme:
      name: material
-]: #
+
+---> 
