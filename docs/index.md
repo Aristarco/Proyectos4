@@ -18,7 +18,7 @@ Debe contener al menos las secciones:
 
 |||
 |---|---|
-|[![](../images/week01/IDE1.png){ width=300 } <br>Semana 1](./semana1.md)|[![](../images/week02/Voronoi_Sandy.png){ width=300 } <br>Semana 2](./week02.md)|
+|[![](../images/week01/IDE1.png){ width=300 } <br>Semana 1](./semana1.md)|[![](../images/week02/Voronoi_Sandy.png){ width=300 } <br>Semana 2](./semana2.md)|
 |[![](../images/week03/Recicling.jpg){ width=300 } <br>Semana 3](./week03.md)|[![](../images/week04/Designer.jpeg){ width=300 } <br>Semana 4](./week04.md)|
 |[![](../images/week05/Etextileworkshop.jpeg){ width=300 } <br>Semana 5](./week05.md)|[![](../images/Week06/Parametric_design.png){ width=300 } <br>Semana 6 ](./week06.md)|
 |[![](../images/week07/Biomaterial.jpeg){ width=300 } <br>Semana 7](./week07.md)|[![](../images/week08/Soft_Robot.jpg){ width=300 } <br>Semana 8](./week08.md)|
