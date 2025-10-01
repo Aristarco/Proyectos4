@@ -15,7 +15,6 @@
 
 
 !!! note "Tarea"
-    - 
     - Definir quién es el cliente de tu proyecto y el tamaño de ese mercado
     - Realizar el análisis de las 5 fuerzas de Porter
     - Hacer la propuesta de valor de su proyecto con la tabla Creando Valor
