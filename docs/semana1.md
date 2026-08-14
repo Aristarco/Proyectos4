@@ -27,7 +27,127 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 ## Prompting estructurado
 
 
-![describe what you see in this image](../recursos/imgs/prompt_perfecto.png ){ width=300 align=left }
+![El prompt perfecto](../recursos/imgs/prompt_perfecto.png ){ width=600 align=center }
+
+### Los 3 que más impacto tienen son
+
+* El rol (orienta el tono y conocimiento que usará la IA)
+* La tarea clara (un verbo de acción específico hace toda la diferencia)
+* El formato de salida (la IA no adivina si quieres bullet points, tabla o código).
+
+El error más común es dar contexto vago y omitir restricciones. Decirle a la IA qué NO hacer es tan poderoso como decirle qué sí hacer.
+
+### El Rol
+
+Ejemplos de cómo definir el rol para análisis de negocios, de menos a más sofisticado:
+
+**Básico** — solo nombra la expertise:
+
+"Actúa como consultor de negocios especializado en startups."
+
+**Intermedio** — agrega metodología y audiencia:
+
+"Actúa como consultor senior de estrategia con experiencia en Blue Ocean y Lean Startup. Tu audiencia son emprendedores latinoamericanos sin formación financiera, así que evita jerga técnica y usa ejemplos concretos."
+
+**Avanzado** — rol + postura + restricciones de sesgo:
+
+"Actúa como analista de negocios escéptico que busca debilidades antes que fortalezas. Tu trabajo es cuestionar supuestos, no validar ideas. Sé directo, usa datos cuando sea posible, y si no tienes certeza, dilo explícitamente en lugar de inventar."
+
+El patrón que funciona mejor es: profesión + especialidad + metodología que usa + cómo se comporta + para quién habla. Cuanto más específico el rol, menos "genérica" se vuelve la respuesta.
+
+### El Contexto
+
+El contexto es la capa que más se subestima. La IA no tiene acceso a tu situación — todo lo que no escribas, lo inventa o lo promedia.
+
+Hay 5 dimensiones de contexto que realmente cambian la respuesta:
+
+1. Quién eres tú. No tu nombre, sino tu rol y nivel de expertise en el tema.
+
+"Soy emprendedor con 3 años de experiencia, conozco el BMC pero nunca he hecho análisis de patentes."
+
+2. Para quién es el resultado. La audiencia final cambia el tono, vocabulario y profundidad.
+
+*"El output lo presentaré a un comité de funcionarios de gobierno, no a inversionistas."*
+
+3. Qué ya existe o ya hiciste. Evita que la IA repita lo que ya sabes o rehaga trabajo hecho.
+
+*"Ya tengo el análisis FODA. Lo que necesito es la estrategia, no el diagnóstico."*
+
+4. Restricciones reales. Tiempo, presupuesto, tecnología disponible, limitaciones del equipo.
+
+*"El equipo son 2 personas, presupuesto cero, necesito resultados en 2 semanas."*
+
+5. El "para qué" final. La intención detrás de la tarea. Cambia completamente lo que la IA prioriza.
+
+*"No quiero el análisis para publicar — es para decidir si pivoteo o sigo."*
+
+
+**Ejemplo con y sin contexto** — misma tarea, resultados muy distintos:
+
+❌ Sin contexto:
+
+"Dame una estrategia de marketing para mi app."
+
+✅ Con contexto:
+
+"Tengo una app de validación de ideas para emprendedores en México, etapa pre-revenue, usuario típico es 25-35 años autodidacta. No tengo presupuesto para ads. Necesito una estrategia de adquisición orgánica para los primeros 500 usuarios. Ya probé posts en LinkedIn sin resultado."
+
+**La regla práctica:** si al leer tu prompt alguien que no te conoce pudiera dar una respuesta genérica, falta contexto. El contexto perfecto hace que solo haya una respuesta correcta posible.
+
+
+
+### La Tarea
+
+La tarea es el núcleo del prompt. Todo lo demás la sirve. Si la tarea es vaga, el contexto y el rol no salvan la respuesta.
+
+**La fórmula base:**
+
+Verbo de acción + Objeto específico + Alcance o condición
+
+Verbos que funcionan vs. verbos trampa:
+
+| ❌ Vago |	✅ Específico |
+| :--- | :---: |
+| Ayúdame con…	| Redacta / Analiza / Compara |
+| Dime algo sobre… |	Resume en 3 puntos clave |
+| Explícame… | 	Extrae / Clasifica / Genera |
+| Hazme un análisis |	Identifica los 5 riesgos principales |
+| Dame ideas |	Propón 3 nombres con su justificación |
+
+**El mismo objetivo, 3 niveles de claridad:**
+
+❌ Malo:
+
+"Ayúdame con mi producto."
+
+⚠️ Regular:
+
+"Analiza mi producto de vigilancia tecnológica."
+
+✅ Bueno:
+
+"Identifica los 3 principales diferenciadores competitivos de una app de vigilancia tecnológica para PYMES latinoamericanas, comparados con herramientas como Derwent y Espacenet, en un párrafo por diferenciador."
+
+**3 técnicas avanzadas:**
+
+**Ancla el resultado esperado** — describe el output, no el proceso:
+
+"El resultado debe ser una tabla de decisión, no un texto explicativo."
+
+**Usa restricciones numéricas** — acotan sin limitar creatividad:
+
+"Exactamente 3 opciones. Ni más, ni menos."
+
+**Separa tareas si hay más de una** — una tarea por prompt cuando sea posible, o enuméralas si van juntas:
+
+"Haz dos cosas: ① resume el problema en una oración, ② propón una solución accionable esta semana."
+
+**Ejemplo para el taller de innovación:**
+
+*"Genera 4 actividades de calentamiento creativo para un taller de IA de 90 minutos dirigido a emprendedores sin conocimiento técnico. Cada actividad debe durar máximo 10 minutos, requerir cero tecnología, y conectar con el concepto de prompt engineering que verán después."*
+
+**Verbo claro → objeto concreto → alcance definido → condiciones reales.**
+
 
 
 ## Propuesta de Proyectos
