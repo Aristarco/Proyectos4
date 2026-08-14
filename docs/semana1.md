@@ -172,7 +172,7 @@ El método **SCAMPER** es una técnica de creatividad e innovación. Sirve para 
 
 <iframe src="https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
+Puedes abrir [el ejercicio SCAMPER aquí](https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing)
 
 ## Propuesta de Proyectos
 
