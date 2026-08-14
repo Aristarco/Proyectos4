@@ -149,6 +149,26 @@ Verbos que funcionan vs. verbos trampa:
 **Verbo claro → objeto concreto → alcance definido → condiciones reales.**
 
 
+## Creatividad asistida: 	Generación de Ideas a Velocidad
+
+### SCAMPER
+
+El método **SCAMPER** es una técnica de creatividad e innovación. Sirve para generar ideas nuevas o mejorar productos, servicios y procesos que ya existen. Funciona como una lista de preguntas basadas en siete acciones
+
+
+| Letra | Verbo | Qué preguntar |
+| :--- | :---: | :---: |
+| S | Sustituir | ¿Qué puedo reemplazar en esto? |
+| C | Combinar | ¿Qué puedo fusionar con otra cosa? |
+| A | Adaptar | ¿Qué existe que pueda tomar prestado? |
+| M | Modificar / Magnificar | ¿Y si lo hago más grande, pequeño, rápido? |
+| P | Poner en otros usos | ¿Quién más podría usar esto? |
+| E | Eliminar | ¿Qué puedo quitar y que aún tenga valor? ¿Como puedo sustituir un componente crítico y sustituirlo con“algo” del contexto? |
+| R | Revertir / Reorganizar | ¿Y si invierto el modelo por completo? |
+
+
+
+
 
 ## Propuesta de Proyectos
 
