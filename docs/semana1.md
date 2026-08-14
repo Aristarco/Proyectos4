@@ -166,7 +166,11 @@ El método **SCAMPER** es una técnica de creatividad e innovación. Sirve para 
 | E | Eliminar | ¿Qué puedo quitar y que aún tenga valor? ¿Como puedo sustituir un componente crítico y sustituirlo con“algo” del contexto? |
 | R | Revertir / Reorganizar | ¿Y si invierto el modelo por completo? |
 
+### Ejemplo práctico por equipos de 2
 
+**1 pide a tu IA que te de 3 números aleatorios entre 1 y 6**
+
+<iframe src="https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
