@@ -6,7 +6,7 @@ Revisión de Syllabus, revisión de proyectos potenciales e introducción a la i
 
 ## Syllabus
 
-Hay que descargar el Syllabus, entregar físicamente firmado y subirlo a sus páginas
+Tarea 1 descargar el Syllabus, entregar físicamente firmado, subirlo a sus páginas y mandar el documento al seleccionado para integrar todos los syllabus a un solo documento.
 
 [Descargar el Syllabus (PDF)](./recursos/archivos/2025%20Syllabus_Proyecto%20de%20Ingeniería%20IV%20.pdf)
 
@@ -24,30 +24,11 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 <iframe src="https://docs.google.com/spreadsheets/d/1NYIhXmFSM3qvFPglLjnC4HzYIEPZL69n/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-
-Convocatoria
-Todos los documentos de la convocatoria los puedes ver en la [web de la Secretaría de Ciencia](https://secihti.mx/tecnologias-e-innovacion/convocatorias-desarrollo-tecnologico-vinculacion-e-innovacion/)
+## Prompting estructurado
 
 
-### Convocatoria categoría A
+![describe what you see in this image](../recursos/imgs/prompt_perfecto.png ){ width=300 align=left }
 
-[Descargar Convocatoria Categoría A (PDF)](./recursos/archivos/MT_Categoria_A.pdf)
-
-<iframe src="../recursos/archivos/MT_Categoria_A.pdf" width="800" height="440"></iframe>
-
-
-
-
-
-### Líneas estratégica de proyectos en categoría A
-
-[Descargar Líneas estratégicas de la Categoría A (PDF)](./recursos/archivos/Anexo2_DTI_conv2025.pdf)
-
-<iframe src="../recursos/archivos/Anexo2_DTI_conv2025.pdf" width="800" height="440"></iframe>
-
-## Propuesta en extenso para rellenar
-
-Puedes descargar la propuesta en formato Word [aquí](./recursos/archivos/Propuesta_en_extenso_del_proyecto_Categoria_A.docx)
 
 ## Propuesta de Proyectos
 
