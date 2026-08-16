@@ -168,11 +168,37 @@ El método **SCAMPER** es una técnica de creatividad e innovación. Sirve para 
 
 ### Ejemplo práctico por equipos de 2
 
-**1 pide a tu IA que te de 3 números aleatorios entre 1 y 6**
+**1 por parejas pidan a su IA que les de 3 números aleatorios entre 1 y 6**
 
 <iframe src="https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Puedes abrir [el ejercicio SCAMPER aquí](https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing)
+
+
+## Business Blue Print
+
+El **IDEO Business Blueprint** (enseñado a través de IDEO U) es un lienzo de una página que traza un modelo de negocio centrado en el ser humano.  Ayuda a los innovadores a probar y construir estrategias viables alineando las necesidades de los clientes, las fuentes de ingresos y las operaciones antes de lanzar. 
+
+**Componentes Clave**
+
+* **Clientes Objetivo:** Las personas o segmentos específicos a los que tu producto o servicio pretende servir. 
+* **Propuesta de Valor:** El problema único que resuelves y el valor central que ofreces a esos usuarios. 
+* **Oferta:** El producto, servicio o experiencia real que llevas al mercado. 
+* **Modelo de Ingresos:** Cómo tu negocio generará dinero y capturará valor financiero. 
+* **Estructura de Costos:** Los gastos clave y los costos operativos necesarios para ejecutar el modelo. 
+* **Canales y Socios:** Cómo llegas a tus clientes y los socios clave que ayudan a entregar la oferta. 
+
+**Las Tres Lentes del Diseño.** El plan se basa en equilibrar tres criterios fundamentales para la innovación: 
+
+* **Deseabilidad:** ¿La gente lo necesita o lo quiere? 
+* **Viabilidad:** ¿Puedes realmente construirlo y entregarlo? 
+* **Factibilidad:** ¿Tiene sentido financiero como un negocio sostenible?
+
+
+
+
+
+
 
 ## Propuesta de Proyectos
 
