@@ -198,6 +198,7 @@ El **IDEO Business Blueprint** (enseñado a través de IDEO U) es un lienzo de u
 <iframe src="https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+Puedes abrir [La presentación aquí](https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
 
 
 ## Propuesta de Proyectos
