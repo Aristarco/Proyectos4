@@ -8,9 +8,9 @@ Revisión de Syllabus, revisión de proyectos potenciales e introducción a la i
 
 Tarea 1 descargar el Syllabus, entregar físicamente firmado, subirlo a sus páginas y mandar el documento al seleccionado para integrar todos los syllabus a un solo documento.
 
-[Descargar el Syllabus (PDF)](./recursos/archivos/2025%20Syllabus_Proyecto%20de%20Ingeniería%20IV%20.pdf)
+[Descargar el Syllabus (PDF)](./recursos/archivos/2026_Syllabus_Proyecto_Ingeniería_IV.pdf)
 
-<iframe src="../recursos/archivos/2025%20Syllabus_Proyecto%20de%20Ingeniería%20IV%20.pdf" width="800" height="440"></iframe>
+<iframe src="../recursos/archivos/2026_Syllabus_Proyecto_Ingeniería_IV.pdf" width="800" height="440"></iframe>
 
 
 
