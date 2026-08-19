@@ -1,4 +1,4 @@
-# Desarrollo del concepto
+# Vigilancia tecnológica
 
 [Continuación desarrollo de producto)](./recursos/archivos/2_Desarrollo%20de%20productos.pdf)
 

@@ -1,4 +1,4 @@
-# Semana 2
+# Búsqueda de Oportunidades
 
 ## Introducción
 
