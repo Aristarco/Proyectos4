@@ -149,6 +149,33 @@ Verbos que funcionan vs. verbos trampa:
 **Verbo claro → objeto concreto → alcance definido → condiciones reales.**
 
 
+## Business Blue Print
+
+El **IDEO Business Blueprint** (enseñado a través de IDEO U) es un lienzo de una página que traza un modelo de negocio centrado en el ser humano.  Ayuda a los innovadores a probar y construir estrategias viables alineando las necesidades de los clientes, las fuentes de ingresos y las operaciones antes de lanzar. 
+
+**Componentes Clave**
+
+* **Clientes Objetivo:** Las personas o segmentos específicos a los que tu producto o servicio pretende servir. 
+* **Propuesta de Valor:** El problema único que resuelves y el valor central que ofreces a esos usuarios. 
+* **Oferta:** El producto, servicio o experiencia real que llevas al mercado. 
+* **Modelo de Ingresos:** Cómo tu negocio generará dinero y capturará valor financiero. 
+* **Estructura de Costos:** Los gastos clave y los costos operativos necesarios para ejecutar el modelo. 
+* **Canales y Socios:** Cómo llegas a tus clientes y los socios clave que ayudan a entregar la oferta. 
+
+**Las Tres Lentes del Diseño.** El plan se basa en equilibrar tres criterios fundamentales para la innovación: 
+
+* **Deseabilidad:** ¿La gente lo necesita o lo quiere? 
+* **Viabilidad:** ¿Puedes realmente construirlo y entregarlo? 
+* **Factibilidad:** ¿Tiene sentido financiero como un negocio sostenible?
+
+
+<iframe src="https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+Puedes abrir [La presentación aquí](https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
+
+
+
 ## Creatividad asistida: 	Generación de Ideas a Velocidad
 
 ### SCAMPER
@@ -175,30 +202,7 @@ El método **SCAMPER** es una técnica de creatividad e innovación. Sirve para 
 Puedes abrir [el ejercicio SCAMPER aquí](https://docs.google.com/presentation/d/1ZgtCttUP-VrvMHlSQfRPNeacnGtFm5xyKU607va2-Xc/edit?usp=sharing)
 
 
-## Business Blue Print
 
-El **IDEO Business Blueprint** (enseñado a través de IDEO U) es un lienzo de una página que traza un modelo de negocio centrado en el ser humano.  Ayuda a los innovadores a probar y construir estrategias viables alineando las necesidades de los clientes, las fuentes de ingresos y las operaciones antes de lanzar. 
-
-**Componentes Clave**
-
-* **Clientes Objetivo:** Las personas o segmentos específicos a los que tu producto o servicio pretende servir. 
-* **Propuesta de Valor:** El problema único que resuelves y el valor central que ofreces a esos usuarios. 
-* **Oferta:** El producto, servicio o experiencia real que llevas al mercado. 
-* **Modelo de Ingresos:** Cómo tu negocio generará dinero y capturará valor financiero. 
-* **Estructura de Costos:** Los gastos clave y los costos operativos necesarios para ejecutar el modelo. 
-* **Canales y Socios:** Cómo llegas a tus clientes y los socios clave que ayudan a entregar la oferta. 
-
-**Las Tres Lentes del Diseño.** El plan se basa en equilibrar tres criterios fundamentales para la innovación: 
-
-* **Deseabilidad:** ¿La gente lo necesita o lo quiere? 
-* **Viabilidad:** ¿Puedes realmente construirlo y entregarlo? 
-* **Factibilidad:** ¿Tiene sentido financiero como un negocio sostenible?
-
-
-<iframe src="https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
-Puedes abrir [La presentación aquí](https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
 
 
 ## Propuesta de Proyectos
@@ -238,6 +242,7 @@ Puedes abrir [La presentación aquí](https://docs.google.com/presentation/d/1je
 
 !!! note "Tarea"
     - Entregar el syllabus firmado para la semana y colocar el syllabus firmado en la página de semana 1
-    - Escribir la dirección de sus páginas en [Esta Lista](https://docs.google.com/spreadsheets/d/1ShhCsvGMLnsq6e9PkDVVJUFhwR6yDj1gcMyfT5Xj9y4/edit?usp=sharing) 
-    - En equipo de 2 elegir el proyecto en el que van a trabajar durante el semestre y hacer un boceto inicial del proyecto en la página proyecto 
-    - Preparar una presentación explicando el TRL o nivel de madurez tecnológica (Technology Readiness Level) y qué requisitos debe cumplir su proyecto para alcanzar TRL4 si es un proyecto nuevo o TRL6 si es un proyecto que ya está en construcción. Tener en cuenta el formato de la SECIHTI
+    - Mandar al compañero seleccionado el pdf de su syllabus firmado para que lo recolecte en un solo archivo
+    - Escribir la dirección de sus páginas en [Esta Lista](https://docs.google.com/spreadsheets/d/1K19NMJWUl0Xz4gGL0zMCp6Fc3yzoC8mmfAGNCUIXeGc/edit?usp=sharing) 
+    - En equipo de 2 elegir el área de su interés para desarrollar su proyecto final. Si ya tienen proyecto, comenzar a ampliar las posibilidades del mismo
+    - Hacer una presentación breve de su ejercicio SCAMPER
