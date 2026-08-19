@@ -1,4 +1,4 @@
-# Semana 1
+# Introducción
 
 Revisión de Syllabus, revisión de proyectos potenciales e introducción a la innovación. De la idea al producto
 
