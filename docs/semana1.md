@@ -243,6 +243,7 @@ Puedes abrir [el ejercicio SCAMPER aquí](https://docs.google.com/presentation/d
 !!! note "Tarea"
     - Entregar el syllabus firmado para la semana y colocar el syllabus firmado en la página de semana 1
     - Mandar al compañero seleccionado el pdf de su syllabus firmado para que lo recolecte en un solo archivo
+    - Hacer sus páginas personales en github. Para esto pueden utilizar la plantilla y las instrucciones [en este repositorio](https://github.com/Gulden8ag/iberoP_Web)
     - Escribir la dirección de sus páginas en [Esta Lista](https://docs.google.com/spreadsheets/d/1K19NMJWUl0Xz4gGL0zMCp6Fc3yzoC8mmfAGNCUIXeGc/edit?usp=sharing) 
     - En equipo de 2 elegir el área de su interés para desarrollar su proyecto final. Si ya tienen proyecto, comenzar a ampliar las posibilidades del mismo
     - Hacer una presentación breve de su ejercicio SCAMPER
