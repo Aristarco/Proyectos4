@@ -61,23 +61,23 @@ El contexto es la capa que más se subestima. La IA no tiene acceso a tu situaci
 
 Hay 5 dimensiones de contexto que realmente cambian la respuesta:
 
-1. Quién eres tú. No tu nombre, sino tu rol y nivel de expertise en el tema.
+1.**Quién eres tú.** No tu nombre, sino tu rol y nivel de expertise en el tema.
 
 "Soy emprendedor con 3 años de experiencia, conozco el BMC pero nunca he hecho análisis de patentes."
 
-2. Para quién es el resultado. La audiencia final cambia el tono, vocabulario y profundidad.
+2.**Para quién es el resultado.** La audiencia final cambia el tono, vocabulario y profundidad.
 
 *"El output lo presentaré a un comité de funcionarios de gobierno, no a inversionistas."*
 
-3. Qué ya existe o ya hiciste. Evita que la IA repita lo que ya sabes o rehaga trabajo hecho.
+3.**Qué ya existe o ya hiciste.** Evita que la IA repita lo que ya sabes o rehaga trabajo hecho.
 
 *"Ya tengo el análisis FODA. Lo que necesito es la estrategia, no el diagnóstico."*
 
-4. Restricciones reales. Tiempo, presupuesto, tecnología disponible, limitaciones del equipo.
+4.**Restricciones reales.** Tiempo, presupuesto, tecnología disponible, limitaciones del equipo.
 
 *"El equipo son 2 personas, presupuesto cero, necesito resultados en 2 semanas."*
 
-5. El "para qué" final. La intención detrás de la tarea. Cambia completamente lo que la IA prioriza.
+5.**El "para qué" final.** La intención detrás de la tarea. Cambia completamente lo que la IA prioriza.
 
 *"No quiero el análisis para publicar — es para decidir si pivoteo o sigo."*
 
