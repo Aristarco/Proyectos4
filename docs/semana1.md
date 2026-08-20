@@ -179,6 +179,34 @@ Verbos que funcionan vs. verbos trampa:
 
 **Verbo claro → objeto concreto → alcance definido → condiciones reales.**
 
+!!! tip TIP
+    Iteración Dialéctica : En el contexto creativo, el prompt no debe verse como un "pedido de restaurante" (donde lanzas el pedido y esperas el plato), sino como una conversación iterativa con un colaborador. 
+
+    Layered Prompting: (Prompt por capas): No metas toda la información en un solo bloque gigante. La realidad de la creatividad es que el mejor resultado surge de ir refinando la visión. 
+
+    Evita la alucinación y el bloqueo: Si le pides a la IA que cree una campaña, un logo y un guión en un solo mensaje, perderá calidad en cada elemento.
+
+    Aumenta la "co-autoría": En lugar de esperar un resultado final, el usuario aprende a guiar la IA para que aprenda su estilo personal.
+
+
+!!! danger **Restricciones**
+
+    Concepto Rápido: Por Qué las Restricciones Impulsan la Creatividad
+ 
+    La IA rinde mejor cuando se le dan restricciones. Sin restricciones, produce el promedio de todo lo que ha visto. Con restricciones, se vuelve interesante.
+
+    Prompt vago        → Resultado promedio
+
+    Prompt específico  → Resultado interesante
+
+    Prompt restringido → Resultado inesperado
+
+
+## *“Tight boundaries force the brain to get clever. Because the "sandbox" is tiny, the mind is pushed to innovate rather than relying on endless, unstructured possibilities.”*
+
+Patricia Stokes
+Creativity from Constraints
+
 
 ## Business Blue Print
 
