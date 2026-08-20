@@ -60,7 +60,7 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 
 
 
-!!! warning ### Los 3 que más impacto tienen son
+!!! warning Los 3 que más impacto tienen son
 
     * El rol (orienta el tono y conocimiento que usará la IA)
     * La tarea clara (un verbo de acción específico hace toda la diferencia)
@@ -189,7 +189,7 @@ Verbos que funcionan vs. verbos trampa:
     Aumenta la "co-autoría": En lugar de esperar un resultado final, el usuario aprende a guiar la IA para que aprenda su estilo personal.
 
 
-!!! danger **Restricciones**
+!!! danger Restricciones
 
     Concepto Rápido: Por Qué las Restricciones Impulsan la Creatividad
  
