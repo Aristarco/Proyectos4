@@ -60,7 +60,7 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 
 
 
-!!! warning Los 3 que más impacto tienen son
+!!! warning "Los 3 que más impacto tienen son"
 
     * El rol (orienta el tono y conocimiento que usará la IA)
     * La tarea clara (un verbo de acción específico hace toda la diferencia)
