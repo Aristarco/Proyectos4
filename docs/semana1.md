@@ -179,7 +179,7 @@ Verbos que funcionan vs. verbos trampa:
 
 **Verbo claro → objeto concreto → alcance definido → condiciones reales.**
 
-!!! tip TIP
+!!! tip "TIP"
     Iteración Dialéctica : En el contexto creativo, el prompt no debe verse como un "pedido de restaurante" (donde lanzas el pedido y esperas el plato), sino como una conversación iterativa con un colaborador. 
 
     Layered Prompting: (Prompt por capas): No metas toda la información en un solo bloque gigante. La realidad de la creatividad es que el mejor resultado surge de ir refinando la visión. 
@@ -189,7 +189,7 @@ Verbos que funcionan vs. verbos trampa:
     Aumenta la "co-autoría": En lugar de esperar un resultado final, el usuario aprende a guiar la IA para que aprenda su estilo personal.
 
 
-!!! danger Restricciones
+!!! danger "Restricciones"
 
     Concepto Rápido: Por Qué las Restricciones Impulsan la Creatividad
  
