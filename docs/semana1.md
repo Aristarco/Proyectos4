@@ -27,12 +27,12 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
     
 
 
-# ¿Cómo usas la IA? 
+# **¿Cómo usas la IA?** 
   
     
 
 
-# ¿Crees que la usas la IA para evitar pensar? 
+# **¿La usas la IA para evitar pensar?**
 
   
     
@@ -52,7 +52,7 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 | Crítica | Pedir a la IA que desafíe tus propias ideas | "¿Qué tiene de malo este concepto?" |
 
 ### Ejercicio
-<div class="tip-box">
+<div class="tip-box" markdown="1" >
 **El Desintoxicador digital analógico.**
 Reto de la cena sagrada: *Diseña un dispositivo 100% analógico (sin pantallas, cables ni baterías) que impida físicamente que los comensales usen el teléfono celular durante una comida, convirtiendo la desconexión en un juego de mesa.*
 
