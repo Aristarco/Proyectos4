@@ -24,10 +24,36 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 <iframe src="https://docs.google.com/spreadsheets/d/1NYIhXmFSM3qvFPglLjnC4HzYIEPZL69n/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+
+# ¿Cómo usas la IA? 
+
+
+## ¿Crees que la usas la IA para evitar pensar? 
+
+
 ## Prompting estructurado
 
 
 ![El prompt perfecto](../recursos/imgs/prompt_perfecto.png ){ width=600 align=center }
+
+### Modos de prompt
+
+| Modo |	Qué significa | Ejemplo |
+| :--- | :---: | :---: |
+| Prompting | Usar IA para generar material base | "Dame 20 formas de resolver X" |
+| Remix | Tomar el resultado de la IA y transformarlo | "Ahora hazlo más raro / más simple / para un niño de 10 años" |
+| Crítica | Pedir a la IA que desafíe tus propias ideas | "¿Qué tiene de malo este concepto?" |
+
+### Ejercicio
+[!Tip]
+**El Desintoxicador digital analógico.**
+Reto de la cena sagrada: *Diseña un dispositivo 100% analógico (sin pantallas, cables ni baterías) que impida físicamente que los comensales usen el teléfono celular durante una comida, convirtiendo la desconexión en un juego de mesa.*
+
+Tienes 20 segundos para hacer un prompt para que la IA de tu preferencia te de ideas
+
+
+
+
 
 ### Los 3 que más impacto tienen son
 
