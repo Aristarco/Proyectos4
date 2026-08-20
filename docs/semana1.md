@@ -60,11 +60,11 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 
 
 
-### Los 3 que más impacto tienen son
+!!! warning ### Los 3 que más impacto tienen son
 
-* El rol (orienta el tono y conocimiento que usará la IA)
-* La tarea clara (un verbo de acción específico hace toda la diferencia)
-* El formato de salida (la IA no adivina si quieres bullet points, tabla o código).
+    * El rol (orienta el tono y conocimiento que usará la IA)
+    * La tarea clara (un verbo de acción específico hace toda la diferencia)
+    * El formato de salida (la IA no adivina si quieres bullet points, tabla o código).
 
 El error más común es dar contexto vago y omitir restricciones. Decirle a la IA qué NO hacer es tan poderoso como decirle qué sí hacer.
 
