@@ -52,14 +52,14 @@ Puedes descargar el documento [aquí](https://docs.google.com/spreadsheets/d/1NY
 | Crítica | Pedir a la IA que desafíe tus propias ideas | "¿Qué tiene de malo este concepto?" |
 
 ### Ejercicio
->[!Tip]
->**El Desintoxicador digital analógico.**
+<div class="tip-box">
+**El Desintoxicador digital analógico.**
 Reto de la cena sagrada: *Diseña un dispositivo 100% analógico (sin pantallas, cables ni baterías) que impida físicamente que los comensales usen el teléfono celular durante una comida, convirtiendo la desconexión en un juego de mesa.*
 
->[!Warning]
->Tienes 20 segundos para hacer un prompt para que la IA de tu preferencia te de ideas
 
+Tienes 20 segundos para hacer un prompt para que la IA de tu preferencia te de ideas
 
+</div>
 
 
 
