@@ -54,7 +54,9 @@ Perplexity te dice qué existe. Claude te dice qué podría existir. Los necesit
 
 # 🔍 Modo Explorador
 
-Ronda 1 — Perplexity: anclar en realidad (6 min)
+Ronda 1 — **Perplexity:** anclar en realidad (6 min)
+
+
 Actúa como un analista senior de oportunidades de negocio con
 experiencia en mercados emergentes de América Latina, especializado
 en identificar problemas donde una solución digital-física integrada 
@@ -76,8 +78,7 @@ venta con propuesta de valor clara. Tenemos seis meses para
 llegar a un MVP comercializable y validado.
 
 Identifica 4 oportunidades de negocio no resueltas o mal resueltas
-en el sector de [ELIGE el área que hayas pensado o bien uno de estos que te atraiga: salud comunitaria / manufactura artesanal /
-logística urbana / agua y medio ambiente / seguridad física / educación técnica] en México y América Latina que cumplan estas
+en el sector de *[ELIGE el área que hayas pensado o bien uno de estos que te atraiga: salud comunitaria / manufactura artesanal / logística urbana / agua y medio ambiente / seguridad física / educación técnica]* en México y América Latina que cumplan estas
 condiciones:
 
 - El problema ocurre de forma frecuente (semanal o diaria) y
@@ -110,87 +111,48 @@ con contexto de mercado suficiente para evaluar su potencial.
 
 --------------------------------------------------------------------------------
 
-Ronda 2 — Claude / otra: romper el consenso (6 min)
+**Ronda 2 — Claude / otra:** romper el consenso (6 min)
+
 
 Una vez que Perplexity te devuelve las 4 oportunidades, llevas los resultados a Claude:
 
-Actúa como un innovador con experiencia en detectar oportunidades
 
-de negocio que el mercado ignora porque parecen demasiado nicho,
-
-demasiado obvias o demasiado difíciles. Tu enfoque es el
-
-pensamiento lateral aplicado a mercados emergentes: buscas lo que
-
-todos ven pero nadie está atacando, y lo que nadie ve porque está
-
-demasiado cerca. Tienes especial habilidad para imaginar negocios
-
-donde la combinación de inteligencia artificial, interfaces
-
-digitales y objetos físicos inteligentes crea una propuesta de
-
-valor que ninguno de los tres componentes podría crear por
-
-separado.
+Actúa como un innovador con experiencia en detectar oportunidades de negocio que el mercado ignora porque parecen demasiado nicho,
+demasiado obvias o demasiado difíciles. Tu enfoque es el pensamiento lateral aplicado a mercados emergentes: buscas lo que todos ven pero nadie está atacando, y lo que nadie ve porque está demasiado cerca. Tienes especial habilidad para imaginar negocios donde la combinación de inteligencia artificial, interfaces digitales y objetos físicos inteligentes crea una propuesta de valor que ninguno de los tres componentes podría crear por separado.
 
 Estamos construyendo un negocio en México con tres componentes
 
-articulados: una aplicación con IA, un artefacto físico
-
-inteligente y una página web de venta. Nuestras capacidades
-
-abarcan tanto el desarrollo de software e IA como el diseño y
-
-manufactura de hardware conectado. Tenemos seis meses para
-
-llegar a MVP comercializable.
+articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades abarcan tanto el desarrollo de software e IA como el diseño y manufactura de hardware conectado. Tenemos seis meses para llegar a MVP comercializable.
 
 Estas son las 4 oportunidades que identificamos a través de
 
 análisis de mercado:
 
-[PEGA AQUÍ los resultados de Perplexity]
+*[PEGA AQUÍ los resultados de Perplexity]*
 
 Necesito que hagas 3 cosas:
 
-1. ROMPE EL CONSENSO: ¿Cuál de las 4 oportunidades está siendo
-
+1. ROMPE EL CONSENSO: ¿Cuál de las 4 oportunidades está siendo 
    atacada de la forma más predecible? ¿Qué ángulo contraintuitivo
-
    nadie está viendo porque todos asumen lo mismo sobre ese
-
    problema? ¿Cómo cambiaría la propuesta de valor si el artefacto
-
    físico, la app y la web de venta se articularan de una forma
-
    no convencional?
 
 2. ENCUENTRA EL PROBLEMA OCULTO: Debajo de estas 4 oportunidades
-
    superficiales, ¿cuál es el problema raíz que, si se resolviera
-
    con una solución digital-física integrada, haría innecesarios
-
    2 o más de estos problemas al mismo tiempo? ¿Qué negocio
-
    emerge de resolver ese problema raíz?
 
 3. EL SEGMENTO IGNORADO: ¿Hay algún grupo de usuarios que tiene
-
    estos problemas con el doble de intensidad pero que no aparece
-
    en los análisis de mercado convencionales porque no tiene voz
-
    digital — no escribe en foros, no da entrevistas, no aparece
-
    en reportes — pero que claramente existe en la realidad
-
    mexicana y tiene disposición real a pagar?
 
-No me repitas lo que Perplexity ya encontró. Dame lo que el
-
-análisis de mercado convencional no puede ver.
+No me repitas lo que Perplexity ya encontró. Dame lo que el análisis de mercado convencional no puede ver.
 
 
 
