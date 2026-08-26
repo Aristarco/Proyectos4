@@ -8,8 +8,7 @@
 
 Esta semana el equipo responde la pregunta más importante del semestre antes de escribir una sola línea de código o hacer un solo modelo 3D: 
 
-!!! tip ¿Existe un problema real que vale la pena resolver?
-
+!!! tip "¿Existe un problema real que vale la pena resolver?"
     Todo lo que se construya después depende de la calidad de la respuesta que encuentren hoy.
 
 ## Cómo leer este documento
@@ -39,7 +38,9 @@ Los alumnos que no tienen aún una idea de negocio entran en el Modo Explorador,
 Para aquellos que ya tienen un proyecto que quieren desarrollar diremos que están en Modo Estresor, esto es necesitan ver su idea desde afuera: ¿qué tan saturado está ese espacio? ¿qué problemas adyacentes existen que no habían visto? ¿hay ángulos de negocio que su idea ya tiene pero que aún no explotan?
 
 Usamos dos IAs en paralelo porque cada una tiene un perfil distinto y se compensan:
-|   | **Perplexity** | **Claude** |
+
+
+| " " | **Perplexity** | **Claude** |
 | --- | --- | --- |
 | **Fortaleza** | Datos reales, fuentes verificables, cifras de mercado actualizadas | Síntesis creativa, conexiones no obvias, reencuadre de problemas |
 | **Debilidad** | Tiende a lo obvio, repite el consenso del mercado | Sin datos propios — necesita que le des contexto |
