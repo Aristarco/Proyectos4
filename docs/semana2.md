@@ -47,7 +47,7 @@ Usamos dos IAs en paralelo porque cada una tiene un perfil distinto y se compens
 
 Perplexity te dice qué existe. Claude te dice qué podría existir. Los necesitas a los dos para no quedarte ni con datos sin imaginación ni con imaginación sin datos.
 
-!!! warning Instrucción general al grupo
+!!! Warning "Instrucción general al grupo"
     "Vamos a buscar oportunidades con dos IAs en paralelo — no son intercambiables, cada una tiene un trabajo diferente. Perplexity para anclar en datos reales; Claude para romper el pensamiento obvio. Lean su tarjeta de modo y arranquen. Tienen 12 minutos de trabajo, luego compartimos hallazgos."
 
 ## **PROMPTS:** 
