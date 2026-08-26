@@ -4,15 +4,15 @@
 
 *Que el equipo identifique una oportunidad de producto concreta, arraigada en un problema observable en mercados latinoamericanos, usando IA como acelerador de búsqueda y síntesis — y elija la oportunidad que desarrollará durante el semestre.*
 
-# Blueprint IDEO: **Creación de valor** · DVF: 🔴 Deseable
+## Blueprint: **Creación de valor** · DVF: 🔴 Deseable
 
 Esta semana el equipo responde la pregunta más importante del semestre antes de escribir una sola línea de código o hacer un solo modelo 3D: 
 
-!!! Tip ¿Existe un problema real que vale la pena resolver?
+!!! tip ¿Existe un problema real que vale la pena resolver?
 
     Todo lo que se construya después depende de la calidad de la respuesta que encuentren hoy.
 
-# Cómo leer este documento
+## Cómo leer este documento
 
 Cada paso tiene dos modos de instrucción que corren en paralelo:
 
@@ -22,8 +22,8 @@ Cada paso tiene dos modos de instrucción que corren en paralelo:
 
 # Vista rápida de los 7 pasos
 
-| --- | --- | --- | --- |
 | **#** | **Paso** | **Tiempo** | **IA** |
+| --- | --- | --- | --- |
 | 1 | Búsqueda de oportunidades en LATAM con IA | 20 min | Perplexity + Claude / otra |
 | 2 | Síntesis de insights con IA | 25 min | Claude / otra → Perplexity |
 | 3 | Pain-Gain Map | 25 min | Claude / otra |
@@ -39,16 +39,15 @@ Los alumnos que no tienen aún una idea de negocio entran en el Modo Explorador,
 Para aquellos que ya tienen un proyecto que quieren desarrollar diremos que están en Modo Estresor, esto es necesitan ver su idea desde afuera: ¿qué tan saturado está ese espacio? ¿qué problemas adyacentes existen que no habían visto? ¿hay ángulos de negocio que su idea ya tiene pero que aún no explotan?
 
 Usamos dos IAs en paralelo porque cada una tiene un perfil distinto y se compensan:
-
+|   | **Perplexity** | **Claude** |
 | --- | --- | --- |
-| " " | **Perplexity** | **Claude** |
 | **Fortaleza** | Datos reales, fuentes verificables, cifras de mercado actualizadas | Síntesis creativa, conexiones no obvias, reencuadre de problemas |
 | **Debilidad** | Tiende a lo obvio, repite el consenso del mercado | Sin datos propios — necesita que le des contexto |
 | **Uso en este paso** | Anclar en realidad: ¿el problema existe, qué tan grande es, quién ya lo ataca? | Romper el consenso: ¿qué nadie está viendo, qué ángulo es contraintuitivo? |
 
 Perplexity te dice qué existe. Claude te dice qué podría existir. Los necesitas a los dos para no quedarte ni con datos sin imaginación ni con imaginación sin datos.
 
-!!! Warning Instrucción general al grupo
+!!! warning Instrucción general al grupo
     "Vamos a buscar oportunidades con dos IAs en paralelo — no son intercambiables, cada una tiene un trabajo diferente. Perplexity para anclar en datos reales; Claude para romper el pensamiento obvio. Lean su tarjeta de modo y arranquen. Tienen 12 minutos de trabajo, luego compartimos hallazgos."
 
 ## **PROMPTS:** 
