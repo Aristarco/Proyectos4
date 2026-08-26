@@ -125,9 +125,7 @@ Estamos construyendo un negocio en México con tres componentes
 
 articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades abarcan tanto el desarrollo de software e IA como el diseño y manufactura de hardware conectado. Tenemos seis meses para llegar a MVP comercializable.
 
-Estas son las 4 oportunidades que identificamos a través de
-
-análisis de mercado:
+Estas son las 4 oportunidades que identificamos a través de análisis de mercado:
 
 *[PEGA AQUÍ los resultados de Perplexity]*
 
@@ -155,8 +153,105 @@ Necesito que hagas 3 cosas:
 
 No me repitas lo que Perplexity ya encontró. Dame lo que el análisis de mercado convencional no puede ver.
 
+### Qué anotar al final de los 12 minutos
+
+De Perplexity: las 2 oportunidades con más evidencia de mercado (datos, tamaño, costo observable del problema).
+
+De Claude: el ángulo no obvio más prometedor — puede ser una nueva lectura de una oportunidad ya identificada, el problema raíz oculto, o el segmento ignorado.
+
+Llevas estos 3 insumos al Paso 2.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+# 🔬 Modo Estresor
+
+Ronda 1 — **Perplexity:** auditoría de ecosistema (6 min)
+
+Actúa como un analista de inteligencia competitiva especializado en negocios de producto digital-físico en América Latina, con experiencia en evaluar si una idea tiene espacio real en el mercado o si está entrando a un ecosistema ya saturado o con barreras no obvias. Tu metodología incluye análisis de actores existentes, detección de brechas no cubiertas, identificación de mercados adyacentes y evaluación de timing de mercado.
+
+Somos un equipo de emprendedores en México construyendo un negocio basado en tres componentes articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades abarcan desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB) y manufactura de producto físico. Tenemos seis meses para llegar a MVP comercializable.
+
+Nuestra idea actual es:
+
+*[DESCRIBE TU IDEA EN 3–4 ORACIONES: qué hace, para quién, cómo se articulan los tres componentes — app, artefacto y página de venta — y qué problema cree el equipo que resuelve]*
+
+Responde con datos verificables y fuentes:
+
+1. SATURACIÓN DEL ESPACIO: ¿Quién más está atacando este problema
+   en LATAM o en el mundo con soluciones que combinen software, 
+   IA y hardware? Menciona al menos 3 actores reales con su nivel 
+   de tracción actual.
+
+2. BRECHAS NO CUBIERTAS: En el mismo espacio donde opera nuestra 
+   idea, ¿qué subproblemas o segmentos de usuario están siendo 
+   ignorados por los actores actuales? Dame 3 brechas concretas 
+   con evidencia de que son reales y de que representan disposición 
+   a pagar.
+
+3. MERCADOS ADYACENTES: ¿Hay sectores o tipos de usuario donde 
+   una solución como la nuestra — app con IA + artefacto físico 
+   + canal de venta digital — podría aplicarse con adaptaciones 
+   menores y donde el problema sea igual o más intenso?
+
+4. TIMING: ¿Hay señales de que este mercado está listo para una 
+   solución integrada digital-física ahora? ¿Qué tendencia 
+   reciente lo indica o lo contradice?
 
 
+Ronda 2 — **Claude / Otra:** estrés profundo de la idea (6 min)
+
+Actúa como un inversionista con experiencia en negocios de producto digital-físico en mercados emergentes, conocido por hacer las preguntas que los equipos no quieren escuchar pero necesitan responder antes de comprometer seis meses en una idea.
+
+No eres destructivo — eres brutalmente honesto porque te importa que el negocio llegue a algo real y comercializable.
+
+Somos emprendedores en México. Nuestra idea es:
+
+*[DESCRIBE TU IDEA EN 3–4 ORACIONES]*
+
+Nuestro modelo de negocio tiene tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. 
+
+Nuestras capacidades: desarrollo de software e IA, hardware conectado, manufactura de producto físico. Tenemos seis meses para llegar a MVP comercializable.
+
+Este es el análisis de ecosistema que encontramos:
+
+*[PEGA AQUÍ los resultados de Perplexity]*
+
+Hazme el estrés que más necesito — no el más cómodo:
+
+1. EL SUPUESTO MÁS PELIGROSO: ¿Cuál es el supuesto sobre el 
+   usuario o el mercado que estamos dando por hecho y que, si 
+   resulta falso, hace que toda la idea pierda sentido? ¿Cómo 
+   lo probaríamos o refutaríamos en menos de una semana sin 
+   construir nada?
+
+2. LA ARISTA QUE NO VIMOS: Basándote en las brechas del análisis 
+   de ecosistema, ¿hay una versión de nuestro negocio — 
+   manteniendo los tres componentes pero cambiando el usuario 
+   objetivo, el problema atacado o cómo se articulan app, 
+   artefacto y canal de venta — que tenga un mercado más claro 
+   o una propuesta de valor más fuerte? Descríbela como pitch 
+   de 3 oraciones.
+
+3. EL PIVOTE MÍNIMO: Si tuvieras que cambiar UNA sola cosa de 
+   nuestra idea para hacerla significativamente más fuerte — 
+   el usuario objetivo, el problema central, la forma en que 
+   los tres componentes se relacionan entre sí, o el modelo 
+   de ingresos — ¿qué cambiarías y por qué?
+
+Sé específico. No me des frameworks — dame decisiones accionables.
+
+
+**Qué anotar al final de los 12 minutos**
+
+De Perplexity: las 2 brechas más concretas que los actores actuales no están cubriendo.
+
+De Claude: el supuesto más peligroso que el equipo necesita probar, y la arista alternativa más prometedora.
+
+Llevas estos 3 insumos al Paso 2.
+
+
+
+Paso 2 — Síntesis de insights con IA
 
 
 
