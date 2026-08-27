@@ -264,7 +264,7 @@ En este paso usamos dos IAs con roles distintos:
 |   | Claude | Perplexity |
 | --- | --- | --- |
 | Trabajo | Sintetizar y estructurar los hallazgos del Paso 1 en insights accionables | Verificar y anclar los insights con datos reales cuando Claude los genera sin fuente |
-| Cuándo usarlo | | Primero — para construir el insight | Segundo — para validar que el costo del problema y el tamaño de mercado del insight son reales |
+| Cuándo usarlo | Primero — para construir el insight | Segundo — para validar que el costo del problema y el tamaño de mercado del insight son reales |
 
 
 ### La diferencia entre dato e insight no es de forma — es de utilidad para tomar decisiones. El instructor muestra estos dos ejemplos en pantalla sin comentario adicional. Los equipos los leen y el instructor pregunta: "¿Cuál de los dos les dice qué hacer?"
@@ -303,36 +303,29 @@ Necesito que hagas lo siguiente:
 1. SINTETIZA EN INSIGHTS: Convierte cada oportunidad en un 
    insight estructurado con este formato exacto: 
 
-   - Quién específico tiene el problema (segmento concreto, 
-     no "los usuarios" ni "las empresas")
+    * Quién específico tiene el problema (segmento concreto, no "los usuarios" ni "las empresas")
 
-   - Qué les cuesta no resolverlo (tiempo, dinero, calidad, 
-     riesgo — con cifra o estimado)
+    * Qué les cuesta no resolverlo (tiempo, dinero, calidad, riesgo — con cifra o estimado)
 
-   - Por qué las soluciones actuales no bastan (no "son caras" 
-     en abstracto — cuál es la razón específica por la que 
-     fallan para este usuario)
+    * Por qué las soluciones actuales no bastan (no "son caras" en abstracto — cuál es la razón específica por la que fallan para este usuario)
 
-   - Dónde está exactamente el espacio: la brecha entre lo que 
-     existe y lo que se necesita
+    * Dónde está exactamente el espacio: la brecha entre lo que existe y lo que se necesita
 
-2. ELIGE Y JUSTIFICA: De los insights generados, ¿cuál tiene 
-   el espacio de negocio más claro para una solución que combine
-   app con IA + artefacto físico + canal de venta digital?
+2. ELIGE Y JUSTIFICA: 
+    * De los insights generados, ¿cuál tiene el espacio de negocio más claro para una solución que combine app con IA + artefacto físico + canal de venta digital?
 
-   Justifica en función del usuario, el costo del problema y 
-   la viabilidad de los tres componentes juntos.
+    * Justifica en función del usuario, el costo del problema y la viabilidad de los tres componentes juntos.
 
-3. FORMULA EL INSIGHT GANADOR: Redacta el insight elegido en 
-   3–4 oraciones que cualquier persona pudiera leer y entender 
-   por qué es una oportunidad real. Sin jerga. Sin abstracciones.
+3. FORMULA EL INSIGHT GANADOR: Redacta el insight elegido en 3–4 oraciones que cualquier persona pudiera leer y entender por qué es una oportunidad real. Sin jerga. Sin abstracciones.
 
 
-Ronda 2 — Perplexity: verificar los números (8 min)
+Ronda 2 — **Perplexity:** verificar los números (8 min)
 
 Claude construyó el insight — pero sus cifras son estimaciones, no datos verificables. Antes de comprometer seis meses con una oportunidad, necesitas saber si los números son reales.
 
 Tomas el insight ganador y lo llevas a Perplexity:
+
+**PROMPT:** 
 
 Actúa como un analista de inteligencia de mercado especializado en validación de oportunidades de negocio en América Latina, con acceso a fuentes primarias y secundarias confiables: INEGI, BID, CEPAL, reportes sectoriales, bases de datos de startups y registros de comportamiento de mercado. Tu trabajo es separar los supuestos de los hechos verificables — no para destruir ideas, sino para que los emprendedores sepan exactamente en qué parte de su oportunidad están parados sobre roca y en qué parte están parados sobre arena.
 
