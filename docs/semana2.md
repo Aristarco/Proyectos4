@@ -855,9 +855,7 @@ Verifica con datos reales y entrega tu respuesta en este formato exacto:
 
 TAMAÑO DEL SEGMENTO
 
-¿Cuántos usuarios en México o LATAM tienen este problema
-
-con frecuencia semanal o mayor?
+¿Cuántos usuarios en México o LATAM tienen este problema con frecuencia semanal o mayor?
 
 Dato encontrado: [cifra o rango con fuente]
 
@@ -867,37 +865,585 @@ Confiabilidad: alta / media / estimada
 
 EVIDENCIA DE DISPOSICIÓN A PAGAR
 
-¿Hay señales observables de que este segmento busca o paga
+¿Hay señales observables de que este segmento busca o paga por resolver este dolor específico?
 
-por resolver este dolor específico?
-
-Evidencia: [pagos actuales, búsquedas, comunidades, intentos
-
-previos — con ejemplos concretos]
+Evidencia: [pagos actuales, búsquedas, comunidades, intentos previos — con ejemplos concretos]
 
 Veredicto: clara / parcial / no encontrada
 
 COMPETENCIA EN ESTE ESPACIO ESPECÍFICO
 
-¿Alguien ya ataca exactamente esta combinación de usuario
+¿Alguien ya ataca exactamente esta combinación de usuario + dolor + solución digital-física?
 
-+ dolor + solución digital-física?
-
-Actores encontrados: [nombres reales con tracción observable,
-
-o "no encontrados"]
+Actores encontrados: [nombres reales con tracción observable, o "no encontrados"]
 
 Brecha confirmada: sí / no / parcial
 
 CONCLUSIÓN PARA EL EQUIPO:
 
-[Una oración directa sobre si la arista tiene mercado
-
-suficiente para justificar explorarla: sí, con condiciones,
-
-o no — y por qué]
+[Una oración directa sobre si la arista tiene mercado suficiente para justificar explorarla: sí, con condiciones, o no — y por qué]
 
 
+## Paso 4 — SCAMPER + Remix de ideas
+
+El Paso 3 identificó el cruce más poderoso del Pain-Gain Map: el dolor más intenso y la ganancia más deseada sin solución actual. El Paso 4 explota ese cruce para generar direcciones de solución no obvias — antes de que el equipo se enamore de la primera idea que se le ocurrió.
+
+El paso tiene tres momentos secuenciales, cada uno con su propio prompt:
+
+| Momento | Herramienta | Qué produce |
+| --- | --- | --- |
+| Prompt 1 — SCAMPER | Claude | 2 ideas por letra = 14 ideas exploradas |
+| Prompt 2 — Remix | Claude | Conceptos híbridos que cruzan las mejores ideas |
+| Prompt 3 — Filtro DVN | Claude | Evaluación bajo deseable / novedoso / viable |
+
+
+Entre cada prompt el equipo hace una pausa de reflexión — elige, descarta, anota. **Claude no decide: genera y evalúa.** El equipo decide qué llevar al siguiente prompt y qué llevar al Paso 5.
+
+!!! Tip "Por qué tres prompts separados:"
+    un prompt que pide SCAMPER + remix + evaluación en un solo turno produce outputs superficiales en los tres. Separarlo obliga a Claude a profundizar en cada etapa y al equipo a pensar entre cada una.
+
+
+"SCAMPER ya lo conocen. La diferencia de hoy es que lo aplican sobre un problema verificado con usuario real — no sobre una idea que ya tienen. Tres prompts en secuencia: primero generamos, luego cruzamos, luego filtramos. No salten al siguiente prompt sin leer el output del anterior."
+
+### Regla del paso:
+
+### "Si al leer el output de Claude ya están pensando en cómo construirlo técnicamente, se adelantaron. En esta etapa imaginan — no ingenian todavía."
+
+
+Recordatorio de las 7 letras — proyectado en pantalla
+| Letra | Lo que buscamos romper | La pregunta |
+| --- | --- | --- |
+| **S**ustituir | Un elemento del proceso actual que todos asumen como necesario | ¿Qué componente tradicional del problema podemos reemplazar por algo más simple, inteligente o inesperado? |
+| **C**ombinar | La separación artificial entre soluciones o componentes | ¿Qué pasa si fusionamos el artefacto, la app o el canal de venta con algo que ya existe en el entorno del usuario? |
+| **A**daptar | El supuesto de que el problema es único e irresuelto en todos lados | ¿Qué solución que funciona brillantemente en otro sector, país o industria podría trasplantarse aquí? |
+| **M**odificar | La solución "razonable" que nadie cuestiona | ¿Qué pasa si llevamos un atributo al extremo absoluto — diez veces más pequeño, cien veces más barato, completamente automatizado — hasta que cambia cualitativamente? |
+| **P**onerlo en otro uso | La suposición de que resolver el problema requiere comprarle algo nuevo al usuario | ¿Qué tiene ya el usuario — tecnología, infraestructura, hábito, espacio — que podría usarse para resolver el problema sin que compre nada nuevo? |
+| **E**liminar | La complejidad heredada que nadie cuestionó | ¿Qué parte de la solución convencional podemos quitar y que el valor central no solo sobreviva sino que mejore? |
+| **R**eordenar | El orden "obvio" del flujo de valor | ¿Qué pasa si invertimos quién detecta el problema, quién actúa, quién paga, o cuándo ocurre la intervención? |
+
+
+
+🔍 Modo Explorador — los tres prompts
+
+Ronda 0 — SCAMPER propio en papel (3 min)
+
+Antes de Claude, el equipo aplica una letra por minuto sobre el cruce ⭐ del Paso 3. No es necesario completar las 7 — es para que lleguen al Prompt 1 con ideas propias, no con la mente en blanco. Anotan lo que se les ocurra sin filtrar. 
+
+**Máximo 60 segundos por letra, si no se les ocurre nada pasar a la siguiente**
+
+
+Prompt 1 — SCAMPER completo
+
+Actúa como un facilitador senior de innovación disruptiva especializado en generar ideas de negocio no obvias para productos digitales-físicos en mercados emergentes de América Latina. Tu metodología es SCAMPER aplicado a problemas verificados con usuarios reales: para cada letra produces dos ideas exploración — no mejoras incrementales, sino reencuadres que cambian cómo se crea o entrega el valor.
+
+Una idea exploración describe en 2–3 oraciones qué haría el negocio diferente si esa letra se aplicara radicalmente.
+
+Somos un equipo de emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta.
+
+Capacidades: desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB, BLE/MQTT/WiFi), diseño y manufactura de producto físico (CAD, impresión 3D). Tenemos seis meses para MVP comercializable.
+
+Nuestro usuario / segmento: [DESCRIBE EL SEGMENTO]
+
+El cruce más poderoso de nuestro Pain-Gain Map:
+
+- Dolor ⭐: [pega el dolor más intenso]
+
+- Ganancia ⭐: [pega la ganancia más deseada]
+
+- Por qué no está resuelto hoy: [pega la explicación del cruce]
+
+- La oportunidad en una oración: [pega del Paso 3]
+
+Aplica cada letra de SCAMPER al cruce dolor ⭐ + ganancia ⭐ y genera 2 ideas exploración por letra. Para cada idea:
+
+- Describe qué haría diferente el negocio en 2–3 oraciones
+
+- Especifica cómo cambia al menos uno de los tres componentes
+
+  (app con IA / artefacto físico / canal de venta)
+
+- No repitas variaciones de la misma idea entre las dos
+
+Guía por letra — lo que buscamos en cada una:
+
+S — SUSTITUIR: ¿Qué elemento tradicional del problema o de su solución convencional reemplazamos por algo inesperado? Busca sustituir el componente que todos dan por sentado.
+
+C — COMBINAR: ¿Qué fusionamos con algo que ya existe en el entorno del usuario para que el negocio funcione diferente? Busca combinaciones entre sectores o entre componentes del negocio que normalmente van separados.
+
+A — ADAPTAR: ¿Qué modelo de negocio o solución que funciona brillantemente en otro sector, país o industria trasplantamos aquí?
+Nombra el origen: de dónde viene la lógica adaptada.
+
+M — MODIFICAR AL EXTREMO: ¿Qué atributo llevamos al límite absoluto hasta que cambia cualitativamente — no mejora, sino que se convierte en otra cosa? Especifica qué atributo y hacia qué extremo.
+
+P — PONER EN OTRO USO: ¿Qué tiene ya el usuario — tecnología, infraestructura, hábito, datos, espacio físico — que puede usarse para resolver el problema sin que compre nada nuevo? El artefacto o la app se integra con eso.
+
+E — ELIMINAR: ¿Qué parte de la solución convencional eliminamos y el valor central no solo sobrevive sino que mejora porque ya no está ese elemento? Explica por qué eliminar eso fortalece la propuesta.
+
+R — REORDENAR: ¿Qué invertimos — quién detecta, quién actúa, quién paga, cuándo ocurre la intervención — para que el flujo de valor funcione de forma radicalmente diferente?
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+SCAMPER EXPLORADO
+
+Usuario: [segmento] · Dolor ⭐: [en una línea]
+
+═══════════════════════════════════════════════════════
+
+S — Sustituir
+
+  Idea S1: [descripción 2–3 oraciones]
+
+  Componente que cambia: [app / artefacto / canal de venta]
+
+  Idea S2: [descripción 2–3 oraciones]
+
+  Componente que cambia: [app / artefacto / canal de venta]
+
+C — Combinar
+
+  Idea C1: [descripción 2–3 oraciones]
+
+  Componente que cambia: [app / artefacto / canal de venta]
+ 
+  Idea C2: [descripción 2–3 oraciones]
+
+  Componente que cambia: [app / artefacto / canal de venta]
+
+A — Adaptar
+
+  Idea A1: [descripción 2–3 oraciones]
+
+  Origen de la adaptación: [sector o contexto]
+
+  Idea A2: [descripción 2–3 oraciones]
+
+  Origen de la adaptación: [sector o contexto]
+
+M — Modificar al extremo
+
+  Idea M1: [descripción 2–3 oraciones]
+
+  Atributo llevado al límite: [cuál → hacia dónde]
+
+  Idea M2: [descripción 2–3 oraciones]
+
+  Atributo llevado al límite: [cuál → hacia dónde]
+
+P — Poner en otro uso
+
+  Idea P1: [descripción 2–3 oraciones]
+
+  Recurso existente del usuario: [qué tiene ya]
+
+  Idea P2: [descripción 2–3 oraciones]
+
+  Recurso existente del usuario: [qué tiene ya]
+
+E — Eliminar
+
+  Idea E1: [descripción 2–3 oraciones]
+
+  Qué se elimina y por qué el valor mejora: [en 1 línea]
+
+  Idea E2: [descripción 2–3 oraciones]
+
+  Qué se elimina y por qué el valor mejora: [en 1 línea]
+
+R — Reordenar
+
+  Idea R1: [descripción 2–3 oraciones]
+
+  Qué se invierte: [quién / cuándo / cómo / qué]
+
+  Idea R2: [descripción 2–3 oraciones]
+
+  Qué se invierte: [quién / cuándo / cómo / qué]
+
+───────────────────────────────────────────────────────
+
+PAUSA PARA EL EQUIPO
+
+Lee las 14 ideas. Elige las **4** que más te llamen la atención — no las más seguras, las más interesantes.
+
+Anota sus códigos: [S1/S2/C1/C2/A1/A2/M1/M2/P1/P2/E1/E2/R1/R2]
+
+Llevas esas 4 al Prompt 2.
+
+═══════════════════════════════════════════════════════
+
+Pausa de reflexión del equipo: leer el output completo, elegir las 4 ideas con código. **E*este es el primer filtro del equipo, no de la IA.**
+
+
+Prompt 2 — Remix de ideas
+
+**PROMPT**
+
+Actúa como un sintetizador de conceptos de negocio con experiencia en crear propuestas de valor originales cruzando ideas que provienen de lógicas distintas. Tu especialidad es el remix: tomar dos o tres ideas que parecen incompatibles y encontrar el concepto híbrido que ninguna de ellas era por sí sola. Un buen remix no suma features — reencuadra quién se beneficia, cómo se entrega el valor o por qué alguien pagaría.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Capacidades: desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB), diseño y manufactura de producto físico.
+
+Tenemos seis meses para MVP comercializable.
+
+Nuestro usuario / segmento: [DESCRIBE EL SEGMENTO]
+
+La oportunidad base: [pega la oportunidad en una oración del Paso 3]
+
+Las 4 ideas de SCAMPER que elegimos:
+
+- [código]: [pega la descripción completa de la idea]
+
+- [código]: [pega la descripción completa de la idea]
+
+- [código]: [pega la descripción completa de la idea]
+
+- [código]: [pega la descripción completa de la idea]
+
+También puedes considerar estas ideas propias del equipo que no vinieron del SCAMPER (si las tienen):
+
+- [idea propia 1, si existe]
+
+- [idea propia 2, si existe]
+
+Genera 3 conceptos remix cruzando estas ideas. Reglas:
+
+- Cada remix debe cruzar al menos 2 ideas de fuentes distintas
+
+- El resultado debe ser un concepto que no existía en ninguna de las ideas individuales — si el remix solo junta features, no es suficiente
+
+- Cada concepto debe describirse como un negocio completo: qué hace, para quién, y cómo se articulan los tres componentes (app con IA + artefacto físico + canal de venta)
+
+- Al menos uno de los remixes debe generar una propuesta de valor que cambie quién paga, quién usa, o cuándo ocurre   la intervención — no solo qué hace el producto
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+REMIX DE IDEAS
+
+Base: [oportunidad en una oración]
+
+═══════════════════════════════════════════════════════
+
+REMIX 1 — [Nombre corto evocador, no técnico]
+
+Ideas cruzadas: [código] + [código]
+
+Concepto: [descripción del negocio en 3–4 oraciones — qué hace, para quién, cómo se articulan los 3 componentes]
+
+Lo que el cruce genera que ninguna idea sola tenía:
+
+  [1 oración — la lógica nueva que emergió]
+
+REMIX 2 — [Nombre corto evocador]
+
+Ideas cruzadas: [código] + [código]
+
+Concepto: [descripción en 3–4 oraciones]
+
+Lo que el cruce genera que ninguna idea sola tenía:
+
+  [1 oración]
+
+REMIX 3 — [Nombre corto evocador]
+
+Ideas cruzadas: [código] + [código] (+ [código] si aplica)
+
+Concepto: [descripción en 3–4 oraciones]
+
+Lo que el cruce genera que ninguna idea sola tenía:
+
+  [1 oración]
+
+───────────────────────────────────────────────────────
+
+!!! tip "PAUSA PARA EL EQUIPO"
+    Lee los 3 remixes. Puedes agregar tus propias variantes o modificar uno de ellos antes del Prompt 3.
+    ¿Algún remix te recuerda algo que no habías considerado?
+    Anótalo — también entra al filtro DVN.
+
+═══════════════════════════════════════════════════════
+
+!!! warning "Pausa de reflexión del equipo"
+    Leer los 3 remixes, modificar si quieren, agregar ideas propias. 
+    El equipo decide qué conceptos entran al filtro — mínimo 2, máximo 4.
+
+
+Prompt 3 — Filtro DVN
+
+Actúa como un evaluador crítico de conceptos de negocio con experiencia en filtrar ideas de producto digital-físico bajo criterios de mercado real en América Latina. Tu metodología es el filtro DVN: evalúas cada concepto bajo tres lentes simultáneos — deseable, novedoso y viable — y produces un veredicto honesto con justificación específica. No eres optimista por defecto: un ⚠️ o ❌ bien justificado vale más que un ✅ que no resiste una pregunta de seguimiento.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Capacidades: desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB), diseño y manufactura de producto físico.
+
+Tenemos seis meses para MVP comercializable.
+
+Nuestro usuario / segmento: [DESCRIBE EL SEGMENTO]
+
+Los conceptos que queremos filtrar
+
+(pueden ser remixes de Claude, ideas propias, o ambos):
+
+CONCEPTO A — [nombre]:
+
+[descripción completa del concepto]
+
+CONCEPTO B — [nombre]:
+
+[descripción completa del concepto]
+
+CONCEPTO C — [nombre, si lo tienen]:
+
+[descripción completa del concepto]
+
+Evalúa cada concepto bajo los tres lentes DVN:
+
+🔴 DESEABLE: ¿El usuario lo querría de verdad — no solo lo aprobaría en una encuesta? ¿Resuelve el dolor ⭐ mejor que lo que existe hoy? ¿Hay razón para creer que pagaría por esto específicamente?
+
+🟣 NOVEDOSO: ¿Existe algo así en LATAM o en el mundo con esta combinación específica de usuario + problema + forma de entrega? No el problema genérico — este enfoque exacto.
+
+🟢 VIABLE: ¿Puede construirse una primera versión funcional con las capacidades descritas en seis meses? ¿Los tres componentes (app + artefacto + canal de venta) son realizables juntos en ese plazo?
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+FILTRO DVN
+
+═══════════════════════════════════════════════════════
+
+CONCEPTO A — [nombre]
+
+🔴 Deseable:  ✅/⚠️/❌
+
+  Justificación: [por qué — 1–2 oraciones específicas, no genéricas]
+
+  Pregunta que el equipo debe responder: [la duda clave que quedaría por resolver sobre deseabilidad]
+
+🟣 Novedoso:  ✅/⚠️/❌
+
+  Justificación: [referencia a qué existe similar o por qué no existe]
+
+  Pregunta que el equipo debe responder: [la duda clave]
+
+🟢 Viable:    ✅/⚠️/❌
+
+  Justificación: [qué parte es más arriesgada técnicamente   o en tiempo]
+
+  Pregunta que el equipo debe responder: [la duda clave]
+
+Puntaje DVN: [✅ de 3]
+
+Veredicto: [llevar al Paso 5 / refinar antes / descartar]
+
+───────────────────────────────────────────────────────
+
+CONCEPTO B — [nombre]
+
+🔴 Deseable:  ✅/⚠️/❌
+  Justificación: [1–2 oraciones] 
+  Pregunta que el equipo debe responder: [la duda clave]
+
+🟣 Novedoso:  ✅/⚠️/❌
+  Justificación: [1–2 oraciones]
+  Pregunta que el equipo debe responder: [la duda clave]
+
+🟢 Viable:    ✅/⚠️/❌
+  Justificación: [1–2 oraciones]
+  Pregunta que el equipo debe responder: [la duda clave]
+
+Puntaje DVN: [✅ de 3]
+
+Veredicto: [llevar al Paso 5 / refinar antes / descartar]
+
+───────────────────────────────────────────────────────
+
+CONCEPTO C — [nombre] (si aplica)
+
+🔴 Deseable:  ✅/⚠️/❌
+  Justificación: [1–2 oraciones]
+  Pregunta que el equipo debe responder: [la duda clave]
+
+🟣 Novedoso:  ✅/⚠️/❌
+  Justificación: [1–2 oraciones]
+  Pregunta que el equipo debe responder: [la duda clave]
+
+🟢 Viable:    ✅/⚠️/❌
+  Justificación: [1–2 oraciones]
+  Pregunta que el equipo debe responder: [la duda clave]
+
+Puntaje DVN: [✅ de 3]
+
+Veredicto: [llevar al Paso 5 / refinar antes / descartar]
+
+───────────────────────────────────────────────────────
+
+CONCEPTO RECOMENDADO PARA EL PASO 5
+
+Nombre: [el de mayor puntaje DVN o el más potente si hay empate] 
+
+Por qué este: [2 oraciones — qué lo hace más fuerte que los demás en términos de deseo, novedad y viabilidad]
+
+Riesgo principal a vigilar: [el lente más débil y cómo el Paso 5 puede reducir esa incertidumbre]
+
+═══════════════════════════════════════════════════════
+
+
+### 🔬 Modo Estresor — los tres prompts
+
+El Estresor llega al Paso 4 con la idea original y, si la encontró, una arista de negocio del Paso 3. Los tres prompts funcionan igual que en el Explorador con una diferencia en el Prompt 1: SCAMPER se aplica sobre la idea original buscando sus versiones más disruptivas — no mejoras, sino reencuadres que cambien cualitativamente la propuesta de valor.
+
+Ronda 0 — SCAMPER propio en papel (3 min)
+El equipo aplica SCAMPER en dos columnas simultáneas: una para la idea original, una para la arista (si la tienen). Sin filtrar, sin evaluar. 
+
+**NO usen más de 60 segundos por letra** 
+
+
+Prompt 1 — SCAMPER disruptivo
+
+Actúa como un facilitador senior de innovación disruptiva especializado en encontrar las versiones más radicales de ideas de negocio existentes — no mejoras incrementales, sino reencuadres que cambian quién se beneficia, cómo se entrega el valor, o por qué alguien pagaría. Tu metodología es SCAMPER aplicado con sesgo hacia la disrupción: para cada letra produces dos ideas exploración que desafían un supuesto central de la idea original. Una idea exploración describe en 2–3 oraciones qué haría el negocio radicalmente diferente si esa letra se aplicara sin restricciones.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Capacidades: desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB), diseño y manufactura de producto físico.
+
+Tenemos seis meses para MVP comercializable.
+
+NUESTRA IDEA ORIGINAL:
+
+Descripción: [3–4 oraciones]
+
+Usuario / segmento: [del Pain-Gain Map]
+
+Dolor ⭐ que resuelve: [el principal]
+
+Ganancia ⭐ que entrega: [la principal]
+
+Supuestos centrales que nadie ha cuestionado en el equipo:
+
+  [lista 2–3 cosas que el equipo da por sentadas sobre cómo debe funcionar la solución]
+
+ARISTA DE NEGOCIO DEL PASO 3 (si aplica):
+
+[pega la oportunidad en una oración de la arista]
+
+Dolor que atacaría: [el dolor ❌ o ⚠️ del mapa]
+
+Aplica SCAMPER a la idea original buscando las versione más disruptivas posibles. Para cada letra genera 2 ideas exploración. Criterio: si el resultado es "mejorar" la idea original en algo, no fue suficientemente disruptivo — busca otra interpretación. Lo que buscamos no es una mejor versión de lo mismo sino un reencuadre que haga que la idea original parezca obvia o limitada en comparación.
+
+Guía por letra — lo que buscamos romper en cada una:
+
+S — SUSTITUIR: ¿Qué supuesto central de la idea — el componente técnico, el modelo de entrega, el tipo de usuario — sustituimos por algo que nadie esperaría?
+
+C — COMBINAR: ¿Qué pasa si uno de los tres componentes del negocio se fusiona con la arista identificada en el Paso 3, o con algo del entorno del usuario que la idea actual ignora completamente?
+
+A — ADAPTAR: ¿Qué modelo de negocio que funciona en otro sector o país resuelve un problema similar de forma radicalmente diferente a como lo hace nuestra idea? ¿Qué cambiaría si adoptáramos esa lógica?
+
+M — MODIFICAR AL EXTREMO: ¿Qué atributo de nuestra idea llevamos al límite absoluto — diez veces más barato, cien veces más simple, completamente autónomo — hasta que el negocio se convierte en algo cualitativamente distinto?
+
+P — PONER EN OTRO USO: ¿Para qué otro segmento de usuario — completamente diferente al que estamos atacando — podría servir nuestra solución con cambios mínimos? ¿Ese segmento tiene el mismo problema pero con más urgencia o más capacidad de pago?
+
+E — ELIMINAR: ¿Qué eliminamos de nuestra solución actual y el valor central no solo sobrevive sino que se vuelve más accesible, más rápido o más atractivo para el usuario? R — REORDENAR: ¿Qué pasa si invertimos quién detecta el problema, quién actúa, quién paga por la solución, o cuándo ocurre la intervención — de forma que el modelo de negocio cambie completamente?
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+SCAMPER DISRUPTIVO
+
+Idea base: [nombre de la idea original]
+
+═══════════════════════════════════════════════════════
+
+S — Sustituir
+
+  Idea S1: [descripción 2–3 oraciones]
+  Supuesto que rompe: [qué daba por sentado la idea original]
+
+  Idea S2: [descripción 2–3 oraciones]
+  Supuesto que rompe: [qué daba por sentado la idea original]
+
+C — Combinar
+
+  Idea C1: [descripción 2–3 oraciones]
+  Con qué se combina: [arista / elemento del entorno / otro]
+
+  Idea C2: [descripción 2–3 oraciones]
+  Con qué se combina: [arista / elemento del entorno / otro]
+
+A — Adaptar
+
+  Idea A1: [descripción 2–3 oraciones]
+  Origen de la lógica adaptada: [sector y país o contexto]
+
+  Idea A2: [descripción 2–3 oraciones]
+  Origen de la lógica adaptada: [sector y país o contexto]
+
+M — Modificar al extremo
+
+  Idea M1: [descripción 2–3 oraciones]
+  Atributo llevado al límite: [cuál → hacia dónde]
+
+  Idea M2: [descripción 2–3 oraciones]
+  Atributo llevado al límite: [cuál → hacia dónde]
+
+P — Poner en otro uso
+
+  Idea P1: [descripción 2–3 oraciones]
+  Segmento alternativo o recurso reutilizado: [cuál]
+
+  Idea P2: [descripción 2–3 oraciones]
+  Segmento alternativo o recurso reutilizado: [cuál]
+
+E — Eliminar
+
+  Idea E1: [descripción 2–3 oraciones]
+  Qué se elimina y por qué el valor mejora: [en 1 línea]
+
+  Idea E2: [descripción 2–3 oraciones]
+  Qué se elimina y por qué el valor mejora: [en 1 línea]
+
+R — Reordenar
+
+  Idea R1: [descripción 2–3 oraciones]
+  Qué se invierte: [quién / cuándo / cómo / qué]
+
+  Idea R2: [descripción 2–3 oraciones]
+  Qué se invierte: [quién / cuándo / cómo / qué]
+
+───────────────────────────────────────────────────────
+
+PAUSA PARA EL EQUIPO
+
+Lee las 14 ideas. Identifica las 4 que más se alejan de la idea original — no las más seguras, las más diferentes. Anota sus códigos.
+
+Pregunta honesta: ¿alguna idea hace que la versión original parezca limitada? Si sí, esa es la que más te interesa. Lleva esas 4 al Prompt 2.
+
+═══════════════════════════════════════════════════════
+
+Pausa de reflexión del equipo (2 min): leer, elegir las 4 más disruptivas. La instrucción explícita de buscar las que hacen que la idea original parezca limitada es el filtro específico del Estresor.
+
+
+Prompt 2 — Remix de ideas (Estresor)
+Idéntico al del Explorador con una instrucción adicional al final del contexto:
+
+[mismo prompt del Explorador hasta "Llevas esas 4 al Prompt 2"]
+
+Instrucción adicional para el remix: al menos uno de los
+
+3 conceptos debe cruzar una idea de la letra C o P con
+
+una idea de cualquier otra letra — ese cruce tiende a
+
+generar los conceptos más originales para equipos que
+
+ya tienen una idea base, porque obliga a combinar la
+
+lógica de "qué tiene el usuario" o "para quién más sirve"
+
+con otra transformación radical.
+
+
+Prompt 3 — Filtro DVN (Estresor)
+Idéntico al del Explorador. No necesita variante — el filtro DVN es el mismo para cualquier concepto.
 
 
 
@@ -921,15 +1467,3 @@ o no — y por qué]
 
 
 
-
-
-
-[Introducción)](./recursos/archivos/1_Desarrollo%20Productos.pdf)
-
-<iframe src="../recursos/archivos/1_Desarrollo%20Productos.pdf" width="800" height="440"></iframe>
-
-
-Tarea: 
-* Hacer la revisión de la tarea en el documento y pl
-* Plantear la problemática que está resolviendo mi proyecto
-* Preparar un prototipo (método experimental) que te permita asegurar que tu proyecto está resolviendo un problema real
