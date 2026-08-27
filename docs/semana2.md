@@ -483,7 +483,7 @@ Al terminar entrega una tabla comparativa:
 No me digas cuál elegir — dame los datos y deja que la evidencia hable por sí sola.
 
 
-Qué tienen al final del Paso 2
+Qué conseguimos al final del Paso 2
 
 Dos insights comparados con evidencia verificada:
 
@@ -538,59 +538,11 @@ En este paso usamos dos IAs con roles distintos:
 
 Plantilla Pain Gain Map
 
-╔═════════════════════════════════════════════════════════════╗
+![Pain-Gain Map](../recursos/imgs/Pain_Gain_Map.jpg ){ width=600 align=center }
 
-║  PAIN-GAIN MAP                        Equipo: ___________   ║
 
-║  Usuario / segmento específico: __________________________   ║
 
-╠══════════════════════════════╦══════════════════════════════╣
-
-║     DOLORES (Pains)          ║      GANANCIAS (Gains)        ║
-
-║                              ║                               ║
-
-║  ¿Qué les frustra hoy?       ║  ¿Qué resultado esperan?      ║
-
-║  ¿Qué les falta?             ║  ¿Cómo sería su situación     ║
-
-║  ¿Qué proceso es torpe,      ║  mejor si el problema         ║
-
-║  lento, caro o riesgoso?     ║  desapareciera?               ║
-
-║  ¿Qué workaround usan        ║  ¿Qué métrica mejoraría?      ║
-
-║  aunque les incomode?        ║  ¿Qué dejarían de perder?     ║
-
-╠══════════════════════════════╬══════════════════════════════╣
-
-║                              ║                               ║
-
-║  D1.                         ║  G1.                          ║
-
-║                              ║                               ║
-
-║  D2.                         ║  G2.                          ║
-
-║                              ║                               ║
-
-║  D3.                         ║  G3.                          ║
-
-║                              ║                               ║
-
-╠══════════════════════════════╩══════════════════════════════╣
-
-║  EL ESPACIO SIN CUBRIR:                                      ║
-
-║  El dolor más intenso: ___  La ganancia más deseada: ___     ║
-
-║                                                              ║
-
-║  "Existe una oportunidad para [quién] que necesita           ║
-
-║   [qué resultado] porque hoy [por qué no lo tiene]"          ║
-
-╚═════════════════════════════════════════════════════════════╝
+Puedes descargar la plantilla del Pain - Gain Map [aquí](https://docs.google.com/document/d/1ePOtMxb2JJMDOwvK_1xki2dBD9rRyQQX/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
 
 
 ### 🔍 Modo Explorador
