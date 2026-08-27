@@ -333,38 +333,23 @@ Somos emprendedores en México construyendo un negocio con tres componentes: una
 
 Este es el insight que necesitamos verificar:
 
-[PEGA AQUÍ el insight ganador que generó Claude]
+*[PEGA AQUÍ el insight ganador que generó Claude]*
 
 Verifica cada una de estas afirmaciones con fuentes citables:
 
-1. SEGMENTO: ¿El usuario descrito existe con ese perfil y ese
-   problema en México o LATAM? ¿Cuántos son aproximadamente?
-   Busca en INEGI, reportes de organismos multilaterales (BID,
-   CEPAL, FAO, OPS según el sector), o estudios sectoriales
-   recientes. Si el dato exacto no existe, dame el proxy más
-   cercano con su fuente.
+1. SEGMENTO: ¿El usuario descrito existe con ese perfil y ese problema en México o LATAM? ¿Cuántos son aproximadamente?
+   Busca en INEGI, reportes de organismos multilaterales (BID, CEPAL, FAO, OPS según el sector), o estudios sectoriales recientes. Si el dato exacto no existe, dame el proxy más cercano con su fuente.
 
-2. COSTO DEL PROBLEMA: ¿La cifra de pérdida o costo que 
-   menciona el insight tiene respaldo en datos reales?
+2. COSTO DEL PROBLEMA: ¿La cifra de pérdida o costo que menciona el insight tiene respaldo en datos reales?
 
-   Si no hay dato exacto, ¿cuál es el rango documentado más
-   cercano? ¿Hay comportamiento observable que lo confirme
+   Si no hay dato exacto, ¿cuál es el rango documentado más cercano?
+    ¿Hay comportamiento observable que lo confirme — pagos actuales a soluciones imperfectas, pérdidas documentadas, seguros contratados, workarounds que tienen costo?
 
-   — pagos actuales a soluciones imperfectas, pérdidas
-   documentadas, seguros contratados, workarounds que tienen 
-   costo?
+3. SOLUCIONES ACTUALES: ¿Las alternativas que el insight describe como insuficientes existen realmente y tienen las características y precios que se  mencionan? Dame al menos 2 ejemplos concretos con precio real y limitación verificable.
 
-3. SOLUCIONES ACTUALES: ¿Las alternativas que el insight 
-   describe como insuficientes existen realmente y tienen las 
-   características y precios que se mencionan? Dame al menos 
-   2 ejemplos concretos con precio real y limitación verificable.
-
-4. DISPOSICIÓN A PAGAR: ¿Hay evidencia de que este mercado 
-   en LATAM está dispuesto a pagar por una solución mejor? 
-   Busca señales de comportamiento: ¿ya pagan por algo similar 
-   aunque sea peor? ¿hay búsquedas activas documentadas? 
-   ¿comunidades online donde buscan soluciones? ¿intentos 
-   de crowdfunding o mercados informales activos?
+4. DISPOSICIÓN A PAGAR: ¿Hay evidencia de que este mercado en LATAM está dispuesto a pagar por una solución mejor? 
+   Busca señales de comportamiento: ¿ya pagan por algo similar aunque sea peor? ¿hay búsquedas activas documentadas? 
+   ¿comunidades online donde buscan soluciones? ¿intentos de crowdfunding o mercados informales activos?
 
 Al terminar, dame un veredicto por afirmación:
 
@@ -377,6 +362,7 @@ Al terminar, dame un veredicto por afirmación:
 
 Sé directo. Un insight mal fundamentado descubierto hoy vale más que uno descubierto en seis meses.
 
+-------------------------------------------------------------------------------------------------------------------------------
 
 Al final del Paso 2 se obtiene un insight verificado con esta estructura:
 
@@ -429,22 +415,13 @@ Necesito que hagas tres cosas:
 
 2. AUDITA EL INSIGHT: Una vez formulado, dime:
 
-   - ¿Qué parte del insight tiene más probabilidad de ser
-     falsa o más débil de lo que asumimos?
+   * ¿Qué parte del insight tiene más probabilidad de ser falsa o más débil de lo que asumimos?
 
-   - ¿Qué evidencia necesitaríamos para saber si es verdadera?
+   * ¿Qué evidencia necesitaríamos para saber si es verdadera?
 
-   - ¿Hay una versión alternativa del insight — mismo problema,
-     diferente usuario, o mismo usuario, diferente problema —
-     que podría ser más sólida?
+   * ¿Hay una versión alternativa del insight — mismo problema, diferente usuario, o mismo usuario, diferente problema — que podría ser más sólida?
 
-3. FORMULA EL INSIGHT DE LA ARISTA NUEVA: Usando la arista
-   alternativa que encontramos en el Paso 1, formula un segundo 
-   insight con el mismo formato. ¿Para quién es, qué les cuesta,
-   por qué no está resuelto, dónde está el espacio?
-   ¿Cómo se articularían los tres componentes del negocio
-   — app, artefacto y canal de venta — alrededor de esta
-   arista?
+3. FORMULA EL INSIGHT DE LA ARISTA NUEVA: Usando la arista alternativa que encontramos en el Paso 1, formula un segundo insight con el mismo formato. ¿Para quién es, qué les cuesta, por qué no está resuelto, dónde está el espacio? ¿Cómo se articularían los tres componentes del negocio — app, artefacto y canal de venta — alrededor de esta arista?
 
 
 **Ronda 2** — Perplexity: verificar y comparar ambos insights 
