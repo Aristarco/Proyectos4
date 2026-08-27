@@ -264,7 +264,7 @@ En este paso usamos dos IAs con roles distintos:
 | Cuándo usarlo | Primero — para construir el insight | Segundo — para validar que el costo del problema y el tamaño de mercado del insight son reales |
 
 
-### La diferencia entre dato e insight no es de forma — es de utilidad para tomar decisiones. El instructor muestra estos dos ejemplos en pantalla sin comentario adicional. Los equipos los leen y el instructor pregunta: "¿Cuál de los dos les dice qué hacer?"
+### La diferencia entre dato e insight no es de forma — es de utilidad para tomar decisiones. El instructor muestra estos dos ejemplos en pantalla sin comentario adicional. "¿Cuál de los dos les dice qué hacer?"
 
 | Esto es un dato | Esto es un insight |
 | --- | --- |
@@ -274,6 +274,8 @@ En este paso usamos dos IAs con roles distintos:
 
 ### El insight nombra al usuario específico, cuantifica el costo del problema, explica por qué las soluciones actuales no bastan, y señala exactamente dónde está el espacio de negocio.
 
+
+## Encontrando tus Insights
 
 ### 🔍 Modo Explorador
 
