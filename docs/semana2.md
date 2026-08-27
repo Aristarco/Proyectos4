@@ -608,20 +608,15 @@ Necesito que hagas tres cosas y que entregues el resultado en el formato exacto 
 
 1. DOLORES QUE NO VIMOS: ¿Qué dolores reales tiene este    usuario que nuestro mapa no capturó? Enfócate en:
 
-   - Dolores que los usuarios normalizan y rara vez mencionan 
-     porque creen que no tienen solución
+   * Dolores que los usuarios normalizan y rara vez mencionan porque creen que no tienen solución
 
-   - Dolores emocionales o de estatus (vergüenza, frustración, 
-     sensación de pérdida de control) que acompañan al dolor 
-     funcional que ya identificamos
+   * Dolores emocionales o de estatus (vergüenza, frustración, sensación de pérdida de control) que acompañan al dolor funcional que ya identificamos
 
-   - Dolores que aparecen ANTES o DESPUÉS del momento 
-     principal del problema — el contexto que rodea la fricción
+   * Dolores que aparecen ANTES o DESPUÉS del momento principal del problema — el contexto que rodea la fricción
 
    Agrega mínimo 2 dolores adicionales específicos para este usuario en contexto LATAM.
 
-2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados 
-   tiene este usuario que nuestro mapa minimiza o ignora?
+2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados tiene este usuario que nuestro mapa minimiza o ignora?
 
    Enfócate en ganancias de segundo orden — lo que cambia 
    en su vida o negocio como consecuencia de resolver el 
@@ -727,7 +722,7 @@ CONCLUSIÓN PARA EL EQUIPO:
 
 [Una oración directa: el dolor ⭐ está bien fundamentado / necesita ajuste / es menos intenso de lo que asumieron]
 
-
+--------------------------------------------------------------------------------
 
 ### 🔬 Modo Estresor
 El Estresor no construye el mapa desde cero — lo usa como herramienta de auditoría en tres rondas progresivas. El objetivo no es llenar un mapa bonito, sino descubrir si la idea ataca los dolores correctos y si hay aristas de negocio que el equipo no ha visto.
@@ -745,34 +740,13 @@ Al terminar, marcar cada dolor con uno de tres símbolos:
 La pregunta incómoda antes de abrir Claude: ¿el dolor marcado con ❌ o ⚠️ es más intenso que el que nuestra idea resuelve con ✅? Si la respuesta es sí, el equipo está atacando el dolor equivocado — y el Paso 4 (SCAMPER) puede generar la dirección correcta.
 
 
-Ronda 2 — Claude: auditoría del mapa, detección de aristas y entregable (12 min)
-Actúa como un consultor de estrategia de producto con experiencia
+Ronda 2 — Claude: auditoría del mapa, detección de aristas y entregable
 
-en identificar desalineaciones entre lo que un equipo cree que
+**PROMPT**
 
-resuelve y lo que el usuario realmente necesita. Tu especialidad
+Actúa como un consultor de estrategia de producto con experiencia en identificar desalineaciones entre lo que un equipo cree que resuelve y lo que el usuario realmente necesita. Tu especialidad es el análisis de Pain-Gain Maps para detectar si una solución está atacando los dolores correctos o si existe una oportunidad de negocio más poderosa en los dolores que la solución actual ignora. Trabajas principalmente con negocios de hardware y software en mercados emergentes de América Latina.
 
-es el análisis de Pain-Gain Maps para detectar si una solución
-
-está atacando los dolores correctos o si existe una oportunidad
-
-de negocio más poderosa en los dolores que la solución actual
-
-ignora. Trabajas principalmente con negocios de hardware y
-
-software en mercados emergentes de América Latina.
-
-Somos emprendedores en México con una idea de negocio que combina
-
-tres componentes: una aplicación con IA, un artefacto físico
-
-inteligente y una página web de venta. Construimos un Pain-Gain
-
-Map de nuestro usuario y auditamos qué dolores resuelve nuestra
-
-idea. Necesitamos que lo analices sin piedad y que entregues
-
-el resultado en el formato que te indicamos al final.
+Somos emprendedores en México con una idea de negocio que combina tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Construimos un Pain-Gain Map de nuestro usuario y auditamos qué dolores resuelve nuestra idea. Necesitamos que lo analices sin piedad y que entregues el resultado en el formato que te indicamos al final.
 
 Nuestra idea: [DESCRIBE EN 3–4 ORACIONES]
 
@@ -798,35 +772,11 @@ Realiza estos tres análisis y entrega el resultado en el
 
 formato exacto que se indica al final:
 
-1. DESALINEACIÓN CRÍTICA: ¿Hay algún dolor ❌ o ⚠️ que sea
+1. DESALINEACIÓN CRÍTICA: ¿Hay algún dolor ❌ o ⚠️ que sea más intenso o frecuente que el que nuestra idea resuelve con ✅? Si es así, ¿qué implica para la propuesta de valor? ¿Estamos atacando el dolor correcto o el más conveniente para nuestra solución actual? 
 
-   más intenso o frecuente que el que nuestra idea resuelve
+2. ARISTA DE NEGOCIO NO VISTA: Usando los dolores ❌ o ⚠️, describe una versión alternativa o complementaria del negocio que los atacara directamente. ¿Cómo cambiarían los tres componentes — app con IA, artefacto físico y canal de venta — para resolver esos dolores? Formula la arista como oportunidad en una oración.
 
-   con ✅? Si es así, ¿qué implica para la propuesta de valor?
-
-   ¿Estamos atacando el dolor correcto o el más conveniente
-
-   para nuestra solución actual?
-
-2. ARISTA DE NEGOCIO NO VISTA: Usando los dolores ❌ o ⚠️,
-
-   describe una versión alternativa o complementaria del
-
-   negocio que los atacara directamente. ¿Cómo cambiarían
-
-   los tres componentes — app con IA, artefacto físico y
-
-   canal de venta — para resolver esos dolores?
-
-   Formula la arista como oportunidad en una oración.
-
-3. GANANCIAS NO ENTREGADAS: ¿Cuál de las ganancias deseadas
-
-   entrega peor nuestra solución actual? ¿Cómo podría
-
-   rediseñarse uno de los tres componentes para entregarla
-
-   mejor sin abandonar lo que ya resuelve bien?
+3. GANANCIAS NO ENTREGADAS: ¿Cuál de las ganancias deseadas entrega peor nuestra solución actual? ¿Cómo podría rediseñarse uno de los tres componentes para entregarla mejor sin abandonar lo que ya resuelve bien?
 
 FORMATO DE SALIDA — entrega exactamente esto:
 
@@ -862,19 +812,13 @@ DESALINEACIÓN CRÍTICA:
 
 ARISTA DE NEGOCIO IDENTIFICADA:
 
-"Existe una oportunidad adicional para [quién] que necesita
-
-[qué resultado] porque hoy [por qué no lo tiene] — y nuestra
-
-solución actual no la cubre."
+"Existe una oportunidad adicional para [quién] que necesita [qué resultado] porque hoy [por qué no lo tiene] — y nuestra solución actual no la cubre."
 
 Cómo cambiarían los tres componentes: [1 oración por componente]
 
 GANANCIA NO ENTREGADA:
 
-[Cuál es y cómo rediseñar uno de los tres componentes para
-
-entregarla mejor — 2 oraciones]
+[Cuál es y cómo rediseñar uno de los tres componentes para entregarla mejor — 2 oraciones]
 
 DECISIÓN RECOMENDADA:
 
@@ -889,48 +833,25 @@ Justificación: [1 oración]
 ═══════════════════════════════════════════════════════
 
 
-Ronda 3 — Perplexity: verificar el mercado de la arista (5 min)
-Si Claude identificó una arista de negocio relevante en la Ronda 2, verificar si tiene mercado real antes de llevarla al Paso 4.
+Ronda 3 — Perplexity: verificar el mercado de la arista
 
-Actúa como un analista de mercado con experiencia en evaluar
+Si Claude identificó una arista de negocio **relevante** en la Ronda 2, verificar si tiene mercado real antes de llevarla al Paso 4.
 
-el potencial comercial de oportunidades de negocio específicas
+**PROMPT**
 
-en sectores de América Latina. Tu metodología combina búsqueda
+Actúa como un analista de mercado con experiencia en evaluar el potencial comercial de oportunidades de negocio específicas en sectores de América Latina. Tu metodología combina búsqueda de evidencia de comportamiento de usuarios, análisis de soluciones existentes y estimación de disposición a pagar en mercados emergentes. Tu trabajo no es vender la idea — es decirle al emprendedor si el dolor tiene mercado suficiente para justificar construir alrededor de él.
 
-de evidencia de comportamiento de usuarios, análisis de
+Somos emprendedores en México con una idea de negocio que combina una aplicación con IA, un artefacto físico inteligente y una página web de venta. Durante el análisis de nuestro Pain-Gain Map identificamos una arista de negocio que nuestra solución actual no cubre. Necesitamos saber si tiene mercado real antes de comprometer recursos en explorarla.
 
-soluciones existentes y estimación de disposición a pagar
+NUESTRA IDEA ACTUAL resuelve: *[dolor ✅ principal]*
 
-en mercados emergentes. Tu trabajo no es vender la idea —
+PARA EL USUARIO: *[segmento]*
 
-es decirle al emprendedor si el dolor tiene mercado suficiente
+LA ARISTA QUE EVALUAMOS ataca: *[dolor ❌ o ⚠️ identificado]*
 
-para justificar construir alrededor de él.
+OPORTUNIDAD FORMULADA: *[la oración de oportunidad de la arista]*
 
-Somos emprendedores en México con una idea de negocio que
-
-combina una aplicación con IA, un artefacto físico inteligente
-
-y una página web de venta. Durante el análisis de nuestro
-
-Pain-Gain Map identificamos una arista de negocio que nuestra
-
-solución actual no cubre. Necesitamos saber si tiene mercado
-
-real antes de comprometer recursos en explorarla.
-
-NUESTRA IDEA ACTUAL resuelve: [dolor ✅ principal]
-
-PARA EL USUARIO: [segmento]
-
-LA ARISTA QUE EVALUAMOS ataca: [dolor ❌ o ⚠️ identificado]
-
-OPORTUNIDAD FORMULADA: [la oración de oportunidad de la arista]
-
-Verifica con datos reales y entrega tu respuesta en este
-
-formato exacto:
+Verifica con datos reales y entrega tu respuesta en este formato exacto:
 
 TAMAÑO DEL SEGMENTO
 
