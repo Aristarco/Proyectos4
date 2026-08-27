@@ -106,9 +106,7 @@ Para cada oportunidad entrega:
 
 4. Estimado del tamaño de mercado en LATAM con fuente 
 
-No propongas soluciones tecnológicas todavía. Solo problemas
-
-con contexto de mercado suficiente para evaluar su potencial.
+No propongas soluciones tecnológicas todavía. Solo problemas con contexto de mercado suficiente para evaluar su potencial.
 
 --------------------------------------------------------------------------------
 
@@ -121,9 +119,7 @@ Una vez que Perplexity te devuelve las 4 oportunidades, llevas los resultados a 
 Actúa como un innovador con experiencia en detectar oportunidades de negocio que el mercado ignora porque parecen demasiado nicho,
 demasiado obvias o demasiado difíciles. Tu enfoque es el pensamiento lateral aplicado a mercados emergentes: buscas lo que todos ven pero nadie está atacando, y lo que nadie ve porque está demasiado cerca. Tienes especial habilidad para imaginar negocios donde la combinación de inteligencia artificial, interfaces digitales y objetos físicos inteligentes crea una propuesta de valor que ninguno de los tres componentes podría crear por separado.
 
-Estamos construyendo un negocio en México con tres componentes
-
-articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades abarcan tanto el desarrollo de software e IA como el diseño y manufactura de hardware conectado. Tenemos seis meses para llegar a MVP comercializable.
+Estamos construyendo un negocio en México con tres componentes articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades abarcan tanto el desarrollo de software e IA como el diseño y manufactura de hardware conectado. Tenemos seis meses para llegar a MVP comercializable.
 
 Estas son las 4 oportunidades que identificamos a través de análisis de mercado:
 
@@ -153,7 +149,7 @@ Necesito que hagas 3 cosas:
 
 No me repitas lo que Perplexity ya encontró. Dame lo que el análisis de mercado convencional no puede ver.
 
-### Qué anotar al final de los 12 minutos
+### Qué anotar
 
 De Perplexity: las 2 oportunidades con más evidencia de mercado (datos, tamaño, costo observable del problema).
 
@@ -189,8 +185,7 @@ Responde con datos verificables y fuentes:
    a pagar.
 
 3. MERCADOS ADYACENTES: ¿Hay sectores o tipos de usuario donde 
-   una solución como la nuestra — app con IA + artefacto físico 
-   + canal de venta digital — podría aplicarse con adaptaciones 
+   una solución como la nuestra — app con IA + artefacto físico + canal de venta digital — podría aplicarse con adaptaciones 
    menores y donde el problema sea igual o más intenso?
 
 4. TIMING: ¿Hay señales de que este mercado está listo para una 
@@ -198,7 +193,7 @@ Responde con datos verificables y fuentes:
    reciente lo indica o lo contradice?
 
 
-Ronda 2 — **Claude / Otra:** estrés profundo de la idea (6 min)
+Ronda 2 — **Claude / Otra:** estrés profundo de la idea 
 
 Actúa como un inversionista con experiencia en negocios de producto digital-físico en mercados emergentes, conocido por hacer las preguntas que los equipos no quieren escuchar pero necesitan responder antes de comprometer seis meses en una idea.
 
@@ -241,7 +236,7 @@ Hazme el estrés que más necesito — no el más cómodo:
 Sé específico. No me des frameworks — dame decisiones accionables.
 
 
-**Qué anotar al final de los 12 minutos**
+**Qué anotar**
 
 De Perplexity: las 2 brechas más concretas que los actores actuales no están cubriendo.
 
@@ -256,8 +251,10 @@ Llevas estos 3 insumos al Paso 2.
 
 El Paso 1 produjo datos: oportunidades con cifras de mercado, brechas identificadas, ángulos no obvios. El problema es que los datos dispersos no toman decisiones — los insights sí.
 
-!!! tip "Insight 
-    Un insight de negocio no es un dato recopilado ni una observación general. Es una afirmación específica que revela por qué un problema persiste, quién lo sufre más, qué lo hace difícil de resolver, y qué tan caro le resulta al usuario seguir sin solución. Un buen insight señala exactamente dónde existe la oportunidad de negocio — y hace que sea difícil ignorarla.
+!!! tip "Insight" 
+    Un insight de negocio no es un dato recopilado ni una observación general. Es una afirmación específica que revela por qué un problema persiste, quién lo sufre más, qué lo hace difícil de resolver, y qué tan caro le resulta al usuario seguir sin solución. 
+    
+    Un buen insight señala exactamente dónde existe la oportunidad de negocio — y hace que sea difícil ignorarla.
 
 En este paso usamos dos IAs con roles distintos:
 
