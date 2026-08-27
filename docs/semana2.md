@@ -279,7 +279,7 @@ En este paso usamos dos IAs con roles distintos:
 
 ### 🔍 Modo Explorador
 
-Ronda 1 — Claude: construir el insight (12 min)
+Ronda 1 — Claude: construir el insight
 
 Tomas los 3 insumos del Paso 1 (2 oportunidades con datos + 1 ángulo no obvio) y los llevas a Claude:
 
@@ -318,7 +318,7 @@ Necesito que hagas lo siguiente:
 3. FORMULA EL INSIGHT GANADOR: Redacta el insight elegido en 3–4 oraciones que cualquier persona pudiera leer y entender por qué es una oportunidad real. Sin jerga. Sin abstracciones.
 
 
-Ronda 2 — **Perplexity:** verificar los números (8 min)
+Ronda 2 — **Perplexity:** verificar los números 
 
 Claude construyó el insight — pero sus cifras son estimaciones, no datos verificables. Antes de comprometer seis meses con una oportunidad, necesitas saber si los números son reales.
 
@@ -467,9 +467,9 @@ Para cada insight, verifica con fuentes citables:
 
 Al terminar entrega una tabla comparativa:
 
-| Criterio          | Insight A | Insight B |
+| Criterio | Insight A | Insight B |
 
-|-------------------|-----------|-----------|
+| --- | --- | --- |
 
 | Segmento verificado | ✅/⚠️/❌ | ✅/⚠️/❌ |
 
@@ -482,7 +482,8 @@ Al terminar entrega una tabla comparativa:
 No me digas cuál elegir — dame los datos y deja que la evidencia hable por sí sola.
 
 
-Qué conseguimos al final del Paso 2
+
+**Qué conseguimos al final del Paso 2**
 
 Dos insights comparados con evidencia verificada:
 
@@ -607,15 +608,15 @@ Necesito que hagas tres cosas y que entregues el resultado en el formato exacto 
 
 1. DOLORES QUE NO VIMOS: ¿Qué dolores reales tiene este    usuario que nuestro mapa no capturó? Enfócate en:
 
-   * Dolores que los usuarios normalizan y rara vez mencionan porque creen que no tienen solución
+   Dolores que los usuarios normalizan y rara vez mencionan porque creen que no tienen solución
 
-   * Dolores emocionales o de estatus (vergüenza, frustración, sensación de pérdida de control) que acompañan al dolor funcional que ya identificamos
+   Dolores emocionales o de estatus (vergüenza, frustración, sensación de pérdida de control) que acompañan al dolor funcional que ya identificamos
 
-   * Dolores que aparecen ANTES o DESPUÉS del momento principal del problema — el contexto que rodea la fricción
+   Dolores que aparecen ANTES o DESPUÉS del momento principal del problema — el contexto que rodea la fricción
 
    Agrega mínimo 2 dolores adicionales específicos para este usuario en contexto LATAM.
 
-2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados tiene este usuario que nuestro mapa minimiza o ignora?
+ 2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados tiene este usuario que nuestro mapa minimiza o ignora?
 
    Enfócate en ganancias de segundo orden — lo que cambia 
    en su vida o negocio como consecuencia de resolver el 
@@ -623,7 +624,7 @@ Necesito que hagas tres cosas y que entregues el resultado en el formato exacto 
 
    Agrega mínimo 2 ganancias adicionales con ese enfoque.
 
-3. EL CRUCE MÁS PODEROSO: Con el mapa ampliado, identifica 
+ 3. EL CRUCE MÁS PODEROSO: Con el mapa ampliado, identifica 
    la combinación de dolor más intenso + ganancia más deseada 
    que representa el espacio de negocio más claro para una 
    solución que combine app con IA + artefacto físico + 
@@ -909,7 +910,8 @@ Entre cada prompt el equipo hace una pausa de reflexión — elige, descarta, an
 ### "Si al leer el output de Claude ya están pensando en cómo construirlo técnicamente, se adelantaron. En esta etapa imaginan — no ingenian todavía."
 
 
-Recordatorio de las 7 letras — proyectado en pantalla
+Recordatorio de las 7 letras 
+
 | Letra | Lo que buscamos romper | La pregunta |
 | --- | --- | --- |
 | **S**ustituir | Un elemento del proceso actual que todos asumen como necesario | ¿Qué componente tradicional del problema podemos reemplazar por algo más simple, inteligente o inesperado? |
