@@ -1419,32 +1419,996 @@ Pregunta honesta: ¿alguna idea hace que la versión original parezca limitada? 
 
 ═══════════════════════════════════════════════════════
 
-Pausa de reflexión del equipo (2 min): leer, elegir las 4 más disruptivas. La instrucción explícita de buscar las que hacen que la idea original parezca limitada es el filtro específico del Estresor.
+Pausa de reflexión del equipo: leer, elegir las 4 más disruptivas. Buscar las que hacen que la idea original parezca limitada es el filtro específico del Estresor.
 
 
 Prompt 2 — Remix de ideas (Estresor)
+
 Idéntico al del Explorador con una instrucción adicional al final del contexto:
 
 [mismo prompt del Explorador hasta "Llevas esas 4 al Prompt 2"]
 
-Instrucción adicional para el remix: al menos uno de los
+Instrucción adicional para el remix: al menos uno de los 3 conceptos debe cruzar una idea de la letra C o P con una idea de cualquier otra letra 
 
-3 conceptos debe cruzar una idea de la letra C o P con
-
-una idea de cualquier otra letra — ese cruce tiende a
-
-generar los conceptos más originales para equipos que
-
-ya tienen una idea base, porque obliga a combinar la
-
-lógica de "qué tiene el usuario" o "para quién más sirve"
-
-con otra transformación radical.
+— Ese cruce tiende a generar los conceptos más originales para equipos que ya tienen una idea base, porque obliga a combinar la lógica de "qué tiene el usuario" o "para quién más sirve" con otra transformación radical.
 
 
 Prompt 3 — Filtro DVN (Estresor)
+
 Idéntico al del Explorador. No necesita variante — el filtro DVN es el mismo para cualquier concepto.
 
+## Paso 5 — Validación preliminar de deseabilidad
+
+**El suicidio creativo** — por qué este paso existe
+
+
+El suicidio creativo es el patrón más costoso del emprendimiento: un equipo se enamora de una idea que le parece brillante, invierte semanas o meses construyéndola, gasta el capital disponible, y al llegar al mercado descubre que nadie la quería, que ya existía algo mejor, o que técnicamente no era viable desde el principio. El resultado no es solo un proyecto fracasado — es capital, tiempo y energía destruidos que no se recuperan.
+
+Lo cruel del suicidio creativo es que ocurre exactamente cuando el equipo está más motivado. La emoción de tener una idea que "tiene sentido" es el peor consejero para evaluar si esa idea es deseable para alguien más. Los equipos que lo cometen no son ingenuos — son inteligentes que convirtieron su entusiasmo en un punto ciego.
+
+Las tres formas más comunes en proyectos de hardware + IA en LATAM:
+
+1. El producto sin dolor real El equipo construye una solución técnicamente impresionante para un problema que el usuario tiene, pero que no le duele lo suficiente como para pagar por resolverlo. El usuario dice "qué interesante" — y no compra. La señal de alerta es cuando la validación se hace con preguntas como "¿te gustaría tener esto?" en lugar de "¿cuánto pagas hoy para resolver este problema?"
+
+2. El producto que ya existe El equipo desarrolla durante meses algo que ya existe en otra forma, en otro mercado, o con otro nombre. No lo encontraron porque buscaron en el espacio obvio y no en los adyacentes. En hardware + IA este error es especialmente caro porque el costo de manufactura es real desde el primer prototipo.
+
+3. El producto que no puede construirse en el tiempo real El equipo elige un concepto cuya viabilidad técnica asume capacidades, tiempos o costos que no corresponden a la realidad de seis meses. La primera versión nunca llega porque siempre hay algo más que resolver antes de lanzar.
+
+**El Paso 5 no elimina el riesgo de suicidio creativo — lo hace visible antes de que sea irreversible.**
+Un concepto que no pasa este filtro hoy cuesta nada cambiarlo. El mismo concepto en semana 10 cuesta semanas de trabajo tiradas.
+
+
+Se busca aplicar una prueba de estrés rápida al Concepto Recomendado del Paso 4 usando evidencia observable — no opiniones del equipo. El objetivo es distinguir entre deseabilidad real y deseabilidad supuesta antes de comprometer el resto del semestre.
+
+Este paso **no reemplaza las entrevistas** — esas van en semana 3 con usuarios reales. Lo que hace es identificar si hay suficientes señales públicas y observables para justificar avanzar. Un concepto con 0–1 señales no merece entrevistas todavía — merece replantearse.
+
+En este paso usamos dos IAs:
+
+|   | Perplexity | Claude |
+| --- | --- | --- |
+| Trabajo | Verificar si las señales de deseabilidad tienen evidencia real y observable en el mercado | Sintetizar el resultado de la verificación en un diagnóstico accionable y formular las hipótesis que el equipo necesita probar en las entrevistas de semana 3 |
+| Cuándo | Primero — para buscar evidencia de cada señal | Segundo — para convertir la evidencia en diagnóstico |
+
+
+
+!!! tip "Las 5 señales de deseabilidad"
+    "El Paso 4 les dio el Concepto Recomendado. Ahora lo ponemos a prueba. No les pregunto si creen que es bueno — les pregunto si hay evidencia de que alguien más lo necesita. Cinco señales. Para cada una: ¿existe evidencia real y observable, o es un supuesto del equipo?"
+
+
+
+🔴 Señal 1 — Pago actual por soluciones imperfectas Si alguien ya paga por algo malo, caro o incómodo que resuelve parcialmente el problema, el problema es real. El pago es la señal más fuerte de deseabilidad porque elimina la opinión y muestra comportamiento.
+
+Señal fuerte: "los agricultores pagan $300/mes a asesores para que les digan cuándo regar — aunque el asesor solo pasa una vez por semana." No es señal: "creemos que pagarían porque la solución tiene sentido."
+
+
+
+🔴 Señal 2 — Comunidades activas hablando del problema Grupos de Facebook, foros, subreddits, canales de YouTube, comentarios en marketplaces. Si la gente dedica tiempo gratuito a quejarse del problema o a buscar soluciones, el problema existe y duele. El tiempo es el recurso más honesto — nadie lo gasta en problemas que no le importan.
+
+
+
+🔴 Señal 3 — Frecuencia alta del problema Diario o semanal es ideal. Un problema que ocurre una vez al año raramente justifica un producto con hardware físico — el costo de adquisición del cliente nunca se recupera. Los mejores problemas para este tipo de negocio son los que ocurren seguido y tienen costo acumulativo.
+
+
+
+🔴 Señal 4 — Costo observable del problema como tiempo perdido, dinero perdido, producto dañado, riesgo de salud o seguridad. Sin costo observable y cuantificable es difícil que alguien justifique pagar por la solución. No tiene que ser un dato exacto — tiene que ser real y verificable con fuente.
+
+
+
+🔴 Señal 5 — Workarounds existentes Soluciones caseras, procesos manuales, adaptaciones incómodas que el usuario hace hoy porque no tiene algo mejor. Los workarounds son la señal más honesta de que el problema es real: la gente ya está pagando con tiempo y esfuerzo. Un usuario sin workaround probablemente no tiene el problema tan urgente como el equipo cree.
+
+
+🔍 Modo Explorador
+
+Prompt 1 — Perplexity: verificar las 5 señales con evidencia real
+
+Actúa como un investigador de mercado especializado en validar la deseabilidad de oportunidades de negocio en América Latina usando evidencia de comportamiento observable — no proyecciones ni opiniones de expertos. Tu metodología consiste en buscar señales concretas de que un problema existe y duele lo suficiente como para que alguien pague por resolverlo: pagos actuales a soluciones imperfectas, comunidades activas, frecuencia documentada, costo cuantificable y workarounds en uso. Si la evidencia no existe o es débil, lo dices directamente.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Desarrollamos el siguiente concepto a partir de un proceso de investigación de oportunidades y necesitamos verificar si tiene deseabilidad real antes de comprometer seis meses de desarrollo.
+
+NUESTRO CONCEPTO:
+
+Nombre: [nombre del Concepto Recomendado del Paso 4]
+
+Descripción: [2–3 oraciones del concepto]
+
+Usuario / segmento: [el segmento específico]
+
+Dolor que resuelve: [el dolor ⭐ del Pain-Gain Map]
+
+Ganancia que entrega: [la ganancia ⭐ del Pain-Gain Map]
+
+Verifica cada una de las 5 señales de deseabilidad con evidencia real y observable. Para cada señal busca en fuentes primarias: comunidades online, grupos de Facebook, foros especializados, canales de YouTube, reseñas de productos similares, reportes de industria, datos del INEGI, BID, CEPAL u organismos sectoriales relevantes.
+
+SEÑAL 1 — PAGO ACTUAL POR SOLUCIONES IMPERFECTAS
+
+¿Hay evidencia de que este segmento ya paga por algo que resuelve parcialmente este problema, aunque sea caro, incómodo o insuficiente?
+
+Busca: productos o servicios que el usuario contrata hoy, precios reales, frecuencia de contratación.
+
+SEÑAL 2 — COMUNIDADES ACTIVAS
+
+¿Existen comunidades online donde este segmento hable de este problema, busque soluciones o se queje de las alternativas actuales?
+
+Busca: grupos de Facebook, subreddits, foros, canales de YouTube, hashtags, con ejemplos concretos de publicaciones o conversaciones relacionadas.
+
+SEÑAL 3 — FRECUENCIA DEL PROBLEMA
+
+¿Con qué regularidad experimenta este usuario este problema específico? ¿Hay datos documentados de frecuencia?
+
+Busca: reportes operativos, estudios sectoriales, testimonios o cualquier fuente que indique periodicidad.
+
+SEÑAL 4 — COSTO OBSERVABLE
+
+¿Cuánto le cuesta al usuario NO resolver este problema?
+
+Busca: pérdidas documentadas, costos de workarounds actuales, seguros contratados por este riesgo, tiempo invertido con costo calculable.
+
+SEÑAL 5 — WORKAROUNDS EN USO
+
+¿Hay evidencia de que el usuario ya inventó soluciones caseras, adaptaciones o procesos manuales para lidiar con este problema?
+
+Busca: descripciones de procesos no estándar, productos adaptados de otras industrias, soluciones "artesanales" documentadas en comunidades o reportes.
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+VERIFICACIÓN DE DESEABILIDAD
+
+Concepto: [nombre] · Segmento: [usuario]
+
+═══════════════════════════════════════════════════════
+
+SEÑAL 1 — Pago por soluciones imperfectas
+
+Evidencia encontrada: [descripción concreta con fuente]
+
+Ejemplo específico: [el más representativo]
+
+Veredicto: ✅ confirmada / ⚠️ parcial / ❌ no encontrada
+
+SEÑAL 2 — Comunidades activas
+
+Evidencia encontrada: [nombre de comunidades + ejemplo de post]
+
+Tamaño aproximado de la comunidad: [si está disponible]
+
+Veredicto: ✅ confirmada / ⚠️ parcial / ❌ no encontrada
+
+SEÑAL 3 — Frecuencia del problema
+
+Evidencia encontrada: [dato de frecuencia con fuente]
+
+Periodicidad: diaria / semanal / mensual / ocasional
+
+Veredicto: ✅ confirmada / ⚠️ parcial / ❌ no encontrada
+
+SEÑAL 4 — Costo observable
+
+Evidencia encontrada: [cifra o rango con fuente]
+
+Tipo de costo: dinero / tiempo / riesgo / calidad
+
+Veredicto: ✅ confirmada / ⚠️ parcial / ❌ no encontrada
+
+SEÑAL 5 — Workarounds en uso
+
+Evidencia encontrada: [descripción del workaround más común]
+
+Dónde se documentó: [fuente]
+
+Veredicto: ✅ confirmada / ⚠️ parcial / ❌ no encontrada
+
+───────────────────────────────────────────────────────
+
+RESUMEN
+
+Señales confirmadas ✅: [número de 5]
+
+Señales parciales  ⚠️: [número de 5]
+
+Señales ausentes   ❌: [número de 5]
+
+═══════════════════════════════════════════════════════
+
+
+Prompt 2 — Claude: diagnóstico y mapa de hipótesis para semana 3
+
+Actúa como un mentor de emprendimiento con experiencia en ayudar a equipos de producto a interpretar evidencia de mercado y convertirla en decisiones concretas. Tu especialidad es identificar cuándo un concepto tiene deseabilidad real, cuándo está en zona de riesgo, y cuándo debe replantearse antes de invertir recursos. Eres directo: no suavizas un diagnóstico negativo ni inflas uno positivo. Si el concepto tiene riesgo de suicidio creativo, lo dices claramente.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Tenemos seis meses para MVP comercializable. Completamos una verificación de deseabilidad de nuestro concepto y necesitamos que la interpretes y nos digas qué hacer con ella.
+
+NUESTRO CONCEPTO:
+
+[pega el nombre y descripción del Concepto Recomendado]
+
+RESULTADO DE LA VERIFICACIÓN DE PERPLEXITY:
+
+[pega el output completo del Prompt 1]
+
+Necesito que hagas tres cosas en el formato exacto que
+
+se indica al final:
+
+1. DIAGNÓSTICO DE DESEABILIDAD: ¿Qué tan sólida es la deseabilidad de nuestro concepto según la evidencia    encontrada? ¿En qué señal está el mayor riesgo? ¿Hay algún patrón en las señales ausentes que sugiera que el problema existe pero no para el segmento que elegimos, o que no duele lo suficiente para que alguien pague por resolverlo?
+
+2. RIESGO DE SUICIDIO CREATIVO: Basándote en el patrón de señales, ¿qué tan alto es el riesgo de que este equipo construya algo que nadie quiere, que ya existe, o que no puede terminarse en seis meses? ¿Cuál de los tres tipos de suicidio creativo es el más probable para este concepto específico?
+
+3. MAPA DE HIPÓTESIS: Formula 3 hipótesis específicas que el equipo debe probar con usuarios reales en las entrevistas de la semana siguiente. Cada hipótesis debe ser falseable — redactada de forma que una sola conversación con el usuario correcto pueda confirmarla o refutarla. No preguntas abiertas — hipótesis concretas del tipo "creemos que [usuario] experimenta [situación] con frecuencia [X] y estaría dispuesto a pagar [rango] porque [razón]."
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+DIAGNÓSTICO DE DESEABILIDAD
+
+Concepto: [nombre]
+
+═══════════════════════════════════════════════════════
+
+NIVEL DE DESEABILIDAD ACTUAL:
+
+[Alto — evidencia sólida en 4–5 señales]
+
+[Medio — evidencia parcial, zona de riesgo controlable]
+
+[Bajo — evidencia insuficiente, replantear antes de avanzar]
+
+FORTALEZA PRINCIPAL:
+
+[La señal mejor fundamentada y qué significa para el concepto]
+
+RIESGO PRINCIPAL:
+
+[La señal más débil o ausente y por qué es importante]
+
+PATRÓN DE LAS SEÑALES:
+
+[¿Qué dice el conjunto — el problema existe para un segmento diferente al elegido / existe pero no duele suficiente / existe y duele pero el concepto no lo ataca correctamente?]
+
+───────────────────────────────────────────────────────
+
+RIESGO DE SUICIDIO CREATIVO
+
+Tipo más probable:
+
+[ ] Producto sin dolor real — el usuario lo aprobaría pero no cambiaría su comportamiento para tenerlo
+
+[ ] Producto que ya existe — hay una solución similar que el equipo no encontró porque no buscó en los adyacentes
+
+[ ] Producto que no puede construirse — la viabilidad técnica o el tiempo requerido excede lo disponible en seis meses
+
+Nivel de riesgo: Alto / Medio / Bajo
+
+Por qué: [2 oraciones específicas basadas en la evidencia]
+
+Cómo reducirlo antes de semana 3:
+
+[1 acción concreta que el equipo puede hacer esta semana sin construir nada — una búsqueda, una conversación, una verificación — que reduciría este riesgo significativamente]
+
+───────────────────────────────────────────────────────
+
+MAPA DE HIPÓTESIS
+
+HIPÓTESIS 1 — sobre el dolor
+
+"Creemos que [usuario específico] experimenta [situación concreta] con frecuencia [X veces por semana/mes] y le cuesta [rango de costo] porque [razón]. Si esto es falso, nuestro concepto necesita [qué cambiaría]."
+
+Cómo probarla: [la pregunta exacta o situación de observación que la confirmaría o refutaría en una entrevista de 20 min]
+
+HIPÓTESIS 2 — sobre la solución
+
+"Creemos que [usuario específico] preferiría [aspecto clave del concepto] sobre [la alternativa actual] porque [razón]. Si esto es falso, nuestro concepto necesita [qué cambiaría]."
+
+Cómo probarla: [la pregunta exacta o situación de observación]
+
+HIPÓTESIS 3 — sobre el pago
+
+"Creemos que [usuario específico] estaría dispuesto a pagar [rango] por [aspecto del concepto] porque [razón]. Si esto es falso, nuestro concepto necesita [qué cambiaría]."
+
+Cómo probarla: [la pregunta exacta o situación de observación]
+
+───────────────────────────────────────────────────────
+
+VEREDICTO FINAL
+
+[Una sola oración directa: el concepto está listo para entrevistas / necesita ajuste antes de entrevistar / necesita replantearse antes de continuar — y por qué]
+
+═══════════════════════════════════════════════════════
+
+
+### 🔬 Modo Estresor
+
+El Estresor aplica los dos prompts dos veces: una para el concepto que viene de la idea original y otra para el concepto que incorpora la arista. El objetivo es comparar deseabilidad con evidencia — no con preferencia del equipo.
+
+Prompt 1 — Perplexity: verificar ambos conceptos
+
+Mismo prompt del Explorador, ejecutado dos veces — una por concepto. En la segunda ejecución, cambiar únicamente el bloque NUESTRO CONCEPTO por el concepto de la arista.
+
+Si el tiempo es limitado, priorizar la verificación del concepto con menor puntaje DVN del Paso 4 — ese es el que más necesita evidencia antes de decidir.
+
+Prompt 2 — Claude: diagnóstico comparativo
+
+Actúa como un mentor de emprendimiento con experiencia en ayudar a equipos de producto a tomar decisiones difíciles entre dos direcciones de negocio usando evidencia de mercado. Tu especialidad es el diagnóstico comparativo: cuando un equipo tiene dos conceptos posibles, identifies cuál tiene más deseabilidad real, cuál tiene más riesgo de suicidio creativo y cuál merece los recursos del equipo. Eres directo y específico — no recomiendas "explorar los dos" cuando los datos favorecen claramente uno.
+
+Somos emprendedores en México construyendo un negocio con tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Tenemos seis meses para MVP comercializable. Evaluamos dos conceptos posibles y necesitamos un diagnóstico comparativo de deseabilidad.
+
+CONCEPTO A — idea original evolucionada:
+
+Descripción: [2–3 oraciones]
+
+Resultado de verificación Perplexity:
+
+[pega el output del Prompt 1 para el Concepto A]
+
+CONCEPTO B — concepto con arista integrada:
+
+Descripción: [2–3 oraciones]
+
+Resultado de verificación Perplexity:
+
+[pega el output del Prompt 1 para el Concepto B]
+
+Necesito que hagas tres cosas en el formato exacto indicado:
+
+1. DIAGNÓSTICO COMPARATIVO: ¿Cuál de los dos conceptos tiene deseabilidad más sólida según la evidencia encontrada?
+   ¿Dónde está la diferencia más importante — en el tipo de señales presentes, en la intensidad del dolor que    atacan, o en la claridad del segmento de usuario?
+
+2. RIESGO DE SUICIDIO CREATIVO POR CONCEPTO: ¿Cuál de los tres tipos de suicidio creativo (sin dolor real / ya    existe / no puede construirse) es el riesgo principal para cada concepto? ¿El mismo riesgo o diferente?
+
+3. MAPA DE HIPÓTESIS PARA SEMANA 3: Formula 2 hipótesis para cada concepto — las más críticas para confirmar o refutar antes de elegir definitivamente cuál desarrollar.
+
+   Hipótesis falseable: "creemos que [usuario] experimenta [situación] con frecuencia [X] y pagaría [rango] porque    [razón]. Si esto es falso, [qué cambiaría]."
+
+FORMATO DE SALIDA — entrega exactamente esto:
+
+═══════════════════════════════════════════════════════
+
+DIAGNÓSTICO COMPARATIVO DE DESEABILIDAD
+
+═══════════════════════════════════════════════════════
+
+CONCEPTO A — [nombre]
+
+Nivel de deseabilidad: Alto / Medio / Bajo
+
+Fortaleza principal: [señal más sólida]
+
+Riesgo principal: [señal más débil]
+
+Tipo de suicidio creativo más probable: [cuál de los tres]
+
+Nivel de riesgo: Alto / Medio / Bajo
+
+CONCEPTO B — [nombre]
+
+Nivel de deseabilidad: Alto / Medio / Bajo
+
+Fortaleza principal: [señal más sólida]
+
+Riesgo principal: [señal más débil]
+
+Tipo de suicidio creativo más probable: [cuál de los tres]
+
+Nivel de riesgo: Alto / Medio / Bajo
+
+───────────────────────────────────────────────────────
+
+HIPÓTESIS
+
+Concepto A:
+
+H1: "Creemos que [usuario] experimenta [situación] con frecuencia [X] y pagaría [rango] porque [razón].
+
+Si esto es falso: [qué cambiaría del concepto]."
+
+Cómo probarla: [pregunta o situación en entrevista de 20 min]
+
+H2: "Creemos que [usuario] preferiría [aspecto] sobre [alternativa actual] porque [razón].
+
+Si esto es falso: [qué cambiaría del concepto]."
+
+Cómo probarla: [pregunta o situación]
+
+Concepto B:
+
+H1: "Creemos que [usuario] experimenta [situación] con frecuencia [X] y pagaría [rango] porque [razón].
+
+Si esto es falso: [qué cambiaría del concepto]."
+
+Cómo probarla: [pregunta o situación]
+
+H2: "Creemos que [usuario] preferiría [aspecto] sobre [alternativa actual] porque [razón].
+
+Si esto es falso: [qué cambiaría del concepto]."
+
+Cómo probarla: [pregunta o situación]
+
+───────────────────────────────────────────────────────
+
+VEREDICTO COMPARATIVO
+
+Concepto con mayor deseabilidad: [A o B]
+
+Por qué: [2 oraciones específicas con base en la evidencia]
+
+Recomendación: [llevar A al Paso 6 / llevar B / llevar ambos con foco en el de mayor deseabilidad — y por qué]
+
+Si el equipo decide llevar ambos: la señal de que deben elegir uno antes de semana 4 es [condición específica 
+basada en los resultados de las entrevistas de semana 3]
+
+═══════════════════════════════════════════════════════
+
+
+
+### Paso 6 — Criterios de selección de oportunidad
+
+¡Felicidades! Llegaron al Paso 6 con un Concepto Recomendado verificado en deseabilidad y un diagnóstico claro de sus riesgos. Ahora aplica tres criterios adicionales — no técnicos ni de mercado, sino de idoneidad del equipo — para confirmar que es la oportunidad correcta para este equipo específico, en este momento.
+
+La diferencia con los pasos anteriores es importante: los Pasos 1–5 evaluaron si la oportunidad tiene valor en el mercado. El Paso 6 evalúa si este equipo es el correcto para capturarlo. Un negocio puede ser deseable, novedoso y viable — y aun así ser la oportunidad equivocada para un equipo que no tiene la pasión ni las capacidades para ejecutarlo en seis meses.
+
+Este paso es deliberadamente corto y sin IA. La selección final no se delega — la hace el equipo con su propio criterio.
+
+
+Los tres criterios — instrucción general al grupo (2 min)
+"Tres preguntas. No son iguales en peso. La primera es la que más muertes de proyecto ha causado en la historia del emprendimiento. La segunda determina si pueden construirlo. La tercera ya la respondieron en parte en el Paso 5 — aquí la formalizan. Si una oportunidad falla en el primer criterio, los otros dos no importan."
+
+
+Criterio 1 — Pasión genuina del equipo
+El criterio que más proyectos mata cuando falla
+La pasión no es entusiasmo inicial — es la disposición a seguir trabajando en el problema cuando aparezcan los obstáculos, los bugs, las entrevistas difíciles y las semanas donde nada funciona. Todo proyecto de hardware tiene esas semanas. Los equipos que sobreviven son los que les importa genuinamente el problema que están resolviendo, no los que eligieron el tema más interesante en papel.
+
+No se puede fingir pasión por seis meses. Los proyectos mediocres casi siempre vienen de equipos que eligieron un tema porque "sonaba bien" o porque "hay mercado" — pero que no tienen ninguna conexión real con el usuario ni con el problema.
+
+Las tres preguntas de diagnóstico — el equipo las responde internamente:
+
+¿Alguien del equipo ha vivido este problema, conoce a alguien que lo sufre, o tiene una razón personal para querer resolverlo — más allá de la calificación?
+
+¿Estarían dispuestos a pasar una tarde entera visitando a 5 usuarios de este sector para entender mejor el problema — aunque eso no formara parte de ningún entregable?
+
+Si el proyecto no tuviera calificación, ¿seguirían trabajando en él?
+
+Si la respuesta a las tres es sí: el criterio se cumple. Si la respuesta a alguna es "depende" o "quizás": hay que ser honesto sobre si el equipo está eligiendo por convicción o por conveniencia.
+
+Señal de alerta: un equipo que justifica su pasión diciendo "es un mercado grande" o "tiene mucho potencial" no está respondiendo la pregunta. El mercado no trabaja las noches de debugging — el equipo sí.
+
+
+Criterio 2 — Habilidad técnica disponible
+El criterio que define si pueden construirlo
+Las capacidades del equipo son reales y conocidas: desarrollo de software e IA, hardware conectado (ESP32, Raspberry Pi, sensores, PCB, BLE/MQTT/WiFi), diseño y manufactura de producto físico (CAD, impresión 3D). El criterio no es si el equipo puede aprender lo que necesita — es si el concepto elegido puede construirse en seis meses con lo que ya saben o con lo que pueden aprender razonablemente en el camino.
+
+La pregunta no es "¿pueden hacerlo?" — es "¿pueden hacerlo en seis meses llegando a primera versión funcional?"
+
+Las tres preguntas de diagnóstico:
+
+¿Pueden nombrar el tipo de sensor, actuador o modelo de IA que usaría el artefacto físico? Si no pueden ni aproximarse, la factibilidad técnica es baja.
+
+¿El componente más difícil del concepto — técnicamente — es algo que el equipo ya ha hecho antes o algo completamente nuevo para todos? Si es completamente nuevo para todos, ¿hay tiempo real para aprenderlo sin comprometer los otros dos componentes?
+
+¿El concepto requiere integraciones o dependencias externas (APIs de terceros, hardware especializado, certificaciones) que podrían bloquear el desarrollo antes de semana 13?
+
+Si la respuesta a la primera pregunta es "no sabemos" y la respuesta a la tercera es "probablemente sí": la factibilidad técnica necesita más análisis antes de comprometer el concepto.
+
+Señal de alerta: un equipo que dice "lo aprenderemos en el camino" para el componente central del artefacto físico está asumiendo un riesgo de suicidio creativo tipo 3 — el producto que no puede construirse en el tiempo real. Ese riesgo ya lo nombraron en el Paso 5.
+
+
+Criterio 3 — Mercado existente con señales verificadas
+El criterio que ya respondieron — ahora se formaliza
+Este criterio recoge el trabajo de los Pasos 1–5. No se repite el análisis — se formaliza la conclusión en dos números y una decisión.
+
+Los dos números:
+
+Puntaje de deseabilidad del Paso 5: ¿cuántas de las 5 señales están confirmadas con ✅? El mínimo para continuar con confianza es 3.
+
+Tamaño mínimo del mercado: ¿hay al menos 50,000 personas o negocios en LATAM que podrían ser usuarios de este concepto? No el TAM completo — el segmento específico que identificaron. Este número no tiene que ser exacto: tiene que ser plausible con los datos que Perplexity encontró.
+
+Si el puntaje de deseabilidad es 2 o menos Y el tamaño del mercado no está claro: el concepto necesita ajuste antes del Paso 7. Si el puntaje es 3 o más Y el tamaño es plausible: el criterio se cumple.
+
+
+La matriz de selección — la misma para ambos modos
+Cada equipo completa esta tabla en papel en 5 minutos:
+
+╔══════════════════════════════════════════════════════════════╗
+
+║  MATRIZ DE SELECCIÓN              Equipo: _______________    ║
+
+╠══════════════════════╦════════════════════╦══════════════════╣
+
+║  Criterio            ║  Concepto A        ║  Concepto B      ║
+
+║                      ║  [nombre]          ║  [nombre / —]    ║
+
+╠══════════════════════╬════════════════════╬══════════════════╣
+
+║  1. PASIÓN           ║                    ║                  ║
+
+║  ¿El equipo seguiría ║  Sí / Con dudas /  ║  Sí / Con dudas /║
+
+║  si no hubiera       ║  No                ║  No              ║
+
+║  calificación?       ║                    ║                  ║
+
+║                      ║  Razón personal:   ║  Razón personal: ║
+
+║                      ║  [quién y cuál]    ║  [quién y cuál]  ║
+
+╠══════════════════════╬════════════════════╬══════════════════╣
+
+║  2. HABILIDAD        ║                    ║                  ║
+
+║  ¿Pueden nombrar     ║  Sí / Parcial /    ║  Sí / Parcial /  ║
+
+║  el sensor, el       ║  No                ║  No              ║
+
+║  modelo de IA y      ║                    ║                  ║
+
+║  el protocolo que    ║  Componente más    ║  Componente más  ║
+
+║  usarían hoy?        ║  arriesgado:       ║  arriesgado:     ║
+
+║                      ║  [cuál]            ║  [cuál]          ║
+
+╠══════════════════════╬════════════════════╬══════════════════╣
+
+║  3. MERCADO          ║                    ║                  ║
+
+║  Señales de          ║  ✅ de 5: [número] ║  ✅ de 5: [núm.] ║
+
+║  deseabilidad        ║                    ║                  ║
+
+║  confirmadas         ║  Tamaño estimado:  ║  Tamaño estimado:║
+
+║  (Paso 5) y          ║  [cifra o rango]   ║  [cifra o rango] ║
+
+║  tamaño del          ║                    ║                  ║
+
+║  segmento            ║  Pasa: Sí / No     ║  Pasa: Sí / No   ║
+
+╠══════════════════════╬════════════════════╬══════════════════╣
+
+║  RESULTADO           ║  3/3 ✅ → llevar   ║  3/3 ✅ → llevar ║
+
+║                      ║  al Paso 7         ║  al Paso 7       ║
+
+║                      ║  2/3 ✅ → ajustar  ║  2/3 ✅ → ajustar║
+
+║                      ║  1/3 ✅ → cambiar  ║  1/3 ✅ → cambiar║
+
+╠══════════════════════╩════════════════════╩══════════════════╣
+
+║  CONCEPTO ELEGIDO PARA EL PASO 7: _______________________    ║
+
+║  Por qué este y no el otro (1 oración): _________________    ║
+
+╚══════════════════════════════════════════════════════════════╝
+
+
+🔍 Modo Explorador
+Si llegaste al Paso 6 con un solo concepto, completa la matriz con una sola columna (Concepto A) y verifica que pase los tres criterios.
+
+Si llegaste con dos conceptos posibles, completa ambas columnas. El que pase los tres criterios con más convicción en el Criterio 1 (pasión) es el que llevas al Paso 7 — si ambos pasan igual de bien en los tres criterios, elige el que tenga mayor puntaje de deseabilidad del Paso 5.
+
+Si ningún concepto pasa los tres criterios: no es el momento de defender nada en el Paso 7. El instructor puede ayudar a identificar si el problema es el concepto (cambiar), el segmento (ajustar) o la pasión del equipo (reconocer y replantear desde el Criterio 1).
+
+
+🔬 Modo Estresor
+Completa la matriz con el Concepto A (idea original evolucionada) y el Concepto B (concepto con arista integrada).
+
+Tres resultados posibles y qué hacer en cada uno:
+
+Resultado A — La idea original pasa los tres criterios claramente y la arista es complemento: Llevan la idea original al Paso 7. Mencionan la arista como línea de expansión futura en el reporte — no como pivot, sino como siguiente iteración natural del negocio.
+
+Resultado B — La arista pasa mejor los criterios que la idea original, especialmente en Criterio 1: Consideren el pivote. Esto no es fracasar — es exactamente para lo que sirve esta semana. Un equipo que descubre en semana 2 que estaba atacando el problema equivocado tiene seis meses por delante para construir algo correcto. El mismo descubrimiento en semana 10 es un desastre.
+
+Resultado C — Ambas pasan bien los tres criterios: Elijan la que tenga mayor puntaje en el Criterio 1 (pasión). Si empatan en pasión, elijan la de mayor puntaje de deseabilidad del Paso 5. Documenten la no elegida como "Concepto B — oportunidad de expansión" en el reporte de la semana.
+
+La decisión es del equipo, no de la matriz. La matriz hace visible la evidencia — pero el compromiso de defender una oportunidad frente al instructor en el Paso 7 y frente a usuarios reales en semana 3 requiere convicción, y esa no viene de una tabla. Si el equipo termina la matriz y siente que el resultado no refleja lo que realmente quieren hacer, esa es información importante — vale la pena nombrarlo antes del Paso 7.
+
+
+Cierre del Paso 6 (1 min)
+Sin presentación grupal. El instructor circula y confirma que cada equipo tiene:
+
+La matriz completada con al menos un concepto que pasa los tres criterios
+El concepto elegido para el Paso 7 escrito con nombre
+Una oración que explica por qué ese concepto y no el otro
+
+Si un equipo no tiene el concepto elegido claro, el instructor hace una sola pregunta: "¿Por cuál de los dos hablarían con más convicción en 3 minutos frente al grupo?" La respuesta es el concepto del Paso 7.
+
+Señal de que va bien:
+
+Exploradores: concepto elegido que pasa los tres criterios, con razón personal identificada en el Criterio 1
+Estresores: decisión tomada — idea original, arista, o pivot — con la oración de "por qué este" escrita
+
+Señal de alerta:
+
+Un equipo que pasa el Criterio 3 con 4–5 señales pero falla el Criterio 1 → el instructor nombra esto directamente: un mercado grande con un equipo que no le importa el problema produce proyectos mediocres, no negocios
+Un equipo que no puede nombrar el sensor ni el modelo de IA del Criterio 2 → necesitan una conversación técnica antes del Paso 7, no después
+
+
+
+Paso 6 de 7 · Semana 2 · Proyectos y Emprendimiento · Ingeniería Mecatrónica
+
+
+Paso 7 — Elección y defensa de la oportunidad
+
+Qué se busca lograr
+El Paso 7 no es una presentación académica — es un compromiso público. El equipo declara frente al grupo y al instructor cuál es la oportunidad que va a desarrollar durante el semestre, respaldada por la evidencia que construyó en los seis pasos anteriores.
+
+La diferencia entre una defensa y un pitch es esta: un pitch convence a alguien de afuera. Una defensa le dice al propio equipo — en voz alta, frente a otros — "esto es real, tenemos evidencia, y somos nosotros quienes vamos a resolverlo." Ese acto de nombrar en público el compromiso es lo que transforma una idea en un proyecto.
+
+El instructor aprueba o regresa la oportunidad en el momento. No hay segunda ronda en esta sesión — los equipos que regresan trabajan el ajuste como tarea para semana 3.
+
+Sin IA en este paso. El equipo habla con su propia voz, con su propia evidencia, frente a sus pares.
+
+
+Preparación antes de presentar (2 min en silencio)
+Antes de arrancar las presentaciones, cada equipo tiene 2 minutos para ordenar sus notas. El instructor proyecta la estructura en pantalla y dice:
+
+"No improvisen — usen exactamente lo que construyeron hoy. Todo lo que necesitan para los 3 minutos ya existe en sus notas de los pasos anteriores. Su trabajo ahora es ordenarlo, no inventarlo."
+
+Mapa de dónde viene cada parte de la defensa:
+
+Parte de la defensa
+De dónde sale
+El problema y el workaround
+Pain-Gain Map — Dolor ⭐ y cómo lo resuelven hoy
+La evidencia de deseabilidad
+Paso 5 — las señales confirmadas con ✅
+Por qué nosotros
+Paso 6 — Criterio 1 (pasión) + Criterio 2 (habilidad)
+La dirección de solución
+Paso 4 — Concepto Recomendado del filtro DVN
+La oportunidad en una oración
+Paso 3 — la oración del Pain-Gain Map
+Lo que cambió (solo Estresores)
+Paso 3 o 4 — la arista o el supuesto cuestionado
+
+
+
+Formato de los 3 minutos — igual para ambos modos
+El instructor usa un cronómetro visible. Cada bloque tiene un tiempo fijo. Si el equipo se extiende en un bloque, el instructor lo señala con una mano.
+
+⏱ 00:00 – 00:45  BLOQUE 1 — El problema y el workaround
+
+"Identificamos que [segmento específico — no 'los usuarios']
+
+tiene el problema de [descripción concreta del dolor ⭐].
+
+Hoy lo resuelven así: [el workaround o la solución imperfecta
+
+actual — con costo observable si lo tienen]."
+
+Criterio: si no nombran el workaround, el problema no está
+
+verificado todavía.
+
+─────────────────────────────────────────────────────────────
+
+⏱ 00:45 – 01:30  BLOQUE 2 — La evidencia de deseabilidad
+
+"Sabemos que el problema es real porque:
+
+[Señal 1 — con ejemplo concreto, no generalidad]
+
+[Señal 2 — con ejemplo concreto]
+
+[Señal 3 — con ejemplo concreto, si la tienen]"
+
+Criterio: mínimo 2 señales con evidencia específica.
+
+"Creemos que..." no es evidencia.
+
+─────────────────────────────────────────────────────────────
+
+⏱ 01:30 – 02:15  BLOQUE 3 — Por qué nosotros y hacia dónde vamos
+
+"Nuestro equipo es el indicado porque [razón personal o
+
+conexión con el problema — Criterio 1] y porque [capacidad
+
+técnica relevante — Criterio 2: el sensor, el modelo de IA
+
+o el protocolo que usarían].
+
+La dirección de solución que exploraremos es [el Concepto
+
+Recomendado del Paso 4 en una oración]."
+
+Criterio: deben nombrar al menos un elemento técnico
+
+concreto (sensor, tipo de IA, protocolo) — no solo decir
+
+"usaremos tecnología de IA".
+
+─────────────────────────────────────────────────────────────
+
+⏱ 02:15 – 03:00  BLOQUE 4 — La oportunidad en una oración
+
+"Existe una oportunidad para [quién específico] que necesita
+
+[qué resultado concreto] porque hoy [por qué no lo tiene —
+
+la razón específica, no 'porque no existe la tecnología']."
+
+Criterio: la oración debe ser falseable — si alguien
+
+pudiera decir "eso no es verdad porque...", la oración
+
+está bien formulada. Si nadie podría cuestionarla, es
+
+demasiado vaga.
+
+
+Extensión para el Modo Estresor (20 segundos adicionales)
+Después del Bloque 4, los Estresores agregan:
+
+⏱ 03:00 – 03:20  BLOQUE 5 — Lo que cambió
+
+"Antes de esta clase, creíamos que nuestra idea resolvía
+
+[lo que el equipo pensaba antes].
+
+Hoy descubrimos que [el supuesto que se cuestionó /
+
+la arista que no habían visto / el usuario que no habían
+
+considerado].
+
+Eso modifica nuestra dirección de esta forma: [cómo]."
+
+Este bloque es el indicador más honesto de si el Estresor realmente estresó su idea. Si el equipo no tiene nada que decir aquí — si todo lo que creía antes de la clase sigue intacto después de los 7 pasos — no hubo estrés real. El instructor puede señalarlo directamente: "Si nada cambió hoy, el ejercicio no funcionó."
+
+
+Las preguntas del instructor (2 min por equipo)
+Después de cada defensa el instructor elige una sola pregunta de este banco — la que más directamente desafía el punto más débil de lo que presentó el equipo. No las hace todas.
+
+Preguntas de deseabilidad:
+
+"¿Cuánto paga hoy ese usuario para resolver este problema, aunque sea parcialmente?"
+"¿Por qué ese usuario no lo ha resuelto ya por su cuenta?"
+"¿Conocen personalmente a alguien que tenga este problema? ¿Cuándo fue la última vez que lo vieron sufrirlo?"
+
+Preguntas de novedad:
+
+"¿Buscaron si esto ya existe en Brasil, en India, o en China? ¿Qué encontraron?"
+"¿Qué tiene su Concepto Recomendado que no tiene la solución que ya existe en el mercado?"
+
+Preguntas de viabilidad técnica:
+
+"¿Qué sensor específico usarían y cuánto cuesta en México hoy?"
+"¿El modelo de IA corre en el dispositivo o en la nube? ¿Ya saben cuánto cuesta por llamada?"
+"¿Cuál es el componente más difícil de construir de los tres — app, artefacto o canal de venta — y qué van a hacer si no funciona en semana 10?"
+
+Preguntas de pasión (solo si el Criterio 1 pareció débil):
+
+"¿Quién del equipo tiene una razón personal para resolver esto? ¿Cuál es?"
+"Si este proyecto no tuviera calificación, ¿seguirían trabajando en él?"
+
+Preguntas para Estresores:
+
+"¿La arista que encontraron hoy es un ajuste a su idea original o es un producto diferente?"
+"Si tuvieran que elegir entre la idea original y la arista para trabajar los próximos seis meses, ¿cuál elegirían — y por qué?"
+
+
+Criterios de aprobación — el instructor decide en el momento
+✅ Aprobado — el equipo puede avanzar a semana 3
+Nombran el segmento específico con workaround identificado
+Presentan mínimo 2 señales de deseabilidad con evidencia concreta (no "creemos que")
+Pueden nombrar al menos un elemento técnico del concepto (sensor, tipo de IA, protocolo)
+La oportunidad en una oración es falseable
+Tienen al menos una hipótesis clara para probar en semana 3
+⚠️ Aprobado con ajuste — avanza pero con tarea específica
+El segmento es demasiado amplio ("las PyMEs") → ajustar a segmento específico antes de semana 3
+Las señales de deseabilidad son plausibles pero sin fuente verificada → verificar con Perplexity antes de semana 3
+El Concepto Recomendado es técnicamente vago → definir el componente más crítico antes de semana 3
+❌ Regresado — necesita retrabajar antes de avanzar
+El instructor comunica el rechazo con una sola oración que nombra exactamente qué falta, y el equipo trabaja el ajuste como primera tarea de semana 3:
+
+El problema no tiene evidencia de deseabilidad — solo supuestos del equipo
+El segmento no está definido con suficiente especificidad para entrevistarlo
+El Concepto Recomendado no tiene ningún componente de hardware + IA relevante para las capacidades del equipo
+(Solo Estresores) La presentación es idéntica a la idea original sin ningún ajuste — el estrés no ocurrió
+
+
+Prompt de Claude para preparar la defensa (opcional, si el equipo tiene tiempo)
+Si un equipo termina el Paso 6 con tiempo antes de que arranquen las presentaciones, puede usar este prompt para estructurar sus notas:
+
+Actúa como un coach de comunicación especializado en ayudar
+
+a emprendedores a articular oportunidades de negocio con
+
+claridad y precisión — sin jerga, sin abstracciones, con
+
+evidencia específica en cada afirmación. Tu objetivo no es
+
+hacer el pitch más impresionante sino el más honesto y
+
+defendible: uno que resista una pregunta difícil de alguien
+
+que no sabe nada del proyecto.
+
+Somos emprendedores en México construyendo un negocio con
+
+tres componentes: una aplicación con IA, un artefacto físico
+
+inteligente y una página web de venta. En 3 minutos debemos
+
+defender frente al grupo la oportunidad que elegimos hoy.
+
+Estos son nuestros insumos de los pasos anteriores:
+
+USUARIO Y WORKAROUND (del Pain-Gain Map):
+
+[pega el usuario/segmento y cómo resuelven hoy el problema]
+
+SEÑALES DE DESEABILIDAD VERIFICADAS (del Paso 5):
+
+[pega las señales con ✅ y su evidencia]
+
+POR QUÉ NOSOTROS (del Paso 6):
+
+Pasión: [razón personal o conexión del equipo con el problema]
+
+Habilidad: [elemento técnico concreto — sensor, modelo de IA,
+
+protocolo — que usarían]
+
+CONCEPTO RECOMENDADO (del Paso 4):
+
+[nombre y descripción en 2 oraciones]
+
+LA OPORTUNIDAD EN UNA ORACIÓN (del Paso 3):
+
+[pega la oración]
+
+[SOLO ESTRESORES — agregar]:
+
+LO QUE CAMBIÓ HOY:
+
+[el supuesto cuestionado o la arista encontrada]
+
+Con estos insumos, redacta la defensa de 3 minutos siguiendo
+
+esta estructura exacta y estos tiempos:
+
+00:00–00:45 — El problema y el workaround
+
+00:45–01:30 — La evidencia de deseabilidad (máximo 3 señales,
+
+  cada una en una oración, con el dato concreto)
+
+01:30–02:15 — Por qué nosotros + dirección de solución
+
+02:15–03:00 — La oportunidad en una oración
+
+[03:00–03:20 — Lo que cambió, solo si son Estresores]
+
+REGLAS:
+
+- Ninguna afirmación sin evidencia concreta
+
+- No usar: "creemos que", "podría ser", "tiene potencial"
+
+- Nombrar el segmento específico en el primer bloque
+
+- La oportunidad en una oración debe ser falseable —
+
+  alguien debería poder decir "eso no es verdad porque..."
+
+FORMATO DE SALIDA: el texto completo de la defensa, con
+
+marcadores de tiempo al inicio de cada bloque.
+
+
+Cierre de la sesión completa (3 min)
+Después de la última defensa, el instructor cierra con tres afirmaciones — no preguntas, no resumen:
+
+Primera: "Los que fueron aprobados: la oportunidad que defendieron hoy no es definitiva. Las entrevistas de semana 3 pueden cambiarla — y ese cambio sería una señal de que el proceso está funcionando, no de que fallaron."
+
+Segunda: "Los que fueron regresados: no es la oportunidad la que falló — es la evidencia. Eso se corrige esta semana con Perplexity, con una conversación con alguien del sector, o replanteando el segmento. Vengan a semana 3 con eso resuelto."
+
+Tercera: "Todo el grupo: la pregunta más importante que respondieron hoy no es '¿cuál es mi oportunidad?' — es '¿soy yo el emprendedor correcto para esta oportunidad en este momento?' Si la respuesta es sí, semana 3 va a ser la más interesante del semestre."
+
+
+Señal de que la sesión completa funcionó
+Al finalizar el Paso 7, cada equipo debe poder responder estas tres preguntas sin consultar sus notas:
+
+¿Quién específico tiene el problema que van a resolver?
+¿Qué evidencia concreta tienen de que ese problema es real?
+¿Cuál es la primera hipótesis que van a probar en semana 3?
+
+Si algún equipo no puede responder la tercera, el mapa de hipótesis del Paso 5 no quedó claro — el instructor lo revisa con ellos antes de terminar la clase.
+
+
+
+Paso 7 de 7 · Semana 2 · Proyectos y Emprendimiento · Ingeniería Mecatrónica
+
+
+Tarea en casa (4 horas)
+Tarea
+Tiempo
+Modo
+Profundización de mercado con Perplexity: ¿cuántos usuarios tiene el segmento? ¿qué soluciones existen? ¿hay startups en LATAM atacando esto?
+1h
+Ambos
+Refinamiento del Pain-Gain Map con Claude — dolores y ganancias de segundo orden
+1h
+Ambos
+Redacción del reporte de oportunidad (1 página)
+1h
+Ambos
+Identificar 1–2 usuarios reales para entrevistar en semana 3 + convertir las hipótesis del Paso 5 en preguntas de entrevista
+1h
+Ambos
+
+
+
+Estructura del reporte de oportunidad (entregable antes de semana 3)
+REPORTE DE OPORTUNIDAD — Semana 2
+
+Equipo: [nombres]
+
+Concepto elegido: [nombre del Concepto Recomendado]
+
+1. EL PROBLEMA
+
+   [Segmento específico + descripción del dolor ⭐ +
+
+   workaround actual con costo observable]
+
+2. EVIDENCIA DE DESEABILIDAD
+
+   [Mínimo 3 señales verificadas con fuente —
+
+   no "creemos que", solo evidencia observable]
+
+3. PAIN-GAIN MAP (versión final)
+
+   [Mínimo 5 dolores ordenados por intensidad y
+
+   5 ganancias ordenadas por deseo]
+
+4. CONCEPTO RECOMENDADO
+
+   [Nombre + descripción en 3–4 oraciones +
+
+   letras SCAMPER que lo originaron + puntaje DVN]
+
+5. LA OPORTUNIDAD EN UNA ORACIÓN
+
+   "Existe una oportunidad para [quién] que necesita
+
+   [qué resultado] porque hoy [por qué no lo tiene]."
+
+6. POR QUÉ ESTE EQUIPO
+
+   [Razón personal — Criterio 1 + elemento técnico
+
+   concreto — Criterio 2]
+
+7. HIPÓTESIS PARA SEMANA 3
+
+   [Las 3 hipótesis falseables del Paso 5 —
+
+   listas para probar en entrevistas]
+
+--- SOLO ESTRESORES ---
+
+8. LO QUE CAMBIÓ
+
+   [El supuesto cuestionado o la arista encontrada +
+
+   cómo modificó la dirección del concepto]
+
+   Si aplica: Concepto B como oportunidad de expansión.
+
+
+Lo que el equipo debe tener claro al salir de esta sesión
+¿Quién específicamente tiene el problema que van a resolver? No "las PyMEs" ni "los agricultores" — el segmento con perfil concreto.
+
+¿Qué evidencia tienen de que ese problema es real y duele suficiente? Al menos dos señales verificadas con fuente. No supuestos.
+
+¿Cuál es la primera hipótesis que van a probar en semana 3? "Creemos que [usuario] experimenta [situación] con frecuencia [X] y pagaría [rango] porque [razón]. Si esto es falso, nuestro concepto necesita [qué cambiaría]."
 
 
 
