@@ -562,13 +562,11 @@ En este paso usamos dos IAs con roles distintos:
 
 "El Pain-Gain Map es una radiografía del usuario — no de su producto ni de su idea. Dos columnas: qué le duele y qué quiere ganar. La oportunidad está donde el dolor es más intenso y la ganancia más deseada todavía no la da nadie bien. Tienen 10 minutos para construirlo en papel antes de tocar cualquier IA."
 
-Regla crítica que el instructor comunica antes de arrancar:
+!!! warning "Regla crítica"
+    "La columna de dolores se llena con lo que el usuario experimenta hoy — no con lo que su producto resuelve. Si están escribiendo en los dolores lo que su solución hace, están llenando el mapa al revés."
 
-"La columna de dolores se llena con lo que el usuario experimenta hoy — no con lo que su producto resuelve. Si están escribiendo en los dolores lo que su solución hace, están llenando el mapa al revés."
 
-
-Plantilla — la misma para ambos modos
-Se entrega impresa o en Google Slides compartido. Cada equipo llena una.
+Plantilla Pain Gain Map
 
 ╔═════════════════════════════════════════════════════════════╗
 
@@ -625,137 +623,98 @@ Se entrega impresa o en Google Slides compartido. Cada equipo llena una.
 ╚═════════════════════════════════════════════════════════════╝
 
 
-🔍 Modo Explorador
-Ronda 1 — Construcción en papel (10 min)
+### 🔍 Modo Explorador
+Ronda 1 — Construcción en papel 
+
 Antes de abrir cualquier IA, el equipo llena el mapa con su propio criterio a partir del insight del Paso 2.
 
-Para llenar los dolores — tres preguntas guía:
+!!! tip "Para llenar los dolores — tres preguntas guía:"
+    * ¿Qué hace el usuario HOY para resolver este problema, aunque sea de forma mala, costosa o incómoda? Ese workaround contiene los dolores más reales.
+    * ¿Qué parte de ese workaround le sigue fallando o frustrando?
+    * ¿Qué pierde en tiempo, dinero, calidad o tranquilidad por no tener una solución mejor?
 
-¿Qué hace el usuario HOY para resolver este problema, aunque sea de forma mala, costosa o incómoda? Ese workaround contiene los dolores más reales.
-¿Qué parte de ese workaround le sigue fallando o frustrando?
-¿Qué pierde en tiempo, dinero, calidad o tranquilidad por no tener una solución mejor?
+!!! warning "Para llenar las ganancias — tres preguntas guía:"
+    * Si el problema desapareciera mañana, ¿qué cambiaría concretamente en su día o en su negocio?
+    * ¿Qué métrica específica mejoraría? (menos horas, menos costo, menos errores, más ventas, menos riesgo)
+    * ¿Qué podría hacer que hoy no puede hacer porque el problema se lo impide?
 
-Para llenar las ganancias — tres preguntas guía:
-
-Si el problema desapareciera mañana, ¿qué cambiaría concretamente en su día o en su negocio?
-¿Qué métrica específica mejoraría? (menos horas, menos costo, menos errores, más ventas, menos riesgo)
-¿Qué podría hacer que hoy no puede hacer porque el problema se lo impide?
 
 Al terminar el mapa en papel, identificar:
 
-El dolor más intenso: el que le cuesta más no resolver (en dinero, tiempo o riesgo)
-La ganancia más deseada: el resultado que más quiere obtener
-¿Hay alguna solución actual que cubra exactamente ese cruce? Si no, ahí está el espacio.
+* El dolor más intenso: el que le cuesta más no resolver (en dinero, tiempo o riesgo)
+
+* La ganancia más deseada: el resultado que más quiere obtener
+
+* ¿Hay alguna solución actual que cubra exactamente ese cruce? Si no, ahí está el espacio.
 
 
-Ronda 2 — Claude: ampliar, cuestionar y entregar el mapa final (10 min)
-El equipo transcribe su mapa y lo lleva a Claude. El prompt incluye instrucciones de formato de salida para que Claude entregue directamente el mapa completo listo para usar:
+Ronda 2 — Claude: ampliar, cuestionar y entregar el mapa final
 
-Actúa como un investigador de experiencia de usuario con
+Transcribe tu mapa y llevalo a Claude. El prompt incluye instrucciones de formato de salida para que Claude entregue directamente el mapa completo listo para usar:
 
-especialización en comportamiento de consumidores y pequeños
 
-empresarios en mercados latinoamericanos. Tu metodología combina
+Actúa como un investigador de experiencia de usuario con especialización en comportamiento de consumidores y pequeños empresarios en mercados latinoamericanos. Tu metodología combina análisis de fricción de producto, mapeo de deseos no articulados y detección de dolores que los usuarios normalizan — los que no mencionan en una primera conversación porque asumen que no tienen solución. Tienes especial habilidad para encontrar lo que un 
+equipo de producto no ve porque está demasiado enfocado en su propia solución.
 
-análisis de fricción de producto, mapeo de deseos no articulados
+Somos un equipo de emprendedores en México desarrollando un negocio con tres componentes articulados: una aplicación con IA, un artefacto físico inteligente y una página web de venta. 
 
-y detección de dolores que los usuarios normalizan — los que no
+Construimos este Pain-Gain Map sobre nuestro usuario objetivo a partir de un insight de mercado verificado. Ahora necesitamos que lo amplíes y lo cuestiones — no que lo valides.
 
-mencionan en una primera conversación porque asumen que no tienen
+Nuestro usuario / segmento: *[DESCRIBE EL SEGMENTO DEL INSIGHT]*
 
-solución. Tienes especial habilidad para encontrar lo que un
-
-equipo de producto no ve porque está demasiado enfocado en
-
-su propia solución.
-
-Somos un equipo de emprendedores en México desarrollando un
-
-negocio con tres componentes articulados: una aplicación con IA,
-
-un artefacto físico inteligente y una página web de venta.
-
-Construimos este Pain-Gain Map sobre nuestro usuario objetivo
-
-a partir de un insight de mercado verificado. Ahora necesitamos
-
-que lo amplíes y lo cuestiones — no que lo valides.
-
-Nuestro usuario / segmento: [DESCRIBE EL SEGMENTO DEL INSIGHT]
-
-Nuestro insight verificado: [PEGA EL INSIGHT DEL PASO 2]
+Nuestro insight verificado: *[PEGA EL INSIGHT DEL PASO 2]*
 
 Nuestro Pain-Gain Map construido hasta ahora:
 
 DOLORES que identificamos:
 
-- D1: [pega]
+- D1: *[pega]*
 
-- D2: [pega]
+- D2: *[pega]*
 
-- D3: [pega]
+- D3: *[pega]*
 
 GANANCIAS que identificamos:
 
-- G1: [pega]
+- G1: *[pega]*
 
-- G2: [pega]
+- G2: *[pega]*
 
-- G3: [pega]
+- G3: *[pega]*
 
-Necesito que hagas tres cosas y que entregues el resultado
+Necesito que hagas tres cosas y que entregues el resultado en el formato exacto que te indico al final:
 
-en el formato exacto que te indico al final:
+1. DOLORES QUE NO VIMOS: ¿Qué dolores reales tiene este    usuario que nuestro mapa no capturó? Enfócate en:
 
-1. DOLORES QUE NO VIMOS: ¿Qué dolores reales tiene este
-
-   usuario que nuestro mapa no capturó? Enfócate en:
-
-   - Dolores que los usuarios normalizan y rara vez mencionan
-
+   - Dolores que los usuarios normalizan y rara vez mencionan 
      porque creen que no tienen solución
 
-   - Dolores emocionales o de estatus (vergüenza, frustración,
-
-     sensación de pérdida de control) que acompañan al dolor
-
+   - Dolores emocionales o de estatus (vergüenza, frustración, 
+     sensación de pérdida de control) que acompañan al dolor 
      funcional que ya identificamos
 
-   - Dolores que aparecen ANTES o DESPUÉS del momento
-
+   - Dolores que aparecen ANTES o DESPUÉS del momento 
      principal del problema — el contexto que rodea la fricción
 
-   Agrega mínimo 2 dolores adicionales específicos para este
+   Agrega mínimo 2 dolores adicionales específicos para este usuario en contexto LATAM.
 
-   usuario en contexto LATAM.
-
-2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados
-
+2. GANANCIAS QUE SUBESTIMAMOS: ¿Qué resultados deseados 
    tiene este usuario que nuestro mapa minimiza o ignora?
 
-   Enfócate en ganancias de segundo orden — lo que cambia
-
-   en su vida o negocio como consecuencia de resolver el
-
+   Enfócate en ganancias de segundo orden — lo que cambia 
+   en su vida o negocio como consecuencia de resolver el 
    problema principal, no solo el resultado directo.
 
    Agrega mínimo 2 ganancias adicionales con ese enfoque.
 
-3. EL CRUCE MÁS PODEROSO: Con el mapa ampliado, identifica
-
-   la combinación de dolor más intenso + ganancia más deseada
-
-   que representa el espacio de negocio más claro para una
-
-   solución que combine app con IA + artefacto físico +
-
-   canal de venta digital. Explica en 2 oraciones por qué
-
+3. EL CRUCE MÁS PODEROSO: Con el mapa ampliado, identifica 
+   la combinación de dolor más intenso + ganancia más deseada 
+   que representa el espacio de negocio más claro para una 
+   solución que combine app con IA + artefacto físico + 
+   canal de venta digital. Explica en 2 oraciones por qué 
    ese cruce específico y no otro.
 
-FORMATO DE SALIDA — entrega exactamente esto, sin agregar
-
-texto antes ni después:
+FORMATO DE SALIDA — entrega exactamente esto, sin agregar texto antes ni después:
 
 ═══════════════════════════════════════════════════════
 
@@ -804,50 +763,25 @@ porque hoy [por qué no lo tiene]."
 ═══════════════════════════════════════════════════════
 
 
-Ronda 3 — Perplexity: verificar frecuencia e intensidad (5 min)
+Ronda 3 — Perplexity: verificar frecuencia e intensidad
+
 Solo si el equipo tiene dudas sobre qué tan frecuente o intenso es el dolor ⭐ del mapa. No es obligatoria si el insight del Paso 2 ya verificó esto.
 
-Actúa como un analista de comportamiento de mercado con
+Actúa como un analista de comportamiento de mercado con experiencia en documentar cómo usuarios en América Latina experimentan y expresan sus problemas — en foros, redes sociales, comunidades de práctica, reseñas de productos y reportes sectoriales. Tu especialidad es encontrar evidencia de primera mano de que un problema específico duele de forma frecuente e intensa, no solo de que existe en abstracto.
 
-experiencia en documentar cómo usuarios en América Latina
-
-experimentan y expresan sus problemas — en foros, redes sociales,
-
-comunidades de práctica, reseñas de productos y reportes
-
-sectoriales. Tu especialidad es encontrar evidencia de primera
-
-mano de que un problema específico duele de forma frecuente e
-
-intensa, no solo de que existe en abstracto.
-
-Somos emprendedores en México que identificamos el siguiente
-
-dolor como el más intenso de nuestro usuario y queremos
-
-verificar si esa intensidad y frecuencia tienen respaldo en
-
-comportamiento real antes de construir un negocio alrededor
-
-de él.
+Somos emprendedores en México que identificamos el siguiente dolor como el más intenso de nuestro usuario y queremos verificar si esa intensidad y frecuencia tienen respaldo en comportamiento real antes de construir un negocio alrededor de él.
 
 USUARIO / SEGMENTO: [del Pain-Gain Map]
 
 DOLOR PRINCIPAL A VERIFICAR: [el dolor ⭐ del mapa]
 
-Verifica con evidencia de comportamiento real — no estadísticas
-
-generales — y entrega tu respuesta en este formato exacto:
+Verifica con evidencia de comportamiento real — no estadísticas generales — y entrega tu respuesta en este formato exacto:
 
 FRECUENCIA
 
 ¿Con qué regularidad experimenta este usuario este dolor?
 
-Evidencia encontrada: [dónde y cómo lo expresan — comunidades,
-
-foros, grupos, canales — con ejemplos concretos y links si
-
-están disponibles]
+Evidencia encontrada: [dónde y cómo lo expresan — comunidades, foros, grupos, canales — con ejemplos concretos y links si están disponibles]
 
 Veredicto: diario / semanal / mensual / ocasional
 
@@ -855,17 +789,13 @@ INTENSIDAD
 
 ¿Qué tan caro o incómodo es en términos observables?
 
-Evidencia encontrada: [pagos actuales, workarounds con costo,
-
-pérdidas documentadas atribuibles a este dolor específico]
+Evidencia encontrada: [pagos actuales, workarounds con costo, pérdidas documentadas atribuibles a este dolor específico]
 
 Veredicto: alto / medio / bajo
 
 MOMENTO
 
-¿Cuándo ocurre exactamente en el flujo de trabajo o vida
-
-del usuario?
+¿Cuándo ocurre exactamente en el flujo de trabajo o vida del usuario?
 
 [descripción del momento preciso donde intervenir]
 
@@ -873,12 +803,11 @@ Tipo: continuo / periódico / situacional
 
 CONCLUSIÓN PARA EL EQUIPO:
 
-[Una oración directa: el dolor ⭐ está bien fundamentado /
-
-necesita ajuste / es menos intenso de lo que asumieron]
+[Una oración directa: el dolor ⭐ está bien fundamentado / necesita ajuste / es menos intenso de lo que asumieron]
 
 
-🔬 Modo Estresor
+
+### 🔬 Modo Estresor
 El Estresor no construye el mapa desde cero — lo usa como herramienta de auditoría en tres rondas progresivas. El objetivo no es llenar un mapa bonito, sino descubrir si la idea ataca los dolores correctos y si hay aristas de negocio que el equipo no ha visto.
 Ronda 1 — Construcción honesta en papel (8 min)
 El equipo llena el mapa desde la perspectiva del usuario, no desde la perspectiva de su idea.
