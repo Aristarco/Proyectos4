@@ -382,9 +382,7 @@ Al terminar, dame un veredicto por afirmación:
 ❌ No encontré respaldo — el equipo necesita validar esto
    con usuarios reales antes de continuar
 
-Sé directo. Un insight mal fundamentado descubierto hoy
-
-vale más que uno descubierto en seis meses.
+Sé directo. Un insight mal fundamentado descubierto hoy vale más que uno descubierto en seis meses.
 
 
 Al final del Paso 2 se obtiene un insight verificado con esta estructura:
@@ -406,160 +404,96 @@ FUENTES: [Las 2–3 fuentes que verificó Perplexity]
 VEREDICTO DE VERIFICACIÓN: [✅ / ⚠️ / ❌ por afirmación]
 
 
-🔬 Modo Estresor
-Ronda 1 — Claude: auditoría del insight implícito (12 min)
+### 🔬 Modo Estresor
+
+**Ronda 1** — Claude: auditoría del insight implícito 
+
 Toda idea de negocio tiene un insight implícito — una afirmación sobre el usuario y el problema que el equipo da por cierta sin haberla formulado explícitamente. El objetivo de esta ronda es hacerlo visible para poder cuestionarlo.
 
-Actúa como un estratega de producto con experiencia en identificar
+**Prompt**
 
-los supuestos ocultos detrás de ideas de negocio — los insights
+Actúa como un estratega de producto con experiencia en identificar los supuestos ocultos detrás de ideas de negocio — los insights implícitos que los equipos dan por ciertos sin haberlos formulado ni verificado. Tu especialidad es hacer visible lo que se asume como obvio, porque ahí es donde más frecuentemente fallan los negocios de hardware + software en mercados emergentes.
 
-implícitos que los equipos dan por ciertos sin haberlos formulado
-
-ni verificado. Tu especialidad es hacer visible lo que se asume
-
-como obvio, porque ahí es donde más frecuentemente fallan los
-
-negocios de hardware + software en mercados emergentes.
-
-Somos un equipo de emprendedores en México con una idea de negocio
-
-que combina tres componentes: una aplicación con IA, un artefacto
-
-físico inteligente y una página web de venta. Nuestras capacidades:
-
-desarrollo de software e IA, hardware conectado, manufactura de
-
-producto físico. Tenemos seis meses para MVP comercializable.
+Somos un equipo de emprendedores en México con una idea de negocio que combina tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Nuestras capacidades: desarrollo de software e IA, hardware conectado, manufactura de producto físico. Tenemos seis meses para MVP comercializable.
 
 Nuestra idea es:
 
-[DESCRIBE LA IDEA EN 3–4 ORACIONES]
+*[DESCRIBE LA IDEA EN 3–4 ORACIONES]*
 
 Del análisis de ecosistema del Paso 1 obtuvimos esto:
 
-[PEGA LOS 3 INSUMOS DEL PASO 1: brechas de Perplexity +
-
-supuesto peligroso y arista alternativa de Claude]
+*[PEGA LOS 3 INSUMOS DEL PASO 1: brechas de Perplexity + supuesto peligroso y arista alternativa de Claude]*
 
 Necesito que hagas tres cosas:
 
-1. FORMULA EL INSIGHT IMPLÍCITO: ¿Cuál es el insight sobre el
-
+1. FORMULA EL INSIGHT IMPLÍCITO: ¿Cuál es el insight sobre el 
    usuario y el problema que nuestro equipo está dando por
-
    cierto sin haberlo verificado? Exprésalo en el mismo formato
-
    que usarías para un insight sólido: quién, qué les cuesta,
-
    por qué no está resuelto, dónde está el espacio.
-
    Sé preciso — no parafrasees nuestra idea, formula el
-
    supuesto que la sostiene.
 
 2. AUDITA EL INSIGHT: Una vez formulado, dime:
 
    - ¿Qué parte del insight tiene más probabilidad de ser
-
      falsa o más débil de lo que asumimos?
 
    - ¿Qué evidencia necesitaríamos para saber si es verdadera?
 
    - ¿Hay una versión alternativa del insight — mismo problema,
-
      diferente usuario, o mismo usuario, diferente problema —
-
      que podría ser más sólida?
 
 3. FORMULA EL INSIGHT DE LA ARISTA NUEVA: Usando la arista
-
-   alternativa que encontramos en el Paso 1, formula un segundo
-
+   alternativa que encontramos en el Paso 1, formula un segundo 
    insight con el mismo formato. ¿Para quién es, qué les cuesta,
-
    por qué no está resuelto, dónde está el espacio?
-
    ¿Cómo se articularían los tres componentes del negocio
-
    — app, artefacto y canal de venta — alrededor de esta
-
    arista?
 
 
-Ronda 2 — Perplexity: verificar y comparar ambos insights (8 min)
+**Ronda 2** — Perplexity: verificar y comparar ambos insights 
+
 Tienes dos insights: el de tu idea original y el de la arista nueva. Necesitas datos reales para los dos antes de decidir cuál defender en el Paso 7. No es una comparación de opiniones — es una comparación de evidencia.
 
-Actúa como un analista de inteligencia competitiva con experiencia
+**Prompt**
 
-en evaluar la solidez de oportunidades de negocio digital-físico
+Actúa como un analista de inteligencia competitiva con experiencia en evaluar la solidez de oportunidades de negocio digital-físico en mercados emergentes latinoamericanos. Tu metodología consiste en contrastar las afirmaciones de una oportunidad con datos verificables de fuentes primarias y secundarias — INEGI, BID, CEPAL, reportes de industria, bases de datos de comportamiento de mercado — para determinar qué tan firme es el suelo sobre el que un emprendedor está parado antes de comprometer recursos.
 
-en mercados emergentes latinoamericanos. Tu metodología consiste
-
-en contrastar las afirmaciones de una oportunidad con datos
-
-verificables de fuentes primarias y secundarias — INEGI, BID,
-
-CEPAL, reportes de industria, bases de datos de comportamiento
-
-de mercado — para determinar qué tan firme es el suelo sobre
-
-el que un emprendedor está parado antes de comprometer recursos.
-
-Somos emprendedores en México desarrollando un negocio que
-
-combina tres componentes: una aplicación con IA, un artefacto
-
-físico inteligente y una página web de venta. Tenemos dos
-
-direcciones posibles de negocio y necesitamos datos reales
-
-para elegir la más sólida, no la más atractiva en papel.
+Somos emprendedores en México desarrollando un negocio que combina tres componentes: una aplicación con IA, un artefacto físico inteligente y una página web de venta. Tenemos dos direcciones posibles de negocio y necesitamos datos reales para elegir la más sólida, no la más atractiva en papel.
 
 INSIGHT A — nuestra idea original:
 
-[PEGA EL INSIGHT IMPLÍCITO FORMULADO POR CLAUDE]
+*[PEGA EL INSIGHT IMPLÍCITO FORMULADO POR CLAUDE]*
 
 INSIGHT B — arista alternativa identificada:
 
-[PEGA EL INSIGHT DE LA ARISTA NUEVA]
+*[PEGA EL INSIGHT DE LA ARISTA NUEVA]*
 
 Para cada insight, verifica con fuentes citables:
 
-1. EXISTENCIA Y TAMAÑO DEL SEGMENTO: ¿El usuario descrito
-
+1. EXISTENCIA Y TAMAÑO DEL SEGMENTO: ¿El usuario descrito 
    existe con ese perfil y ese problema en México o LATAM?
-
    ¿Cuántos son? Dame la fuente más específica disponible
-
    — si no hay dato exacto, el proxy más cercano con origen.
 
-2. COSTO REAL DEL PROBLEMA: ¿Hay datos documentados —
-
+2. COSTO REAL DEL PROBLEMA: ¿Hay datos documentados — 
    pérdidas reportadas, pagos observables a soluciones
-
-   imperfectas, costos de workarounds — que respalden el
-
-   costo que cada insight describe? ¿O es una estimación
-
+   imperfectas, costos de workarounds — que respalden el 
+   costo que cada insight describe? ¿O es una estimación 
    sin respaldo directo?
 
-3. COMPETENCIA ESPECÍFICA: ¿Hay actores en el mercado
-
-   atacando exactamente esta combinación de usuario +
-
+3. COMPETENCIA ESPECÍFICA: ¿Hay actores en el mercado 
+   atacando exactamente esta combinación de usuario + 
    problema + solución digital-física para cada insight?
-
    No el problema genérico — esta combinación específica.
-
    Menciona actores reales con tracción observable.
 
-4. SEÑAL DE MERCADO MÁS FUERTE: ¿Cuál de los dos insights
-
-   tiene más evidencia de que el mercado está listo — pagos
-
-   actuales, búsquedas documentadas, comunidades activas,
-
+4. SEÑAL DE MERCADO MÁS FUERTE: ¿Cuál de los dos insights 
+   tiene más evidencia de que el mercado está listo — pagos 
+   actuales, búsquedas documentadas, comunidades activas, 
    intentos previos de solución con tracción?
 
 Al terminar entrega una tabla comparativa:
@@ -576,12 +510,11 @@ Al terminar entrega una tabla comparativa:
 
 | Señal de mercado    | ✅/⚠️/❌ | ✅/⚠️/❌ |
 
-No me digas cuál elegir — dame los datos y deja que
-
-la evidencia hable por sí sola.
+No me digas cuál elegir — dame los datos y deja que la evidencia hable por sí sola.
 
 
 Qué tienen al final del Paso 2
+
 Dos insights comparados con evidencia verificada:
 
 INSIGHT A — Idea original
@@ -602,28 +535,13 @@ Fuentes: [las que encontró Perplexity]
 
 DECISIÓN PROVISIONAL: ¿Cuál llevan al Paso 3?
 
-(pueden llevar los dos si ambos tienen evidencia sólida —
-
-el Paso 3 los ayudará a decidir con el Pain-Gain Map)
+(pueden llevar los dos si ambos tienen evidencia sólida — el Paso 3 los ayudará a decidir con el Pain-Gain Map)
 
 
-Cierre del Paso 2 (5 min)
-El instructor pide a 2 equipos que lean en voz alta su insight — uno Explorador, uno Estresor. Después de cada uno hace una sola pregunta:
 
-"¿Cuánto le cuesta al usuario NO resolver esto por mes?"
 
-Si el equipo puede responder con un número o rango verificable, el insight está bien construido. Si responden "no lo sabemos exactamente" o "depende", necesitan otra iteración con Perplexity antes de pasar al Paso 3.
 
-Señal de que va bien:
 
-Exploradores: un insight con quién específico, costo observable verificado y el espacio de negocio formulado en una línea
-Estresores: dos insights comparados con tabla de verificación — saben cuál tiene más respaldo antes de continuar
-
-Señal de alerta:
-
-El insight sigue diciendo "los usuarios" en lugar de un segmento específico → devolverlo
-El costo del problema tiene ❌ en la verificación de Perplexity → una ronda más de validación antes de continuar, o anotar como supuesto a probar con usuarios reales en semana 3
-Un Estresor que solo formuló el Insight A y no generó el Insight B → no completó el Modo Estresor
 
 
 
