@@ -1612,7 +1612,7 @@ Señales ausentes   ❌: [número de 5]
 ═══════════════════════════════════════════════════════
 
 
-Prompt 2 — Claude: diagnóstico y mapa de hipótesis para semana 3
+Prompt 2 — Claude: diagnóstico y mapa de hipótesis
 
 Actúa como un mentor de emprendimiento con experiencia en ayudar a equipos de producto a interpretar evidencia de mercado y convertirla en decisiones concretas. Tu especialidad es identificar cuándo un concepto tiene deseabilidad real, cuándo está en zona de riesgo, y cuándo debe replantearse antes de invertir recursos. Eres directo: no suavizas un diagnóstico negativo ni inflas uno positivo. Si el concepto tiene riesgo de suicidio creativo, lo dices claramente.
 
@@ -1682,7 +1682,7 @@ Nivel de riesgo: Alto / Medio / Bajo
 
 Por qué: [2 oraciones específicas basadas en la evidencia]
 
-Cómo reducirlo antes de semana 3:
+Cómo reducirlo:
 
 [1 acción concreta que el equipo puede hacer esta semana sin construir nada — una búsqueda, una conversación, una verificación — que reduciría este riesgo significativamente]
 
@@ -1756,7 +1756,7 @@ Necesito que hagas tres cosas en el formato exacto indicado:
 
 2. RIESGO DE SUICIDIO CREATIVO POR CONCEPTO: ¿Cuál de los tres tipos de suicidio creativo (sin dolor real / ya    existe / no puede construirse) es el riesgo principal para cada concepto? ¿El mismo riesgo o diferente?
 
-3. MAPA DE HIPÓTESIS PARA SEMANA 3: Formula 2 hipótesis para cada concepto — las más críticas para confirmar o refutar antes de elegir definitivamente cuál desarrollar.
+3. MAPA DE HIPÓTESIS: Formula 2 hipótesis para cada concepto — las más críticas para confirmar o refutar antes de elegir definitivamente cuál desarrollar.
 
    Hipótesis falseable: "creemos que [usuario] experimenta [situación] con frecuencia [X] y pagaría [rango] porque    [razón]. Si esto es falso, [qué cambiaría]."
 
@@ -1834,16 +1834,15 @@ Por qué: [2 oraciones específicas con base en la evidencia]
 
 Recomendación: [llevar A al Paso 6 / llevar B / llevar ambos con foco en el de mayor deseabilidad — y por qué]
 
-Si el equipo decide llevar ambos: la señal de que deben elegir uno antes de semana 4 es [condición específica 
-basada en los resultados de las entrevistas de semana 3]
 
 ═══════════════════════════════════════════════════════
 
-
+Si el equipo decide llevar ambos: la señal de que deben elegir uno antes de semana 4 es [condición específica 
+basada en los resultados de las entrevistas de semana 3]
 
 ### Paso 6 — Criterios de selección de oportunidad
 
-¡Felicidades! Llegaron al Paso 6 con un Concepto Recomendado verificado en deseabilidad y un diagnóstico claro de sus riesgos. Ahora aplica tres criterios adicionales — no técnicos ni de mercado, sino de idoneidad del equipo — para confirmar que es la oportunidad correcta para este equipo específico, en este momento.
+¡Felicidades! Llegaron al Paso 6 con un Concepto Recomendado verificado en deseabilidad y un diagnóstico claro de sus riesgos. Ahora aplican tres criterios adicionales — no técnicos ni de mercado, sino de idoneidad del equipo — para confirmar que es la oportunidad correcta para este equipo específico, en este momento.
 
 La diferencia con los pasos anteriores es importante: los Pasos 1–5 evaluaron si la oportunidad tiene valor en el mercado. El Paso 6 evalúa si este equipo es el correcto para capturarlo. Un negocio puede ser deseable, novedoso y viable — y aun así ser la oportunidad equivocada para un equipo que no tiene la pasión ni las capacidades para ejecutarlo en seis meses.
 
@@ -1991,7 +1990,8 @@ Si llegaste con dos conceptos posibles, completa ambas columnas. El que pase los
 Si ningún concepto pasa los tres criterios: no es el momento de defender nada en el Paso 7. El instructor puede ayudar a identificar si el problema es el concepto (cambiar), el segmento (ajustar) o la pasión del equipo (reconocer y replantear desde el Criterio 1).
 
 
-🔬 Modo Estresor
+### 🔬 Modo Estresor
+
 Completa la matriz con el Concepto A (idea original evolucionada) y el Concepto B (concepto con arista integrada).
 
 Tres resultados posibles y qué hacer en cada uno:
@@ -2005,52 +2005,23 @@ Resultado C — Ambas pasan bien los tres criterios: Elijan la que tenga mayor p
 La decisión es del equipo, no de la matriz. La matriz hace visible la evidencia — pero el compromiso de defender una oportunidad frente al instructor en el Paso 7 y frente a usuarios reales en semana 3 requiere convicción, y esa no viene de una tabla. Si el equipo termina la matriz y siente que el resultado no refleja lo que realmente quieren hacer, esa es información importante — vale la pena nombrarlo antes del Paso 7.
 
 
-Cierre del Paso 6 (1 min)
-Sin presentación grupal. El instructor circula y confirma que cada equipo tiene:
 
-La matriz completada con al menos un concepto que pasa los tres criterios
-El concepto elegido para el Paso 7 escrito con nombre
-Una oración que explica por qué ese concepto y no el otro
+## Paso 7 — Elección y defensa de la oportunidad
 
-Si un equipo no tiene el concepto elegido claro, el instructor hace una sola pregunta: "¿Por cuál de los dos hablarían con más convicción en 3 minutos frente al grupo?" La respuesta es el concepto del Paso 7.
-
-Señal de que va bien:
-
-Exploradores: concepto elegido que pasa los tres criterios, con razón personal identificada en el Criterio 1
-Estresores: decisión tomada — idea original, arista, o pivot — con la oración de "por qué este" escrita
-
-Señal de alerta:
-
-Un equipo que pasa el Criterio 3 con 4–5 señales pero falla el Criterio 1 → el instructor nombra esto directamente: un mercado grande con un equipo que no le importa el problema produce proyectos mediocres, no negocios
-Un equipo que no puede nombrar el sensor ni el modelo de IA del Criterio 2 → necesitan una conversación técnica antes del Paso 7, no después
-
-
-
-Paso 6 de 7 · Semana 2 · Proyectos y Emprendimiento · Ingeniería Mecatrónica
-
-
-Paso 7 — Elección y defensa de la oportunidad
-
-Qué se busca lograr
 El Paso 7 no es una presentación académica — es un compromiso público. El equipo declara frente al grupo y al instructor cuál es la oportunidad que va a desarrollar durante el semestre, respaldada por la evidencia que construyó en los seis pasos anteriores.
 
 La diferencia entre una defensa y un pitch es esta: un pitch convence a alguien de afuera. Una defensa le dice al propio equipo — en voz alta, frente a otros — "esto es real, tenemos evidencia, y somos nosotros quienes vamos a resolverlo." Ese acto de nombrar en público el compromiso es lo que transforma una idea en un proyecto.
 
-El instructor aprueba o regresa la oportunidad en el momento. No hay segunda ronda en esta sesión — los equipos que regresan trabajan el ajuste como tarea para semana 3.
+No hay segunda ronda en esta sesión — los equipos que regresan trabajan el ajuste como tarea para semana 3.
 
-Sin IA en este paso. El equipo habla con su propia voz, con su propia evidencia, frente a sus pares.
+**Sin IA en este paso.** El equipo habla con su propia voz, con su propia evidencia, frente a sus pares.
 
 
-Preparación antes de presentar (2 min en silencio)
-Antes de arrancar las presentaciones, cada equipo tiene 2 minutos para ordenar sus notas. El instructor proyecta la estructura en pantalla y dice:
-
-"No improvisen — usen exactamente lo que construyeron hoy. Todo lo que necesitan para los 3 minutos ya existe en sus notas de los pasos anteriores. Su trabajo ahora es ordenarlo, no inventarlo."
-
+Antes de arrancar las presentaciones, cada equipo tiene 2 minutos para ordenar sus notas. 
 Mapa de dónde viene cada parte de la defensa:
 
 Parte de la defensa
-De dónde sale
-El problema y el workaround
+De dónde sale El problema y el workaround
 Pain-Gain Map — Dolor ⭐ y cómo lo resuelven hoy
 La evidencia de deseabilidad
 Paso 5 — las señales confirmadas con ✅
@@ -2066,21 +2037,14 @@ Paso 3 o 4 — la arista o el supuesto cuestionado
 
 
 Formato de los 3 minutos — igual para ambos modos
-El instructor usa un cronómetro visible. Cada bloque tiene un tiempo fijo. Si el equipo se extiende en un bloque, el instructor lo señala con una mano.
 
 ⏱ 00:00 – 00:45  BLOQUE 1 — El problema y el workaround
 
-"Identificamos que [segmento específico — no 'los usuarios']
+"Identificamos que [segmento específico — no 'los usuarios'] tiene el problema de [descripción concreta del dolor ⭐].
 
-tiene el problema de [descripción concreta del dolor ⭐].
+Hoy lo resuelven así: [el workaround o la solución imperfecta actual — con costo observable si lo tienen]."
 
-Hoy lo resuelven así: [el workaround o la solución imperfecta
-
-actual — con costo observable si lo tienen]."
-
-Criterio: si no nombran el workaround, el problema no está
-
-verificado todavía.
+Criterio: si no nombran el workaround, el problema no está verificado todavía.
 
 ─────────────────────────────────────────────────────────────
 
@@ -2096,254 +2060,49 @@ verificado todavía.
 
 Criterio: mínimo 2 señales con evidencia específica.
 
-"Creemos que..." no es evidencia.
+**"Creemos que..." no es evidencia.**
 
 ─────────────────────────────────────────────────────────────
 
 ⏱ 01:30 – 02:15  BLOQUE 3 — Por qué nosotros y hacia dónde vamos
 
-"Nuestro equipo es el indicado porque [razón personal o
+"Nuestro equipo es el indicado porque [razón personal o conexión con el problema — Criterio 1] y porque [capacidad técnica relevante — Criterio 2: el sensor, el modelo de IA o el protocolo que usarían].
 
-conexión con el problema — Criterio 1] y porque [capacidad
+La dirección de solución que exploraremos es [el Concepto Recomendado del Paso 4 en una oración]."
 
-técnica relevante — Criterio 2: el sensor, el modelo de IA
-
-o el protocolo que usarían].
-
-La dirección de solución que exploraremos es [el Concepto
-
-Recomendado del Paso 4 en una oración]."
-
-Criterio: deben nombrar al menos un elemento técnico
-
-concreto (sensor, tipo de IA, protocolo) — no solo decir
-
-"usaremos tecnología de IA".
+Criterio: deben nombrar al menos un elemento técnico concreto (sensor, tipo de IA, protocolo) — no solo decir "usaremos tecnología de IA".
 
 ─────────────────────────────────────────────────────────────
 
 ⏱ 02:15 – 03:00  BLOQUE 4 — La oportunidad en una oración
 
-"Existe una oportunidad para [quién específico] que necesita
+"Existe una oportunidad para [quién específico] que necesita [qué resultado concreto] porque hoy [por qué no lo tiene — la razón específica, no 'porque no existe la tecnología']."
 
-[qué resultado concreto] porque hoy [por qué no lo tiene —
-
-la razón específica, no 'porque no existe la tecnología']."
-
-Criterio: la oración debe ser falseable — si alguien
-
-pudiera decir "eso no es verdad porque...", la oración
-
-está bien formulada. Si nadie podría cuestionarla, es
-
-demasiado vaga.
+Criterio: la oración debe ser falseable — si alguien pudiera decir "eso no es verdad porque...", la oración está bien formulada. Si nadie podría cuestionarla, es demasiado vaga.
 
 
 Extensión para el Modo Estresor (20 segundos adicionales)
+
 Después del Bloque 4, los Estresores agregan:
 
 ⏱ 03:00 – 03:20  BLOQUE 5 — Lo que cambió
 
-"Antes de esta clase, creíamos que nuestra idea resolvía
+"Antes de esta clase, creíamos que nuestra idea resolvía [lo que el equipo pensaba antes].
 
-[lo que el equipo pensaba antes].
-
-Hoy descubrimos que [el supuesto que se cuestionó /
-
-la arista que no habían visto / el usuario que no habían
-
-considerado].
+Hoy descubrimos que [el supuesto que se cuestionó / la arista que no habían visto / el usuario que no habían considerado].
 
 Eso modifica nuestra dirección de esta forma: [cómo]."
 
-Este bloque es el indicador más honesto de si el Estresor realmente estresó su idea. Si el equipo no tiene nada que decir aquí — si todo lo que creía antes de la clase sigue intacto después de los 7 pasos — no hubo estrés real. El instructor puede señalarlo directamente: "Si nada cambió hoy, el ejercicio no funcionó."
+Este bloque es el indicador más honesto de si el Estresor realmente estresó su idea. Si el equipo no tiene nada que decir aquí — si todo lo que creía antes de la clase sigue intacto después de los 7 pasos — no hubo estrés real."Si nada cambió hoy, el ejercicio no funcionó."
 
+## TAREA
 
-Las preguntas del instructor (2 min por equipo)
-Después de cada defensa el instructor elige una sola pregunta de este banco — la que más directamente desafía el punto más débil de lo que presentó el equipo. No las hace todas.
+1. Hacer la defensa de su idea 
 
-Preguntas de deseabilidad:
-
-"¿Cuánto paga hoy ese usuario para resolver este problema, aunque sea parcialmente?"
-"¿Por qué ese usuario no lo ha resuelto ya por su cuenta?"
-"¿Conocen personalmente a alguien que tenga este problema? ¿Cuándo fue la última vez que lo vieron sufrirlo?"
-
-Preguntas de novedad:
-
-"¿Buscaron si esto ya existe en Brasil, en India, o en China? ¿Qué encontraron?"
-"¿Qué tiene su Concepto Recomendado que no tiene la solución que ya existe en el mercado?"
-
-Preguntas de viabilidad técnica:
-
-"¿Qué sensor específico usarían y cuánto cuesta en México hoy?"
-"¿El modelo de IA corre en el dispositivo o en la nube? ¿Ya saben cuánto cuesta por llamada?"
-"¿Cuál es el componente más difícil de construir de los tres — app, artefacto o canal de venta — y qué van a hacer si no funciona en semana 10?"
-
-Preguntas de pasión (solo si el Criterio 1 pareció débil):
-
-"¿Quién del equipo tiene una razón personal para resolver esto? ¿Cuál es?"
-"Si este proyecto no tuviera calificación, ¿seguirían trabajando en él?"
-
-Preguntas para Estresores:
-
-"¿La arista que encontraron hoy es un ajuste a su idea original o es un producto diferente?"
-"Si tuvieran que elegir entre la idea original y la arista para trabajar los próximos seis meses, ¿cuál elegirían — y por qué?"
-
-
-Criterios de aprobación — el instructor decide en el momento
-✅ Aprobado — el equipo puede avanzar a semana 3
-Nombran el segmento específico con workaround identificado
-Presentan mínimo 2 señales de deseabilidad con evidencia concreta (no "creemos que")
-Pueden nombrar al menos un elemento técnico del concepto (sensor, tipo de IA, protocolo)
-La oportunidad en una oración es falseable
-Tienen al menos una hipótesis clara para probar en semana 3
-⚠️ Aprobado con ajuste — avanza pero con tarea específica
-El segmento es demasiado amplio ("las PyMEs") → ajustar a segmento específico antes de semana 3
-Las señales de deseabilidad son plausibles pero sin fuente verificada → verificar con Perplexity antes de semana 3
-El Concepto Recomendado es técnicamente vago → definir el componente más crítico antes de semana 3
-❌ Regresado — necesita retrabajar antes de avanzar
-El instructor comunica el rechazo con una sola oración que nombra exactamente qué falta, y el equipo trabaja el ajuste como primera tarea de semana 3:
-
-El problema no tiene evidencia de deseabilidad — solo supuestos del equipo
-El segmento no está definido con suficiente especificidad para entrevistarlo
-El Concepto Recomendado no tiene ningún componente de hardware + IA relevante para las capacidades del equipo
-(Solo Estresores) La presentación es idéntica a la idea original sin ningún ajuste — el estrés no ocurrió
-
-
-Prompt de Claude para preparar la defensa (opcional, si el equipo tiene tiempo)
-Si un equipo termina el Paso 6 con tiempo antes de que arranquen las presentaciones, puede usar este prompt para estructurar sus notas:
-
-Actúa como un coach de comunicación especializado en ayudar
-
-a emprendedores a articular oportunidades de negocio con
-
-claridad y precisión — sin jerga, sin abstracciones, con
-
-evidencia específica en cada afirmación. Tu objetivo no es
-
-hacer el pitch más impresionante sino el más honesto y
-
-defendible: uno que resista una pregunta difícil de alguien
-
-que no sabe nada del proyecto.
-
-Somos emprendedores en México construyendo un negocio con
-
-tres componentes: una aplicación con IA, un artefacto físico
-
-inteligente y una página web de venta. En 3 minutos debemos
-
-defender frente al grupo la oportunidad que elegimos hoy.
-
-Estos son nuestros insumos de los pasos anteriores:
-
-USUARIO Y WORKAROUND (del Pain-Gain Map):
-
-[pega el usuario/segmento y cómo resuelven hoy el problema]
-
-SEÑALES DE DESEABILIDAD VERIFICADAS (del Paso 5):
-
-[pega las señales con ✅ y su evidencia]
-
-POR QUÉ NOSOTROS (del Paso 6):
-
-Pasión: [razón personal o conexión del equipo con el problema]
-
-Habilidad: [elemento técnico concreto — sensor, modelo de IA,
-
-protocolo — que usarían]
-
-CONCEPTO RECOMENDADO (del Paso 4):
-
-[nombre y descripción en 2 oraciones]
-
-LA OPORTUNIDAD EN UNA ORACIÓN (del Paso 3):
-
-[pega la oración]
-
-[SOLO ESTRESORES — agregar]:
-
-LO QUE CAMBIÓ HOY:
-
-[el supuesto cuestionado o la arista encontrada]
-
-Con estos insumos, redacta la defensa de 3 minutos siguiendo
-
-esta estructura exacta y estos tiempos:
-
-00:00–00:45 — El problema y el workaround
-
-00:45–01:30 — La evidencia de deseabilidad (máximo 3 señales,
-
-  cada una en una oración, con el dato concreto)
-
-01:30–02:15 — Por qué nosotros + dirección de solución
-
-02:15–03:00 — La oportunidad en una oración
-
-[03:00–03:20 — Lo que cambió, solo si son Estresores]
-
-REGLAS:
-
-- Ninguna afirmación sin evidencia concreta
-
-- No usar: "creemos que", "podría ser", "tiene potencial"
-
-- Nombrar el segmento específico en el primer bloque
-
-- La oportunidad en una oración debe ser falseable —
-
-  alguien debería poder decir "eso no es verdad porque..."
-
-FORMATO DE SALIDA: el texto completo de la defensa, con
-
-marcadores de tiempo al inicio de cada bloque.
-
-
-Cierre de la sesión completa (3 min)
-Después de la última defensa, el instructor cierra con tres afirmaciones — no preguntas, no resumen:
-
-Primera: "Los que fueron aprobados: la oportunidad que defendieron hoy no es definitiva. Las entrevistas de semana 3 pueden cambiarla — y ese cambio sería una señal de que el proceso está funcionando, no de que fallaron."
-
-Segunda: "Los que fueron regresados: no es la oportunidad la que falló — es la evidencia. Eso se corrige esta semana con Perplexity, con una conversación con alguien del sector, o replanteando el segmento. Vengan a semana 3 con eso resuelto."
-
-Tercera: "Todo el grupo: la pregunta más importante que respondieron hoy no es '¿cuál es mi oportunidad?' — es '¿soy yo el emprendedor correcto para esta oportunidad en este momento?' Si la respuesta es sí, semana 3 va a ser la más interesante del semestre."
-
-
-Señal de que la sesión completa funcionó
-Al finalizar el Paso 7, cada equipo debe poder responder estas tres preguntas sin consultar sus notas:
-
-¿Quién específico tiene el problema que van a resolver?
-¿Qué evidencia concreta tienen de que ese problema es real?
-¿Cuál es la primera hipótesis que van a probar en semana 3?
-
-Si algún equipo no puede responder la tercera, el mapa de hipótesis del Paso 5 no quedó claro — el instructor lo revisa con ellos antes de terminar la clase.
-
-
-
-Paso 7 de 7 · Semana 2 · Proyectos y Emprendimiento · Ingeniería Mecatrónica
-
-
-Tarea en casa (4 horas)
-Tarea
-Tiempo
-Modo
-Profundización de mercado con Perplexity: ¿cuántos usuarios tiene el segmento? ¿qué soluciones existen? ¿hay startups en LATAM atacando esto?
-1h
-Ambos
-Refinamiento del Pain-Gain Map con Claude — dolores y ganancias de segundo orden
-1h
-Ambos
-Redacción del reporte de oportunidad (1 página)
-1h
-Ambos
-Identificar 1–2 usuarios reales para entrevistar en semana 3 + convertir las hipótesis del Paso 5 en preguntas de entrevista
-1h
-Ambos
-
-
+2. Hacer el reporte de oportunidad
 
 Estructura del reporte de oportunidad (entregable antes de semana 3)
+
 REPORTE DE OPORTUNIDAD — Semana 2
 
 Equipo: [nombres]
@@ -2352,58 +2111,43 @@ Concepto elegido: [nombre del Concepto Recomendado]
 
 1. EL PROBLEMA
 
-   [Segmento específico + descripción del dolor ⭐ +
-
-   workaround actual con costo observable]
+   [Segmento específico + descripción del dolor ⭐ + workaround actual con costo observable]
 
 2. EVIDENCIA DE DESEABILIDAD
 
-   [Mínimo 3 señales verificadas con fuente —
-
-   no "creemos que", solo evidencia observable]
+   [Mínimo 3 señales verificadas con fuente — no "creemos que", solo evidencia observable]
 
 3. PAIN-GAIN MAP (versión final)
 
-   [Mínimo 5 dolores ordenados por intensidad y
-
-   5 ganancias ordenadas por deseo]
+   [Mínimo 5 dolores ordenados por intensidad y 5 ganancias ordenadas por deseo]
 
 4. CONCEPTO RECOMENDADO
 
-   [Nombre + descripción en 3–4 oraciones +
-
-   letras SCAMPER que lo originaron + puntaje DVN]
+   [Nombre + descripción en 3–4 oraciones + letras SCAMPER que lo originaron + puntaje DVN]
 
 5. LA OPORTUNIDAD EN UNA ORACIÓN
 
-   "Existe una oportunidad para [quién] que necesita
-
-   [qué resultado] porque hoy [por qué no lo tiene]."
+   "Existe una oportunidad para [quién] que necesita [qué resultado] porque hoy [por qué no lo tiene]."
 
 6. POR QUÉ ESTE EQUIPO
 
-   [Razón personal — Criterio 1 + elemento técnico
-
-   concreto — Criterio 2]
+   [Razón personal — Criterio 1 + elemento técnico concreto — Criterio 2]
 
 7. HIPÓTESIS PARA SEMANA 3
 
-   [Las 3 hipótesis falseables del Paso 5 —
-
-   listas para probar en entrevistas]
+   [Las 3 hipótesis falseables del Paso 5 — listas para probar en entrevistas]
 
 --- SOLO ESTRESORES ---
 
 8. LO QUE CAMBIÓ
 
-   [El supuesto cuestionado o la arista encontrada +
-
-   cómo modificó la dirección del concepto]
+   [El supuesto cuestionado o la arista encontrada + cómo modificó la dirección del concepto]
 
    Si aplica: Concepto B como oportunidad de expansión.
 
 
 Lo que el equipo debe tener claro al salir de esta sesión
+
 ¿Quién específicamente tiene el problema que van a resolver? No "las PyMEs" ni "los agricultores" — el segmento con perfil concreto.
 
 ¿Qué evidencia tienen de que ese problema es real y duele suficiente? Al menos dos señales verificadas con fuente. No supuestos.
