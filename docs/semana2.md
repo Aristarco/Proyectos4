@@ -1911,9 +1911,9 @@ Cada equipo completa esta tabla en papel en 5 minutos:
 
 ### MATRIZ DE SELECCIÓN       
 
-![Matriz de selección](../recursos/imgs/Matriz_seleccion.png ){ width=600 align=center }
+![Matriz de selección](../../recursos/imgs/Matriz_seleccion.png ){ width=600 align=center }
 
-!MAtriz de selección [clickea aquí](https://docs.google.com/document/d/1Utgpt-8D9et9gkGQEzuYE2uaUeAP9dXAgfThObecpQA/edit?usp=sharing)
+Matriz de selección [clickea aquí](https://docs.google.com/document/d/1Utgpt-8D9et9gkGQEzuYE2uaUeAP9dXAgfThObecpQA/edit?usp=sharing)
 
 
 ###🔍 Modo Explorador
