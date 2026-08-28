@@ -960,7 +960,6 @@ Aplica cada letra de SCAMPER al cruce dolor ⭐ + ganancia ⭐ y genera 2 ideas 
 - Describe qué haría diferente el negocio en 2–3 oraciones
 
 - Especifica cómo cambia al menos uno de los tres componentes
-
   (app con IA / artefacto físico / canal de venta)
 
 - No repitas variaciones de la misma idea entre las dos
@@ -1074,7 +1073,7 @@ Llevas esas 4 al Prompt 2.
 
 ═══════════════════════════════════════════════════════
 
-Pausa de reflexión del equipo: leer el output completo, elegir las 4 ideas con código. **E*este es el primer filtro del equipo, no de la IA.**
+Pausa de reflexión del equipo: leer el output completo, elegir las 4 ideas con código. **Este es el primer filtro del equipo, no de la IA.**
 
 
 Prompt 2 — Remix de ideas
@@ -1908,82 +1907,17 @@ Si el puntaje de deseabilidad es 2 o menos Y el tamaño del mercado no está cla
 La matriz de selección — la misma para ambos modos
 Cada equipo completa esta tabla en papel en 5 minutos:
 
-╔══════════════════════════════════════════════════════════════╗
-
-║  MATRIZ DE SELECCIÓN              Equipo: _______________    ║
-
-╠══════════════════════╦════════════════════╦══════════════════╣
-
-║  Criterio            ║  Concepto A        ║  Concepto B      ║
-
-║                      ║  [nombre]          ║  [nombre / —]    ║
-
-╠══════════════════════╬════════════════════╬══════════════════╣
-
-║  1. PASIÓN           ║                    ║                  ║
-
-║  ¿El equipo seguiría ║  Sí / Con dudas /  ║  Sí / Con dudas /║
-
-║  si no hubiera       ║  No                ║  No              ║
-
-║  calificación?       ║                    ║                  ║
-
-║                      ║  Razón personal:   ║  Razón personal: ║
-
-║                      ║  [quién y cuál]    ║  [quién y cuál]  ║
-
-╠══════════════════════╬════════════════════╬══════════════════╣
-
-║  2. HABILIDAD        ║                    ║                  ║
-
-║  ¿Pueden nombrar     ║  Sí / Parcial /    ║  Sí / Parcial /  ║
-
-║  el sensor, el       ║  No                ║  No              ║
-
-║  modelo de IA y      ║                    ║                  ║
-
-║  el protocolo que    ║  Componente más    ║  Componente más  ║
-
-║  usarían hoy?        ║  arriesgado:       ║  arriesgado:     ║
-
-║                      ║  [cuál]            ║  [cuál]          ║
-
-╠══════════════════════╬════════════════════╬══════════════════╣
-
-║  3. MERCADO          ║                    ║                  ║
-
-║  Señales de          ║  ✅ de 5: [número] ║  ✅ de 5: [núm.] ║
-
-║  deseabilidad        ║                    ║                  ║
-
-║  confirmadas         ║  Tamaño estimado:  ║  Tamaño estimado:║
-
-║  (Paso 5) y          ║  [cifra o rango]   ║  [cifra o rango] ║
-
-║  tamaño del          ║                    ║                  ║
-
-║  segmento            ║  Pasa: Sí / No     ║  Pasa: Sí / No   ║
-
-╠══════════════════════╬════════════════════╬══════════════════╣
-
-║  RESULTADO           ║  3/3 ✅ → llevar   ║  3/3 ✅ → llevar ║
-
-║                      ║  al Paso 7         ║  al Paso 7       ║
-
-║                      ║  2/3 ✅ → ajustar  ║  2/3 ✅ → ajustar║
-
-║                      ║  1/3 ✅ → cambiar  ║  1/3 ✅ → cambiar║
-
-╠══════════════════════╩════════════════════╩══════════════════╣
-
-║  CONCEPTO ELEGIDO PARA EL PASO 7: _______________________    ║
-
-║  Por qué este y no el otro (1 oración): _________________    ║
-
-╚══════════════════════════════════════════════════════════════╝
 
 
-🔍 Modo Explorador
+### MATRIZ DE SELECCIÓN       
+
+![Matriz de selección](../recursos/imgs/Matriz_seleccion.png ){ width=600 align=center }
+
+!MAtriz de selección [clickea aquí](https://docs.google.com/document/d/1Utgpt-8D9et9gkGQEzuYE2uaUeAP9dXAgfThObecpQA/edit?usp=sharing)
+
+
+###🔍 Modo Explorador
+
 Si llegaste al Paso 6 con un solo concepto, completa la matriz con una sola columna (Concepto A) y verifica que pase los tres criterios.
 
 Si llegaste con dos conceptos posibles, completa ambas columnas. El que pase los tres criterios con más convicción en el Criterio 1 (pasión) es el que llevas al Paso 7 — si ambos pasan igual de bien en los tres criterios, elige el que tenga mayor puntaje de deseabilidad del Paso 5.
