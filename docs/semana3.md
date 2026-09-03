@@ -1,4 +1,4 @@
-# Semana 3 — Propiedad intelectual, marca y vigilancia tecnológica
+# Propiedad intelectual, marca y vigilancia tecnológica
 
 !!! abstract "Blueprint IDEO: Creación de valor · DVF: 🟢 Factible"
     La semana anterior el equipo identificó una oportunidad deseable. Esta semana responde si puede apropiársela: ¿alguien ya protegió lo que quieren construir? ¿pueden registrar su marca? ¿qué tan libre es el espacio tecnológico donde van a operar? Y por fin — con la oportunidad clara y verificada — entrevistan usuarios reales.
