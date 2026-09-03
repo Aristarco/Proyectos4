@@ -39,7 +39,17 @@
 
 ## Paso 2 — Propiedad intelectual: panorama completo
 
-**Duración: 40 min · Exposición del instructor**
+<iframe src="../recursos/archivos/MAPA_Propiedad_Industrial.pdf" width="800" height="440"></iframe>
+
+
+<iframe src="../recursos/archivos/Propiedad_Industrial.pdf" width="800" height="440"></iframe>
+
+
+[Descargar el Syllabus (PDF)](./recursos/archivos/Propiedad_Industrial.pdf)
+
+[Puedes descargar la ley de la propiedad industrial aquí (PDF)](./recursos/archivos/LEY_DE_LA_PROPIEDAD_INDUSTRIAL.pdf)
+
+[Folleto de patentes y modelos de utilidad](./recursos/archivos/PATENTES_Y_MODELOS_DE_UTILIDAD.PDF)
 
 ### Por qué le importa la PI a un emprendedor
 
