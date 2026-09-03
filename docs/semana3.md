@@ -134,6 +134,16 @@
 
 ### Prompt 1 — Generación de nombres (Claude)
 
+Trabajo por equipo: 
+
+Elabora 3 prompts:
+    * Primero: Obtén 12 nombres de marca (Evocadores, Compuestos, Inventados y Disruptivos) y eligen los 3 que más resuenen
+    * Segundo: Evalúa los 3 finalistas
+    * Tercero: Haz una verificación digital de pertinencia de la marca
+
+Justifica qué IA utilizarás en cada prompt. Esto es parte de la tarea.
+
+<!--
 ```
 Actúa como un estratega de naming con 15 años de experiencia
 creando marcas para productos de tecnología en mercados
@@ -204,7 +214,7 @@ Verifica para cada uno:
 Semáforo por candidato: 🟢 libre / 🟡 parcial / 🔴 riesgo
 Comparativa final: ¿cuál llevar al IMPI?
 ```
-
+-->
 ---
 
 ## Paso 4 — Búsqueda fonética en IMPI: demo en vivo
@@ -221,6 +231,8 @@ El instructor muestra: búsqueda por clase de Niza, lectura del estado (vigente/
     [tmdn.org](https://www.tmdn.org) · [tmsearch.uspto.gov](https://tmsearch.uspto.gov)
 
 ---
+
+Haz la búsqueda fonética de tu marca Incluyelo en la tarea
 
 ## Paso 5 — Vigilancia tecnológica
 
@@ -383,8 +395,9 @@ El instructor señala solo: (1) habla más del 20%, (2) pregunta intención futu
 ## Tarea en casa
 
 | Tarea | Tiempo | Entregable |
-|-------|:------:|-----------| 
-| Búsqueda fonética en IMPI | 1h | Captura + decisión de nombre |
+|-------|:------:|-----------|
+| Nombre de marca | 0.3 h | Prompts / Decisión del nombre de la marca |
+| Búsqueda fonética en IMPI | 0.7h | Captura + decisión de nombre |
 | Vigilancia tecnológica profunda | 1h | 3–5 patentes analizadas + FTO |
 | 3 entrevistas reales | 1.5h | Notas con citas textuales |
 | Síntesis de entrevistas con Claude | 0.5h | Insight validado o ajuste al concepto |
