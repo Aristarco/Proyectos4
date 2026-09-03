@@ -1,6 +1,6 @@
 # Propiedad intelectual, marca y vigilancia tecnológica
 
-!!! abstract "Blueprint IDEO: Creación de valor · DVF: 🟢 Factible"
+!!! abstract "Blueprint: Creación de valor · DVF: 🟢 Factible"
     La semana anterior el equipo identificó una oportunidad deseable. Esta semana responde si puede apropiársela: ¿alguien ya protegió lo que quieren construir? ¿pueden registrar su marca? ¿qué tan libre es el espacio tecnológico donde van a operar? Y por fin — con la oportunidad clara y verificada — entrevistan usuarios reales.
 
 ---
@@ -41,11 +41,12 @@
 
 <iframe src="../recursos/archivos/MAPA_Propiedad_Industrial.pdf" width="800" height="440"></iframe>
 
+[Documento de MAPA de la propiedad industrial (PDF)](./recursos/archivos/MAPA_Propiedad_Industrial.pdf)
 
 <iframe src="../recursos/archivos/Propiedad_Industrial.pdf" width="800" height="440"></iframe>
 
 
-[Descargar el Syllabus (PDF)](./recursos/archivos/Propiedad_Industrial.pdf)
+[Documento de propiedad industrial (PDF)](./recursos/archivos/Propiedad_Industrial.pdf)
 
 [Puedes descargar la ley de la propiedad industrial aquí (PDF)](./recursos/archivos/LEY_DE_LA_PROPIEDAD_INDUSTRIAL.pdf)
 
