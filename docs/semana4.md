@@ -483,9 +483,9 @@ El número que importa: ¿es suficiente para sostener el negocio?
 
     **El SOM es el número que más importa.** El TAM y SAM dan contexto del mercado potencial. El SOM dice si el equipo tiene claridad sobre cómo va a crecer en el tiempo que tiene.
 
-### Demo del instructor — construir el razonamiento en vivo (3 min)
+### Construcción del razonamiento en vivo
 
-El instructor hace el ejercicio con el ejemplo del sensor agrícola para que el grupo vea la lógica de construcción, no solo los números:
+Ejemplo del sensor agrícola. Lo importante es la lógica de construcción, no solo los números:
 
 ```
 TAM: ¿Cuántos agricultores con este problema existen en México?
@@ -596,19 +596,19 @@ FUENTES UTILIZADAS:
 ---
 
 ## Bloque 5 — Análisis competitivo y Blue Ocean
-**Duración: 20 min · Min 1:10 – 1:30**
+**Duración: 20 min**
 
-### La lógica del bloque — por qué el competitivo antes de la propuesta de valor
+### Importancia de ser competitivo antes de la propuesta de valor
 
 La propuesta de valor no existe en el vacío — existe en relación a dos cosas: un usuario específico y un competidor específico. Sin competidores mapeados, la propuesta de valor queda flotando como afirmación unilateral. La diferenciación solo es visible cuando hay algo respecto a lo cual diferenciarse.
 
 Este bloque tiene tres capas que se construyen en secuencia:
 
-**Capa 1 — Listado de competidores (5 min):** quiénes son — directos, indirectos y sustitutos — y cuál es la debilidad específica de cada uno para el segmento del equipo.
+**Capa 1 — Listado de competidores:** quiénes son — directos, indirectos y sustitutos — y cuál es la debilidad específica de cada uno para el segmento del equipo.
 
-**Capa 2 — Mapa de posicionamiento (7 min):** dónde están esos competidores en el espacio precio-calidad y dónde hay huecos visibles.
+**Capa 2 — Mapa de posicionamiento:** dónde están esos competidores en el espacio precio-calidad y dónde hay huecos visibles.
 
-**Capa 3 — Blue Ocean (8 min):** qué atributos eliminar, reducir, incrementar y crear para ocupar un espacio donde nadie compite directamente.
+**Capa 3 — Blue Ocean:** qué atributos eliminar, reducir, incrementar y crear para ocupar un espacio donde nadie compite directamente.
 
 ### Los tipos de competidores — y por qué el más peligroso no es el directo
 
@@ -636,7 +636,7 @@ similar al tuyo — cambiando su comportamiento o proceso.
 > *"El competidor más peligroso casi nunca es el directo. Es el indirecto — lo que el usuario ya paga para resolver el problema, aunque sea mal. Desplazar un hábito instalado es mucho más difícil que ganarle a alguien que llegó al mismo tiempo que tú."*
 
 !!! note "Porter's 5 Fuerzas — mención de 2 minutos"
-    Existe un framework clásico llamado las 5 Fuerzas de Porter que analiza la estructura competitiva de industrias maduras: poder de negociación de proveedores y clientes, amenaza de nuevos entrantes, amenaza de sustitutos, rivalidad entre competidores. Lo van a usar en cursos de estrategia avanzada y es muy útil para entender cómo está estructurado un sector.
+    Existe un framework clásico llamado las 5 Fuerzas de Porter que analiza la estructura competitiva de industrias maduras: poder de negociación de proveedores y clientes, amenaza de nuevos entrantes, amenaza de sustitutos, rivalidad entre competidores. Lo van a usar en cursos de estrategia avanzada y es muy útil para entender cómo está estructurado [un sector](https://www.master-malaga.com/empresas/cinco-fuerzas-porter/).
 
     Para lo que hacen hoy — un producto en primera iteración buscando dónde tiene ventaja — no es la herramienta correcta: les describe cómo está el campo de juego pero no les dice dónde parase. Para eso: Blue Ocean.
 
@@ -739,7 +739,7 @@ A │
 
 > *"El mapa de posicionamiento les dice dos cosas en 30 segundos: dónde están parados sus competidores y dónde está el espacio vacío. En este caso el hueco está en la esquina superior izquierda — calidad alta, precio accesible. Ese es el espacio que un producto bien diseñado para este segmento puede ocupar sin competir directamente con nadie."*
 
-**Instrucción al grupo:**
+**Ejercicio:**
 
 Cada equipo dibuja su propio mapa en papel — ejes precio y calidad, competidores ubicados, y una X marcando dónde pretenden estar ellos. No hay respuesta correcta universal — lo que importa es que el equipo pueda justificar por qué se posiciona donde se posiciona y que ese espacio no esté ya saturado.
 
