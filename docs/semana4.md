@@ -707,14 +707,14 @@ cambie de comportamiento]
 
 ### Mapa de posicionamiento — dónde están los competidores en el espacio (7 min)
 
-Con los competidores identificados, el instructor dibuja en pizarrón o proyecta el mapa de posicionamiento: un eje de dos dimensiones que ubica a cada jugador en el espacio precio-calidad.
+Con los competidores identificados, se realiza el mapa de posicionamiento: un eje de dos dimensiones que ubica a cada jugador en el espacio precio-calidad.
 
 ```
 CALIDAD
   ↑
-  │  Consultoría         Sistema IoT
-  │  agronómica     ●    industrial ●
-A │  presencial
+  │      Consultoría       Sistema IoT
+  │      agronómica        industrial ●
+A │      presencial
 L │
 T │              ❓HUECO❓
 A │
@@ -750,13 +750,13 @@ Cada equipo dibuja su propio mapa en papel — ejes precio y calidad, competidor
 - Precisión vs. tiempo de implementación
 - Costo de adopción vs. impacto en el negocio del usuario
 
-El criterio para elegir los ejes: ¿cuáles son las dos dimensiones que más le importan al segmento objetivo cuando toma la decisión de compra?
+**El criterio para elegir los ejes: ¿cuáles son las dos dimensiones que más le importan al segmento objetivo cuando toma la decisión de compra?** 
 
 ---
 
 ### Blue Ocean — el lienzo estratégico (8 min)
 
-El instructor explica el marco completo antes del prompt — no solo el lienzo, sino la lógica que lo produce:
+
 
 **¿Por qué existe el océano rojo?**
 
@@ -790,7 +790,6 @@ CREAR     → ¿Qué atributos completamente nuevos debería
 
 **Ejemplo aplicado al sensor agrícola — el instructor lo hace en vivo:**
 
-El instructor proyecta esto mientras lo explica:
 
 ```
 Los competidores directos (sistemas de monitoreo IoT agrícola)
@@ -820,21 +819,6 @@ CREAR:     asesoría agronómica integrada al producto —
            basado en el cultivo específico y la etapa del ciclo
 ```
 
-> *"¿Ven lo que pasa? La curva de valor de este concepto es completamente diferente a la de los competidores directos. No compite en precisión del sensor ni en cantidad de métricas — compite en simplicidad de decisión y en conocimiento agronómico integrado. Esos dos atributos son su océano azul."*
-
-**Cómo se lee la tabla que produce Claude:**
-
-El output del prompt es una tabla de puntuaciones del 1 al 5 por atributo. El instructor guía al grupo para interpretarla con tres preguntas:
-
-**1. ¿Dónde son todas las columnas de los competidores parecidas?**
-Ahí está el océano rojo — todos compiten en lo mismo con niveles similares. Entrar a competir en esos atributos significa guerra de precios.
-
-**2. ¿Dónde la columna del concepto es radicalmente diferente a todas las demás?**
-Esa diferencia es el océano azul potencial. Puede ser alta donde los competidores están bajos (atributo nuevo o muy superior), o baja donde todos están altos (atributo que el concepto deliberadamente elimina porque el segmento ya no lo valora).
-
-**3. ¿Hay alguna columna del concepto que puntúa igual que los competidores?**
-Ahí hay riesgo de océano rojo — si no hay diferencia en ese atributo, el usuario no tiene razón para elegir el concepto sobre lo que ya conoce.
-
 Aplicado al ejemplo del sensor agrícola, la lectura sería:
 
 | Atributo | Competidor IoT | Competidor app | Nuestro concepto |
@@ -847,6 +831,12 @@ Aplicado al ejemplo del sensor agrícola, la lectura sería:
 | Soporte técnico | 4 | 2 | 3 |
 
 > *"¿Ven lo que pasa? En precio, alerta simple y asesoría integrada nuestra curva es completamente diferente a la de los competidores. En dashboard de datos estamos deliberadamente bajos — no porque no podamos hacerlo, sino porque ese atributo no le sirve a este usuario. Ahí está el océano azul: no competimos en los mismos atributos que los demás."*
+
+
+
+> *"¿Ven lo que pasa? La curva de valor de este concepto es completamente diferente a la de los competidores directos. No compite en precisión del sensor ni en cantidad de métricas — compite en simplicidad de decisión y en conocimiento agronómico integrado. Esos dos atributos son su océano azul."*
+
+
 
 ### Prompt — Claude: lienzo estratégico Blue Ocean
 
@@ -877,7 +867,7 @@ Capacidades diferenciales del equipo:
 Segmento accionable:
 [pegar el perfil de las 4 capas del Bloque 2]
 
-Con estos insumos construye el lienzo estratégico en dos pasos:
+Con estos insumos construye el lienzo estratégico Blue Ocean en dos pasos:
 
 PASO 1 — MARCO DE LAS CUATRO ACCIONES:
 Antes de construir el lienzo, aplica el marco para identificar
