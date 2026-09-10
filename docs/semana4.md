@@ -113,25 +113,23 @@ La palabra que el instructor subraya es **compradores** — no usuarios, no pers
 
 Esta distinción no es semántica. Un equipo puede tener miles de usuarios potenciales y cero mercado si nadie está dispuesto a pagar. Y al revés: un mercado pequeño con disposición real de pago puede sostener un negocio perfectamente viable.
 
-> *"La pregunta no es '¿cuánta gente tiene este problema?' — es '¿cuánta gente tiene este problema Y está dispuesta a pagar por resolverlo?' Esas dos poblaciones rara vez son iguales. La diferencia entre ellas es la diferencia entre una causa social y un negocio."*
+> *"La pregunta no es '¿cuánta gente tiene este problema?' — es '¿cuánta gente tiene este problema **Y está dispuesta a pagar por resolverlo?'** Esas dos poblaciones rara vez son iguales. La diferencia entre ellas es la diferencia entre una causa social y un negocio."*
 
 ---
 
 ### La trampa del "producto solución"
 
-El instructor habla directamente al perfil del grupo — no como clase magistral sino como conversación entre ingenieros:
 
 El error más frecuente en equipos de ingeniería: construir algo porque *se puede*, no porque *se necesita*. El sensor existe porque la tecnología lo permite. La app existe porque el equipo sabe programarla. El producto es técnicamente impecable. Nadie lo compra.
 
-Este patrón tiene nombre en la industria: ***solution looking for a problem***. Es la causa número uno de fracaso en productos de hardware, donde el costo de manufactura hace que el error sea especialmente caro. Un software que nadie usa puede abandonarse en un fin de semana. Un artefacto físico que nadie compra viene con inventario, proveedores, componentes pagados, y capital que no se recupera.
+Este patrón tiene nombre en la industria: ***solution looking for a problem*** (Una solución buscando un problema). Es la causa número uno de fracaso en productos de hardware, donde el costo de manufactura hace que el error sea especialmente caro. Un software que nadie usa puede abandonarse en un fin de semana. Un artefacto físico que nadie compra viene con inventario, proveedores, componentes pagados, y capital que no se recupera.
 
 El problema no es la habilidad técnica del equipo — generalmente es excelente. El problema es la secuencia: primero construir, luego buscar a quién vendérselo. Esa secuencia invertida destruye más startups que la competencia, la tecnología y la falta de financiamiento juntos.
 
 > *"¿Cuántas veces en las últimas dos semanas describieron su producto empezando con qué hace técnicamente, antes de decir para quién es y qué problema le resuelve?"*
 
-Dejar que el grupo responda internamente. Luego:
 
-> *"Si la respuesta es 'casi siempre' — están pensando como ingenieros de componentes. Lo que este curso busca construir es la otra mitad: pensar como ingenieros de producto."*
+> *"Si la respuesta es 'casi siempre' — están pensando como ingenieros de componentes. Lo que este curso busca construir es la otra mitad: pensar como **ingenieros de producto."***
 
 ---
 
