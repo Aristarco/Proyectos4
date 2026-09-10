@@ -230,7 +230,7 @@ Esa oración describe a una persona que se puede encontrar en la agrotienda de T
 
 > *"Construyan el perfil de su segmento en estas cuatro capas usando únicamente lo que saben de sus entrevistas o de evidencia verificable. Si no tienen dato real para alguna capa, márcala explícitamente como hipótesis — no la inventen. Un perfil honesto con huecos es más útil que uno completo con datos fabricados: los huecos dicen exactamente qué investigar la semana que entra."*
 
-El instructor circula y señala una sola cosa si la ve: equipos que describen al segmento que *quieren* tener, no al que *tienen evidencia de conocer*. Esa es la distinción más difícil y la más importante del análisis de mercado.
+**OJO** No describan al segmento que *quieren* tener, sino al que *tienen evidencia de conocer*. Esa es la distinción más difícil y la más importante del análisis de mercado.
 
 ---
 
@@ -319,32 +319,36 @@ si no puede escribirse con datos verificados, señalarlo]
 ---
 
 ## Bloque 3 — Tipos de valor: Pirámide de Bain + marco IDEO
-**Duración: 10 min · Min 0:45 – 0:55**
 
-### Por qué este bloque antes de la propuesta de valor
+**De la pirámide de Maslow a la pirámide de Bain**
 
-Construir una propuesta de valor sin saber qué tipos de valor existen produce propuestas genéricas que describen características del producto, no el valor que entrega.
+Inspirándose en la pirámide de Maslow, y en línea con esta última idea de que nuestras acciones tienen como motor nuestras necesidades y que cada persona las prioriza de manera diferente, la firma Bain & Company se decidió a desarrollar su propia pirámide para tratar de identificar cuáles son las motivaciones qué siguen los consumidores para seleccionar un producto.
 
-La diferencia en una línea:
+De este modo, en 2016 Bain & Company realizó un estudio que publico en la Harvard Business Review, que pretendía dar respuesta a la pregunta ¿Que motiva a los consumidores a la hora de escoger un producto?
 
-```
-"Nuestro sensor monitorea la humedad del suelo en tiempo real"
-→ Descripción técnica. Oferta.
+La percepción que tienen nuestros consumidores respecto a cada producto cambia de forma radical y, por lo tanto, las estrategias a llevar a cabo para lograr vender más son completamente distintas. Bain & Company le da una vuelta de tuerca más a todo esto.
 
-"El agricultor deja de perder el 20% de su cosecha porque
-ya sabe cuándo regar sin adivinar"
-→ Resultado para el usuario. Propuesta de valor.
-```
+**Entendiendo la pirámide de Bain**
 
-La diferencia no está en las palabras — está en el punto de vista. La primera describe el producto desde adentro. La segunda describe el resultado desde la perspectiva del usuario. Ese cambio de perspectiva es el que construye propuestas de valor reales.
+La pirámide de BAIN establece que un producto o servicio puede responder a cuatro tipos de necesidades y dentro de estas necesidades se identifican 30 valores. Cuantos más valores pueda defender una marca, más fieles van a ser sus consumidores.
 
-Para hacer ese cambio con criterio, el equipo necesita entender qué tipos de valor existen y en cuál opera su producto.
 
----
+![El prompt perfecto](../recursos/imgs/Piramide_Valor.jpg){ width=600 align=center }
 
-### La Pirámide de Valor de Bain
 
-Desarrollada por Bain & Company a partir de 30 años de investigación en comportamiento de compra, publicada en Harvard Business Review. Está inspirada en la pirámide de Maslow pero se enfoca en un problema específico: por qué la gente compra lo que compra.
+A continuación, se explica con mayor detalle la clasificación de los principales ámbitos de necesidad que cubren los productos o servicios para nuestros consumidores realizada por Bain&Company y una ilustración que muestra también los principales valores en cada ámbito:
+
+**Funcional – ¿Para qué lo quiero?**
+Los valores más básicos que como consumidores pedimos a un producto: información, variedad, calidad, capacidad de ahorrar tiempo, capacidad de reducir esfuerzo, etc. Aquí podemos encontrar la mayoría de productos que encontramos en un supermercado, pero también algunos servicios como podría ser Glovo, que nos permite elegir comida de un montón de restaurantes diferentes y te la traen a casa.
+
+**Emocional – ¿Qué me aporta?**
+En este segundo nivel se activan valores que conectan con los sentimientos de los consumidores: bienestar, acceso a un determinado grupo o comunidad, hacernos más atractivos o reducir nuestra ansiedad. Muchas grandes marcas están trabajando este tipo de valores para establecer un vínculo mayor con sus consumidores. Por ejemplo, comprar un producto Apple significa mucho más que disponer de un móvil.
+
+**Cambio de vida – ¿Me ayuda a ser mejor?**
+Valores relacionados con la motivación para conseguir retos, esperanza o sentimiento de pertinencia. Las marcas deportivas siempre han intentado cubrir estos valores poniendo énfasis en qué sus productos te ayudarán a lograr tus retos (parece que correrás más rápido con unas Nike o que será muy difícil prepararte para una maratón sin un reloj deportivo como un Garmin).
+
+**Impacto social – ¿Es capaz de trascender logrando una sociedad mejor?**
+En la cima de la pirámide encontramos lo que podemos llamar como de auto-trascendencia, es decir, ayudar a los demás o mejora la sociedad. Por ejemplo, WaterMarks es una empresa de fotografía que, por cada fotografía descargada con su marca de agua, realiza una inversión considerable en proyectos sociales de agua potable [Fuente](https://lareuniondelas9.wordpress.com/2020/04/11/la-piramide-de-bain/)
 
 La pirámide tiene cuatro niveles. Los productos operan principalmente en uno, pero los más exitosos tocan varios simultáneamente:
 
@@ -372,6 +376,31 @@ La pirámide tiene cuatro niveles. Los productos operan principalmente en uno, p
 
 **La regla de la pirámide:** un producto necesita ser sólido en el nivel funcional antes de reclamar valor emocional. Si promete tranquilidad pero no funciona de manera confiable, la promesa emocional destruye la marca. Los mejores productos operan simultáneamente en funcional y emocional — el funcional justifica la compra, el emocional genera lealtad.
 
+
+![Veamos la pirámide de Valor de Bain & Company](https://media.bain.com/elements-of-value/#)
+
+
+
+Construir una propuesta de valor sin saber qué tipos de valor existen produce propuestas genéricas que describen características del producto, no el valor que entrega.
+
+La diferencia en una línea:
+
+```
+"Nuestro sensor monitorea la humedad del suelo en tiempo real"
+→ Descripción técnica. Oferta.
+
+"El agricultor deja de perder el 20% de su cosecha porque
+ya sabe cuándo regar sin adivinar"
+→ Resultado para el usuario. Propuesta de valor.
+```
+
+La diferencia no está en las palabras — está en el punto de vista. La primera describe el producto desde adentro. La segunda describe el resultado desde la perspectiva del usuario. Ese cambio de perspectiva es el que construye propuestas de valor reales.
+
+Para hacer ese cambio con criterio, el equipo necesita entender qué tipos de valor existen y en cuál opera su producto.
+
+---
+
+
 **Aplicado al tipo de productos que el grupo desarrolla:**
 
 | Producto | Valor funcional | Valor emocional |
@@ -386,7 +415,6 @@ El valor emocional no es marketing — es la razón por la que los usuarios reco
 
 ### El marco IDEO: Insightful / Unique / Targeted
 
-El instructor proyecta este marco y lo lee con el grupo antes de explicarlo:
 
 | **INSIGHTFUL** | **UNIQUE** | **TARGETED** |
 |:--------------:|:----------:|:------------:|
@@ -402,7 +430,7 @@ El instructor proyecta este marco y lo lee con el grupo antes de explicarlo:
 
 > *"IDEO no empieza con el producto — empieza con el insight del cliente y la singularidad de la solución. La propuesta de valor vive en la intersección de esas tres preguntas. Un producto Insightful pero no Unique es copiable. Unique pero no Targeted no encuentra a su usuario. Targeted pero no Insightful no resuelve nada real."*
 
-**La diferencia clave que el grupo debe llevarse de este bloque:**
+**La diferencia clave que el debes llevarte:**
 
 ```
 OFERTA     → Qué vendes
