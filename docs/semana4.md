@@ -1125,11 +1125,10 @@ Una propuesta de valor que requiere 30 segundos de contexto antes de poder leers
 ---
 
 ## Bloque 7 — Cierre: oferta vs. propuesta de valor
-**Duración: 10 min · Min 1:50 – 2:00**
+**Duración: 10 min**
 
 ### El concepto que se llevan — sin slides, solo voz
 
-El instructor cierra de pie, sin proyector:
 
 > *"Hoy construyeron algo que la mayoría de los ingenieros confunde durante toda su carrera. Voy a decirlo dos veces porque quiero que lo repitan hasta que quede grabado:"*
 
@@ -1172,11 +1171,10 @@ DE VALOR    Solo existe en relación a un usuario específico
 
 ### Pregunta de cierre
 
-El instructor antes de terminar:
 
 *"¿Cuál de los tres errores cometía su primera versión de la propuesta de valor — la de antes de pasar por Claude?"*
 
-Dejar que el grupo responda en voz alta. No hay respuesta incorrecta. El propósito es que cada equipo pueda nombrarlo — porque si pueden nombrarlo, pueden evitarlo la próxima vez sin necesitar el prompt.
+Si pueden nombrarlo, pueden evitarlo la próxima vez sin necesitar el prompt.
 
 ---
 
