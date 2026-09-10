@@ -109,7 +109,7 @@ El análisis de mercado no es un trámite académico — es la respuesta a la pr
 
 > *"Philip Kotler define el mercado como el conjunto de compradores reales y potenciales de un producto o servicio. Esos compradores comparten una necesidad o deseo que puede satisfacerse mediante una relación de intercambio."*
 
-La palabra que el instructor subraya es **compradores** — no usuarios, no personas interesadas, no personas con el problema. Compradores: gente dispuesta a dar algo a cambio de una solución.
+**Compradores: gente dispuesta a dar algo a cambio de una solución.**
 
 Esta distinción no es semántica. Un equipo puede tener miles de usuarios potenciales y cero mercado si nadie está dispuesto a pagar. Y al revés: un mercado pequeño con disposición real de pago puede sostener un negocio perfectamente viable.
 
@@ -137,7 +137,7 @@ El problema no es la habilidad técnica del equipo — generalmente es excelente
 
 No es elegir entre habilidad técnica y entendimiento de mercado. Es la fusión de las dos — y esa fusión es exactamente el diferencial del mecatrónico frente a otros perfiles de emprendimiento.
 
-El ingeniero de producto exitoso puede diseñar el circuito *y* entender por qué el usuario de ese circuito lo necesita. Puede escribir el firmware *y* saber cuánto está dispuesto a pagar el comprador de ese firmware. Puede optimizar el algoritmo *y* identificar en qué segmento ese algoritmo genera el mayor valor diferencial.
+El ingeniero de producto exitoso puede diseñar el circuito *y* entender por qué el usuario de ese circuito lo necesita. Puede escribir el firmware *y* saber cuánto está dispuesto a pagar el comprador de ese firmware. Puede optimizar el algoritmo *e* identificar en qué segmento ese algoritmo genera el mayor valor diferencial.
 
 Esto no es teoría de negocios para ingenieros. Es lo que separa a los fundadores técnicos que construyen empresas de los que construyen proyectos de fin de carrera.
 
@@ -153,15 +153,14 @@ El análisis de mercado es lo que define qué es lo correcto: quién es el usuar
 
 > *"Lean Startup no dice 'construye rápido'. Dice 'aprende rápido'. El análisis de mercado es aprender antes de construir — la iteración más barata que existe. Un cliente que te dice 'no pagaría por eso' en una entrevista de 20 minutos te ahorra tres meses de desarrollo."*
 
-Los equipos que saltan directamente a construir sin análisis de mercado no son más ágiles — son más rápidos cometiendo el error equivocado.
+Los equipos que saltan directamente a construir sin análisis de mercado no son más ágiles — son más rápidos construyendo el producto equivocado.
 
 ---
 
 ### El segmento accionable — instrucción al grupo
 
-Con ese contexto construido, el instructor introduce el ejercicio:
 
-Un segmento no es una categoría demográfica. "Agricultores mexicanos" no es un segmento — es una categoría de 3.2 millones de personas con contextos, recursos, problemas y comportamientos radicalmente distintos. Un segmento accionable es un grupo suficientemente específico como para que el equipo pueda describir a un individuo concreto, encontrarlo en el mundo real, entrevistarlo, y diseñar específicamente para él.
+Un segmento no es una categoría demográfica. "Agricultores mexicanos" no es un segmento — es una categoría de 3.2 millones de personas con contextos, recursos, problemas y comportamientos radicalmente distintos. **Un segmento accionable es un grupo suficientemente específico como para que el equipo pueda describir a un individuo concreto, encontrarlo en el mundo real, entrevistarlo, y diseñar específicamente para él.**
 
 La especificidad no limita el mercado — lo hace real y abordable.
 
@@ -186,50 +185,48 @@ La especificidad no limita el mercado — lo hace real y abordable.
 
 Esa oración describe a una persona que se puede encontrar en la agrotienda de Tehuacán un martes por la mañana, a quien se puede entrevistar en 20 minutos, y para quien se puede diseñar con precisión.
 
-El instructor muestra el perfil completo en las cuatro capas para que el grupo entienda qué nivel de detalle se espera en el ejercicio:
 
 === "Perfil del agricultor de invernadero"
 
-    **CAPA 1 — DEMOGRÁFICA**
+  **CAPA 1 — DEMOGRÁFICA**
     - Productor de jitomate en invernadero · Tehuacán y corredor hacia Izúcar de Matamoros, Puebla
     - 38–55 años · Operación propia o familiar, no corporativa
     - 0.5 a 3 hectáreas · 5–20 jornaleros por temporada
     - Riego por goteo instalado (tiene infraestructura), sin automatización de monitoreo
     - Acceso a smartphone · usa WhatsApp diariamente
 
-    **CAPA 2 — CONDUCTUAL**
+  **CAPA 2 — CONDUCTUAL**
     - Revisa la humedad del suelo caminando el invernadero cada mañana — toca la tierra con la mano o usa tensiómetro analógico si tiene
     - Decide cuándo regar basado en apariencia de la planta y experiencia propia ("se ve seca")
     - Registra el riego en una libreta o de memoria — raramente en app
     - Cuando hay un problema de riego ya visible (planta estresada, fruto deforme) el daño ya ocurrió — interviene tarde
     - Llama a su agrónomo de confianza 1–2 veces por ciclo, no más por costo
 
-    **CAPA 3 — PSICOGRÁFICA**
+  **CAPA 3 — PSICOGRÁFICA**
     - *"Me preocupa llegar al invernadero y ver las plantas marchitas — eso me cuesta dinero que no recupero"*
     - *"No sé si estoy regando bien o me estoy pasando — el jitomate no te dice nada hasta que ya es tarde"*
     - *"No confío en tecnología que no entiendo — si me falla y pierdo una cosecha, ¿quién me responde?"*
     - Lo que lo motivaría a cambiar: ver que otro productor conocido lo usa y le funciona. La referencia entre pares vale más que cualquier demo o folleto.
     - Resistencia real: adopción lenta de nuevas herramientas, desconfianza si el vendedor no conoce el campo
 
-    **CAPA 4 — ECONÓMICA**
+  **CAPA 4 — ECONÓMICA**
     - Valor bruto por ciclo (90 días): $80,000–$250,000 MXN según hectáreas y precio del jitomate
     - Pérdida estimada por estrés hídrico mal gestionado: 10–20% del ciclo = $8,000–$50,000 MXN
     - Gasto actual en asesoría agronómica: $2,000–$5,000 MXN por visita, 1–3 visitas por ciclo
     - Disposición de pago estimada: hasta $800–$1,200 MXN/mes si confía en que funciona
     - Quién decide la compra: el dueño mismo — no hay área de compras, no hay proceso de aprobación
 
-=== "Lo que revela cada capa"
-
-    | Capa | Lo que revela para el diseño del producto |
-    |------|------------------------------------------|
-    | **Demográfica** | El canal de distribución: agrotiendas en Tehuacán, no e-commerce. El idioma: español coloquial del campo, no tecnicismos. |
-    | **Conductual** | El workaround que hay que desplazar: la inspección manual diaria y el tensiómetro analógico. El producto entra exactamente ahí. |
-    | **Psicográfica** | El mensaje que funciona no es "tecnología de punta" — es "ya lo usa tu vecino y le funciona". La referencia entre pares es el canal de adopción. |
-    | **Económica** | $800–$1,200 MXN/mes es sostenible si evita una sola pérdida por estrés hídrico — el ROI se justifica solo. La decisión es rápida si el dueño confía. |
+*"Lo que revela cada capa"*
+| Capa | Lo que revela para el diseño del producto |
+| ------ | ------------------------------------------ |
+| **Demográfica** | El canal de distribución: agrotiendas en Tehuacán, no e-commerce. El idioma: español coloquial del campo, no tecnicismos. |
+| **Conductual** | El workaround que hay que desplazar: la inspección manual diaria y el tensiómetro analógico. El producto entra exactamente ahí. |
+| **Psicográfica** | El mensaje que funciona no es "tecnología de punta" — es "ya lo usa tu vecino y le funciona". La referencia entre pares es el canal de adopción. |
+| **Económica** | $800–$1,200 MXN/mes es sostenible si evita una sola pérdida por estrés hídrico — el ROI se justifica solo. La decisión es rápida si el dueño confía. |
 
 ---
 
-**Instrucción al grupo (8 min):**
+**Ejercicio:**
 
 > *"Construyan el perfil de su segmento en estas cuatro capas usando únicamente lo que saben de sus entrevistas o de evidencia verificable. Si no tienen dato real para alguna capa, márcala explícitamente como hipótesis — no la inventen. Un perfil honesto con huecos es más útil que uno completo con datos fabricados: los huecos dicen exactamente qué investigar la semana que entra."*
 
