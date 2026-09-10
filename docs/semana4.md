@@ -1,6 +1,6 @@
 # Semana 4 — Mercado, valor y propuesta de valor
 
-!!! abstract "Blueprint IDEO: Creación de valor → Captura de valor · DVF: 🔴 Deseable · 🟡 Viable"
+!!! abstract "Blueprint: Creación de valor → Captura de valor · DVF: 🔴 Deseable · 🟡 Viable"
     Esta semana conecta dos preguntas que los equipos suelen confundir: *¿qué valor crea mi producto?* y *¿por qué alguien me lo compra a mí y no a otro?* La primera es la propuesta de valor. La segunda es la diferenciación. Sin las dos claras, el pitch no funciona y el modelo de negocio no sostiene.
 
 ---
@@ -19,12 +19,12 @@
 | | **Total** | | **120 min** |
 
 !!! tip "Hilo conductor de la sesión"
-    Cada bloque alimenta al siguiente. El segmento define para quién. La pirámide define qué tipos de valor existen. El TAM/SOM dice cuántos hay. El competitivo revela el hueco. El workshop construye la propuesta de valor que ocupa ese hueco.
+    Cada bloque alimenta al siguiente. El segmento define para quién. La pirámide define qué tipos de valor existen. El TAM/SOM dice cuántos hay. El competitivo revela el hueco. El taller construye la propuesta de valor que ocupa ese hueco.
 
 ---
 
 ## Bloque 1 — Cierre semana 3
-**Duración: 30 min · Min 0:00 – 0:30**
+**Duración: 30 min**
 
 ### Propósito
 
@@ -32,14 +32,12 @@ Cerrar los tres hilos que quedaron como tarea: Freedom to Operate (FTO) de la vi
 
 ### Minuto a minuto
 
-**0:00 – 0:10 · Cierre de propiedad intelectual (10 min)**
+**Cierre de propiedad intelectual (10 min)**
 
-El instructor pide a cada equipo que comparta en **60 segundos exactos** dos cosas:
+Comparta en **60 segundos exactos** dos cosas:
 
 1. El nombre de marca elegido después de la búsqueda fonética en el IMPI — y si encontraron antecedente, cómo lo están resolviendo
 2. Su conclusión de **Freedom to Operate (FTO)**: el resultado de la vigilancia tecnológica — ¿pueden fabricar y vender su concepto en México sin infringir patentes vigentes?
-
-El instructor registra en pantalla una tabla simple:
 
 ```
 Equipo | Nombre elegido | FTO (🟢/🟡/🔴) | Ajuste pendiente
@@ -54,11 +52,11 @@ Equipo | Nombre elegido | FTO (🟢/🟡/🔴) | Ajuste pendiente
 Si algún equipo tiene FTO 🔴: no detenerse ahí en clase. Anotar el ajuste pendiente y continuar — el problema legal no se resuelve en el salón.
 
 !!! warning "Si el IMPI devolvió un antecedente directo para el nombre de marca"
-    No es el fin del proyecto. Tres opciones: (1) cambiar el nombre, (2) cambiar la clase de Niza, (3) buscar asesoría para evaluar coexistencia. El instructor recomienda la opción 1 como la más pragmática en etapa early — el nombre se puede cambiar, el tiempo perdido en trámites no se recupera.
+    No es el fin del proyecto. Tres opciones: (1) cambiar el nombre, (2) cambiar la clase de Niza, (3) buscar asesoría para evaluar coexistencia. 
 
 ---
 
-**0:10 – 0:25 · Síntesis de entrevistas (15 min)**
+**Síntesis de entrevistas**
 
 Dos equipos comparten su síntesis — uno con concepto confirmado, uno con ajuste o pivote identificado. El instructor los selecciona antes de clase si ya recibió los reportes de tarea.
 
@@ -71,11 +69,11 @@ Formato: **2 minutos por equipo**, estructura fija:
 4. Qué cambió en el concepto (o por qué se mantuvo igual)
 ```
 
-Después de los dos equipos, el instructor hace una pregunta al grupo:
+Preguntas pendientes:
 
-> *"¿Alguien encontró algo en sus entrevistas que contradijera lo que Perplexity o Claude les habían dicho en semana 2?"*
+> *"¿Encontraron algo en sus entrevistas que contradijera lo que Perplexity o Claude les habían dicho en semana 2?"*
 
-Esta pregunta tiene un propósito pedagógico específico: cuando los datos de mercado secundarios y la voz directa del usuario apuntan en direcciones distintas, la voz del usuario tiene la razón. Los datos secundarios describen tendencias. Las entrevistas describen comportamiento real de una persona real. Son cosas distintas.
+    Cuando los datos de mercado secundarios y la voz directa del usuario apuntan en direcciones distintas, la voz del usuario tiene la razón. Los datos secundarios describen tendencias. Las entrevistas describen comportamiento real de una persona real. Son cosas distintas.
 
 !!! note "Si ningún equipo hizo las tres entrevistas"
     No fingir que pasó. Nombrar directamente:
@@ -86,13 +84,12 @@ Esta pregunta tiene un propósito pedagógico específico: cuando los datos de m
 
 ---
 
-**0:25 – 0:30 · Transición al mercado (5 min)**
+**MERCADO**
 
-El instructor conecta lo que vino con lo que sigue:
 
-> *"Hasta ahora han respondido tres preguntas en secuencia: ¿existe un problema real? (semana 2), ¿pueden construir la solución sin bloqueos legales? (semana 3), ¿qué dicen los usuarios que tienen ese problema? (entrevistas). Hoy responden la cuarta — y es la que convierte una idea en un negocio: ¿cuánta gente tiene ese problema y está dispuesta a pagar por resolverlo, y por qué les van a comprar a ustedes y no a alguien más?"*
+> *"Hasta ahora han respondido tres preguntas en secuencia: ¿existe un problema real? (semana 2), ¿pueden construir la solución sin bloqueos legales? (semana 3), ¿qué dicen los usuarios que tienen ese problema? (entrevistas). Hoy responden la cuarta — y es la que convierte una idea en un negocio: ¿cuánta gente tiene ese problema **y está dispuesta a pagar** por resolverlo, y por qué les van a comprar a ustedes y no a alguien más?"*
 
-Proyectar en pantalla:
+
 
 ```
 Semana 2 → ¿El problema existe?             (Deseable)
@@ -100,16 +97,15 @@ Semana 3 → ¿Pueden construirlo?             (Factible)
 Semana 4 → ¿Hay mercado? ¿Por qué ustedes?  (Viable + Deseable)
 ```
 
-La transición establece que el análisis de mercado no es un trámite académico — es la respuesta a la pregunta más difícil del emprendimiento.
+El análisis de mercado no es un trámite académico — es la respuesta a la pregunta más difícil del emprendimiento.
 
 ---
 
 ## Bloque 2 — De la solución técnica a la oportunidad de mercado
-**Duración: 15 min · Min 0:30 – 0:45**
+**Duración: 15 min**
 
 ### Qué es un mercado — la definición que importa
 
-El instructor abre con Kotler antes de hablar de segmentos:
 
 > *"Philip Kotler define el mercado como el conjunto de compradores reales y potenciales de un producto o servicio. Esos compradores comparten una necesidad o deseo que puede satisfacerse mediante una relación de intercambio."*
 
