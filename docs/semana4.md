@@ -377,7 +377,7 @@ La pirámide tiene cuatro niveles. Los productos operan principalmente en uno, p
 **La regla de la pirámide:** un producto necesita ser sólido en el nivel funcional antes de reclamar valor emocional. Si promete tranquilidad pero no funciona de manera confiable, la promesa emocional destruye la marca. Los mejores productos operan simultáneamente en funcional y emocional — el funcional justifica la compra, el emocional genera lealtad.
 
 
-![Veamos la pirámide de Valor de Bain & Company](https://media.bain.com/elements-of-value/#)
+[Veamos la pirámide de Valor de Bain & Company](https://media.bain.com/elements-of-value/#)
 
 
 
