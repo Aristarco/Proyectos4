@@ -832,7 +832,7 @@ Aplicado al ejemplo del sensor agrícola, la lectura sería:
 
 > *"¿Ven lo que pasa? En precio, alerta simple y asesoría integrada nuestra curva es completamente diferente a la de los competidores. En dashboard de datos estamos deliberadamente bajos — no porque no podamos hacerlo, sino porque ese atributo no le sirve a este usuario. Ahí está el océano azul: no competimos en los mismos atributos que los demás."*
 
-
+<iframe src="../recursos/archivos/CompIoT_ app_Nuestro.pdf" width="800" height="440"></iframe>
 
 > *"¿Ven lo que pasa? La curva de valor de este concepto es completamente diferente a la de los competidores directos. No compite en precisión del sensor ni en cantidad de métricas — compite en simplicidad de decisión y en conocimiento agronómico integrado. Esos dos atributos son su océano azul."*
 
