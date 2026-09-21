@@ -1,12 +1,12 @@
 # Uso responsable de la IA — Guía para estudiantes y participantes
 
-La IA generativa es una herramienta que tú diriges. No es un sustituto de tu propio pensamiento, de tu trabajo manual ni de las conversaciones que mantienes con las personas que te rodean. Úsala para llegar más lejos de lo que podrías llegar en soledad, nunca para omitir el trabajo que te capacita para seguir avanzando. A continuación, encontrarás en qué casos se requiere el uso de IA, cuándo se permite previa declaración y cuándo no está permitido. Si tienes más ideas o perspectivas distintas, por favor ponte en contacto con nosotros: somos seres humanos.
+La IA generativa es una herramienta que tú diriges. **No es un sustituto de tu propio pensamiento, de tu trabajo manual ni de las conversaciones que mantienes con las personas que te rodean.** Úsala para llegar más lejos de lo que podrías llegar en soledad, nunca para omitir el trabajo que te capacita para seguir avanzando. A continuación, encontrarás en qué casos se requiere el uso de IA, cuándo se permite previa declaración y cuándo no está permitido. Si tienes más ideas o perspectivas distintas, por favor ponte en contacto con nosotros: somos seres humanos.
 
 ---
 
 ## LO QUE DEBES HACER (SÍ)
 
-* **Piensa primero y luego usa la IA para ampliar tus ideas.** Diseña tu propio concepto, estructura, flujo de código o metodología. Contamos con una amplia base de conocimiento en la sección de Tutoriales de nuestro archivo abierto. Utiliza la IA para evaluar alternativas, entender en qué punto te has atascado o poner a prueba un borrador; la IA no debe generar la primera versión por ti.
+* **Piensa primero y luego usa la IA para ampliar tus ideas.** Diseña tu propio concepto, estructura, flujo de código o metodología. Utiliza la IA para evaluar alternativas, entender en qué punto te has atascado o poner a prueba un borrador; la IA no debe generar la primera versión por ti.
 
 * **Nunca utilices la IA como referencia de inspiración.** Tus referencias definen quién eres y qué te gusta.
 
