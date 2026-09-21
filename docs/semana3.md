@@ -10,7 +10,7 @@
 | Paso | Contenido | Tiempo | Modo |
 |------|-----------|:------:|------|
 | 1 | Defensas semana 2 | 15 min | Presentación por equipos |
-| 2 | Propiedad intelectual: panorama completo | 40 min | Exposición del instructor |
+| 2 | Propiedad intelectual: panorama completo | 40 min | Exposición |
 | 3 | Cómo elegir y validar un nombre de marca con IA | 20 min | Taller |
 | 4 | Búsqueda fonética de marcas — demo IMPI | 10 min | Demo en vivo |
 | 5 | Vigilancia tecnológica: qué hay protegido de su idea | 20 min | Taller |
@@ -31,9 +31,6 @@
 
 === "Equipos regresados"
     2 minutos. Qué cambió, por qué cambió, y la oportunidad revisada.
-
-!!! note "Nota del instructor"
-    No dejar que las defensas se extiendan. El valor es el cierre psicológico, no la profundidad.
 
 ---
 
@@ -219,13 +216,13 @@ Comparativa final: ¿cuál llevar al IMPI?
 
 ## Paso 4 — Búsqueda fonética en IMPI: demo en vivo
 
-**Duración: 10 min · Demo del instructor**
+**Demo**
 
 La búsqueda fonética determina si un nombre está registrado o en trámite — incluyendo nombres que **suenan similar**.
 
-**Sitio:** [marcanet.impi.gob.mx](https://marcanet.impi.gob.mx)
+**Sitio:** [marcanet.impi.gob.mx](https://acervomarcas.impi.gob.mx:8181/)
 
-El instructor muestra: búsqueda por clase de Niza, lectura del estado (vigente/trámite/caducado), y qué hacer si hay antecedente.
+Búsqueda por clase de Niza, lectura del estado (vigente/trámite/caducado), y qué hacer si hay antecedente.
 
 !!! note "Backup si IMPI está caído"
     [tmdn.org](https://www.tmdn.org) · [tmsearch.uspto.gov](https://tmsearch.uspto.gov)
@@ -388,7 +385,6 @@ NO HACER:
 
 Pares dentro del equipo: 5 min de entrevista + 2 min de retroalimentación interna.
 
-El instructor señala solo: (1) habla más del 20%, (2) pregunta intención futura en vez de comportamiento pasado.
 
 ---
 

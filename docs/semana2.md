@@ -264,7 +264,7 @@ En este paso usamos dos IAs con roles distintos:
 | Cuándo usarlo | Primero — para construir el insight | Segundo — para validar que el costo del problema y el tamaño de mercado del insight son reales |
 
 
-### La diferencia entre dato e insight no es de forma — es de utilidad para tomar decisiones. El instructor muestra estos dos ejemplos en pantalla sin comentario adicional. "¿Cuál de los dos les dice qué hacer?"
+### La diferencia entre dato e insight no es de forma — es de utilidad para tomar decisiones. 
 
 | Esto es un dato | Esto es un insight |
 | --- | --- |
@@ -1849,7 +1849,8 @@ La diferencia con los pasos anteriores es importante: los Pasos 1–5 evaluaron 
 Este paso es deliberadamente corto y sin IA. La selección final no se delega — la hace el equipo con su propio criterio.
 
 
-Los tres criterios — instrucción general al grupo (2 min)
+Los tres criterios — instrucción general 
+
 "Tres preguntas. No son iguales en peso. La primera es la que más muertes de proyecto ha causado en la historia del emprendimiento. La segunda determina si pueden construirlo. La tercera ya la respondieron en parte en el Paso 5 — aquí la formalizan. Si una oportunidad falla en el primer criterio, los otros dos no importan."
 
 
@@ -1922,7 +1923,7 @@ Si llegaste al Paso 6 con un solo concepto, completa la matriz con una sola colu
 
 Si llegaste con dos conceptos posibles, completa ambas columnas. El que pase los tres criterios con más convicción en el Criterio 1 (pasión) es el que llevas al Paso 7 — si ambos pasan igual de bien en los tres criterios, elige el que tenga mayor puntaje de deseabilidad del Paso 5.
 
-Si ningún concepto pasa los tres criterios: no es el momento de defender nada en el Paso 7. El instructor puede ayudar a identificar si el problema es el concepto (cambiar), el segmento (ajustar) o la pasión del equipo (reconocer y replantear desde el Criterio 1).
+Si ningún concepto pasa los tres criterios: no es el momento de defender nada en el Paso 7. 
 
 
 ### 🔬 Modo Estresor
@@ -1937,13 +1938,13 @@ Resultado B — La arista pasa mejor los criterios que la idea original, especia
 
 Resultado C — Ambas pasan bien los tres criterios: Elijan la que tenga mayor puntaje en el Criterio 1 (pasión). Si empatan en pasión, elijan la de mayor puntaje de deseabilidad del Paso 5. Documenten la no elegida como "Concepto B — oportunidad de expansión" en el reporte de la semana.
 
-La decisión es del equipo, no de la matriz. La matriz hace visible la evidencia — pero el compromiso de defender una oportunidad frente al instructor en el Paso 7 y frente a usuarios reales en semana 3 requiere convicción, y esa no viene de una tabla. Si el equipo termina la matriz y siente que el resultado no refleja lo que realmente quieren hacer, esa es información importante — vale la pena nombrarlo antes del Paso 7.
+La decisión es del equipo, no de la matriz. La matriz hace visible la evidencia — pero el compromiso de defender una oportunidad en clase en el Paso 7 y frente a usuarios reales en semana 3 requiere convicción, y esa no viene de una tabla. Si el equipo termina la matriz y siente que el resultado no refleja lo que realmente quieren hacer, esa es información importante — vale la pena nombrarlo antes del Paso 7.
 
 
 
 ## Paso 7 — Elección y defensa de la oportunidad
 
-El Paso 7 no es una presentación académica — es un compromiso público. El equipo declara frente al grupo y al instructor cuál es la oportunidad que va a desarrollar durante el semestre, respaldada por la evidencia que construyó en los seis pasos anteriores.
+El Paso 7 no es una presentación académica — es un compromiso público. El equipo declara frente al grupo cuál es la oportunidad que va a desarrollar durante el semestre, respaldada por la evidencia que construyó en los seis pasos anteriores.
 
 La diferencia entre una defensa y un pitch es esta: un pitch convence a alguien de afuera. Una defensa le dice al propio equipo — en voz alta, frente a otros — "esto es real, tenemos evidencia, y somos nosotros quienes vamos a resolverlo." Ese acto de nombrar en público el compromiso es lo que transforma una idea en un proyecto.
 

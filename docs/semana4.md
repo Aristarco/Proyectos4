@@ -58,7 +58,7 @@ Si algún equipo tiene FTO 🔴: no detenerse ahí en clase. Anotar el ajuste pe
 
 **Síntesis de entrevistas**
 
-Dos equipos comparten su síntesis — uno con concepto confirmado, uno con ajuste o pivote identificado. El instructor los selecciona antes de clase si ya recibió los reportes de tarea.
+Dos equipos comparten su síntesis
 
 Formato: **2 minutos por equipo**, estructura fija:
 
@@ -508,7 +508,7 @@ SOM año 1–2: ¿A cuántos podemos llegar con nuestros recursos?
      SOM: 2,000 agricultores × $1,200 MXN = $2.4M MXN/año
 ```
 
-Lo que el instructor señala: la lógica de cada reducción es lo que hace creíble el número. No es el resultado — es el razonamiento.
+La lógica de cada reducción es lo que hace creíble el número. No es el resultado — **es el razonamiento.**
 
 ### Prompt — Perplexity: TAM/SAM/SOM con fuentes reales
 
@@ -788,7 +788,7 @@ CREAR     → ¿Qué atributos completamente nuevos debería
 
 > *"Un océano azul real usa las cuatro acciones simultáneamente. Eliminar y reducir reduce costos. Incrementar y crear aumenta el valor para el usuario. El resultado es una curva de valor radicalmente diferente a la de todos los competidores — y un modelo de negocio que no compite en precio porque no hay con quién compararse directamente."*
 
-**Ejemplo aplicado al sensor agrícola — el instructor lo hace en vivo:**
+**Ejemplo aplicado al sensor agrícola:**
 
 
 ```
@@ -995,7 +995,7 @@ en el hueco donde los competidores tienen su debilidad
 
 La propuesta de valor no se inventa — emerge de cruzar lo que el usuario necesita (validado en entrevistas), lo que nadie está dando bien (revelado en el competitivo), y lo que el equipo puede hacer de forma diferencial (sus capacidades técnicas específicas).
 
-### Instrucción al grupo (2 min)
+### Instrucción al grupo 
 
 > *"Tienen 12 minutos con Claude para construir su propuesta de valor. El prompt les va a pedir que traigan los outputs de los bloques de hoy — no improvisen. Todo lo que necesitan ya lo construyeron esta sesión. Al final tienen 6 minutos para que cada equipo presente únicamente su Versión 3 — la más fuerte — en voz alta al grupo. Sin contexto adicional. Solo la propuesta."*
 
@@ -1109,8 +1109,6 @@ el nivel de la pirámide, la referencia al competidor]
 
 Cada equipo lee en voz alta únicamente su **Versión 3**. Sin contexto adicional, sin explicar el producto antes, sin preparar al grupo. Solo la propuesta de valor.
 
-El instructor hace una sola pregunta después de cada una — la misma para todos:
-
 *"¿Nombra al usuario? ¿Nombra el resultado? ¿Implica por qué ustedes y no otro?"*
 
 Si las tres respuestas son sí: aprobada. Puede continuar al Bloque 7.
@@ -1120,7 +1118,7 @@ Si falla en alguna: el equipo la refina durante el Bloque 7 y la presenta como t
 El grupo puede repetir la propuesta de valor de otro equipo inmediatamente después de escucharla — sin haberla visto escrita. Si nadie puede repetirla, no es memorable.
 
 **Señal de alerta:**
-Una propuesta de valor que requiere 30 segundos de contexto antes de poder leerse no es una propuesta de valor — es un resumen ejecutivo. El instructor pide al equipo que elimine todo el contexto y deje solo la oración.
+Una propuesta de valor que requiere 30 segundos de contexto antes de poder leerse no es una propuesta de valor — es un resumen ejecutivo. 
 
 ---
 

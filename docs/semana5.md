@@ -139,7 +139,7 @@ FIRST-ITERATION PRODUCT (lo que entrega este curso)
 
 ---
 
-### Instrucción de taller — PDS propio (parte del Bloque 3)
+### Instrucción de taller — PDS propio
 
 El PDS completo se escribe en casa. En clase el equipo define el esqueleto: mínimo 3 requerimientos por categoría, con criterio de verificación explícito para cada uno.
 
@@ -229,38 +229,36 @@ Antes de dibujar cualquier diagrama, la pregunta central:
 
 ---
 
-### El diagrama de bloques — construido en vivo
+### El diagrama de bloques — ejemplo sensor
 
-El instructor dibuja el diagrama del sensor agrícola mientras lo explica. No es un slide — es una construcción en tiempo real que el alumno puede replicar para su propio producto.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    CAPA FÍSICA (Hardware)                        │
-│                                                                  │
-│  [Sensor humedad]──[ESP32]──[LoRa SX1276]──[Gateway LoRa]      │
+│                    CAPA FÍSICA (Hardware)                       │
+│                                                                 │
+│  [Sensor humedad]──[ESP32]──[LoRa SX1276]──[Gateway LoRa]       │
 │  [Sensor temp]    └─[TFLite]                                    │
 │  [Batería LiPo]    Anomalía detection                           │
 └─────────────────────────────────┬───────────────────────────────┘
                                   │ MQTT over LoRaWAN
 ┌─────────────────────────────────▼───────────────────────────────┐
-│                    CAPA DE DATOS (Cloud)                         │
-│                                                                  │
+│                    CAPA DE DATOS (Cloud)                        │
+│                                                                 │
 │  [MQTT Broker]──[AWS IoT Core]──[Lambda]──[DynamoDB]            │
-│                                    │                             │
-│                              [Claude API]                        │
+│                                    │                            │
+│                              [Claude API]                       │
 │                          (recomendación de riego)               │
 └─────────────────────────────────┬───────────────────────────────┘
                                   │ REST API / WebSocket
 ┌─────────────────────────────────▼───────────────────────────────┐
-│                    CAPA DE PRESENTACIÓN (App)                    │
-│                                                                  │
+│                    CAPA DE PRESENTACIÓN (App)                   │
+│                                                                 │
 │  [React Native]──[Push notifications]──[Dashboard]              │
-│  Android + iOS    WhatsApp / SMS         Historial 30d           │
-│                   (Twilio API)                                   │
+│  Android + iOS    WhatsApp / SMS         Historial 30d          │
+│                   (Twilio API)                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-**Lo que el instructor señala al construirlo:**
 
 1. **Cada flecha tiene un protocolo.** No "se comunican" — se comunican por MQTT, por REST, por WebSocket. El protocolo no es un detalle — es una decisión de diseño.
 
@@ -274,7 +272,6 @@ El instructor dibuja el diagrama del sensor agrícola mientras lo explica. No es
 
 ### Criterios de selección de protocolo de comunicación
 
-El instructor explica los cuatro protocolos con criterio de elección — no con descripción técnica que ya conocen:
 
 | Protocolo | Úsalo cuando... | No lo uses cuando... |
 |-----------|----------------|----------------------|
@@ -289,9 +286,8 @@ El instructor explica los cuatro protocolos con criterio de elección — no con
 
 ### Viabilidad de prototipo y primera tirada
 
-El instructor hace un punto que los equipos suelen ignorar hasta que ya es tarde:
 
-> *"El diseño más elegante del mundo que no pueden fabricar no sirve. Pero hay una pregunta más que la mayoría no se hace en semana 5 y que define si el producto puede salir del laboratorio: ¿cuántas unidades necesitan para hacer una prueba de mercado real con usuarios pagando? Cinco, diez, veinte — ese número define qué proceso de manufactura es viable, y algunas decisiones de diseño que toman hoy facilitan o imposibilitan llegar a ese número."*
+> *"**El diseño más elegante del mundo que no pueden fabricar no sirve.** Pero hay una pregunta más que define si el producto puede salir del laboratorio: ¿cuántas unidades necesitan para hacer una prueba de mercado real con usuarios pagando? Cinco, diez, veinte — ese número define qué proceso de manufactura es viable, y algunas decisiones de diseño que toman hoy facilitan o imposibilitan llegar a ese número."*
 
 Esto no es DFM — no están optimizando para producción en serie. Es una pregunta más inmediata: **¿el diseño que están eligiendo hoy puede reproducirse el número de veces que necesitan para validar el modelo de negocio?**
 
@@ -324,7 +320,7 @@ No el número ideal — el mínimo que permite tener usuarios reales usando el p
 4. **Costo por unidad a ese volumen:** ¿el costo de materiales + manufactura por unidad permite un precio de venta que el segmento pagaría? Si el BOM de una unidad cuesta $2,000 MXN y el usuario pagaría $800 MXN/mes, el modelo de negocio necesita revisarse antes de construir.
 
 !!! warning "La trampa del diseño no reproducible"
-    El error más frecuente: un equipo hace una unidad perfecta en semana 13, soldada a mano en 40 horas de trabajo, con componentes comprados de uno en uno en tres tiendas diferentes. Cuando el instructor pide hacer 3 más para la prueba de mercado, descubren que no pueden. El diseño que no puede reproducirse en volumen razonable no es un producto — es una escultura.
+    El error más frecuente: un equipo hace una unidad perfecta en semana 13, soldada a mano en 40 horas de trabajo, con componentes comprados de uno a uno en tres tiendas diferentes. Cuando necesitan hacer 3 más para la prueba de mercado, descubren que no pueden. **El diseño que no puede reproducirse en volumen razonable no es un producto — es una escultura.**
 
 !!! tip "JLCPCB + PCBA es el punto dulce para este curso"
     Para 5–20 unidades con componentes estándar, JLCPCB con servicio de ensamble (PCBA) produce PCBs ensamblados en 10–15 días hábiles a un costo por unidad que generalmente cabe en el presupuesto del proyecto. El requisito: todos los componentes del diseño deben estar en su librería de partes, y el diseño debe seguir sus reglas de fabricación (DRC). Verificar esto en semana 5 evita rediseños costosos en semana 11.
@@ -349,7 +345,7 @@ El taller tiene tres momentos con tiempos definidos:
 
 1:45 – 2:00  Defensa de arquitectura (15 min)
              → Cada equipo: 5 minutos
-             → El instructor desafía las decisiones sin justificación
+             
 ```
 
 ---
@@ -360,7 +356,6 @@ El taller tiene tres momentos con tiempos definidos:
 
 > *"Antes de abrir Claude, el equipo toma una decisión: ¿dónde corre el modelo de IA de su producto? Edge, cloud o híbrido. Escriban la decisión y tres puntos de justificación técnica. Tres minutos para discutirlo, luego lo escriben. No hay respuesta correcta — hay respuestas justificadas y respuestas sin justificar."*
 
-El instructor circula. Señala equipos que eligen edge "porque suena más técnico" sin considerar el tamaño del modelo, o equipos que eligen cloud sin considerar el costo por llamada a escala o la conectividad del usuario final.
 
 **Las tres preguntas que guían la decisión:**
 
@@ -604,10 +599,9 @@ Minuto 3–4: La consecuencia
 [consecuencia en el protocolo], y [consecuencia en la app].
 El riesgo principal es [cuál] y lo mitigamos con [cómo]."
 
-Minuto 5: Pregunta del instructor
 ```
 
-**El banco de preguntas del instructor — solo hace una por equipo:**
+**Pregúntate:**
 
 Preguntas sobre la decisión de IA:
 - *"¿Cuántos KB ocupa el modelo de IA en el ESP32? ¿Cuánta RAM queda disponible para el resto del firmware?"*
@@ -624,7 +618,7 @@ Preguntas sobre manufactura:
 
 **Criterios de aprobación:**
 
-✅ **Aprobada** — La arquitectura tiene justificación técnica para las decisiones principales. El equipo puede responder las preguntas del instructor sin improvisar.
+✅ **Aprobada** — La arquitectura tiene justificación técnica para las decisiones principales. El equipo puede responder las preguntas sin improvisar.
 
 ⚠️ **Aprobada con ajuste** — La arquitectura es viable pero hay una decisión sin justificación técnica. El equipo la documenta y la justifica como parte de la tarea.
 
