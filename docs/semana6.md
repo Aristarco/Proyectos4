@@ -84,6 +84,7 @@ Una manija pide ser jalada. Un botón convexo pide ser presionado. Una ranura pi
 
 **Sobre materialidad:** el material también tiene affordances. El metal comunica rigidez y permanencia. El plástico blando comunica que puede apretarse. El ABS negro mate comunica instrumento técnico serio. Elegir el material correcto es parte del affordance — no solo decoración.
 
+([Puedes ver algunos ejemplos de Affordances aquí](https://wordpress.kpu.ca/depd3530/2023/10/01/analysis-of-design-affordances-fiona-yu/))
 ---
 
 ### 2. Contour bias — las curvas generan confianza, los ángulos generan tensión
