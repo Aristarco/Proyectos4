@@ -1,6 +1,6 @@
 # Semana 6 — Generación y selección de concepto de diseño
 
-!!! abstract "Blueprint IDEO: Creación de valor · DVF: 🔴 Deseable · 🟢 Factible"
+!!! abstract "Blueprint: Creación de valor · DVF: 🔴 Deseable · 🟢 Factible"
     El equipo ya sabe qué construir (propuesta de valor, semana 4) y cómo se conectan sus componentes (arquitectura, semana 5). Esta semana decide cómo se ve, cómo se toca y cómo se usa. El concepto de diseño no es decoración — es la primera decisión que el usuario va a juzgar antes de entender cómo funciona el producto.
 
 ---
