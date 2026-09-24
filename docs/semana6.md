@@ -676,6 +676,8 @@ Los criterios deben incluir **obligatoriamente** los dos tipos:
 3. Los **+** y **–** se suman ponderados por el peso del criterio
 4. El concepto con mayor puntuación ponderada es el candidato — no la decisión final, sino el punto de partida para la discusión
 
+[Ejemplo de uso de la Matriz de Pugh](https://www.youtube.com/watch?v=Wpn7xsfRmfc)
+
 ### Prompt 5 — Claude: construcción de la Matriz de Pugh
 
 ```
