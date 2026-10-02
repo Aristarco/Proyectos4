@@ -4,7 +4,7 @@
     No basta con que el producto sea deseable y construible. Esta semana responde la pregunta que más equipos evitan: ¿el negocio cierra? Si el costo de fabricar el producto supera lo que el usuario está dispuesto a pagar, no hay captura de valor posible — sin importar cuán elegante sea el diseño o cuán sólida sea la arquitectura.
 
 !!! warning "Esta semana puede extenderse a dos sesiones"
-    El contenido es denso por diseño: es la única clase de matemáticas financieras del semestre para este grupo. El hilo conductor está diseñado para cortarse en cualquier punto y retomarse sin perder coherencia. El instructor decide en clase hasta dónde llegar según el ritmo del grupo.
+    El contenido es denso por diseño: es la única clase de matemáticas financieras del semestre para este grupo. El hilo conductor está diseñado para cortarse en cualquier punto y retomarse sin perder coherencia. 
 
 ---
 
@@ -91,7 +91,7 @@ La columna más importante para los equipos no es la de beneficios — es la de 
 | **Freemium** | New York Times | Período de prueba o características gratuitas | "Enganchar" clientes · más fácil aumentar usuarios | Hay que diseñar el momento para cobrar · riesgo de muchos usuarios sin ingresos |
 | **Pago por uso** | Uber | No pagas por lo que no usas | Apela a usuarios con tasas variables de uso | Necesidad de diseñar un sistema para rastrear el uso |
 
-**Lo que el instructor señala al revisar cada modelo:**
+
 
 *Pago por evento:* el más simple. Para productos de hardware es la venta directa — compras el sensor y es tuyo. El problema es que el negocio no tiene ingresos recurrentes después de la venta: si el usuario no necesita comprar otro, la relación termina ahí.
 
@@ -939,7 +939,7 @@ Brealey, R. A., Myers, S. C., & Allen, F. (2020). *Principles of Corporate Finan
 → Capítulos 2–3: valor presente y criterios de inversión. El texto estándar de finanzas corporativas — para quien quiera ir más a fondo en VPN y TIR.
 
 Smith, P. G., & Merritt, G. M. (2002). *Proactive Risk Management: Controlling Uncertainty in Product Development*. Productivity Press.
-→ Base de la metodología de ciclos de aprendizaje y reservas de contingencia para proyectos de innovación (referenciada en la presentación del instructor).
+→ Base de la metodología de ciclos de aprendizaje y reservas de contingencia para proyectos de innovación.
 
 IDEO. (2015). *The Field Guide to Human-Centered Design*. IDEO.org.
 → Sección "Revenue Models": el origen de la tabla de modelos de ingresos usada en el Bloque 2. Descarga gratuita en ideo.com.
