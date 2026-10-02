@@ -1,6 +1,6 @@
 # Semana 7 — Viabilidad técnica y económica
 
-!!! abstract "Blueprint IDEO: Captura de valor · DVF: 🟡 Viable · 🟢 Factible"
+!!! abstract "Blueprint: Captura de valor · DVF: 🟡 Viable · 🟢 Factible"
     No basta con que el producto sea deseable y construible. Esta semana responde la pregunta que más equipos evitan: ¿el negocio cierra? Si el costo de fabricar el producto supera lo que el usuario está dispuesto a pagar, no hay captura de valor posible — sin importar cuán elegante sea el diseño o cuán sólida sea la arquitectura.
 
 !!! warning "Esta semana puede extenderse a dos sesiones"
@@ -29,7 +29,6 @@
 
 ### Tres preguntas distintas que los equipos confunden
 
-El instructor abre con la distinción que estructura toda la semana:
 
 > *"Tres preguntas. Las tres son necesarias. Ninguna reemplaza a las otras. Y la mayoría de los proyectos que fracasan fallaron en responder al menos una de ellas con honestidad."*
 
@@ -56,7 +55,7 @@ VIABILIDAD      →  ¿Se puede hacer y es sostenible?
 
 ### Las tres dimensiones de la viabilidad
 
-La viabilidad no es solo financiera. El instructor presenta las tres dimensiones con ejemplos aplicados al tipo de productos del curso:
+La viabilidad no es solo financiera.
 
 **Viabilidad económica y financiera:**
 ¿El modelo de ingresos genera más de lo que cuesta operar? ¿La inversión inicial se recupera en un plazo razonable? ¿Los indicadores financieros (VPN, TIR) justifican el riesgo? Esta es la dimensión que ocupa la mayor parte de la sesión.
@@ -72,7 +71,7 @@ La viabilidad no es solo financiera. El instructor presenta las tres dimensiones
 ---
 
 ## Bloque 2 — Modelos de ingresos: cómo captura valor el negocio
-**Duración: 25 min · Min 0:15 – 0:40**
+**Duración: 25 min**
 
 ### Por qué el modelo de ingresos es una decisión de diseño
 
@@ -82,7 +81,7 @@ Un modelo de ingresos no es solo "cómo cobras" — es una decisión que define 
 
 ### Los 5 modelos fundamentales — framework de IDEO
 
-El instructor proyecta la tabla completa y la explica columna por columna. La columna más importante para los equipos no es la de beneficios — es la de **desafío de diseño**: qué problema tienen que resolver para que el modelo funcione.
+La columna más importante para los equipos no es la de beneficios — es la de **desafío de diseño**: qué problema tienen que resolver para que el modelo funcione.
 
 | Modelo | Ejemplo | Beneficio para el cliente | Beneficio para el negocio | Desafío de diseño |
 |--------|---------|--------------------------|--------------------------|-------------------|
@@ -212,7 +211,7 @@ las recomendaciones del modelo de IA.
 
 El modelo de IA tiene un costo operativo continuo — cada llamada a la API cuesta dinero, la infraestructura cloud tiene costo mensual, las actualizaciones del modelo requieren inversión. La suscripción es la única forma de cubrir esos costos operativos sin que el precio del hardware suba a un nivel que el segmento no puede pagar.
 
-> *"Si su producto hace 500 consultas al modelo de IA por día y cada llamada a la API cuesta $0.002 USD, eso es $1 USD al día por usuario activo — $30 USD al mes solo en inferencia. Sin suscripción, ese costo lo absorbe el negocio indefinidamente. Con suscripción de $150 MXN al mes, el modelo de IA está cubierto y hay margen para operar."*
+> *"Si su producto hace 500 consultas al modelo de IA por día y cada llamada a la API cuesta $0.002 USD, eso es $1 USD al día por usuario activo — $30 USD al mes solo en inferencia. Sin suscripción, ese costo lo absorbe el negocio indefinidamente. La suscripción debe cubrir todos los costos de operación."*
 
 **El desafío de diseño de este modelo:**
 
@@ -221,11 +220,11 @@ El modelo de IA tiene un costo operativo continuo — cada llamada a la API cues
 ---
 
 ## Bloque 3 — Costos: qué cuesta crear el valor
-**Duración: 30 min · Min 0:40 – 1:10**
+**Duración: 30 min**
 
 ### El inventario de costos — dos actividades, dos listas
 
-El instructor sigue la metodología de la presentación: antes de calcular nada, hacer el inventario completo de costos por actividad de negocio.
+Antes de calcular nada, hacer el inventario completo de costos por actividad de negocio.
 
 > *"Una forma de comenzar a mirar los costos es por actividad: qué necesito para crear mi oferta, y qué más necesito para hacerla llegar a mis clientes. Primero piensen en todos los costos que se les ocurran sin filtrar. Luego reflexionen: ¿cuáles son absolutamente necesarios para satisfacer la propuesta de valor?"*
 
@@ -256,7 +255,7 @@ El Bill of Materials es el documento que convierte la arquitectura de semana 5 e
 | Sensor humedad suelo | Capacitivo, rango 0–100% VWC | $120 MXN | MercadoLibre / 3 días |
 | [resto de componentes] | | | |
 
-**Fuentes de cotización reales:**
+**Algunas fuentes de cotización reales:**
 - [lcsc.com](https://www.lcsc.com) — componentes electrónicos, precios de volumen
 - [jlcpcb.com](https://www.jlcpcb.com) — PCB + ensamble (PCBA)
 - [digikey.com.mx](https://www.digikey.com.mx) — componentes con disponibilidad en México
@@ -265,9 +264,9 @@ El Bill of Materials es el documento que convierte la arquitectura de semana 5 e
 
 ### El costo que nadie calcula: la IA
 
-Este es el punto que más sorprende a los equipos cada semestre. El instructor lo trabaja con números reales:
+Este es el punto que más sorprende a los equipos cada semestre. Trabaja con números reales:
 
-> *"Si su producto usa un modelo de IA en la nube — Claude, GPT, Gemini — cada llamada tiene un costo. No es gratuito. Y a escala, ese costo puede destruir el margen del negocio si no se calculó desde el inicio."*
+> *"Si su producto usa un modelo de IA en la nube — Claude, GPT, Gemini — **cada llamada tiene un costo. No es gratuito.** Y a escala, ese costo puede destruir el margen del negocio si no se calculó desde el inicio."*
 
 **Cómo calcular el costo de la IA — el método correcto:**
 
@@ -298,7 +297,7 @@ tiene aproximadamente X palabras, ¿cuántos tokens de output serían?
 Claude devuelve el conteo de input y estima el output. Es suficientemente preciso para el ejercicio de estimación de costos.
 
 !!! note "Para producción real — usar el endpoint oficial"
-    En un producto en producción, la forma precisa es llamar al endpoint `count_tokens` de la API de Anthropic antes de cada mensaje, o leer el campo `usage.input_tokens` / `usage.output_tokens` que viene en cada respuesta de la API. Para el ejercicio de clase, preguntarle a Claude en el chat es suficiente.
+    En un producto en producción, la forma precisa es llamar al endpoint `count_tokens` de la API de Anthropic antes de cada mensaje, o leer el campo `usage.input_tokens` / `usage.output_tokens` que viene en cada respuesta de la API. Para el ejercicio real, preguntarle a Claude en el chat es suficiente.
 
 !!! warning "Atención con los modelos más recientes"
     Los modelos Claude 4.7 en adelante usan un tokenizador más nuevo — el mismo texto produce aproximadamente 30% más tokens que en modelos anteriores. Al comparar costos entre modelos distintos, el número de tokens no es el mismo aunque el prompt sí lo sea.
@@ -455,7 +454,7 @@ La clasificación también revela dónde actuar cuando el modelo no cierra:
 
 **La tabla de costos que los alumnos van a usar:**
 
-El instructor distribuye la plantilla de IDEO (el archivo Excel compartido). Tiene dos secciones — CREAR y DISTRIBUIR — y 10 filas para cada una, con la columna D/F/S integrada.
+La plantilla (el archivo Excel compartido). Tiene dos secciones — CREAR y DISTRIBUIR — y 10 filas para cada una, con la columna D/F/S integrada.
 
 ```
 CREAR la oferta
@@ -522,7 +521,12 @@ Salidas:     BOM + manufactura + cloud + APIs + personal + overhead
 Punto de equilibrio (unidades) =
   Costos fijos totales / (Precio de venta − Costo variable por unidad)
 ```
+```
 
+Margen de contribución = Precio de venta - costos variables
+
+El margen de contribución es una metrica de gran importancia. Nos dice cuanto aporta cada producto vendido a cubrir los costos fijos. Aumentar el margen de contribución disminuira el numero de productos que hay que vender para alcanzar el punto e equilibrio.   
+```
 ---
 
 ### Precio de venta — dos métodos
@@ -624,35 +628,35 @@ n  = Número de períodos
 **Ejercicio 1 — Valor Futuro con capitalización no anual:**
 
 > Una empresa deposita $45,000 USD en una cuenta que paga 7.5% anual capitalizable trimestralmente. ¿Cuánto acumula en 5 años y 6 meses?
-
+<!-- 
 ```
 i trimestral = 7.5% / 4 = 1.875% = 0.01875
 n trimestres = 5.5 años × 4 = 22 trimestres
 VF = 45,000 × (1 + 0.01875)^22
 VF = 45,000 × 1.5063 = $67,785 USD
 ```
-
+-->
 **Ejercicio 2 — Valor Presente de obligación futura:**
 
 > Debe pagar $125,000 MXN en 48 meses. La tasa de descuento es 12% anual compuesto mensualmente. ¿Cuánto debe invertir hoy?
-
+<!-- 
 ```
 i mensual = 12% / 12 = 1% = 0.01
 n = 48 meses
 VP = 125,000 / (1 + 0.01)^48
 VP = 125,000 / 1.6122 = $77,531 MXN
 ```
-
+-->
 **Ejercicio 3 — Flujos mixtos irregulares:**
 
 > Flujos esperados: Año 1: $10,000; Año 3: $15,000; Año 5: $8,000. Tasa de descuento: 9%.
-
+<!-- 
 ```
 VP = 10,000/(1.09)^1 + 15,000/(1.09)^3 + 8,000/(1.09)^5
 VP = 9,174 + 11,589 + 5,201
 VP = $25,964
 ```
-
+-->
 ---
 
 ### Valor Presente Neto (VPN)
@@ -665,41 +669,42 @@ VPN = −A + Σ (Ft / (1 + r)^t)
 Donde:
 A  = Inversión inicial
 Ft = Flujo de caja neto en el período t
-r  = Tasa de descuento
+r  = Tasa de descuento = Tasa libre de riesgo + premio al riesgo
 t  = Período
 ```
 
 **Ejercicio 4 — Proyecto con flujos constantes (anualidad):**
 
 > InnovaTech invierte $250,000 USD. Genera $60,000 USD anuales por 6 años. Tasa de descuento: 11%. ¿Es viable?
-
+<!-- 
 ```
 VPN = −250,000 + 60,000 × [1 − (1.11)^−6] / 0.11
 VPN = −250,000 + 60,000 × 4.2305
 VPN = −250,000 + 253,830
 VPN = +$3,830 USD → Proyecto aceptado (VPN > 0, por poco)
 ```
-
+-->
 **Ejercicio 5 — VPN con flujos variables:**
 
 > Inversión inicial: $50,000 USD. Flujos: Año 1: $7,500; Año 2: $12,000; Año 3: $20,000; Año 4: $25,000. Tasa: 4%.
 
+<!-- 
 ```
 VPN = −50,000 + 7,500/1.04 + 12,000/1.04² + 20,000/1.04³ + 25,000/1.04⁴
 VPN = −50,000 + 7,212 + 11,094 + 17,790 + 21,370
 VPN = +$7,466 USD → Viable
 ```
-
+-->
 **Ejercicio 6 — Con valor residual:**
 
 > Maquinaria: inversión $1,000,000 USD. Flujos: Año 1: $300K; Año 2: $350K; Año 3: $375K; Año 4: $300K + valor salvamento $150K. Tasa: 10%.
-
+<!-- 
 ```
 VPN = −1,000,000 + 300,000/1.1 + 350,000/1.1² + 375,000/1.1³ + 450,000/1.1⁴
 VPN = −1,000,000 + 272,727 + 289,256 + 281,794 + 307,228
 VPN = +$151,005 USD → Viable
 ```
-
+-->
 **Ejercicio 7 — Comparación de proyectos:**
 
 > Proyecto X vs. Y. Inversión inicial: $50,000 ambos. Tasa: 8%.
@@ -710,6 +715,8 @@ VPN = +$151,005 USD → Viable
 | 2 | $25,000 | $20,000 |
 | 3 | $25,000 | $45,000 |
 
+Que proyecto es mas rentable?
+<!-- 
 ```
 VPN X = −50,000 + 25,000/1.08 + 25,000/1.08² + 25,000/1.08³
 VPN X = −50,000 + 23,148 + 21,433 + 19,845 = +$14,426
@@ -719,17 +726,21 @@ VPN Y = −50,000 + 9,259 + 17,147 + 35,721 = +$12,127
 
 Proyecto X tiene mayor VPN → se prefiere X
 ```
+-->
 
 **Ejercicio 8 — Análisis de sensibilidad:**
 
-> Proyecto X (inversión $50,000, flujos $25,000 × 3 años). ¿Cómo cambia la decisión según la tasa de descuento?
-
+> Proyecto X (inversión $50,000, flujos $25,000 × 3 años). ¿Cómo cambia la decisión según la tasa de descuento? haz el ejercicio para 8%, 15%, 20% y 25%
+haz una tabla:
+ 
 | Tasa | VPN | Decisión |
 |------|:---:|:--------:|
+<!-- 
 | 8% | +$14,426 | ✅ Aceptar |
 | 15% | +$4,996 | ✅ Aceptar |
 | 20% | −$726 | ❌ Rechazar |
 | 25% | −$5,600 | ❌ Rechazar |
+-->
 
 > *"Esto es análisis de sensibilidad: la misma inversión puede ser buena o mala dependiendo del costo de oportunidad de su capital. Un emprendedor en México con acceso a crédito al 20% anual tiene que exigirle más a sus proyectos que uno con acceso al 8%."*
 
