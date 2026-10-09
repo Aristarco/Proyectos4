@@ -403,7 +403,7 @@ Reserva para contingencias (30%):
   $59,128 × 0.30                                  = $17,338 MXN
 
 COSTO TOTAL                                       = $76,865 MXN
-```
+
 
 Puede variar el número de ciclos dependiendo del expertisse del diseñador, sin embargo siempre se tiene que planear para el peor escenario, especialmente si la incertidumbre es alta. También conviene hacer una estimación del costo mínimo si todo sale bien y el costo máximo de los ciclos de aprendizaje si hubiera alguna contingencia con el fin de estresar los números y nunca quedar por debajo del costo final del proyecto
 
