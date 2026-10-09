@@ -385,12 +385,13 @@ Costos fijos directos (por ciclo):
 Costos variables directos (materiales de un prototipo):
 
 | Componente | Componentes | Ciclos | Costo U | Costo Total |
-|-----------|-----------------|---------------|---------------|------------|
-| Carcasa | Diseño, desarrollo, impresión | 4 | $180 | $ 720 |
-| Electrónica | BOM electrónico (ESP32 + sensores + módulos), Consumibles | 6 | $970 | $ 5,820 | 
-| App | Desarrollo | 5 | $5,000 | $ 25,000 |
+| --- | --- | --- | --- | --- |
+| Carcasa | Diseño, desarrollo, impresión | 4 | $180 | $720 |
+| Electrónica | BOM electrónico (ESP32 + sensores + módulos), Consumibles | 6 | $970 | $5,820 |
+| App | Desarrollo | 5 | $5,000 | $25,000 |
 | Página | Desarrollo web | 5 | $5,000 | $25,000 |
-  
+
+
   Subtotal variables directos por ciclo  = $1,350 MXN
   Costo variable directo total = $56,540
 
