@@ -420,6 +420,8 @@ Presupuesto de desarrollo recomendado a presentar:
 
 El equipo hace este mismo cálculo con sus números reales — sus horas estimadas por ciclo, su BOM cotizado en semana 5, su proceso de manufactura elegido. El resultado no tiene que ser exacto: tiene que ser honesto sobre el orden de magnitud de la inversión que requiere llegar a un producto funcional.
 
+
+
 ### Diferenciación de costos — D, F, S
 
 La tabla de costos de IDEO tiene una columna que la mayoría de las hojas de costeo no tienen: la clasificación D / F / S. No es burocracia — es la columna que le dice al equipo dónde tiene poder de decisión y dónde no, y qué costos está asumiendo porque realmente crean valor para el usuario versus los que asume porque no tiene alternativa.
