@@ -454,11 +454,11 @@ La clasificación también revela dónde actuar cuando el modelo no cierra:
 
 **La tabla de costos:**
 
-La plantilla ([el archivo Excel compartido](../docs/recursos/archivos/Costos.xlsx)). Tiene dos secciones — CREAR y DISTRIBUIR —  con la columna D/F/S integrada.
+La plantilla ([el archivo Excel compartido](https://docs.google.com/spreadsheets/d/1JuSEMTup0SboFw5DALgj-5uJdznsZv_j/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)). Tiene dos secciones — CREAR y DISTRIBUIR —  con la columna D/F/S integrada.
 
 ```
 CREAR la oferta
-(recursos y gente necesarios para construir el producto)
+(recursos y gente necesarios para construir el producto ya en producción)
 Pensar en:
 · Componentes electrónicos, sensores, actuadores (BOM)
 · PCB: fabricación y ensamble
