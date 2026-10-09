@@ -374,7 +374,6 @@ Rango de costo de prototipado =
 
 El equipo estima el costo de un ciclo de aprendizaje completo (diseño → construcción → prueba → aprender):
 
-```
 COSTO DE UN CICLO DE APRENDIZAJE
 
 Costos fijos directos (por ciclo):
