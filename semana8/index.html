@@ -1,0 +1,2641 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../semana7/">
+      
+      
+        <link rel="next" href="../Tips%20para%20tu%20web/comandos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Semana 8 — Prototipado y diseño para manufactura -  </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#semana-8-prototipado-y-diseno-para-manufactura" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title=" " class="md-header__button md-logo" aria-label=" " data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+             
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Semana 8 — Prototipado y diseño para manufactura
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title=" " class="md-nav__button md-logo" aria-label=" " data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+     
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../About/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia_uso_IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uso responsable de la IA — Guía para estudiantes y participantes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Búsqueda de Oportunidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propiedad intelectual, marca y vigilancia tecnológica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 4 — Mercado, valor y propuesta de valor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 5 — Diseño de producto: PDS y arquitectura del sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 6 — Generación y selección de concepto de diseño
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semana7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 7 — Viabilidad técnica y económica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 8 — Prototipado y diseño para manufactura
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semana 8 — Prototipado y diseño para manufactura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#distribucion-de-tiempo-presencial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distribución de tiempo presencial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-1-por-que-prototipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 1 — Por qué prototipar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 1 — Por qué prototipar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-error-mas-costoso-del-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El error más costoso del semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-distincion-que-define-el-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La distinción que define el semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-business-blueprint-como-mapa-de-que-prototipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El Business Blueprint como mapa de qué prototipar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-2-tipos-de-prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 2 — Tipos de prototipo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 2 — Tipos de prototipo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#baja-resolucion-vs-alta-resolucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Baja resolución vs. alta resolución
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-cinco-formatos-de-prototipo-y-cuando-usar-cada-uno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los cinco formatos de prototipo — y cuándo usar cada uno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-cuatro-tipos-de-prototipo-para-productos-mecatronicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los cuatro tipos de prototipo para productos mecatrónicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-3-el-proceso-de-tres-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 3 — El proceso de tres pasos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 3 — El proceso de tres pasos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-proceso-ideo-pregunta-prototipa-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso IDEO: Pregunta → Prototipa → Evidencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-hacer-la-pregunta-correcta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1 — Hacer la pregunta correcta
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-construir-el-prototipo-correcto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2 — Construir el prototipo correcto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-colectar-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3 — Colectar evidencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-4-diseno-para-manufactura-del-prototipo-al-producto-reproducible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-problema-que-el-dfm-resuelve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El problema que el DFM resuelve
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfx-el-ecosistema-del-que-viene-el-dfm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFX — el ecosistema del que viene el DFM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-proceso-dfm-en-5-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso DFM en 5 pasos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-estimar-los-costos-de-manufactura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1 — Estimar los costos de manufactura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-reducir-los-costos-de-componentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2 — Reducir los costos de componentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-disminuir-los-costos-de-ensamble-dfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3 — Disminuir los costos de ensamble (DFA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-4-reducir-costos-de-soporte-de-produccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 4 — Reducir costos de soporte de producción
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-5-considerar-el-efecto-en-otros-factores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 5 — Considerar el efecto en otros factores
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-5-economia-circular-y-la-ley-general-disenar-para-el-futuro-que-ya-llego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-este-bloque-en-este-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por qué este bloque en este curso
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#que-es-la-economia-circular-la-definicion-de-la-ley" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué es la Economía Circular — la definición de la Ley
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-principios-de-la-ley-mas-relevantes-para-el-desarrollo-de-producto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los principios de la Ley más relevantes para el desarrollo de producto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-responsabilidad-extendida-del-productor-rep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La Responsabilidad Extendida del Productor (REP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-distintivo-nacional-de-economia-circular" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El Distintivo Nacional de Economía Circular
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-conexion-con-el-dfm-por-que-importa-desde-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La conexión con el DFM — por qué importa desde hoy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-6-taller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 6 — Taller
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 6 — Taller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dos-ejercicios-en-paralelo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dos ejercicios en paralelo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-a-plan-de-prototipado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte A — Plan de prototipado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-b-revision-dfm-del-concepto-con-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte B — Revisión DFM del concepto con IA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-claude-revision-dfm-del-concepto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prompt — Claude: revisión DFM del concepto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-7-defensa-del-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 7 — Defensa del plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tarea-en-casa-4-horas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarea en casa (4 horas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tarea en casa (4 horas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-reporte-del-prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formato de reporte del prototipo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia-y-recursos-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bibliografía y recursos de la semana
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliografía y recursos de la semana">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lecturas-obligatorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecturas obligatorias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lecturas-recomendadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecturas recomendadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herramientas-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herramientas de la semana
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-que-el-equipo-debe-poder-responder-al-salir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que el equipo debe poder responder al salir
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tips para tu web
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tips para tu web
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tips%20para%20tu%20web/comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Encabezados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tips%20para%20tu%20web/ejemplo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 Ejemplo de Documentación del Proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tips%20para%20tu%20web/gitcmds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Comandos básicos de Git (primeros pasos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#distribucion-de-tiempo-presencial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distribución de tiempo presencial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-1-por-que-prototipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 1 — Por qué prototipar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 1 — Por qué prototipar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-error-mas-costoso-del-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El error más costoso del semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-distincion-que-define-el-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La distinción que define el semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-business-blueprint-como-mapa-de-que-prototipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El Business Blueprint como mapa de qué prototipar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-2-tipos-de-prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 2 — Tipos de prototipo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 2 — Tipos de prototipo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#baja-resolucion-vs-alta-resolucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Baja resolución vs. alta resolución
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-cinco-formatos-de-prototipo-y-cuando-usar-cada-uno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los cinco formatos de prototipo — y cuándo usar cada uno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-cuatro-tipos-de-prototipo-para-productos-mecatronicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los cuatro tipos de prototipo para productos mecatrónicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-3-el-proceso-de-tres-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 3 — El proceso de tres pasos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 3 — El proceso de tres pasos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-proceso-ideo-pregunta-prototipa-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso IDEO: Pregunta → Prototipa → Evidencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-hacer-la-pregunta-correcta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1 — Hacer la pregunta correcta
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-construir-el-prototipo-correcto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2 — Construir el prototipo correcto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-colectar-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3 — Colectar evidencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-4-diseno-para-manufactura-del-prototipo-al-producto-reproducible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#el-problema-que-el-dfm-resuelve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El problema que el DFM resuelve
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfx-el-ecosistema-del-que-viene-el-dfm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFX — el ecosistema del que viene el DFM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-proceso-dfm-en-5-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso DFM en 5 pasos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-estimar-los-costos-de-manufactura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 1 — Estimar los costos de manufactura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-reducir-los-costos-de-componentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 2 — Reducir los costos de componentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-disminuir-los-costos-de-ensamble-dfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 3 — Disminuir los costos de ensamble (DFA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-4-reducir-costos-de-soporte-de-produccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 4 — Reducir costos de soporte de producción
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-5-considerar-el-efecto-en-otros-factores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paso 5 — Considerar el efecto en otros factores
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-5-economia-circular-y-la-ley-general-disenar-para-el-futuro-que-ya-llego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-este-bloque-en-este-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Por qué este bloque en este curso
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#que-es-la-economia-circular-la-definicion-de-la-ley" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué es la Economía Circular — la definición de la Ley
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-principios-de-la-ley-mas-relevantes-para-el-desarrollo-de-producto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los principios de la Ley más relevantes para el desarrollo de producto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-responsabilidad-extendida-del-productor-rep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La Responsabilidad Extendida del Productor (REP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-distintivo-nacional-de-economia-circular" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El Distintivo Nacional de Economía Circular
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-conexion-con-el-dfm-por-que-importa-desde-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La conexión con el DFM — por qué importa desde hoy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-6-taller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 6 — Taller
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 6 — Taller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dos-ejercicios-en-paralelo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dos ejercicios en paralelo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-a-plan-de-prototipado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte A — Plan de prototipado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-b-revision-dfm-del-concepto-con-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte B — Revisión DFM del concepto con IA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-claude-revision-dfm-del-concepto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prompt — Claude: revisión DFM del concepto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-7-defensa-del-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 7 — Defensa del plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tarea-en-casa-4-horas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarea en casa (4 horas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tarea en casa (4 horas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-reporte-del-prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formato de reporte del prototipo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia-y-recursos-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bibliografía y recursos de la semana
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliografía y recursos de la semana">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lecturas-obligatorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecturas obligatorias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lecturas-recomendadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecturas recomendadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herramientas-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herramientas de la semana
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-que-el-equipo-debe-poder-responder-al-salir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que el equipo debe poder responder al salir
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="semana-8-prototipado-y-diseno-para-manufactura">Semana 8 — Prototipado y diseño para manufactura</h1>
+<div class="admonition abstract">
+<p class="admonition-title">Blueprint IDEO: Creación de valor · DVF: 🔴 Deseable · 🟢 Factible</p>
+<p>El prototipo no es el producto — es la pregunta más barata que el equipo puede hacerle al mundo real. Esta semana el equipo aprende a formular esa pregunta con precisión, a construir el mínimo necesario para responderla, y a usar lo que aprende para rediseñar el producto de forma que sea reproducible, más barato de fabricar, y listo para las primeras tiradas. El prototipado y el DFM no son temas separados: son dos mitades del mismo ciclo de aprendizaje.</p>
+</div>
+<hr />
+<h2 id="distribucion-de-tiempo-presencial">Distribución de tiempo presencial</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Bloque</th>
+<th>Contenido</th>
+<th style="text-align: center;">Tiempo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Por qué prototipar</td>
+<td>El prototipo como herramienta de aprendizaje, no de demostración</td>
+<td style="text-align: center;">15 min</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tipos de prototipo</td>
+<td>Baja y alta resolución · Los cuatro tipos para productos mecatrónicos</td>
+<td style="text-align: center;">15 min</td>
+</tr>
+<tr>
+<td>3</td>
+<td>El proceso de tres pasos</td>
+<td>Pregunta → Prototipa → Evidencia</td>
+<td style="text-align: center;">20 min</td>
+</tr>
+<tr>
+<td>4</td>
+<td>DFM</td>
+<td>Del primer prototipo al diseño reproducible</td>
+<td style="text-align: center;">20 min</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Economía Circular</td>
+<td>La Ley General y su impacto en el diseño de producto</td>
+<td style="text-align: center;">15 min</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Taller</td>
+<td>El equipo define su plan de prototipado y aplica DFM al concepto</td>
+<td style="text-align: center;">25 min</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Cierre</td>
+<td>Defensa del plan — 3 minutos por equipo</td>
+<td style="text-align: center;">10 min</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total</strong></td>
+<td></td>
+<td style="text-align: center;"><strong>120 min</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">El hilo conductor</p>
+<p>Prototipado y DFM son el mismo ciclo: el prototipo genera aprendizaje, el DFM convierte ese aprendizaje en decisiones de rediseño. Un equipo que prototipa sin aplicar DFM produce iteraciones que no convergen. Un equipo que aplica DFM sin haber prototipado optimiza algo que todavía no sabe si funciona.</p>
+</div>
+<hr />
+<h2 id="bloque-1-por-que-prototipar">Bloque 1 — Por qué prototipar</h2>
+<p><strong>Duración: 15 min · Min 0:00 – 0:15</strong></p>
+<h3 id="el-error-mas-costoso-del-semestre">El error más costoso del semestre</h3>
+<p>El instructor abre sin diapositivas:</p>
+<blockquote>
+<p><em>"¿Cuántos de ustedes han tenido la experiencia de trabajar semanas en algo, entregarlo, y escuchar de un usuario 'ah, pero yo necesitaba que hiciera otra cosa'? Eso no es un fallo del usuario — es un fallo del proceso. El prototipo existe para evitar ese momento. No para eliminarlo — para adelantarlo a cuando todavía es barato corregirlo."</em></p>
+</blockquote>
+<p>El prototipo no es una versión temprana del producto final. Es una herramienta de aprendizaje: algo construido deliberadamente para responder una pregunta específica sobre el producto, el usuario, o el negocio — antes de invertir recursos en construir algo que podría estar equivocado.</p>
+<p><strong>Las tres razones para prototipar, en orden de importancia:</strong></p>
+<p><strong>1. Resuelve preguntas pronto.</strong> Cada semana que pasa sin validar una hipótesis es una semana de desarrollo construida sobre un supuesto. El prototipo convierte supuestos en evidencia.</p>
+<p><strong>2. Aumenta la confianza.</strong> Un equipo que ha visto a usuarios reales interactuar con algo tangible tiene más certeza sobre sus decisiones de diseño que un equipo que solo ha discutido en una sala.</p>
+<p><strong>3. Reduce riesgo.</strong> El error en papel cuesta minutos. El error en prototipo cuesta días. El error en producto terminado cuesta meses y dinero que no se recupera.</p>
+<h3 id="la-distincion-que-define-el-semestre">La distinción que define el semestre</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>PROTOTIPO DE EXPLORACIÓN    FIRST-ITERATION PRODUCT
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>(lo que hacen AHORA)        (lo que entregan al final)
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>────────────────────────    ────────────────────────────
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Responde preguntas          Es el producto mínimo que
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>específicas sobre el        un usuario real puede usar
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>diseño o el usuario         sin que el equipo esté presente
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>Puede ser feo, inestable,   Debe funcionar de forma
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>parcialmente funcional      autónoma y confiable
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>Lo usa el equipo para       Lo usa el usuario final
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>aprender                    para resolver su problema
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>Éxito = aprendizaje         Éxito = el usuario puede
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>                            instalarlo y usarlo solo
+</span></code></pre></div>
+<blockquote>
+<p><em>"En estas semanas construyen prototipos de exploración. Las semanas finales del curso son para el first-iteration product. Confundir los dos lleva a equipos que llegan a semana 14 con un prototipo pulido que nunca fue probado con usuarios — y que tiene problemas que se pudieron haber descubierto en semana 8."</em></p>
+</blockquote>
+<h3 id="el-business-blueprint-como-mapa-de-que-prototipar">El Business Blueprint como mapa de qué prototipar</h3>
+<p>El instructor proyecta el Business Blueprint de IDEO — que el grupo ya conoce — y hace la pregunta:</p>
+<blockquote>
+<p><em>"Este blueprint tiene seis bloques: Clientes, Oferta, Modelo de ingresos y precio, Canales, Propuesta de valor, Costos, Socios, Equipo y recursos. Se puede prototipar cualquiera de ellos — no solo el artefacto físico. ¿Cuál tiene más incertidumbre en su proyecto ahora mismo?"</em></p>
+</blockquote>
+<p>Esa pregunta orienta el taller. El equipo que no sabe si el usuario pagará por la suscripción prototipa el modelo de ingresos (una landing page con precio real y un botón de pre-orden). El equipo que no sabe si la carcasa es instalable prototipa la forma física. El equipo que no sabe si la app es usable prototipa la pantalla principal.</p>
+<hr />
+<h2 id="bloque-2-tipos-de-prototipo">Bloque 2 — Tipos de prototipo</h2>
+<p><strong>Duración: 15 min · Min 0:15 – 0:30</strong></p>
+<h3 id="baja-resolucion-vs-alta-resolucion">Baja resolución vs. alta resolución</h3>
+<p>Los prototipos no son todos iguales. La resolución correcta depende de la pregunta que el equipo necesita responder — no de cuánto tiempo tiene o de qué tan bien quiere quedar.</p>
+<p><strong>Baja resolución:</strong>
+- Proveen dirección en ideas tempranas
+- Son rápidos de hacer — horas, no semanas
+- El usuario puede ignorar imperfecciones y enfocarse en la pregunta que se está probando
+- Pensar en: boceto, storyboard, maqueta en papel, alterar levemente un producto existente</p>
+<p><strong>Alta resolución:</strong>
+- Ayudan a escoger entre opciones concretas o afinar lo que ofrece el producto
+- Necesitan recursos — tiempo, materiales, software
+- El nivel de detalle permite que el usuario reaccione a la experiencia real
+- Pensar en: pop-up, demo funcional, maqueta del sitio, prototipo electrónico funcionando</p>
+<p><strong>La regla:</strong> usar la resolución mínima que responde la pregunta. Invertir en alta resolución antes de validar con baja resolución es uno de los errores más frecuentes en equipos de ingeniería — hacen algo funcional y perfecto antes de saber si están resolviendo el problema correcto.</p>
+<h3 id="los-cinco-formatos-de-prototipo-y-cuando-usar-cada-uno">Los cinco formatos de prototipo — y cuándo usar cada uno</h3>
+<p>El instructor muestra los ejemplos reales del curso y de proyectos anteriores:</p>
+<table>
+<thead>
+<tr>
+<th>Formato</th>
+<th>Cuándo usarlo</th>
+<th>Pregunta que responde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Boceto o storyboard</strong></td>
+<td>Al inicio, para explorar formas y flujos</td>
+<td>¿Esta dirección de diseño tiene sentido?</td>
+</tr>
+<tr>
+<td><strong>Producto en papel o maqueta en pantalla</strong></td>
+<td>Para probar interfaces y flujos de usuario</td>
+<td>¿El usuario entiende cómo usarlo?</td>
+</tr>
+<tr>
+<td><strong>Historia en video</strong></td>
+<td>Para validar la propuesta de valor antes de construir</td>
+<td>¿El usuario querría esto? ¿Lo compraría?</td>
+</tr>
+<tr>
+<td><strong>Empaque o anuncio</strong></td>
+<td>Para validar el mensaje y el precio</td>
+<td>¿El precio es correcto? ¿El mensaje resuena?</td>
+</tr>
+<tr>
+<td><strong>Tienda pop-up o juego de rol</strong></td>
+<td>Para validar el canal de venta y la experiencia de compra</td>
+<td>¿El usuario compra cuando lo tiene enfrente?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="los-cuatro-tipos-de-prototipo-para-productos-mecatronicos">Los cuatro tipos de prototipo para productos mecatrónicos</h3>
+<p>Para el tipo de producto que desarrolla este grupo — artefacto + app + web — hay cuatro tipos de prototipo con propósitos distintos:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>PROTOTIPO DE FORMA
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Prueba la geometría, el tamaño, los materiales y la experiencia
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>física sin necesidad de electrónica funcional.
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>→ ¿El usuario puede instalarlo sin ayuda?
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>→ ¿Cabe en el espacio donde va?
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>→ ¿El material comunica confianza?
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>Herramienta: impresión 3D, cartón, arcilla, foam
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>PROTOTIPO DE FUNCIÓN
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Prueba si el sistema electrónico y el software funcionan
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>sin necesidad de carcasa final.
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>→ ¿El sensor mide correctamente?
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>→ ¿El modelo de IA produce la respuesta esperada?
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>→ ¿La latencia entre sensor y app es aceptable?
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>Herramienta: protoboard, cables volando, ESP32 en la mano
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>PROTOTIPO DE EXPERIENCIA
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>Combina forma y función suficientemente para que un usuario
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>real pueda interactuar con el sistema completo.
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>→ ¿El usuario entiende qué hace el producto?
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>→ ¿La app tiene sentido sin instrucciones?
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>→ ¿La confirmación (LED, notificación) es clara?
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>Herramienta: carcasa impresa + electrónica funcional + app básica
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>PROTOTIPO DE NEGOCIO
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>Prueba si alguien pagaría por el producto antes de construirlo.
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>→ ¿El precio es aceptable?
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>→ ¿El canal de venta funciona?
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>→ ¿La propuesta de valor resuena?
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>Herramienta: landing page con precio real + botón de pre-orden
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">El prototipo de negocio es el más subestimado</p>
+<p>Muchos equipos construyen el prototipo de función y forma antes de saber si alguien pagaría por el producto. Una landing page con un precio real y un botón de pre-orden — aunque el producto no exista todavía — responde la pregunta más importante del negocio en una semana. Bird Buddy recaudó €4.19 millones en Kickstarter antes de tener su versión final de producción.</p>
+</div>
+<hr />
+<h2 id="bloque-3-el-proceso-de-tres-pasos">Bloque 3 — El proceso de tres pasos</h2>
+<p><strong>Duración: 20 min · Min 0:30 – 0:50</strong></p>
+<h3 id="el-proceso-ideo-pregunta-prototipa-evidencia">El proceso IDEO: Pregunta → Prototipa → Evidencia</h3>
+<p>El prototipado no es construir algo y ver qué pasa. Es un proceso disciplinado de tres pasos donde cada uno alimenta al siguiente.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>    PREGUNTA          PROTOTIPA         EVIDENCIA
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  ────────────      ────────────      ────────────
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  ¿Qué quiero       Construye lo      Diseña cómo
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  aprender?         mínimo para       vas a capturar
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>                    responderla       lo que aprendes
+</span></code></pre></div>
+<h3 id="paso-1-hacer-la-pregunta-correcta">Paso 1 — Hacer la pregunta correcta</h3>
+<p>La calidad del prototipo depende completamente de la calidad de la pregunta. Una pregunta vaga produce un prototipo que no dice nada. Una pregunta precisa produce un prototipo que revela exactamente lo que necesita saberse.</p>
+<p><strong>Para decidir qué prototipar primero, buscar los supuestos con:</strong></p>
+<ul>
+<li><strong>Mayor riesgo:</strong> ¿qué supuesto, si resulta falso, destruye el modelo de negocio? Ese es el primero en prototipar.</li>
+<li><strong>Mayor indefinición:</strong> ¿qué parte del sistema el equipo nunca ha construido ni visto construir? Ahí está la mayor incertidumbre técnica.</li>
+<li><strong>Mayor controversia:</strong> ¿en qué decisión el equipo sigue sin ponerse de acuerdo? El prototipo resuelve las discusiones que el debate no puede.</li>
+</ul>
+<p><strong>Ejemplos de preguntas bien formuladas vs. mal formuladas:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pregunta mal formulada</th>
+<th>Pregunta bien formulada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"¿Funciona el sensor?"</td>
+<td>"¿Puede el agricultor instalar el sensor en menos de 5 minutos sin instrucciones?"</td>
+</tr>
+<tr>
+<td>"¿Está bien el diseño?"</td>
+<td>"¿El usuario sabe que el dispositivo está funcionando sin abrir la app?"</td>
+</tr>
+<tr>
+<td>"¿Es viable el negocio?"</td>
+<td>"¿Pagaría el agricultor $119 MXN/mes si viera los datos de humedad en tiempo real?"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="paso-2-construir-el-prototipo-correcto">Paso 2 — Construir el prototipo correcto</h3>
+<p>Una vez que la pregunta está definida, el equipo elige el formato y la resolución mínima para responderla.</p>
+<p><strong>Las cuatro reglas del buen prototipo:</strong></p>
+<p><strong>1. Hazlo en un día o menos.</strong> Si tarda más, está sobre-diseñado para la pregunta que responde. Reducir alcance o bajar la resolución.</p>
+<p><strong>2. Se vale falsificar — que se sienta real, aunque no lo sea.</strong> Un video que simula la app funcionando, una carcasa de cartón con el peso correcto, una landing page con precio real. El usuario no necesita que sea real — necesita que sea suficientemente real para reaccionar honestamente.</p>
+<p><strong>3. Provee variaciones.</strong> Cuando es posible, crear dos o tres versiones del mismo prototipo para que el usuario tenga puntos de comparación. Eso produce información mucho más útil que una sola opción.</p>
+<p><strong>4. Construye para que el usuario actúe, no solo opine.</strong> La pregunta "¿te gustaría usar esto?" produce respuestas de cortesía. La pregunta implícita de "¿puedes instalarlo?" produce comportamiento real. Diseñar el prototipo para capturar comportamiento, no opiniones.</p>
+<h3 id="paso-3-colectar-evidencia">Paso 3 — Colectar evidencia</h3>
+<p>La evidencia no es "los usuarios dijeron que les gustó". Es la documentación de comportamiento real y reacciones específicas que permiten tomar decisiones de diseño con criterio.</p>
+<p><strong>Diseñar el método de captura antes de prototipar:</strong>
+- ¿Cuántos usuarios necesitan para que la evidencia sea significativa? (mínimo 3, idealmente 5 del segmento objetivo)
+- ¿Qué comportamientos específicos van a observar?
+- ¿Cómo van a registrar lo que pasa? (video, notas, grabación de pantalla)
+- ¿Qué pregunta de seguimiento van a hacer si el usuario se atasca?</p>
+<p><strong>La evidencia más valiosa no es lo que dicen los usuarios — es lo que hacen.</strong> Un usuario que dice "está muy claro" y luego pasa 3 minutos buscando el botón de encendido está diciéndote que no está claro. Observar supera a preguntar.</p>
+<hr />
+<h2 id="bloque-4-diseno-para-manufactura-del-prototipo-al-producto-reproducible">Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible</h2>
+<p><strong>Duración: 25 min · Min 0:50 – 1:15</strong></p>
+<h3 id="el-problema-que-el-dfm-resuelve">El problema que el DFM resuelve</h3>
+<blockquote>
+<p><em>"El primer prototipo del semestre es una escultura. Tarda 40 horas de trabajo manual, usa componentes comprados de uno en uno en tiendas distintas, y solo la persona que lo hizo sabe cómo ensamblarlo. Cuando el instructor pide hacer tres más para la prueba de mercado, el equipo descubre que no puede. Eso no es un producto — es un experimento de laboratorio muy costoso."</em></p>
+</blockquote>
+<p>El Diseño para Manufactura (DFM) es el conjunto de metodologías para reducir los costos de fabricación sin comprometer la calidad ni la funcionalidad del producto. Empieza durante la fase de concepto — cuando las decisiones de diseño todavía son baratas de cambiar — y sigue iterando con cada prototipo.</p>
+<blockquote>
+<p><em>"Las necesidades del cliente y las especificaciones del PDS son útiles para guiar el concepto, pero durante las últimas etapas de desarrollo es frecuente que los equipos tengan dificultad para enlazar esas especificaciones con el diseño particular al que se enfrentan. El DFM es el puente."</em></p>
+</blockquote>
+<p><strong>El costo de manufactura es el factor más determinante del éxito económico.</strong> El margen de beneficio es la diferencia entre el precio de venta y el costo de fabricación. Si el DFM no se practica desde el diseño, el equipo llega a producción y descubre que el margen no existe.</p>
+<h3 id="dfx-el-ecosistema-del-que-viene-el-dfm">DFX — el ecosistema del que viene el DFM</h3>
+<p>El DFM es el más común de una familia de metodologías llamadas Diseño para X (DFX), donde X puede ser cualquier criterio de calidad: ensamble, servicio, medio ambiente, confiabilidad, costo, reutilización, seguridad. El instructor muestra el diagrama del ecosistema DFX sin entrar en detalle — la semana trabaja principalmente DFM y DFA (diseño para ensamble), que son los más relevantes para el nivel de producción del curso.</p>
+<h3 id="el-proceso-dfm-en-5-pasos">El proceso DFM en 5 pasos</h3>
+<p>El proceso viene directamente de Ulrich &amp; Eppinger (2026) — el estándar académico y de la industria:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>DISEÑO PROPUESTO
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>        ↓
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>1. ESTIMAR costos de manufactura
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>        ↓
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>   ┌────────────────────────────────────┐
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>2. REDUCIR     3. DISMINUIR     4. REDUCIR
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>   costos de      costos de       costos de
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>   componentes    ensamble        soporte
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>   ↓              ↓               ↓
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>   └────────────────────────────────────┘
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>        ↓
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>5. CONSIDERAR el impacto en otros factores
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>        ↓
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>   ¿Suficientemente bien?
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>   NO → volver al inicio
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>   SÍ → DISEÑO ACEPTABLE
+</span></code></pre></div>
+<h3 id="paso-1-estimar-los-costos-de-manufactura">Paso 1 — Estimar los costos de manufactura</h3>
+<p>El costo de manufactura es la suma de todos los gastos de los insumos del sistema más la eliminación de los residuos producidos. Se compone de tres categorías:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>COSTO DE MANUFACTURA
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├── Componentes
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>│   ├── Estándar (disponibles en catálogo)
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>│   └── Personalizados
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>│       ├── Materia prima
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>│       ├── Procesamiento
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>│       └── Maquinado
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>├── Ensamble
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>│   ├── Mano de obra
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>│   └── Equipo y herramientas
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>└── Gastos indirectos
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    ├── Apoyo
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>    └── Asignación indirecta
+</span></code></pre></div>
+<p>Para medirlo: el Costo Unitario de Manufactura se calcula dividiendo los costos totales de fabricación de un período por el número de unidades producidas. Eso conecta directamente con el BOM y el modelo económico de semana 7 — no son ejercicios separados, son el mismo número visto desde perspectivas distintas.</p>
+<h3 id="paso-2-reducir-los-costos-de-componentes">Paso 2 — Reducir los costos de componentes</h3>
+<p>El costo de componentes comprados es el elemento más importante del costo de manufactura en casi todos los productos electrónicos discretos. Tres estrategias:</p>
+<p><strong>Entender las restricciones del proceso y sus impulsores de costo:</strong></p>
+<p>Algunas partes son costosas simplemente porque los diseñadores no entendieron las capacidades y restricciones del proceso de producción. Un diseñador puede especificar un radio interno muy pequeño en una esquina de una pieza maquinada sin darse cuenta de que eso requiere electroerosión (EDM) — un proceso mucho más costoso que el maquinado estándar. O puede especificar tolerancias excesivamente estrictas sin entender la dificultad de alcanzarlas en producción.</p>
+<blockquote>
+<p><em>"A veces estas características costosas ni siquiera son necesarias para la función del componente — surgen de la falta de conocimiento del proceso. Con frecuencia es posible rediseñar la pieza para obtener el mismo funcionamiento evitando los pasos costosos."</em></p>
+</blockquote>
+<p><strong>Aplicado a impresión 3D y PCB — los procesos de este curso:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Proceso</th>
+<th>Restricción que aumenta el costo</th>
+<th>Cómo evitarla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Impresión 3D FDM</td>
+<td>Soportes en voladizos &gt; 45°</td>
+<td>Rediseñar la geometría para evitar voladizos o orientar la pieza</td>
+</tr>
+<tr>
+<td>Impresión 3D FDM</td>
+<td>Paredes &lt; 1.2mm</td>
+<td>Aumentar grosor mínimo de pared</td>
+</tr>
+<tr>
+<td>PCB en JLCPCB</td>
+<td>Componentes fuera de su librería estándar</td>
+<td>Seleccionar componentes de la librería JLCPCB Basic</td>
+</tr>
+<tr>
+<td>PCB en JLCPCB</td>
+<td>Pitch &lt; 0.8mm en SMD</td>
+<td>Usar componentes con pitch ≥ 0.8mm</td>
+</tr>
+<tr>
+<td>PCB en JLCPCB</td>
+<td>Más de 2 capas</td>
+<td>Rediseñar el ruteo para 2 capas</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rediseñar componentes para eliminar pasos de procesamiento:</strong></p>
+<p>La reducción del número de pasos en el proceso de fabricación de una pieza resulta casi siempre en reducción de costos. La fabricación de "forma neta" — producir una pieza con la geometría final en un solo paso — es la estrategia más efectiva. Para productos de este curso: una carcasa impresa en 3D que no requiere post-procesado es mejor que una que necesita lijado, pintura y ensamble de múltiples partes.</p>
+<p><strong>Seleccionar la escala económica apropiada:</strong></p>
+<p>El costo de manufactura baja a medida que aumenta el volumen — esto es economía de escala. Para este curso:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>1–3 unidades:    Impresión 3D en laboratorio + soldadura manual
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>                 Costo fijo bajo, costo variable alto
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>                 Proceso correcto: laboratorio
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>5–20 unidades:   JLCPCB + PCBA (ensamble incluido)
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>                 Costo fijo medio (setup), costo variable bajo
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>                 Proceso correcto: manufactura externa básica
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>20–100 unidades: JLCPCB PCBA + molde de inyección para carcasa
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>                 Costo fijo alto (molde), costo variable muy bajo
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>                 Proceso correcto: producción semi-industrial
+</span></code></pre></div>
+<p>Los componentes <strong>estándar</strong> — disponibles en catálogo y comunes a múltiples productos — siempre son preferibles a los personalizados en etapa early. Son más baratos, tienen mejor disponibilidad, y tienen cadenas de suministro establecidas. Usar un ESP32 estándar en lugar de diseñar un microcontrolador propio no es una limitación — es una decisión de DFM inteligente.</p>
+<h3 id="paso-3-disminuir-los-costos-de-ensamble-dfa">Paso 3 — Disminuir los costos de ensamble (DFA)</h3>
+<p>El Diseño para Ensamble (DFA) es el subconjunto más importante del DFM para productos mecatrónicos universitarios. Aunque el ensamble representa una fracción pequeña del costo total, concentrarse en él produce beneficios indirectos enormes: reduce el número total de piezas, simplifica la manufactura, y baja los costos de soporte.</p>
+<p><strong>Dos productos con el mismo número de piezas pueden diferir 2–3× en tiempo de ensamble</strong> según la geometría y la trayectoria de inserción. Los principios que reducen ese tiempo:</p>
+<ul>
+<li>La pieza se inserta desde arriba — no requiere voltear el ensamble</li>
+<li>La pieza tiene alineamiento propio — no puede insertarse en la posición incorrecta</li>
+<li>No es necesario orientar la pieza antes de insertarla</li>
+<li>La pieza requiere solo una mano para ensamblarse</li>
+<li>La pieza no requiere herramientas especiales</li>
+<li>La pieza se ensambla en un solo movimiento lineal</li>
+<li>La pieza se asegura inmediatamente al insertarla (snap fit, presión, rosca)</li>
+</ul>
+<p><strong>Aplicado a carcasas de productos mecatrónicos:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>❌ DIFÍCIL DE ENSAMBLAR:
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>  Carcasa en 4 partes con 8 tornillos M2
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>  → Requiere destornillador, alineación manual,
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    tiempo de ensamble: ~20 minutos por unidad
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>✅ FÁCIL DE ENSAMBLAR:
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>  Carcasa en 2 partes con cierre snap-fit
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>  → No requiere herramientas, inserción desde arriba,
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    tiempo de ensamble: ~2 minutos por unidad
+</span></code></pre></div>
+<h3 id="paso-4-reducir-costos-de-soporte-de-produccion">Paso 4 — Reducir costos de soporte de producción</h3>
+<p>Los costos de soporte de producción son todos los costos indirectos que no están en el BOM ni en el tiempo de ensamble directo, pero que son necesarios para que el sistema de manufactura funcione. No se ven en la primera cotización — aparecen cuando el producto empieza a fabricarse en volumen.</p>
+<p><strong>Los principales costos de soporte para productos mecatrónicos:</strong></p>
+<p><strong>Control de calidad:</strong> inspección de componentes al recibirlos, pruebas de funcionamiento de cada unidad ensamblada, manejo de unidades defectuosas y reprocesos. Si el diseño tiene muchos componentes o tolerancias ajustadas, el costo de inspección sube proporcionalmente.</p>
+<p><strong>Gestión de inventario:</strong> mantener stock de cada componente del BOM tiene un costo. Un producto con 40 referencias distintas necesita gestionar 40 líneas de inventario — seguimiento de fechas de caducidad (baterías), mínimos de reorden, proveedores alternativos. Cada referencia que se elimina del BOM reduce este costo.</p>
+<p><strong>Documentación técnica:</strong> instrucciones de ensamble, diagramas de prueba, procedimientos de calibración. Si el ensamble es complejo y requiere conocimiento implícito del equipo, escalar a un tercero que lo fabrique se vuelve muy difícil sin documentación detallada.</p>
+<p><strong>Mantenimiento de herramientas y equipos:</strong> si el diseño requiere herramientas especiales o jigs de ensamble, alguien tiene que mantenerlos. Un diseño que funciona con herramientas estándar elimina ese costo.</p>
+<p><strong>Curva de aprendizaje:</strong> las primeras unidades siempre tardan más de ensamblar que las unidades 50 o 100. Un diseño más simple acorta esa curva — el ensamblador llega a velocidad óptima más rápido.</p>
+<p>La relación con los pasos anteriores es directa: <strong>cada componente eliminado en el Paso 2 y cada paso de ensamble simplificado en el Paso 3 reduce automáticamente los costos de soporte del Paso 4.</strong> Por eso el DFM es iterativo — las mejoras se acumulan.</p>
+<p><strong>Para los proyectos de este curso:</strong> en volúmenes de 5–20 unidades los costos de soporte son principalmente tiempo del equipo. El riesgo real es llegar a semana 13 con un diseño que el equipo tarda 3 horas en ensamblar por unidad porque nunca se aplicó DFA — eso convierte las últimas semanas en una línea de ensamble en lugar de una prueba de mercado.</p>
+<h3 id="paso-5-considerar-el-efecto-en-otros-factores">Paso 5 — Considerar el efecto en otros factores</h3>
+<p>Reducir costos de manufactura no es el único objetivo. El éxito económico del producto también depende de su calidad, del tiempo al mercado, y del costo de desarrollo. Algunas decisiones de DFM reducen el costo de manufactura pero aumentan el tiempo de desarrollo o reducen la calidad percibida. Esos trade-offs deben evaluarse explícitamente, no ignorarse.</p>
+<hr />
+<h2 id="bloque-5-economia-circular-y-la-ley-general-disenar-para-el-futuro-que-ya-llego">Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó</h2>
+<p><strong>Duración: 15 min · Min 1:10 – 1:25</strong></p>
+<h3 id="por-que-este-bloque-en-este-curso">Por qué este bloque en este curso</h3>
+<blockquote>
+<p><em>"Lo que van a diseñar en este semestre lo van a estar fabricando y vendiendo en los próximos años. Para ese momento, las organizaciones donde trabajen ya estarán inmersas en el cumplimiento de la Ley General de Economía Circular — publicada en el Diario Oficial de la Federación el 19 de enero de 2026. No es una tendencia. Es ley vigente en México."</em></p>
+</blockquote>
+<p>El instructor no presenta esto como un tema adicional — lo presenta como el contexto regulatorio en el que el DFM que acaban de aprender opera. Diseñar para manufactura sin diseñar para circularidad es diseñar para cumplimiento parcial.</p>
+<h3 id="que-es-la-economia-circular-la-definicion-de-la-ley">Qué es la Economía Circular — la definición de la Ley</h3>
+<p>La Ley la define con precisión en su Artículo 3:</p>
+<blockquote>
+<p><em>"Modelo económico de Producción y Consumo sostenible que incluye soluciones sistémicas para el desarrollo económico, que disminuyen el impacto ambiental mediante ciclos técnicos y biológicos que permiten la permanencia y reintegración sustentable de los materiales de los productos a la economía, el cual tiene como principios rectores la eliminación de residuos y la contaminación, mantener productos y materiales en uso, así como regenerar los sistemas naturales."</em></p>
+</blockquote>
+<p>En términos simples: el modelo lineal tradicional es <strong>extraer → fabricar → usar → tirar</strong>. El modelo circular es <strong>diseñar → fabricar → usar → recuperar → volver a fabricar</strong>. El producto no termina en el basurero — sus materiales regresan al ciclo productivo.</p>
+<h3 id="los-principios-de-la-ley-mas-relevantes-para-el-desarrollo-de-producto">Los principios de la Ley más relevantes para el desarrollo de producto</h3>
+<p>El Artículo 4 establece los principios rectores. El instructor selecciona los cuatro que más impactan directamente las decisiones de diseño del curso:</p>
+<p><strong>Diseño Circular (Artículo 3, fracción VII):</strong>
+El producto debe incorporar principios y mecanismos de circularidad en su Ciclo de Vida desde la fase de diseño. No es un ajuste posterior — es una decisión de diseño desde el boceto técnico.</p>
+<p><strong>Modular (Artículo 4, principio VIII):</strong>
+Los productos deben ser separables en componentes o módulos que puedan ser reparados, actualizados o reutilizados de manera independiente. Esto tiene consecuencia directa en la decisión de carcasa — un producto cuyos componentes electrónicos no son accesibles sin destruirla viola este principio.</p>
+<p><strong>Reparabilidad (Artículo 4, principio X):</strong>
+La Ley garantiza que los productos sean concebidos y fabricados con disponibilidad de refacciones, herramientas y lugares donde puedan repararse. Para un equipo que diseña hardware con IA: ¿puede el usuario final cambiar la batería? ¿Puede reemplazar el sensor si falla? ¿El firmware puede actualizarse sin que el dispositivo regrese al fabricante?</p>
+<p><strong>Atemporal (Artículo 4, principio I):</strong>
+Los productos deben trascender en el tiempo mediante el uso de materiales adecuados, manufactura de calidad y modelos de diseño que eviten promover su reemplazo periódico o prematuro. El instructor señala directamente: diseñar obsolescencia programada no solo es mala práctica — bajo esta ley, es algo que el Estado busca evitar activamente.</p>
+<h3 id="la-responsabilidad-extendida-del-productor-rep">La Responsabilidad Extendida del Productor (REP)</h3>
+<p>Este es el mecanismo de cumplimiento más importante de la Ley para fabricantes de producto:</p>
+<p>La REP (Artículo 3, fracción XXXI) establece que <strong>el productor o importador es responsable ambientalmente de su producto en todo su Ciclo de Vida</strong> — no solo hasta que el cliente lo compra, sino hasta que los materiales se recuperan o disponen finalmente.</p>
+<p>En términos prácticos para un fabricante de hardware:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Sin REP (modelo lineal):
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>  Diseño → Fabrico → Vendo → Mi responsabilidad termina
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>Con REP (modelo circular — Ley vigente):
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>  Diseño → Fabrico → Vendo → Uso → Fin de vida
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>                                    ↑
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>                              Mi responsabilidad
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>                              no termina aquí
+</span></code></pre></div>
+<p>La Ley establece que la SEMARNAT publicará <strong>acuerdos generales de implementación de la REP</strong> por sector productivo. Los productos electrónicos e IoT están entre los primeros en la mira — son de los que generan más residuos de difícil gestión (RAEE: Residuos de Aparatos Eléctricos y Electrónicos).</p>
+<h3 id="el-distintivo-nacional-de-economia-circular">El Distintivo Nacional de Economía Circular</h3>
+<p>La Ley crea un Distintivo Nacional de Economía Circular (Artículo 17, fracción VI) — un sello que las empresas pueden obtener cuando sus productos y procesos cumplen con los criterios de circularidad establecidos. En los próximos años será un diferenciador de mercado, similar a lo que fue la certificación ISO 9001 en los 90.</p>
+<h3 id="la-conexion-con-el-dfm-por-que-importa-desde-hoy">La conexión con el DFM — por qué importa desde hoy</h3>
+<p>El instructor cierra el bloque con la pregunta directa que conecta ambos temas:</p>
+<blockquote>
+<p><em>"Revisen el boceto técnico de su producto con este lente. ¿La carcasa se puede abrir sin destruirla? ¿El PCB es modular — pueden reemplazar el sensor sin cambiar todo? ¿Los materiales que eligieron son reciclables o recuperables? ¿El firmware se puede actualizar remotamente? Si no pueden responder sí a estas preguntas, no están diseñando solo para manufacturar — están diseñando para tirar."</em></p>
+</blockquote>
+<p><strong>Las cuatro preguntas de circularidad que el equipo se hace sobre su diseño:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pregunta</th>
+<th>Principio de la Ley</th>
+<th>Implicación de diseño</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>¿Los componentes son accesibles para reparación?</td>
+<td>Reparabilidad</td>
+<td>Carcasa con acceso sin destrucción — snap-fit o tornillos accesibles</td>
+</tr>
+<tr>
+<td>¿Los módulos pueden reemplazarse de forma independiente?</td>
+<td>Modular</td>
+<td>PCB con conectores, no componentes soldados directamente a la carcasa</td>
+</tr>
+<tr>
+<td>¿Los materiales son identificables para reciclaje?</td>
+<td>Ciclo de Vida</td>
+<td>Marcar el material en las piezas de plástico (código de reciclaje)</td>
+</tr>
+<tr>
+<td>¿El producto puede actualizarse sin reemplazarse?</td>
+<td>Atemporal</td>
+<td>OTA updates para firmware — la mejora no requiere hardware nuevo</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">¿A partir de cuándo se aplica la REP a tu sector?</p>
+<p>La Ley establece implementación gradual por acuerdos sectoriales. Los reglamentos específicos por sector productivo se emitirán en los próximos años — los equipos que diseñen con principios de circularidad desde hoy no tendrán que rediseñar cuando llegue el acuerdo que les aplique. Los que no lo hagan, sí.</p>
+</div>
+<hr />
+<h2 id="bloque-6-taller">Bloque 6 — Taller</h2>
+<p><strong>Duración: 25 min · Min 1:25 – 1:50</strong></p>
+<h3 id="dos-ejercicios-en-paralelo">Dos ejercicios en paralelo</h3>
+<p>El taller tiene dos partes que los equipos hacen simultáneamente:</p>
+<p><strong>Parte A (15 min) — Plan de prototipado:</strong> el equipo define qué va a prototipar primero y cómo.</p>
+<p><strong>Parte B (20 min) — Revisión DFM del concepto:</strong> el equipo aplica el proceso DFM a su diseño actual con ayuda de Claude.</p>
+<hr />
+<h3 id="parte-a-plan-de-prototipado">Parte A — Plan de prototipado</h3>
+<p><strong>Instrucción al grupo:</strong></p>
+<blockquote>
+<p><em>"Tienen 15 minutos para definir su plan de prototipado. Tres decisiones: qué supuesto tienen que validar primero, qué tipo de prototipo van a construir para validarlo, y cómo van a saber si el prototipo respondió la pregunta."</em></p>
+</blockquote>
+<p><strong>Plantilla del plan de prototipado:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>PLAN DE PROTOTIPADO
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>Equipo: _________ Concepto: _________
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>SUPUESTO A VALIDAR:
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>[El supuesto más riesgoso o más incierto del proyecto ahora mismo]
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>PREGUNTA PRECISA:
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>[Formulada como: ¿puede [usuario específico] [acción específica]
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>sin [condición que se quiere eliminar]?]
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>TIPO DE PROTOTIPO:
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>[ ] Forma  [ ] Función  [ ] Experiencia  [ ] Negocio
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>Resolución: [ ] Baja  [ ] Alta
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>Por qué esta resolución: ___________
+</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>
+</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>QUÉ VAN A CONSTRUIR:
+</span><span id="__span-8-17"><a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>[Descripción concreta — materiales, herramientas, tiempo estimado]
+</span><span id="__span-8-18"><a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>
+</span><span id="__span-8-19"><a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>CÓMO VAN A CAPTURAR EVIDENCIA:
+</span><span id="__span-8-20"><a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>[Comportamiento a observar / Métrica a medir / Umbral de éxito]
+</span><span id="__span-8-21"><a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a>
+</span><span id="__span-8-22"><a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a>UMBRAL DE ÉXITO:
+</span><span id="__span-8-23"><a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a>[Si [X usuarios de Y] pueden [hacer Z] en menos de [tiempo],
+</span><span id="__span-8-24"><a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a>el supuesto queda validado]
+</span></code></pre></div>
+<hr />
+<h3 id="parte-b-revision-dfm-del-concepto-con-ia">Parte B — Revisión DFM del concepto con IA</h3>
+<h3 id="prompt-claude-revision-dfm-del-concepto">Prompt — Claude: revisión DFM del concepto</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Actúa como un ingeniero de manufactura con experiencia en
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>diseño para manufactura (DFM) y diseño para ensamble (DFA)
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>aplicados a productos electrónicos de consumo y productos
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>IoT en etapa de prototipo temprano. Tu metodología sigue el
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>proceso de Ulrich &amp; Eppinger: estimar costos, reducir
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>componentes, disminuir ensamble, reducir soporte, y evaluar
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>efectos en otros factores. Tu sesgo es hacia soluciones
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>que funcionen con los recursos de un laboratorio universitario
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>y manufactura externa básica (JLCPCB PCBA, impresión 3D FDM).
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>Cuando un aspecto del diseño viola principios de DFM, lo
+</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>señalas directamente y propones la alternativa específica.
+</span><span id="__span-9-12"><a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>No eres genérico — tus observaciones son sobre el diseño
+</span><span id="__span-9-13"><a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a>particular que se te describe.
+</span><span id="__span-9-14"><a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>
+</span><span id="__span-9-15"><a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a>Somos un equipo de ingeniería en México. Tenemos el concepto
+</span><span id="__span-9-16"><a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a>de diseño seleccionado en semana 6 y el BOM preliminar de
+</span><span id="__span-9-17"><a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>semana 5. Necesitamos aplicar DFM antes de entrar a la
+</span><span id="__span-9-18"><a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a>siguiente fase de prototipado.
+</span><span id="__span-9-19"><a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a>
+</span><span id="__span-9-20"><a id="__codelineno-9-20" name="__codelineno-9-20" href="#__codelineno-9-20"></a>NUESTRO CONCEPTO DE DISEÑO:
+</span><span id="__span-9-21"><a id="__codelineno-9-21" name="__codelineno-9-21" href="#__codelineno-9-21"></a>Nombre: [nombre del concepto]
+</span><span id="__span-9-22"><a id="__codelineno-9-22" name="__codelineno-9-22" href="#__codelineno-9-22"></a>Descripción del artefacto: [qué hace, dimensiones aproximadas,
+</span><span id="__span-9-23"><a id="__codelineno-9-23" name="__codelineno-9-23" href="#__codelineno-9-23"></a>  materiales indicados en el boceto técnico]
+</span><span id="__span-9-24"><a id="__codelineno-9-24" name="__codelineno-9-24" href="#__codelineno-9-24"></a>Método de instalación: [cómo el usuario lo instala]
+</span><span id="__span-9-25"><a id="__codelineno-9-25" name="__codelineno-9-25" href="#__codelineno-9-25"></a>Carcasa: [número de partes, método de cierre, material]
+</span><span id="__span-9-26"><a id="__codelineno-9-26" name="__codelineno-9-26" href="#__codelineno-9-26"></a>Componentes principales del BOM:
+</span><span id="__span-9-27"><a id="__codelineno-9-27" name="__codelineno-9-27" href="#__codelineno-9-27"></a>  [listar los 5–8 componentes más importantes con su
+</span><span id="__span-9-28"><a id="__codelineno-9-28" name="__codelineno-9-28" href="#__codelineno-9-28"></a>   especificación — microcontrolador, sensores, módulos
+</span><span id="__span-9-29"><a id="__codelineno-9-29" name="__codelineno-9-29" href="#__codelineno-9-29"></a>   de comunicación, fuente de energía]
+</span><span id="__span-9-30"><a id="__codelineno-9-30" name="__codelineno-9-30" href="#__codelineno-9-30"></a>
+</span><span id="__span-9-31"><a id="__codelineno-9-31" name="__codelineno-9-31" href="#__codelineno-9-31"></a>PROCESO DE MANUFACTURA PLANEADO:
+</span><span id="__span-9-32"><a id="__codelineno-9-32" name="__codelineno-9-32" href="#__codelineno-9-32"></a>Carcasa: [ ] Impresión 3D FDM  [ ] Mecanizado  [ ] Otro
+</span><span id="__span-9-33"><a id="__codelineno-9-33" name="__codelineno-9-33" href="#__codelineno-9-33"></a>PCB: [ ] JLCPCB solo PCB  [ ] JLCPCB + PCBA  [ ] Laboratorio
+</span><span id="__span-9-34"><a id="__codelineno-9-34" name="__codelineno-9-34" href="#__codelineno-9-34"></a>Ensamble: [ ] Manual en laboratorio  [ ] Externo
+</span><span id="__span-9-35"><a id="__codelineno-9-35" name="__codelineno-9-35" href="#__codelineno-9-35"></a>
+</span><span id="__span-9-36"><a id="__codelineno-9-36" name="__codelineno-9-36" href="#__codelineno-9-36"></a>VOLUMEN OBJETIVO: [N unidades para prueba de mercado]
+</span><span id="__span-9-37"><a id="__codelineno-9-37" name="__codelineno-9-37" href="#__codelineno-9-37"></a>
+</span><span id="__span-9-38"><a id="__codelineno-9-38" name="__codelineno-9-38" href="#__codelineno-9-38"></a>Aplica el proceso DFM en 5 pasos y entrega:
+</span><span id="__span-9-39"><a id="__codelineno-9-39" name="__codelineno-9-39" href="#__codelineno-9-39"></a>
+</span><span id="__span-9-40"><a id="__codelineno-9-40" name="__codelineno-9-40" href="#__codelineno-9-40"></a>PASO 1 — ESTIMACIÓN DE COSTOS:
+</span><span id="__span-9-41"><a id="__codelineno-9-41" name="__codelineno-9-41" href="#__codelineno-9-41"></a>Con el BOM proporcionado, estima el costo unitario de
+</span><span id="__span-9-42"><a id="__codelineno-9-42" name="__codelineno-9-42" href="#__codelineno-9-42"></a>manufactura a [N] unidades. Desglosa:
+</span><span id="__span-9-43"><a id="__codelineno-9-43" name="__codelineno-9-43" href="#__codelineno-9-43"></a>· Componentes electrónicos (BOM)
+</span><span id="__span-9-44"><a id="__codelineno-9-44" name="__codelineno-9-44" href="#__codelineno-9-44"></a>· PCB fabricación + ensamble (JLCPCB PCBA estimado)
+</span><span id="__span-9-45"><a id="__codelineno-9-45" name="__codelineno-9-45" href="#__codelineno-9-45"></a>· Carcasa (impresión 3D o proceso indicado)
+</span><span id="__span-9-46"><a id="__codelineno-9-46" name="__codelineno-9-46" href="#__codelineno-9-46"></a>· Ensamble manual (horas × costo/hora estimado)
+</span><span id="__span-9-47"><a id="__codelineno-9-47" name="__codelineno-9-47" href="#__codelineno-9-47"></a>· Gastos indirectos (15%)
+</span><span id="__span-9-48"><a id="__codelineno-9-48" name="__codelineno-9-48" href="#__codelineno-9-48"></a>· Costo unitario total
+</span><span id="__span-9-49"><a id="__codelineno-9-49" name="__codelineno-9-49" href="#__codelineno-9-49"></a>
+</span><span id="__span-9-50"><a id="__codelineno-9-50" name="__codelineno-9-50" href="#__codelineno-9-50"></a>PASO 2 — REDUCIR COSTOS DE COMPONENTES:
+</span><span id="__span-9-51"><a id="__codelineno-9-51" name="__codelineno-9-51" href="#__codelineno-9-51"></a>Identifica los 3 componentes de mayor costo del BOM.
+</span><span id="__span-9-52"><a id="__codelineno-9-52" name="__codelineno-9-52" href="#__codelineno-9-52"></a>Para cada uno:
+</span><span id="__span-9-53"><a id="__codelineno-9-53" name="__codelineno-9-53" href="#__codelineno-9-53"></a>· ¿Hay alternativa estándar más económica con
+</span><span id="__span-9-54"><a id="__codelineno-9-54" name="__codelineno-9-54" href="#__codelineno-9-54"></a>  especificaciones equivalentes?
+</span><span id="__span-9-55"><a id="__codelineno-9-55" name="__codelineno-9-55" href="#__codelineno-9-55"></a>· ¿Está disponible en la librería Basic de JLCPCB para PCBA?
+</span><span id="__span-9-56"><a id="__codelineno-9-56" name="__codelineno-9-56" href="#__codelineno-9-56"></a>· ¿Alguna decisión de diseño lo hace más caro de lo necesario?
+</span><span id="__span-9-57"><a id="__codelineno-9-57" name="__codelineno-9-57" href="#__codelineno-9-57"></a>
+</span><span id="__span-9-58"><a id="__codelineno-9-58" name="__codelineno-9-58" href="#__codelineno-9-58"></a>PASO 3 — DISMINUIR COSTOS DE ENSAMBLE:
+</span><span id="__span-9-59"><a id="__codelineno-9-59" name="__codelineno-9-59" href="#__codelineno-9-59"></a>Evalúa la carcasa y el ensamble del producto:
+</span><span id="__span-9-60"><a id="__codelineno-9-60" name="__codelineno-9-60" href="#__codelineno-9-60"></a>· ¿Cuántas partes tiene la carcasa? ¿Se puede reducir?
+</span><span id="__span-9-61"><a id="__codelineno-9-61" name="__codelineno-9-61" href="#__codelineno-9-61"></a>· ¿El método de cierre requiere herramientas?
+</span><span id="__span-9-62"><a id="__codelineno-9-62" name="__codelineno-9-62" href="#__codelineno-9-62"></a>· ¿Hay piezas que requieren orientación manual?
+</span><span id="__span-9-63"><a id="__codelineno-9-63" name="__codelineno-9-63" href="#__codelineno-9-63"></a>· ¿Se pueden reemplazar tornillos por snap-fits o press-fits?
+</span><span id="__span-9-64"><a id="__codelineno-9-64" name="__codelineno-9-64" href="#__codelineno-9-64"></a>· Tiempo estimado de ensamble por unidad con el diseño actual
+</span><span id="__span-9-65"><a id="__codelineno-9-65" name="__codelineno-9-65" href="#__codelineno-9-65"></a>· Tiempo estimado con las mejoras propuestas
+</span><span id="__span-9-66"><a id="__codelineno-9-66" name="__codelineno-9-66" href="#__codelineno-9-66"></a>
+</span><span id="__span-9-67"><a id="__codelineno-9-67" name="__codelineno-9-67" href="#__codelineno-9-67"></a>PASO 4 — REDUCIR SOPORTE DE PRODUCCIÓN:
+</span><span id="__span-9-68"><a id="__codelineno-9-68" name="__codelineno-9-68" href="#__codelineno-9-68"></a>¿Hay componentes no estándar que complican el inventario?
+</span><span id="__span-9-69"><a id="__codelineno-9-69" name="__codelineno-9-69" href="#__codelineno-9-69"></a>¿Hay pasos de ensamble que requieren habilidades especializadas?
+</span><span id="__span-9-70"><a id="__codelineno-9-70" name="__codelineno-9-70" href="#__codelineno-9-70"></a>¿El diseño facilita el control de calidad?
+</span><span id="__span-9-71"><a id="__codelineno-9-71" name="__codelineno-9-71" href="#__codelineno-9-71"></a>
+</span><span id="__span-9-72"><a id="__codelineno-9-72" name="__codelineno-9-72" href="#__codelineno-9-72"></a>PASO 5 — EFECTOS EN OTROS FACTORES:
+</span><span id="__span-9-73"><a id="__codelineno-9-73" name="__codelineno-9-73" href="#__codelineno-9-73"></a>¿Alguna de las mejoras propuestas afecta negativamente
+</span><span id="__span-9-74"><a id="__codelineno-9-74" name="__codelineno-9-74" href="#__codelineno-9-74"></a>la calidad percibida, el tiempo al mercado, o la propuesta
+</span><span id="__span-9-75"><a id="__codelineno-9-75" name="__codelineno-9-75" href="#__codelineno-9-75"></a>de valor? Si sí, señalarlo explícitamente para que el
+</span><span id="__span-9-76"><a id="__codelineno-9-76" name="__codelineno-9-76" href="#__codelineno-9-76"></a>equipo evalúe el trade-off.
+</span><span id="__span-9-77"><a id="__codelineno-9-77" name="__codelineno-9-77" href="#__codelineno-9-77"></a>
+</span><span id="__span-9-78"><a id="__codelineno-9-78" name="__codelineno-9-78" href="#__codelineno-9-78"></a>FORMATO DE SALIDA:
+</span><span id="__span-9-79"><a id="__codelineno-9-79" name="__codelineno-9-79" href="#__codelineno-9-79"></a>
+</span><span id="__span-9-80"><a id="__codelineno-9-80" name="__codelineno-9-80" href="#__codelineno-9-80"></a>════════════════════════════════════════════════════════
+</span><span id="__span-9-81"><a id="__codelineno-9-81" name="__codelineno-9-81" href="#__codelineno-9-81"></a>REVISIÓN DFM
+</span><span id="__span-9-82"><a id="__codelineno-9-82" name="__codelineno-9-82" href="#__codelineno-9-82"></a>Concepto: [nombre] · Volumen: [N] unidades
+</span><span id="__span-9-83"><a id="__codelineno-9-83" name="__codelineno-9-83" href="#__codelineno-9-83"></a>════════════════════════════════════════════════════════
+</span><span id="__span-9-84"><a id="__codelineno-9-84" name="__codelineno-9-84" href="#__codelineno-9-84"></a>
+</span><span id="__span-9-85"><a id="__codelineno-9-85" name="__codelineno-9-85" href="#__codelineno-9-85"></a>COSTO UNITARIO ESTIMADO (actual):
+</span><span id="__span-9-86"><a id="__codelineno-9-86" name="__codelineno-9-86" href="#__codelineno-9-86"></a>· BOM electrónico:          $[MXN]
+</span><span id="__span-9-87"><a id="__codelineno-9-87" name="__codelineno-9-87" href="#__codelineno-9-87"></a>· PCB + PCBA:               $[MXN]
+</span><span id="__span-9-88"><a id="__codelineno-9-88" name="__codelineno-9-88" href="#__codelineno-9-88"></a>· Carcasa:                  $[MXN]
+</span><span id="__span-9-89"><a id="__codelineno-9-89" name="__codelineno-9-89" href="#__codelineno-9-89"></a>· Ensamble manual:          $[MXN]
+</span><span id="__span-9-90"><a id="__codelineno-9-90" name="__codelineno-9-90" href="#__codelineno-9-90"></a>· Gastos indirectos (15%):  $[MXN]
+</span><span id="__span-9-91"><a id="__codelineno-9-91" name="__codelineno-9-91" href="#__codelineno-9-91"></a>Total actual:               $[MXN]/unidad
+</span><span id="__span-9-92"><a id="__codelineno-9-92" name="__codelineno-9-92" href="#__codelineno-9-92"></a>
+</span><span id="__span-9-93"><a id="__codelineno-9-93" name="__codelineno-9-93" href="#__codelineno-9-93"></a>────────────────────────────────────────────────────────
+</span><span id="__span-9-94"><a id="__codelineno-9-94" name="__codelineno-9-94" href="#__codelineno-9-94"></a>OPORTUNIDADES DE REDUCCIÓN:
+</span><span id="__span-9-95"><a id="__codelineno-9-95" name="__codelineno-9-95" href="#__codelineno-9-95"></a>
+</span><span id="__span-9-96"><a id="__codelineno-9-96" name="__codelineno-9-96" href="#__codelineno-9-96"></a>Componente 1 — [nombre actual]:
+</span><span id="__span-9-97"><a id="__codelineno-9-97" name="__codelineno-9-97" href="#__codelineno-9-97"></a>Problema: [por qué es caro o problemático]
+</span><span id="__span-9-98"><a id="__codelineno-9-98" name="__codelineno-9-98" href="#__codelineno-9-98"></a>Alternativa: [componente específico + precio + fuente]
+</span><span id="__span-9-99"><a id="__codelineno-9-99" name="__codelineno-9-99" href="#__codelineno-9-99"></a>Ahorro estimado: $[MXN]/unidad
+</span><span id="__span-9-100"><a id="__codelineno-9-100" name="__codelineno-9-100" href="#__codelineno-9-100"></a>
+</span><span id="__span-9-101"><a id="__codelineno-9-101" name="__codelineno-9-101" href="#__codelineno-9-101"></a>Componente 2 — [nombre]
+</span><span id="__span-9-102"><a id="__codelineno-9-102" name="__codelineno-9-102" href="#__codelineno-9-102"></a>[mismo formato]
+</span><span id="__span-9-103"><a id="__codelineno-9-103" name="__codelineno-9-103" href="#__codelineno-9-103"></a>
+</span><span id="__span-9-104"><a id="__codelineno-9-104" name="__codelineno-9-104" href="#__codelineno-9-104"></a>Componente 3 — [nombre]
+</span><span id="__span-9-105"><a id="__codelineno-9-105" name="__codelineno-9-105" href="#__codelineno-9-105"></a>[mismo formato]
+</span><span id="__span-9-106"><a id="__codelineno-9-106" name="__codelineno-9-106" href="#__codelineno-9-106"></a>
+</span><span id="__span-9-107"><a id="__codelineno-9-107" name="__codelineno-9-107" href="#__codelineno-9-107"></a>────────────────────────────────────────────────────────
+</span><span id="__span-9-108"><a id="__codelineno-9-108" name="__codelineno-9-108" href="#__codelineno-9-108"></a>ENSAMBLE:
+</span><span id="__span-9-109"><a id="__codelineno-9-109" name="__codelineno-9-109" href="#__codelineno-9-109"></a>Diseño actual: [N] partes · Tiempo: ~[X] min/unidad
+</span><span id="__span-9-110"><a id="__codelineno-9-110" name="__codelineno-9-110" href="#__codelineno-9-110"></a>Propuesta: [N] partes · Tiempo: ~[X] min/unidad
+</span><span id="__span-9-111"><a id="__codelineno-9-111" name="__codelineno-9-111" href="#__codelineno-9-111"></a>Cambios recomendados: [cuáles específicamente]
+</span><span id="__span-9-112"><a id="__codelineno-9-112" name="__codelineno-9-112" href="#__codelineno-9-112"></a>
+</span><span id="__span-9-113"><a id="__codelineno-9-113" name="__codelineno-9-113" href="#__codelineno-9-113"></a>────────────────────────────────────────────────────────
+</span><span id="__span-9-114"><a id="__codelineno-9-114" name="__codelineno-9-114" href="#__codelineno-9-114"></a>COSTO UNITARIO ESTIMADO (con mejoras DFM):
+</span><span id="__span-9-115"><a id="__codelineno-9-115" name="__codelineno-9-115" href="#__codelineno-9-115"></a>Total con mejoras: $[MXN]/unidad
+</span><span id="__span-9-116"><a id="__codelineno-9-116" name="__codelineno-9-116" href="#__codelineno-9-116"></a>Reducción: $[MXN] ([%]% de ahorro)
+</span><span id="__span-9-117"><a id="__codelineno-9-117" name="__codelineno-9-117" href="#__codelineno-9-117"></a>
+</span><span id="__span-9-118"><a id="__codelineno-9-118" name="__codelineno-9-118" href="#__codelineno-9-118"></a>────────────────────────────────────────────────────────
+</span><span id="__span-9-119"><a id="__codelineno-9-119" name="__codelineno-9-119" href="#__codelineno-9-119"></a>TRADE-OFFS A EVALUAR:
+</span><span id="__span-9-120"><a id="__codelineno-9-120" name="__codelineno-9-120" href="#__codelineno-9-120"></a>[Si alguna mejora DFM afecta calidad, tiempo o propuesta
+</span><span id="__span-9-121"><a id="__codelineno-9-121" name="__codelineno-9-121" href="#__codelineno-9-121"></a>de valor — señalarlo con el trade-off específico]
+</span><span id="__span-9-122"><a id="__codelineno-9-122" name="__codelineno-9-122" href="#__codelineno-9-122"></a>
+</span><span id="__span-9-123"><a id="__codelineno-9-123" name="__codelineno-9-123" href="#__codelineno-9-123"></a>COMPATIBILIDAD CON JLCPCB PCBA: ✅/⚠️/❌
+</span><span id="__span-9-124"><a id="__codelineno-9-124" name="__codelineno-9-124" href="#__codelineno-9-124"></a>[Componentes que no están en librería Basic y qué hacer]
+</span><span id="__span-9-125"><a id="__codelineno-9-125" name="__codelineno-9-125" href="#__codelineno-9-125"></a>════════════════════════════════════════════════════════
+</span></code></pre></div>
+<hr />
+<h2 id="bloque-7-defensa-del-plan">Bloque 7 — Defensa del plan</h2>
+<p><strong>Duración: 10 min · Min 1:50 – 2:00</strong></p>
+<p>El instructor selecciona 2 equipos con planes de prototipado distintos — uno con prototipo de forma, uno con prototipo de negocio o experiencia. Cada equipo tiene 4 minutos:</p>
+<p><strong>Formato:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Minuto 1: El supuesto más riesgoso
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>"El supuesto que necesitamos validar primero es [cuál].
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>Si ese supuesto resulta falso, [consecuencia para el negocio]."
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>Minuto 2: El prototipo
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>"Vamos a construir [qué], de [resolución], usando [cómo].
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>La pregunta que responde es: ¿puede [usuario] hacer [qué]?"
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>Minuto 3: La evidencia
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>"Sabremos que funcionó cuando [N] usuarios puedan [acción]
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>en menos de [tiempo / sin [condición]]."
+</span><span id="__span-10-12"><a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>
+</span><span id="__span-10-13"><a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>Minuto 4: DFM — el cambio más importante
+</span><span id="__span-10-14"><a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>"La revisión DFM nos dice que el componente de mayor costo
+</span><span id="__span-10-15"><a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>es [cuál]. Si lo reemplazamos por [alternativa], el costo
+</span><span id="__span-10-16"><a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>unitario baja de $[X] a $[Y] MXN."
+</span></code></pre></div>
+<p><strong>La pregunta del instructor — una por equipo:</strong>
+- <em>"¿Por qué ese supuesto y no [otro supuesto más fundamental del negocio]?"</em>
+- <em>"Si el usuario no puede hacer [acción], ¿qué cambian — el diseño, el material, o el proceso de instalación?"</em>
+- <em>"¿El prototipo que planean es de baja resolución porque la pregunta lo permite, o porque no tienen tiempo para hacerlo bien?"</em></p>
+<hr />
+<h2 id="tarea-en-casa-4-horas">Tarea en casa (4 horas)</h2>
+<table>
+<thead>
+<tr>
+<th>Tarea</th>
+<th style="text-align: center;">Tiempo</th>
+<th>Entregable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Construir el primer prototipo según el plan definido en clase</td>
+<td style="text-align: center;">2h</td>
+<td>Foto/video del prototipo + descripción de cómo se construyó</td>
+</tr>
+<tr>
+<td>Probar el prototipo con mínimo 3 usuarios del segmento objetivo</td>
+<td style="text-align: center;">1h</td>
+<td>Notas de observación con el formato del Paso 3 (evidencia)</td>
+</tr>
+<tr>
+<td>Aplicar las mejoras DFM más importantes al diseño — actualizar el BOM</td>
+<td style="text-align: center;">1h</td>
+<td>BOM actualizado con componentes revisados + costo unitario nuevo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="formato-de-reporte-del-prototipo">Formato de reporte del prototipo</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>REPORTE DE PROTOTIPO — Semana 8
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>Equipo: _________ Concepto: _________
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>TIPO DE PROTOTIPO: [Forma / Función / Experiencia / Negocio]
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>RESOLUCIÓN: [Baja / Alta]
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>MATERIALES Y TIEMPO: [qué usaron y cuánto tardaron]
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>PREGUNTA QUE RESPONDÍA:
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>[La pregunta precisa del plan de prototipado]
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>EVIDENCIA RECOLECTADA:
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>Usuario 1: [qué observaron — comportamiento, no opinión]
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>Usuario 2: [qué observaron]
+</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>Usuario 3: [qué observaron]
+</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>
+</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>¿SE VALIDÓ EL SUPUESTO? Sí / No / Parcialmente
+</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>Por qué: [qué evidencia lo soporta]
+</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>
+</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>APRENDIZAJE CLAVE:
+</span><span id="__span-11-20"><a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a>[La cosa más importante que aprendieron que no sabían antes]
+</span><span id="__span-11-21"><a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>
+</span><span id="__span-11-22"><a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a>CAMBIO AL DISEÑO:
+</span><span id="__span-11-23"><a id="__codelineno-11-23" name="__codelineno-11-23" href="#__codelineno-11-23"></a>[Qué cambia en el diseño como resultado de este prototipo]
+</span><span id="__span-11-24"><a id="__codelineno-11-24" name="__codelineno-11-24" href="#__codelineno-11-24"></a>
+</span><span id="__span-11-25"><a id="__codelineno-11-25" name="__codelineno-11-25" href="#__codelineno-11-25"></a>SIGUIENTE HIPÓTESIS A PROTOTIPAR:
+</span><span id="__span-11-26"><a id="__codelineno-11-26" name="__codelineno-11-26" href="#__codelineno-11-26"></a>[El siguiente supuesto más riesgoso después de este]
+</span></code></pre></div>
+<hr />
+<h2 id="bibliografia-y-recursos-de-la-semana">Bibliografía y recursos de la semana</h2>
+<h3 id="lecturas-obligatorias">Lecturas obligatorias</h3>
+<p>Ulrich, K. T., Eppinger, S. D., &amp; Yang, M. C. (2026). <em>Product Design and Development</em> (7.ª ed.). McGraw-Hill.
+→ Capítulo 13: Diseño para manufactura. El proceso DFM de 5 pasos, costos unitarios, reducción de componentes y ensamble. Fuente directa del contenido de esta semana.</p>
+<p>IDEO U. <em>Business Design</em>. IDEO.
+→ Sección de prototipado: el proceso de tres pasos y los tipos de prototipo. Base del Bloque 3 de esta semana.</p>
+<p>Cámara de Diputados del H. Congreso de la Unión. (2026). <em>Ley General de Economía Circular</em>. Diario Oficial de la Federación, 19 de enero de 2026.
+→ Texto vigente. Artículos 1–4: objeto, objetivos, definiciones y principios de Economía Circular. Especial atención a las definiciones de Diseño Circular, Ciclo de Vida, Huella Ambiental y Responsabilidad Extendida del Productor (REP). Disponible en dof.gob.mx.</p>
+<h3 id="lecturas-recomendadas">Lecturas recomendadas</h3>
+<p>Kelley, T., &amp; Kelley, D. (2013). <em>Creative Confidence: Unleashing the Creative Potential Within Us All</em>. Crown Business.
+→ Capítulo 3: De la crítica a la curiosidad — el mindset del prototipado rápido. Accesible y muy aplicable al trabajo en equipo.</p>
+<p>Ries, E. (2011). <em>The Lean Startup</em>. Crown Business.
+→ Capítulo 6: Pivotar o perseverar — el ciclo construir-medir-aprender. La conexión entre prototipado y validación de negocio que se trabaja en esta semana.</p>
+<p>Blank, S., &amp; Dorf, B. (2012). <em>The Startup Owner's Manual</em>. K&amp;S Ranch.
+→ El concepto de Customer Development y por qué el prototipo de negocio (landing page, pre-orden) es tan poderoso como el prototipo físico.</p>
+<p>Brown, T. (2009). <em>Change by Design</em>. HarperCollins.
+→ Capítulo 4: Construir para pensar — la filosofía de IDEO sobre prototipado. Fácil de leer, muy motivador antes de las semanas de construcción.</p>
+<p>Boothroyd, G., Dewhurst, P., &amp; Knight, W. A. (2010). <em>Product Design for Manufacture and Assembly</em> (3.ª ed.). CRC Press.
+→ El texto de referencia del DFA (Design for Assembly). Para quien quiera profundizar en los principios cuantitativos de reducción de tiempo de ensamble.</p>
+<h3 id="herramientas-de-la-semana">Herramientas de la semana</h3>
+<table>
+<thead>
+<tr>
+<th>Herramienta</th>
+<th>Uso</th>
+<th>Acceso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>JLCPCB</strong></td>
+<td>Cotización de PCB + PCBA con la librería de componentes</td>
+<td>jlcpcb.com</td>
+</tr>
+<tr>
+<td><strong>JLCPCB Parts Library</strong></td>
+<td>Verificar disponibilidad de componentes para PCBA</td>
+<td>jlcpcb.com/parts</td>
+</tr>
+<tr>
+<td><strong>Bambu Lab / Prusa Slicer</strong></td>
+<td>Verificar ángulos de voladizo antes de imprimir</td>
+<td>bambulab.com / prusa3d.com</td>
+</tr>
+<tr>
+<td><strong>Figma</strong></td>
+<td>Prototipo de app de baja/alta resolución</td>
+<td>figma.com</td>
+</tr>
+<tr>
+<td><strong>Notion / Miro</strong></td>
+<td>Storyboard y documentación del plan de prototipado</td>
+<td>notion.so / miro.com</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="lo-que-el-equipo-debe-poder-responder-al-salir">Lo que el equipo debe poder responder al salir</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> ¿Cuál es el supuesto más riesgoso de su proyecto y qué prototipo van a construir para validarlo?</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> ¿Qué evidencia específica — no opiniones, sino comportamiento — van a capturar con el prototipo?</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> ¿Cuál es el componente de mayor costo de su BOM y cuál es la alternativa DFM que lo reduce?</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> ¿Cuántas partes tiene su carcasa actual y cómo pueden reducirlas con snap-fit o rediseño?</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
