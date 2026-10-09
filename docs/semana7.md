@@ -356,10 +356,13 @@ COSTO TOTAL DE DESARROLLO =
 
 **Estimación de ciclos de aprendizaje:**
 
+El primer paso para estimar el costo de desarrollo es separar el producto final en sus componentes fundamentales. Después caracterizar cada una de las partes de esos componentes y asignar el costo unitario. Finalmente estimar el número de ciclos que necesitaremos para tener un producto funcional. 
+
+
 | Escenario | Número de ciclos | Cuándo aplica |
 |-----------|-----------------|---------------|
 | Mínimo | 3 ciclos | El primer concepto funciona bien |
-| Promedio | 5 ciclos | Punto de partida realista para estimación |
+| Promedio | 5 - 7 ciclos | Punto de partida realista para estimación |
 | Máximo | 8+ ciclos | Fallas técnicas importantes o rechazo del mercado |
 
 ```
@@ -380,34 +383,34 @@ Costos fijos directos (por ciclo):
   Subtotal fijos directos                        = $6,900 MXN
 
 Costos variables directos (materiales de un prototipo):
-  BOM electrónico (ESP32 + sensores + módulos)   = $850 MXN
-  PCB fabricado en laboratorio                   = $200 MXN
-  Carcasa impresa en 3D (filamento + tiempo)     = $180 MXN
-  Consumibles (soldadura, cables, conectores)    = $120 MXN
-  Subtotal variables directos                    = $1,350 MXN
+
+| Componente | Componentes | Ciclos | Costo U | Costo Total |
+|-----------|-----------------|---------------|---------------|------------|
+| Carcasa | Diseño, desarrollo, impresión | 4 | $180 | $ 720 |
+| Electrónica | BOM electrónico (ESP32 + sensores + módulos), Consumibles | 6 | $970 | $ 5,820 | 
+| App | Desarrollo | 5 | $5,000 | $ 25,000 |
+| Página | Desarrollo web | 5 | $5,000 | $25,000 |
+  
+  Subtotal variables directos por ciclo  = $1,350 MXN
+  Costo variable directo total = $56,540
 
 Costos indirectos (15% de los directos):
   ($6,900 + $1,350) × 0.15                       = $1,238 MXN
 
-Costo base por ciclo = $6,900 + $1,350 + $1,238  = $9,488 MXN
+Costo base por ciclo = $56,540 + $1,350 + $1,238  = $59,128 MXN
 
 Reserva para contingencias (30%):
-  $9,488 × 0.30                                  = $2,846 MXN
+  $59,128 × 0.30                                  = $17,338 MXN
 
-COSTO TOTAL POR CICLO                            = $12,334 MXN
+COSTO TOTAL                                       = $76,865 MXN
 ```
 
-Con esos números, el rango de costo de desarrollo es:
-
-```
-Escenario mínimo (3 ciclos): $12,334 × 3 = $37,002 MXN
-Escenario promedio (5 ciclos): $12,334 × 5 = $61,670 MXN
-Escenario máximo (8 ciclos): $12,334 × 8 = $98,672 MXN
+Puede variar el número de ciclos dependiendo del expertisse del diseñador, sin embargo siempre se tiene que planear para el peor escenario, especialmente si la incertidumbre es alta. También conviene hacer una estimación del costo mínimo si todo sale bien y el costo máximo de los ciclos de aprendizaje si hubiera alguna contingencia con el fin de estresar los números y nunca quedar por debajo del costo final del proyecto
 
 Presupuesto de desarrollo recomendado a presentar:
-→ Usar el escenario promedio como base: ~$62,000 MXN
+→ Usar el escenario promedio como base: ~$76,800 MXN
 → No presentar el mínimo — si algo sale mal, el proyecto
-  se queda sin recursos antes de llegar a un producto funcional
+  corre el riesgo de quedar sin recursos antes de llegar a un producto funcional
 ```
 
 > *"¿Ven que la mayor parte del costo no es el BOM? Son las horas de ingeniería. En un proyecto de innovación, el tiempo del equipo es el recurso más caro — y el más difícil de estimar. Por eso la reserva para contingencias existe: no para gastarla, sino para tener margen cuando el ciclo toma el doble de lo planeado."*
