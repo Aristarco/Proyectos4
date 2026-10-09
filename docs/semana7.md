@@ -412,7 +412,7 @@ Presupuesto de desarrollo recomendado a presentar:
 → Usar el escenario promedio como base: ~$76,800 MXN
 → No presentar el mínimo — si algo sale mal, el proyecto
   corre el riesgo de quedar sin recursos antes de llegar a un producto funcional
-```
+
 
 *"¿Ven que la mayor parte del costo no es el BOM? Son las horas de ingeniería. En un proyecto de innovación, el tiempo del equipo es el recurso más caro — y el más difícil de estimar. Por eso la reserva para contingencias existe: no para gastarla, sino para tener margen cuando el ciclo toma el doble de lo planeado."*
 
