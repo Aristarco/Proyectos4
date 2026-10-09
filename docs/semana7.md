@@ -452,9 +452,9 @@ La clasificación también revela dónde actuar cuando el modelo no cierra:
 
 ---
 
-**La tabla de costos que los alumnos van a usar:**
+**La tabla de costos:**
 
-La plantilla (el archivo Excel compartido). Tiene dos secciones — CREAR y DISTRIBUIR — y 10 filas para cada una, con la columna D/F/S integrada.
+La plantilla ([el archivo Excel compartido](C:\P4\Proyectos4\docs\recursos\archivos\Costos.xlsx). Tiene dos secciones — CREAR y DISTRIBUIR —  con la columna D/F/S integrada.
 
 ```
 CREAR la oferta
