@@ -1,6 +1,6 @@
 # Semana 8 — Prototipado y diseño para manufactura
 
-!!! abstract "Blueprint IDEO: Creación de valor · DVF: 🔴 Deseable · 🟢 Factible"
+!!! abstract "Blueprint: Creación de valor · DVF: 🔴 Deseable · 🟢 Factible"
     El prototipo no es el producto — es la pregunta más barata que el equipo puede hacerle al mundo real. Esta semana el equipo aprende a formular esa pregunta con precisión, a construir el mínimo necesario para responderla, y a usar lo que aprende para rediseñar el producto de forma que sea reproducible, más barato de fabricar, y listo para las primeras tiradas. El prototipado y el DFM no son temas separados: son dos mitades del mismo ciclo de aprendizaje.
 
 ---
@@ -24,11 +24,9 @@
 ---
 
 ## Bloque 1 — Por qué prototipar
-**Duración: 15 min · Min 0:00 – 0:15**
 
 ### El error más costoso del semestre
 
-El instructor abre sin diapositivas:
 
 > *"¿Cuántos de ustedes han tenido la experiencia de trabajar semanas en algo, entregarlo, y escuchar de un usuario 'ah, pero yo necesitaba que hiciera otra cosa'? Eso no es un fallo del usuario — es un fallo del proceso. El prototipo existe para evitar ese momento. No para eliminarlo — para adelantarlo a cuando todavía es barato corregirlo."*
 
@@ -66,16 +64,23 @@ aprender                    para resolver su problema
 
 ### El Business Blueprint como mapa de qué prototipar
 
-El instructor proyecta el Business Blueprint de IDEO — que el grupo ya conoce — y hace la pregunta:
+Business Blue Print
 
-> *"Este blueprint tiene seis bloques: Clientes, Oferta, Modelo de ingresos y precio, Canales, Propuesta de valor, Costos, Socios, Equipo y recursos. Se puede prototipar cualquiera de ellos — no solo el artefacto físico. ¿Cuál tiene más incertidumbre en su proyecto ahora mismo?"*
+<iframe src="https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true" frameborder="0" width="1500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Esa pregunta orienta el taller. El equipo que no sabe si el usuario pagará por la suscripción prototipa el modelo de ingresos (una landing page con precio real y un botón de pre-orden). El equipo que no sabe si la carcasa es instalable prototipa la forma física. El equipo que no sabe si la app es usable prototipa la pantalla principal.
+
+Puedes abrir [La presentación aquí](https://docs.google.com/presentation/d/1jeJDRBKeM7dOQuQLbjAwtsL4RQ0r0toh/edit?usp=sharing&ouid=118419766353546707509&rtpof=true&sd=true)
+
+
+
+> *"El blueprint tiene seis bloques: Clientes, Oferta, Modelo de ingresos y precio, Canales, Propuesta de valor, Costos, Socios, Equipo y recursos. Se puede prototipar cualquiera de ellos — no solo el artefacto físico. ¿Cuál tiene más incertidumbre en su proyecto ahora mismo?"*
+
+Esa pregunta orienta. El equipo que no sabe si el usuario pagará por la suscripción prototipa el modelo de ingresos (una landing page con precio real y un botón de pre-orden). El equipo que no sabe si la carcasa es instalable prototipa la forma física. El equipo que no sabe si la app es usable prototipa la pantalla principal.
 
 ---
 
 ## Bloque 2 — Tipos de prototipo
-**Duración: 15 min · Min 0:15 – 0:30**
+
 
 ### Baja resolución vs. alta resolución
 
@@ -97,7 +102,7 @@ Los prototipos no son todos iguales. La resolución correcta depende de la pregu
 
 ### Los cinco formatos de prototipo — y cuándo usar cada uno
 
-El instructor muestra los ejemplos reales del curso y de proyectos anteriores:
+
 
 | Formato | Cuándo usarlo | Pregunta que responde |
 |---------|--------------|----------------------|
@@ -145,14 +150,14 @@ Herramienta: landing page con precio real + botón de pre-orden
 ```
 
 !!! tip "El prototipo de negocio es el más subestimado"
-    Muchos equipos construyen el prototipo de función y forma antes de saber si alguien pagaría por el producto. Una landing page con un precio real y un botón de pre-orden — aunque el producto no exista todavía — responde la pregunta más importante del negocio en una semana. Bird Buddy recaudó €4.19 millones en Kickstarter antes de tener su versión final de producción.
+    Muchos equipos construyen el prototipo de función y forma antes de saber si alguien pagaría por el producto. Una landing page con un precio real y un botón de pre-orden — aunque el producto no exista todavía — responde la pregunta más importante del negocio en una semana. Bird Buddy recaudó €4.19 millones en Kickstarter antes de tener su versión final de producción. El Bird Catcher de Aristarco no recaudó nada.
 
 ---
 
 ## Bloque 3 — El proceso de tres pasos
-**Duración: 20 min · Min 0:30 – 0:50**
 
-### El proceso IDEO: Pregunta → Prototipa → Evidencia
+
+### El proceso de IDEO: Pregunta → Prototipa → Evidencia
 
 El prototipado no es construir algo y ver qué pasa. Es un proceso disciplinado de tres pasos donde cada uno alimenta al siguiente.
 
@@ -211,13 +216,12 @@ La evidencia no es "los usuarios dijeron que les gustó". Es la documentación d
 ---
 
 ## Bloque 4 — Diseño para manufactura: del prototipo al producto reproducible
-**Duración: 25 min · Min 0:50 – 1:15**
 
 ### El problema que el DFM resuelve
 
 > *"El primer prototipo del semestre es una escultura. Tarda 40 horas de trabajo manual, usa componentes comprados de uno en uno en tiendas distintas, y solo la persona que lo hizo sabe cómo ensamblarlo. Cuando el instructor pide hacer tres más para la prueba de mercado, el equipo descubre que no puede. Eso no es un producto — es un experimento de laboratorio muy costoso."*
 
-El Diseño para Manufactura (DFM) es el conjunto de metodologías para reducir los costos de fabricación sin comprometer la calidad ni la funcionalidad del producto. Empieza durante la fase de concepto — cuando las decisiones de diseño todavía son baratas de cambiar — y sigue iterando con cada prototipo.
+El **Diseño para Manufactura (DFM)** es el conjunto de metodologías para reducir los costos de fabricación sin comprometer la calidad ni la funcionalidad del producto. Empieza durante la fase de concepto — cuando las decisiones de diseño todavía son baratas de cambiar — y sigue iterando con cada prototipo.
 
 > *"Las necesidades del cliente y las especificaciones del PDS son útiles para guiar el concepto, pero durante las últimas etapas de desarrollo es frecuente que los equipos tengan dificultad para enlazar esas especificaciones con el diseño particular al que se enfrentan. El DFM es el puente."*
 
@@ -225,7 +229,9 @@ El Diseño para Manufactura (DFM) es el conjunto de metodologías para reducir l
 
 ### DFX — el ecosistema del que viene el DFM
 
-El DFM es el más común de una familia de metodologías llamadas Diseño para X (DFX), donde X puede ser cualquier criterio de calidad: ensamble, servicio, medio ambiente, confiabilidad, costo, reutilización, seguridad. El instructor muestra el diagrama del ecosistema DFX sin entrar en detalle — la semana trabaja principalmente DFM y DFA (diseño para ensamble), que son los más relevantes para el nivel de producción del curso.
+El DFM es el más común de una familia de metodologías llamadas Diseño para X (DFX), donde X puede ser cualquier criterio de calidad: ensamble, servicio, medio ambiente, confiabilidad, costo, reutilización, seguridad. La materia trabaja principalmente DFM y DFA (diseño para ensamble), que son los más relevantes para el nivel de producción del curso.
+
+![DFX](../docs/recursos/imgs/DFX.jpg)
 
 ### El proceso DFM en 5 pasos
 
