@@ -231,7 +231,7 @@ El **Diseño para Manufactura (DFM)** es el conjunto de metodologías para reduc
 
 El DFM es el más común de una familia de metodologías llamadas Diseño para X (DFX), donde X puede ser cualquier criterio de calidad: ensamble, servicio, medio ambiente, confiabilidad, costo, reutilización, seguridad. La materia trabaja principalmente DFM y DFA (diseño para ensamble), que son los más relevantes para el nivel de producción del curso.
 
-![DFX](../docs/recursos/imgs/DFX.jpg)
+![DFX](../imgs/DFX.jpg)
 
 ### El proceso DFM en 5 pasos
 
