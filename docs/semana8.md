@@ -377,7 +377,7 @@ Reducir costos de manufactura no es el único objetivo. El éxito económico del
 ---
 
 ## Bloque 5 — Economía Circular y la Ley General: diseñar para el futuro que ya llegó
-**Duración: 15 min · Min 1:10 – 1:25**
+
 
 ### Por qué este bloque en este curso
 
@@ -395,7 +395,7 @@ En términos simples: el modelo lineal tradicional es **extraer → fabricar →
 
 ### Los principios de la Ley más relevantes para el desarrollo de producto
 
-El Artículo 4 establece los principios rectores. El instructor selecciona los cuatro que más impactan directamente las decisiones de diseño del curso:
+El Artículo 4 establece los principios rectores. Los cuatro que más impactan directamente las decisiones de diseño del curso:
 
 **Diseño Circular (Artículo 3, fracción VII):**
 El producto debe incorporar principios y mecanismos de circularidad en su Ciclo de Vida desde la fase de diseño. No es un ajuste posterior — es una decisión de diseño desde el boceto técnico.
@@ -436,7 +436,7 @@ La Ley crea un Distintivo Nacional de Economía Circular (Artículo 17, fracció
 
 ### La conexión con el DFM — por qué importa desde hoy
 
-El instructor cierra el bloque con la pregunta directa que conecta ambos temas:
+La pregunta directa que conecta ambos temas:
 
 > *"Revisen el boceto técnico de su producto con este lente. ¿La carcasa se puede abrir sin destruirla? ¿El PCB es modular — pueden reemplazar el sensor sin cambiar todo? ¿Los materiales que eligieron son reciclables o recuperables? ¿El firmware se puede actualizar remotamente? Si no pueden responder sí a estas preguntas, no están diseñando solo para manufacturar — están diseñando para tirar."*
 
@@ -455,7 +455,7 @@ El instructor cierra el bloque con la pregunta directa que conecta ambos temas:
 ---
 
 ## Bloque 6 — Taller
-**Duración: 25 min · Min 1:25 – 1:50**
+
 
 ### Dos ejercicios en paralelo
 

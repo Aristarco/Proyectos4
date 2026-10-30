@@ -4,7 +4,7 @@
     Esta es la última clase de contenido. Después vienen dos semanas de trabajo propio y la evaluación final. Lo que se decide hoy es cómo el equipo usa ese tiempo: qué integra, con quién lo prueba, cómo lo lanza y cómo lo cuenta en 3 minutos. Los tres componentes (artefacto, app y landing) tienen que funcionar juntos, y el equipo tiene que demostrar con evidencia que alguien lo usaría y pagaría por él.
 
 !!! warning "Esta clase condensa tres semanas del temario original"
-    Integración y pruebas, go-to-market y pitch, y regulación caben en 2 horas porque la construcción sale del aula. En clase se decide, se calcula y se ensaya. La app, la landing y la integración se construyen en las dos semanas de trabajo, guiadas por los prompts y la ruta de este documento. El instructor no pide al grupo que construya nada en el salón.
+    Integración y pruebas, go-to-market y pitch, y regulación caben en 2 horas porque la construcción sale del aula. En clase se decide, se calcula y se ensaya. La app, la landing y la integración se construyen en las dos semanas de trabajo, guiadas por los prompts y la ruta de este documento. 
 
 ---
 
@@ -30,7 +30,6 @@
 
 ### 0:00 – 0:05 · Las fallas viven en las fronteras
 
-El instructor abre sin diapositivas:
 
 > *"Cada parte de su sistema funciona. El sensor mide, el firmware transmite, el backend recibe, la app dibuja. Y juntos no funcionan. Eso no es mala suerte: es la regla. Las fallas de un sistema integrado casi nunca están dentro de un componente, están en la frontera entre dos."*
 
@@ -140,7 +139,7 @@ cómo medirlo. No inventes requerimientos.
 
 En la semana 8 el equipo probó un supuesto con un prototipo. Ahora prueba **el sistema completo** con alguien que nunca lo ha visto. La diferencia importa: ya no se pregunta si una idea tiene sentido, se pregunta si el producto funciona en manos de otra persona.
 
-**Con quién:** cinco personas. Con cinco usuarios aparece la mayoría de los problemas de usabilidad (regla de Nielsen); más usuarios repiten lo mismo. De esas cinco, tres deben ser del segmento objetivo. Las otras dos pueden ser integrantes de otro equipo: **cada equipo es el usuario externo de otro**, con pares asignados por el instructor. Eso cumple la función de revisión entre pares sin gastar una clase.
+**Con quién:** cinco personas. Con cinco usuarios aparece la mayoría de los problemas de usabilidad (regla de Nielsen); más usuarios repiten lo mismo. De esas cinco, tres deben ser del segmento objetivo. Las otras dos pueden ser integrantes de otro equipo: **cada equipo es el usuario externo de otro**. Eso cumple la función de revisión entre pares sin gastar una clase.
 
 ### 0:25 – 0:32 · El protocolo de 30 minutos
 
@@ -214,7 +213,7 @@ El go-to-market no empieza con "todo el mercado". Empieza con los primeros 20 cl
 
 > *"Si no pueden describir a su cliente número 1 por nombre y apellido, todavía no tienen estrategia de lanzamiento: tienen un mercado."*
 
-### 0:40 – 0:47 · Canales y preventa
+### Canales y preventa
 
 | Canal | Cuándo conviene | Qué aprende el equipo | Riesgo |
 |-------|-----------------|-----------------------|--------|
@@ -226,9 +225,9 @@ El go-to-market no empieza con "todo el mercado". Empieza con los primeros 20 cl
 El prototipo de negocio de la semana 8 es el centro de esta estrategia: una landing con precio real y un CTA mide la demanda antes de comprometer inventario. El caso de Bird Buddy en Kickstarter, que viste en la semana 8, es esa lógica llevada a escala.
 
 !!! warning "Sobre cobrar antes de entregar"
-    Un pre-registro con datos de contacto no compromete a nadie. Recibir un anticipo sí: implica obligaciones fiscales y de entrega. Durante el curso, el equipo mide intención con pre-registro y precio visible. Si quiere explorar anticipos reales, lo consulta primero con el instructor.
+    Un pre-registro con datos de contacto no compromete a nadie. Recibir un anticipo sí: implica obligaciones fiscales y de entrega. Durante el curso, el equipo mide intención con pre-registro y precio visible. Si quiere explorar anticipos reales, lo consulta primero.
 
-### 0:47 – 1:02 · Las métricas: CAC, LTV, churn y payback
+### Las métricas: CAC, LTV, churn y payback
 
 Cuatro números responden la pregunta del inversionista: ¿cuánto cuesta conseguir un cliente y cuánto deja?
 
@@ -348,7 +347,7 @@ separado; y tres palancas concretas con su efecto numérico.
 Formato: tabla de cálculo y después máximo 8 líneas de lectura.
 ```
 
-### 1:02 – 1:10 · La landing y el contenido de lanzamiento
+### La landing y el contenido de lanzamiento
 
 La landing es el prototipo de negocio hecho visible. Su trabajo es uno: convertir a un visitante del segmento en un contacto con nombre. Se construye en las semanas de trabajo; hoy se define qué debe tener.
 
@@ -375,7 +374,7 @@ La landing es el prototipo de negocio hecho visible. Su trabajo es uno: converti
 ---
 
 ## Bloque 4 — Regulación mínima viable
-**Duración: 10 min · Min 1:10 – 1:20**
+
 
 El objetivo no es que el equipo sea experto en regulación. Es que sepan que existe, dónde buscar y tengan una ruta cuando llegue el momento de vender.
 
@@ -433,7 +432,7 @@ listas, dilo.
 ---
 
 ## Bloque 5 — El pitch de 3 minutos
-**Duración: 25 min · Min 1:20 – 1:45**
+
 
 ### 1:20 – 1:30 · Estructura y de dónde sale cada parte
 
@@ -471,7 +470,7 @@ El pitch no explica el producto: convence a un desconocido de que el problema es
 
 **Qué hace bien este pitch:** nombra a una persona, usa cifras que se pueden rastrear a un documento, muestra la economía unitaria sin esconder que todavía no cierra, y su ask nace de lo que falta medir, no de un deseo vago.
 
-### 1:30 – 1:35 · Prompt 5 en clase
+### Prompt 5 en clase
 
 ### Prompt 5 — Claude: guion de pitch (se ejecuta en clase)
 
