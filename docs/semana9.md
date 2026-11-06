@@ -502,7 +502,7 @@ Quedan 26 segundos de aire para pausas, que es donde ocurre el efecto.
 - **Honestidad que da credibilidad:** admite que la economía por cliente hoy es de 1.3 contra 3 y nombra qué la mueve.
 - **Ask medible:** no pide "apoyo", pide tres agrotiendas y dice qué va a medir en 90 días.
 
-### 1:28 – 1:32 · Prompt 5 en clase
+### Prompt 5 en clase
 
 ### Prompt 5 — Claude: guion de pitch de 3 minutos (se ejecuta en clase)
 
@@ -544,7 +544,7 @@ preguntas más difíciles que haría un jurado y de qué parte de
 nuestro material saldría la respuesta.
 ```
 
-### 1:32 – 1:40 · Práctica en parejas
+### Práctica en parejas
 
 Cada equipo se junta con otro. Cada uno dice en voz alta las partes 1, 2 y 6 de su guion, unos 90 segundos, y el otro responde dos cosas: *"¿Qué entendí?"* y *"¿Qué no te creí?"*. Luego se invierten. Dos rondas de 4 minutos.
 
@@ -565,9 +565,9 @@ Cada equipo se junta con otro. Cada uno dice en voz alta las partes 1, 2 y 6 de 
 ---
 
 ## Bloque 6 — La demo de 7 minutos
-**Duración: 10 min · Min 1:40 – 1:50**
 
-### 1:40 – 1:44 · Para qué sirve y qué mira el jurado
+
+### Para qué sirve y qué mira el jurado
 
 La demo no es un recorrido por funciones. Es la prueba de que la promesa del pitch es verdad: el pitch dijo "hoy toca regar" y la demo muestra al sistema decidiéndolo con datos reales, sin que el equipo toque nada.
 
@@ -594,7 +594,7 @@ Los tres componentes caben en 7 minutos si la demo recorre **un solo camino**: l
 | 5:45 – 6:30 | **La compra** | El jurado abre la landing en su teléfono y ve el precio y el CTA | Que el producto se puede comprar |
 | 6:30 – 7:00 | **Cierre** | Lo que funciona hoy, lo que falta y el siguiente paso | Que el equipo conoce sus límites |
 
-### 1:44 – 1:48 · En qué deben centrarse
+### En qué deben centrarse
 
 1. **Muestren el valor, no las funciones.** Narren desde el usuario ("Don Aurelio ve el anillo y sabe que toca regar"), no desde el producto ("el microcontrolador publica por MQTT"). La arquitectura se explica solo si el jurado pregunta.
 2. **Provoquen el evento en vivo.** Un sistema que muestra datos grabados no prueba nada. Cambien una condición real delante del jurado (mojar la tierra, tapar el sensor, cambiar la temperatura) y que se vea causa y efecto en menos de un minuto.
@@ -632,14 +632,14 @@ Los tres componentes caben en 7 minutos si la demo recorre **un solo camino**: l
 
 **Lo que no se hace:** depender del WiFi del salón, configurar en vivo, cambiar firmware el día de la evaluación, abrir código sin que lo pidan, pedir disculpas por lo que no se ve o llenar tiempo con funciones secundarias.
 
-### 1:48 – 1:50 · Cada equipo anota el guion de su demo
+### Cada equipo anota el guion de su demo
 
 Los equipos copian la tabla del ejemplo y la llenan con su producto: qué evento van a provocar, qué fallo van a mostrar, quién opera y cuál es el plan B de cada tramo. El guion de demo es un entregable de esta clase.
 
 ---
 
 ## Bloque 7 — Ruta de cierre
-**Duración: 10 min · Min 1:50 – 2:00**
+
 
 ### La evaluación final y el plan hacia atrás
 
