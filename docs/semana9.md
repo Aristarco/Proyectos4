@@ -1,6 +1,6 @@
 # Semana 9 — Integración, go-to-market y pitch
 
-!!! abstract "Blueprint IDEO: Entrega y captura de valor · DVF: 🟢 Factible · 🟡 Viable · 🔴 Deseable"
+!!! abstract "Blueprint: Entrega y captura de valor · DVF: 🟢 Factible · 🟡 Viable · 🔴 Deseable"
     Esta es la última clase de contenido. Después vienen dos semanas de trabajo propio y la evaluación final. Lo que se decide hoy es cómo el equipo usa ese tiempo: qué integra, con quién lo prueba, cómo lo lanza y cómo lo cuenta en 3 minutos. Los tres componentes (artefacto, app y landing) tienen que funcionar juntos, y el equipo tiene que demostrar con evidencia que alguien lo usaría y pagaría por él.
 
 !!! warning "Esta clase condensa tres semanas del temario original"
@@ -26,9 +26,9 @@
 ---
 
 ## Bloque 1 — Integración del sistema
-**Duración: 20 min · Min 0:00 – 0:20**
 
-### 0:00 – 0:05 · Las fallas viven en las fronteras
+
+### Las fallas viven en las fronteras
 
 
 > *"Cada parte de su sistema funciona. El sensor mide, el firmware transmite, el backend recibe, la app dibuja. Y juntos no funcionan. Eso no es mala suerte: es la regla. Las fallas de un sistema integrado casi nunca están dentro de un componente, están en la frontera entre dos."*
@@ -58,7 +58,7 @@ F4  Backend → app (y landing)       ¿el usuario ve lo correcto, a tiempo?
 
 > *"Si su sistema falla y no pueden decir en qué frontera, el problema no es el bug: es que no tienen registros. Pongan registros antes de necesitarlos."*
 
-### 0:12 – 0:20 · Pruebas mínimas y definición de listo
+### Pruebas mínimas y definición de listo
 
 Seis pruebas de sistema, de la más barata a la más cara. Los criterios salen del PDS de la semana 5, no de la intuición. El ejemplo usa los requerimientos del sensor agrícola:
 
@@ -133,15 +133,15 @@ cómo medirlo. No inventes requerimientos.
 ---
 
 ## Bloque 2 — Pruebas con usuarios
-**Duración: 15 min · Min 0:20 – 0:35**
 
-### 0:20 – 0:25 · Qué se prueba y con quién
+
+### Qué se prueba y con quién
 
 En la semana 8 el equipo probó un supuesto con un prototipo. Ahora prueba **el sistema completo** con alguien que nunca lo ha visto. La diferencia importa: ya no se pregunta si una idea tiene sentido, se pregunta si el producto funciona en manos de otra persona.
 
 **Con quién:** cinco personas. Con cinco usuarios aparece la mayoría de los problemas de usabilidad (regla de Nielsen); más usuarios repiten lo mismo. De esas cinco, tres deben ser del segmento objetivo. Las otras dos pueden ser integrantes de otro equipo: **cada equipo es el usuario externo de otro**. Eso cumple la función de revisión entre pares sin gastar una clase.
 
-### 0:25 – 0:32 · El protocolo de 30 minutos
+### El protocolo de 30 minutos
 
 | Min | Qué pasa | Qué se observa |
 |-----|----------|----------------|
@@ -162,7 +162,7 @@ En la semana 8 el equipo probó un supuesto con un prototipo. Ahora prueba **el 
 
 **Sobre precio y recomendación:** se pregunta por comportamiento y compromisos, no por opiniones. "¿Le gustaría?" produce cortesía. "¿Dejó su teléfono para el piloto?" produce evidencia.
 
-### 0:32 – 0:35 · Severidad y síntesis
+### Severidad y síntesis
 
 Cada hallazgo se clasifica antes de corregir nada:
 
@@ -200,9 +200,9 @@ Entrega:
 ---
 
 ## Bloque 3 — Go-to-market y economía unitaria
-**Duración: 35 min · Min 0:35 – 1:10**
 
-### 0:35 – 0:40 · Early adopters: los primeros 20
+
+### Early adopters: los primeros 20
 
 El go-to-market no empieza con "todo el mercado". Empieza con los primeros 20 clientes. Un early adopter es la persona que tiene el problema con tanta intensidad que acepta un producto imperfecto a cambio de resolverlo hoy. Cuatro rasgos para encontrarlo:
 
