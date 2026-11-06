@@ -433,85 +433,120 @@ listas, dilo.
 
 ## Bloque 5 — El pitch de 3 minutos
 
+### Qué tiene que lograr un pitch de 3 minutos
 
-### 1:20 – 1:30 · Estructura y de dónde sale cada parte
+Cada equipo tiene **15 minutos** en la evaluación: 3 de pitch, 7 de demostración y 5 de retroalimentación. Eso define el trabajo del pitch: **no demuestra, vende.** La demostración ocupa sus propios 7 minutos; el pitch solo la anuncia.
 
-El pitch no explica el producto: convence a un desconocido de que el problema es real, de que la solución funciona y de que este equipo puede llevarla al mercado. Seis partes en 180 segundos, y cada una se sostiene con evidencia que el equipo ya construyó:
+Un jurado que escucha 8 pitches seguidos no recuerda datos, recuerda una imagen y una frase. Por eso el pitch persigue cuatro efectos, uno por tramo:
 
-| Parte | Tiempo | Qué debe lograr | De dónde sale la evidencia |
-|-------|:------:|-----------------|----------------------------|
-| **Problema** | 35 s | Que el jurado sienta el problema con una persona concreta | Entrevistas y perfil del segmento (semanas 3 y 4) |
-| **Solución** | 40 s | Que vea el producto funcionando | Prototipo y concepto (semanas 6 y 8), demo en vivo |
-| **Mercado y modelo** | 35 s | Que el negocio sea lo bastante grande y tenga sentido | TAM, SAM, SOM (semana 4), precio y costos (semana 7) |
-| **Tracción** | 35 s | Que haya evidencia de que alguien lo quiere | Pruebas de usuario y pre-registros (esta semana) |
-| **Equipo** | 15 s | Que sean quienes pueden hacerlo | Quién hace qué |
-| **Ask** | 20 s | Que el jurado sepa qué se les pide | La necesidad más urgente del plan |
+| El jurado debe... | Lo logra la parte | Cómo |
+|-------------------|-------------------|------|
+| **Sentir** el problema | Impacto y problema | Una persona concreta y lo que le cuesta, en pesos |
+| **Querer** el producto | Solución y por qué nosotros | Una promesa simple y el contraste con lo que el usuario usa hoy |
+| **Creer** los números | Mercado y modelo, tracción | Cifras con origen y una evidencia que no sea opinión |
+| **Saber qué hacer** | Ask y cierre | Una petición concreta y la promesa repetida |
 
-**Reglas del pitch:**
-- La primera frase del problema es una persona o una cifra, nunca una definición.
-- La demo se cuenta como una acción visible ("clava la estaca, se enciende el anillo"), no como lista de funciones.
-- Una cifra verificable vale más que un adjetivo.
-- Si algo no tiene evidencia, no se afirma: se dice que es lo que van a medir.
-- Palabras prohibidas: innovador, plataforma, solución integral, revolucionario.
+**Presupuesto de tiempo y de palabras.** Se habla a unas 130 palabras por minuto, así que 180 segundos son 390 palabras como tope absoluto. El guion apunta a 330 o 360 palabras: el resto es aire para pausas y énfasis. Sin aire, el pitch suena a lectura.
 
-**Ejemplo completo: el sensor agrícola.** El guion tiene 311 palabras, unos 2 minutos 24 segundos hablados a 130 palabras por minuto. Los 36 segundos restantes son la demo visible y las pausas. Las cifras de entrevistas, pruebas y pre-registros son **ilustrativas del ejemplo, no datos reales**; el resto viene de las semanas 4, 7 y de la economía unitaria de hoy.
+| Parte | Tiempo | Tope de palabras |
+|-------|:------:|:----------------:|
+| Impacto y problema | 35 s | 76 |
+| Solución y por qué nosotros | 35 s | 76 |
+| Mercado y modelo | 35 s | 76 |
+| Tracción | 35 s | 76 |
+| Equipo | 15 s | 32 |
+| Ask y cierre | 25 s | 54 |
+| **Total** | **180 s** | **390** |
 
-> **Problema.** *Don Aurelio tiene 2 hectáreas de jitomate en invernadero cerca de Tehuacán. Cada mañana camina entre las camas y mete la mano a la tierra para decidir si riega. Cuando la planta ya se ve seca, el daño está hecho: un mal manejo del riego le cuesta entre 10 y 20 por ciento del ciclo, de 8 mil a 50 mil pesos. Y un agrónomo cobra entre 2 mil y 5 mil pesos por visita.*
+**Reglas para que venda:**
+
+1. **Abre con una persona y un costo.** Nunca con una definición ni con "somos una startup que".
+2. **Habla en el idioma del usuario:** pesos, horas, riesgo evitado. Las especificaciones técnicas se quedan para la demostración.
+3. **Una cifra por frase, y cada cifra con origen.** Si no se puede rastrear a un documento del semestre, no se dice.
+4. **Contrasta con la alternativa de hoy.** El jurado necesita saber por qué ustedes y no lo que el usuario ya usa.
+5. **Una sola confesión honesta.** Mostrar el dato que todavía no cierra da credibilidad; mostrar dos la resta.
+6. **Anuncia la demostración, no la hagas.** "En la demostración lo verán" cabe en una frase.
+7. **Cierra repitiendo la promesa** en una oración que el jurado pueda repetir al salir.
+8. **Palabras prohibidas:** innovador, plataforma, solución integral, revolucionario.
+
+**Ejemplo completo: el sensor agrícola.** Las cifras de entrevistas, pruebas y pre-registros, y la cita, son **ilustrativas del ejemplo, no datos reales**. El resto viene de las semanas 4, 7 y de la economía unitaria de hoy.
+
+> **1. Impacto y problema.** *Don Aurelio cultiva jitomate en invernadero cerca de Tehuacán. Cada mañana camina entre las camas y toca la tierra para decidir si riega. Cuando la planta se ve seca, el daño ya está hecho: pierde entre 10 y 20 por ciento de cada ciclo, de 8 mil a 50 mil pesos que no recupera. Y un agrónomo cobra entre 2 mil y 5 mil pesos por visita.*
 >
-> **Solución.** *Nuestro sensor es una estaca de 22 centímetros que se clava en la tierra. Un anillo de luz le dice a Don Aurelio, sin abrir el teléfono, si hoy toca regar. Si quiere saber cuánto y por qué, la app se lo explica en lenguaje de campo, con base en el cultivo y la etapa del ciclo.*
+> **2. Solución y por qué nosotros.** *Nuestro sensor es una estaca de 22 centímetros. Se clava en la tierra y un anillo de luz le dice a Don Aurelio, sin abrir el teléfono, si hoy toca regar. Los sistemas industriales le dan gráficas que no usa; el nuestro le da una decisión. Si evita una sola pérdida, aun la más pequeña, ya pagó más de tres años de suscripción. En la demostración lo verán reaccionar en vivo.*
 >
-> **Mercado y modelo.** *En México hay unos 285 mil productores con este problema y disposición de pago; 115 mil están en estados donde podemos operar con nuestro modelo. Entregamos el sensor sin enganche y cobramos 199 pesos al mes. Después de nube, inteligencia artificial y soporte, cada cliente deja 169 pesos mensuales. Con 2 mil clientes en dos años son 4.8 millones de pesos al año.*
+> **3. Mercado y modelo.** *En México hay 285 mil productores con este problema y disposición de pago; 115 mil están donde podemos operar. Entregamos el sensor sin enganche: asumimos sus 532 pesos de costo y los recuperamos con una suscripción de 199 pesos al mes. Después de nube, inteligencia artificial y soporte, cada cliente nos deja 169 pesos mensuales. Con 2 mil clientes en dos años son 4.8 millones de pesos al año.*
 >
-> **Tracción.** *Entrevistamos a 9 productores y probamos el sistema completo con 7. Cinco lo instalaron solos en menos de 5 minutos y cuatro se registraron para el piloto con nombre y teléfono. Un dato honesto: hoy nuestra economía por cliente es de 1.3 a 1; con referidos entre productores y menos deserción llega a 3.*
+> **4. Tracción.** *Entrevistamos a 9 productores y probamos el sistema completo con 7. Cinco lo instalaron solos en menos de 5 minutos y cuatro dejaron nombre y teléfono para el piloto. Uno nos dijo: "por fin dejo de adivinar". Nuestra economía por cliente hoy es de 1.3 contra una meta de 3, y sabemos qué la mueve: referidos entre productores y menos deserción.*
 >
-> **Equipo.** *Somos cuatro ingenieros mecatrónicos: dos de hardware y firmware, uno de aplicación y uno de negocio. Construimos, probamos y calculamos todo lo que acaban de ver.*
+> **5. Equipo.** *Somos cuatro ingenieros mecatrónicos: hardware y firmware, aplicación y negocio. Construimos, probamos y calculamos todo esto, y seguimos después del curso.*
 >
-> **Ask.** *Pedimos acceso a tres agrotiendas de Tehuacán para un piloto de 20 clientes durante un ciclo. Con eso medimos lo único que nos falta saber: el costo real de adquirir un cliente y cuántos se quedan.*
+> **6. Ask y cierre.** *Pedimos acceso a tres agrotiendas de Tehuacán para un piloto de 20 clientes durante un ciclo. En 90 días medimos lo único que nos falta saber: cuánto cuesta conseguir un cliente y cuántos se quedan. Don Aurelio no necesita más datos. Necesita saber cuándo regar.*
 
-**Qué hace bien este pitch:** nombra a una persona, usa cifras que se pueden rastrear a un documento, muestra la economía unitaria sin esconder que todavía no cierra, y su ask nace de lo que falta medir, no de un deseo vago.
+| Parte | Palabras | Segundos hablados | Presupuesto |
+|-------|:--------:|:-----------------:|:-----------:|
+| 1. Impacto y problema | 67 | 30.9 | 35 s |
+| 2. Solución y por qué nosotros | 71 | 32.8 | 35 s |
+| 3. Mercado y modelo | 69 | 31.8 | 35 s |
+| 4. Tracción | 61 | 28.2 | 35 s |
+| 5. Equipo | 21 | 9.7 | 15 s |
+| 6. Ask y cierre | 45 | 20.8 | 25 s |
+| **Total** | **334** | **154.2 (2:34)** | **180 s** |
 
-### Prompt 5 en clase
+Quedan 26 segundos de aire para pausas, que es donde ocurre el efecto.
 
-### Prompt 5 — Claude: guion de pitch (se ejecuta en clase)
+**Qué hace que este pitch venda:**
+- **Impacto:** abre con una persona y una pérdida en pesos, y cierra con la misma persona.
+- **Contraste:** "gráficas que no usa" frente a "una decisión" responde por qué ellos y no el sistema industrial.
+- **Retorno para el cliente:** la cuenta de más de tres años de suscripción por una sola pérdida evitada (8,000 ÷ 2,388 = 3.35) hace que el precio parezca barato.
+- **Honestidad que da credibilidad:** admite que la economía por cliente hoy es de 1.3 contra 3 y nombra qué la mueve.
+- **Ask medible:** no pide "apoyo", pide tres agrotiendas y dice qué va a medir en 90 días.
+
+### 1:28 – 1:32 · Prompt 5 en clase
+
+### Prompt 5 — Claude: guion de pitch de 3 minutos (se ejecuta en clase)
 
 ```
 Actúa como coach de pitch para fundadores técnicos, con
-experiencia en jurados de aceleradoras de hardware. Tu estándar:
-cada afirmación tiene una evidencia detrás; sin evidencia no hay
-afirmación, hay un pendiente. Prefieres una cifra verificable a un
-adjetivo. El pitch dura 180 segundos y se habla a unas 130
-palabras por minuto.
+experiencia en jurados de aceleradoras de hardware. Tu objetivo
+es que el pitch venda: que el jurado sienta el problema, quiera
+el producto, crea los números y sepa qué se le pide. Cada
+afirmación tiene evidencia detrás; sin evidencia no hay
+afirmación, hay un pendiente. Prefieres una persona o una cifra a
+un adjetivo.
 
 Nuestro material:
 Propuesta de valor (semana 4): [Versión 3]
-Segmento y evidencia de entrevistas (semanas 3 y 4): [resumen y
+Usuario y evidencia de entrevistas (semanas 3 y 4): [resumen y
   2 citas textuales]
 Mercado TAM, SAM, SOM (semana 4): [cifras con fuente]
 Modelo, precio y economía unitaria (semanas 7 y 9): [precio,
   costo, LTV ÷ inversión, payback]
-Evidencia de pruebas (semanas 8 y 9): [tasa de éxito, tiempos,
-  SEQ, citas]
-Señal de mercado (pre-registros, pilotos): [cifras reales o
-  "ninguna todavía"]
+Evidencia de pruebas y pre-registros (semanas 8 y 9): [cifras
+  reales o "ninguna todavía"]
 Equipo: [quién hace qué]
-Ask: [qué piden y a quién]
+Ask: [qué piden, a quién y qué medirán con eso]
 
-Escribe el guion con esta estructura y presupuesto de tiempo:
-problema (35 s), solución con demo (40 s), mercado y modelo
-(35 s), tracción (35 s), equipo (15 s) y ask (20 s).
-Reglas: máximo 390 palabras en total; la primera frase del
-problema es una persona concreta o una cifra, no una definición;
-la demo se describe como acción visible; no uses innovador,
-plataforma, solución integral ni revolucionario.
+Escribe el guion de 3 minutos hablados con este presupuesto:
+impacto y problema (35 s), solución y por qué nosotros (35 s),
+mercado y modelo (35 s), tracción (35 s), equipo (15 s), ask y
+cierre (25 s). A 130 palabras por minuto, los topes son 76, 76,
+76, 76, 32 y 54 palabras; el total debe quedar entre 330 y 360.
+Reglas: la primera frase es una persona concreta y lo que le
+cuesta en pesos, horas o riesgo; contrasta con lo que el usuario
+usa hoy; anuncia la demostración sin describirla (tiene sus
+propios 7 minutos); termina repitiendo la promesa en una frase
+que el jurado pueda repetir; no uses innovador, plataforma,
+solución integral ni revolucionario.
 Después del guion entrega: (a) las afirmaciones que no tienen
 evidencia en mi material, marcadas como PENDIENTE, y (b) las 5
 preguntas más difíciles que haría un jurado y de qué parte de
 nuestro material saldría la respuesta.
 ```
 
-### 1:35 – 1:45 · Práctica en parejas
+### 1:32 – 1:40 · Práctica en parejas
 
-Cada equipo se junta con otro. Cada uno dice su **versión de 90 segundos** (problema, solución y ask) y el otro responde una sola cosa: *"¿Qué entendí y qué no te creí?"*. Luego se invierten. Dos rondas de 5 minutos.
+Cada equipo se junta con otro. Cada uno dice en voz alta las partes 1, 2 y 6 de su guion, unos 90 segundos, y el otro responde dos cosas: *"¿Qué entendí?"* y *"¿Qué no te creí?"*. Luego se invierten. Dos rondas de 4 minutos.
 
 **Las preguntas difíciles de inversionista que el equipo debe poder responder** (cada una apunta a un documento que ya existe):
 
@@ -529,12 +564,86 @@ Cada equipo se junta con otro. Cada uno dice su **versión de 90 segundos** (pro
 
 ---
 
-## Bloque 6 — Ruta de cierre
-**Duración: 15 min · Min 1:45 – 2:00**
+## Bloque 6 — La demo de 7 minutos
+**Duración: 10 min · Min 1:40 – 1:50**
+
+### 1:40 – 1:44 · Para qué sirve y qué mira el jurado
+
+La demo no es un recorrido por funciones. Es la prueba de que la promesa del pitch es verdad: el pitch dijo "hoy toca regar" y la demo muestra al sistema decidiéndolo con datos reales, sin que el equipo toque nada.
+
+> *"El pitch es lo que dicen. La demo es lo que pasa. Si lo que pasa contradice lo que dicen, el jurado le cree a lo que pasa."*
+
+El jurado mira tres cosas, que son los criterios de la rúbrica del curso:
+
+| Componente | Lo que el jurado se pregunta | Peso en la rúbrica |
+|------------|------------------------------|:------------------:|
+| **Producto físico** | ¿Funciona? ¿Es robusto? ¿El uso de IA tiene un propósito real? | 30% |
+| **App conectada** | ¿Conecta con el hardware? ¿Un externo la entiende sin explicación? | 25% |
+| **Landing** | ¿Comunica la propuesta de valor? ¿Tiene CTA? ¿Está publicada? | 15% |
+
+Los tres componentes caben en 7 minutos si la demo recorre **un solo camino**: la historia del usuario desde que instala el producto hasta que decide comprarlo.
+
+### Estructura de los 7 minutos
+
+| Tiempo | Tramo | Qué se ve | Qué prueba |
+|--------|-------|-----------|------------|
+| 0:00 – 0:45 | **Contexto** | El producto en la mano; una frase de quién lo usa y dónde | Que el jurado sabe qué va a ver |
+| 0:45 – 3:15 | **Camino principal** | Instalación, primer dato, recomendación del sistema | Que el producto funciona sin que el equipo intervenga |
+| 3:15 – 4:45 | **Provocar el evento** | Se cambia una condición real y el sistema reacciona | Que los datos son reales y la IA decide con ellos |
+| 4:45 – 5:45 | **Fallo manejado** | Se corta la conexión; el sistema avisa y se recupera | Que el producto es robusto |
+| 5:45 – 6:30 | **La compra** | El jurado abre la landing en su teléfono y ve el precio y el CTA | Que el producto se puede comprar |
+| 6:30 – 7:00 | **Cierre** | Lo que funciona hoy, lo que falta y el siguiente paso | Que el equipo conoce sus límites |
+
+### 1:44 – 1:48 · En qué deben centrarse
+
+1. **Muestren el valor, no las funciones.** Narren desde el usuario ("Don Aurelio ve el anillo y sabe que toca regar"), no desde el producto ("el microcontrolador publica por MQTT"). La arquitectura se explica solo si el jurado pregunta.
+2. **Provoquen el evento en vivo.** Un sistema que muestra datos grabados no prueba nada. Cambien una condición real delante del jurado (mojar la tierra, tapar el sensor, cambiar la temperatura) y que se vea causa y efecto en menos de un minuto.
+3. **Hagan visible que la IA tiene un propósito.** Muestren la entrada (el dato del sensor), la decisión (la recomendación) y qué cambia en la decisión cuando cambia el dato. Si la recomendación sería la misma sin IA, el jurado lo nota.
+4. **Muestren un fallo manejado.** Corten el WiFi 20 segundos o simulen la caída de la API de IA. Un sistema que degrada con un mensaje claro y se recupera solo impresiona más que uno que nunca falla, porque demuestra que se probó.
+5. **Cierren con la compra.** Que el jurado escanee un QR, vea el precio y deje su pre-registro. Así la demo recorre los tres componentes y termina en la venta.
+6. **Declaren cada atajo.** Si en campo el sensor mide cada 15 minutos y en la demo cada 5 segundos, se dice en voz alta. Lo simulado que se declara no resta; lo simulado que se descubre sí.
+
+### Ejemplo: la demo del sensor agrícola
+
+| Tiempo | Quién opera | Qué se hace y se dice | Plan B |
+|--------|-------------|-----------------------|--------|
+| 0:00 – 0:45 | Narrador | Sostiene la estaca. "Don Aurelio decide con la mano. Esto le dice cuándo regar. Les voy a mostrar el camino completo: instalar, medir, decidir y comprarlo." | Foto del producto instalado en campo |
+| 0:45 – 3:15 | Operador | Clava la estaca en una maceta con tierra seca. El anillo se enciende. La app, proyectada, muestra la primera lectura en menos de 10 segundos y la recomendación: "hoy toca regar". Narrador: "en campo mide cada 15 minutos; hoy lo pusimos en 5 segundos para que lo vean". | Video de respaldo de este tramo, 90 segundos |
+| 3:15 – 4:45 | Operador | Riega la maceta con un vaso de agua. En menos de 60 segundos (el requerimiento del PDS) la gráfica sube y el anillo cambia de "regar" a "no regar". Narrador explica por qué cambió la recomendación. | Datos de respaldo precargados y video |
+| 4:45 – 5:45 | Operador | Apaga el hotspot 20 segundos. La app muestra "sin conexión, último dato hace 20 s" y no presenta el dato viejo como actual. Reactiva el hotspot: el sistema se recupera solo y no pierde lecturas. | Video de la prueba T3 |
+| 5:45 – 6:30 | Narrador | Muestra un QR. El jurado abre la landing en su teléfono: headline, precio de 199 pesos al mes y CTA. Un integrante hace un pre-registro y se ve entrar a la hoja de cálculo. | Captura de la landing y de la hoja de registros |
+| 6:30 – 7:00 | Narrador | "Hoy funciona esto. Falta esto: [limitación conocida]. Siguiente paso: el piloto de 20 productores." | Ninguno: es solo voz |
+
+**Cómo se ensaya:**
+- **Tres ensayos completos con cronómetro**, en el espacio de la evaluación o uno equivalente. El tercero, sin ayuda del instructor y sin detenerse si algo falla.
+- **Dos roles:** un narrador que habla y un operador que manipula. Una sola persona no puede hacer las dos cosas bien.
+- **Un plan B por cada tramo**, grabado un día antes: video de respaldo del camino principal, hotspot propio del teléfono y datos precargados. El salón puede no tener internet.
+
+**Lista de verificación 15 minutos antes:**
+1. Baterías cargadas y cable de respaldo.
+2. Firmware congelado, con la versión anotada.
+3. Datos de prueba limpios.
+4. Hotspot del teléfono probado.
+5. App instalada, con la sesión iniciada.
+6. Landing abierta en una pestaña y QR impreso.
+7. Videos de respaldo en el teléfono y en la laptop.
+8. Entorno de prueba preparado (maceta con tierra seca, vaso de agua).
+9. Proyección probada y cronómetro visible.
+
+**Lo que no se hace:** depender del WiFi del salón, configurar en vivo, cambiar firmware el día de la evaluación, abrir código sin que lo pidan, pedir disculpas por lo que no se ve o llenar tiempo con funciones secundarias.
+
+### 1:48 – 1:50 · Cada equipo anota el guion de su demo
+
+Los equipos copian la tabla del ejemplo y la llenan con su producto: qué evento van a provocar, qué fallo van a mostrar, quién opera y cuál es el plan B de cada tramo. El guion de demo es un entregable de esta clase.
+
+---
+
+## Bloque 7 — Ruta de cierre
+**Duración: 10 min · Min 1:50 – 2:00**
 
 ### La evaluación final y el plan hacia atrás
 
-La clase de evaluación dura **13 minutos por equipo**: 5 de demostración del sistema en vivo (sensor, app, pantalla, sin falla), 3 de pitch y 5 de preguntas del panel. Todo lo que el equipo haga en las dos semanas de trabajo apunta a esos 13 minutos.
+La clase de evaluación dura **15 minutos por equipo**: 3 de pitch, 7 de demostración del sistema en vivo (sensor, app y pantalla, sin falla) y 5 de retroalimentación del panel. Todo lo que el equipo haga en las dos semanas de trabajo apunta a esos 15 minutos y a la **página de proyecto final**, la memoria que respalda con evidencia lo que el panel ve.
 
 ```
 SEMANA DE TRABAJO A: construir y conectar
@@ -542,14 +651,18 @@ SEMANA DE TRABAJO A: construir y conectar
   · Landing publicada en internet (Prompt 6)
   · Pruebas T1 a T3 aprobadas (Prompt 1)
   · Checklist regulatorio entregado (Prompt 4)
+  · Secciones 1 a 16 de la página de proyecto final al día
   Punto de control: el dato fluye del sensor a la pantalla sin intervención
 
 SEMANA DE TRABAJO B: probar, corregir y contar
   · Cinco pruebas de usuario, dos de ellas cruzadas entre equipos (Prompt 2)
   · Pruebas T4 a T6 y correcciones críticas
   · Pitch grabado en video, visto y reescrito (Prompt 5)
+  · Demo ensayada tres veces con cronómetro y video de respaldo grabado
   · Documentación final: README, diagrama de arquitectura actualizado,
     manual de usuario básico
+  · Secciones 17 a 22 de la página de proyecto final, resumen ejecutivo
+    y anexos
   Congelamiento: a partir del último ensayo solo se corrigen bugs críticos
 ```
 
@@ -557,6 +670,7 @@ SEMANA DE TRABAJO B: probar, corregir y contar
 - El repositorio de GitHub lleva un README y al menos un commit por sesión de trabajo. Evidencia el proceso iterativo y previene el "todo lo hice la noche anterior".
 - Los pares de revisión cruzada los asigna el instructor, de modo que equipos con temáticas similares se prueben entre sí.
 - Los equipos que se atoren en una frontera la documentan y piden asesoría con el registro en la mano, no con "no funciona".
+- La página de proyecto final se publica en el sitio del equipo. Su índice, lo que se revisa en cada sección y cómo se conecta con la rúbrica están en la guía del proyecto final.
 
 ### Prompt 6 — Claude: genera los prompts para construir la app y la landing (se ejecuta en casa)
 
@@ -605,8 +719,9 @@ C) Los 5 errores más comunes al hacer vibe coding de una app que
 | Entregable | Se produce con |
 |------------|----------------|
 | Economía unitaria con los números propios | Prompt 3 |
-| Esqueleto del pitch con pendientes marcados | Prompt 5 |
-| Ruta de las dos semanas con responsables | Bloque 6 |
+| Esqueleto del pitch de 3 minutos con pendientes marcados | Prompt 5 |
+| Guion de la demo de 7 minutos con plan B por tramo | Bloque 6 |
+| Ruta de las dos semanas con responsables | Bloque 7 |
 
 **Antes de la evaluación final:**
 
@@ -617,7 +732,9 @@ C) Los 5 errores más comunes al hacer vibe coding de una app que
 | Landing publicada y accesible en internet | Bloque 3, Prompt 6 |
 | Checklist regulatorio con estatus VERIFICADO o POR VERIFICAR | Bloque 4, Prompt 4 |
 | Pitch de 3 minutos ensayado y grabado en video | Bloque 5, Prompt 5 |
-| Repositorio con README y commits por sesión de trabajo | Bloque 6 |
+| Demo de 7 minutos ensayada tres veces, con video de respaldo | Bloque 6 |
+| Página de proyecto final publicada en el sitio del equipo | Guía del proyecto final |
+| Repositorio con README y commits por sesión de trabajo | Bloque 7 |
 | Documentación técnica: diagrama de arquitectura actualizado y manual de usuario básico | Bloque 1 |
 
 ---
@@ -677,4 +794,5 @@ Kawasaki, G. (2015). *The Art of the Start 2.0*. Portfolio.
 - [ ] ¿Cuál es su CAC, su LTV y su relación LTV ÷ inversión, y qué palanca mueve más el resultado?
 - [ ] ¿Cuál de los temas regulatorios puede impedirles vender a un tercero y qué fuente oficial lo confirma?
 - [ ] ¿Qué evidencia tienen para cada una de las seis partes de su pitch y cuáles son pendientes?
+- [ ] ¿Cuál es el camino principal de su demo de 7 minutos, qué evento provocan en vivo y cuál es su plan B?
 
